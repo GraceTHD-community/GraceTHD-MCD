@@ -1,0 +1,65 @@
+﻿GraceTHD-MCD
+
+### Changelog
+
+
+v2_alpha3b
+- Tables : 
+	- Ajout de t_ devant les noms de tables qui ne sont pas des listes. 
+- Listes :
+	- Attributs : code, libelle, definition
+	- l_propriete_type : ajouté + foreign keys
+	- l_doc_tab : reprise des codes et VARCHAR(2)
+- t_cable : 
+	- suppression cb_tu_code (sous-tubage)
+- t_love : 
+	- Ajout des foreign keys
+
+
+09/04/2015
+v2_alpha3a
+- Passage noms de tables et attributs en minuscules. 
+- fourreau : 
+	- ajout de fx_fx_code pour remplacer la table sous-tubage par une relation récursive. 
+- sous-tubage : suppresion / fusion avec la table fourreau
+- reference : ajout de la table reference du Syane. 
+- renommage zonedesserte en zone. 
+- Ajout d'attributs xx_r1_code, xx_r2_code, xx_r3_code, xx_r4_code sur tranchee, artere, fourreau, cable, noeud, zone. 
+- Version non publiée. 
+
+
+07/04/2015
+v2_alpha2c (première version permettant de générer une base de données)
+- Version augmentée de tables du Syane qui n'avaient pas été retenues (LOVE, MASQUE, ROPT). 
+- Version diminuée des tables "RADIO", remise de la table SITEEMISSION grace v1. 
+- Uniformisation des noms de tables. 
+- Uniformisation des noms d'attributs (-10 caractères et préfixe "XX_" de tous les champs)
+- Uniformisation des métadonnées de "cycle de vie" : date création, date mise à jour, source mise à jour, date abandon, cause abandon. 
+- Attributs "CodeExterne" et "étiquette" généralisés pour tenir compte des infrastructures tierces. 
+- Uniformisation des types de données pour la partie physique. 
+- Uniformisation de la structure des tables d'énumérations et listes avec mise en conformité aux directives Covadis (Codes, pas d'entiers, etc.). 
+- Abandon de certains attributs (feuille Att_abd du fichier de production du MCD). 
+- TRANCHEE :
+	- Remaniements
+- PTECH
+	- PT_ROTATIO
+- EBP :
+	- BP_ENTREES
+- MASQUE : 
+	- Pour test : Ajout code câble dans la table masque. 
+
+
+v2_alpha2b
+- Version dédiée à l'uniformisation avec les directives Covadis.  
+- Version non publiée. 
+
+
+v2_alpha2a
+- Version un peu modifiée, dédiée à l'uniformisation avec les directives Covadis.  
+- Version non publiée en dehors de la COVADIS (sans implications). 
+
+
+04/02/2015
+v2_alpha1e (modèle préalable consultation février 2015)
+- Association du Geostandard ANT v1 avec quelques adaptations + partiellement Référentiel technique Syane
+- Version "quick and dirty" destinée à servir de base de travail lors de la consultation de février 2015. 

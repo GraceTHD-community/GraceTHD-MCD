@@ -1,0 +1,19 @@
+- Historique
+	- Collecte et lecture des documentations et modèles de données existants. 
+	- Alpha 1 : Modèle préalable utilisé en support pour la consultation. 
+	
+- Roadmap
+	- Alpha 2 : 
+		- aboutir à un MCD intégrant les classes d'objets ciblées
+		- intégration des évolutions "aisées"
+		- nommages et typages conformes Covadis. 
+		- premier prototype de base SQL
+	- Alpha 3 :  
+		- Stabiliser les tables. 
+	- Alpha 4 et + : traitement de détail des classes d'objets.
+		- Attributs et énumérations. 
+		- Soumission pour avis chaque fois qu'un sous-ensemble du modèle sera prêt. 
+	- Beta 1 : version soumise à la consultation. 
+	- Préparation du jeu de données test. 
+	- Préparation des outils "Gracelite". 
+	- Préparation du document pour le Geostandard ANT 2. 
