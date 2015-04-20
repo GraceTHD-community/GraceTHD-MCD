@@ -2,7 +2,57 @@
 
 ### Changelog
 
-
+v2_alpha3c
+- MCD : ajout de la prise en compte de la contrainte unique dans la génération SQL
+- Ajout d'indexes
+- Réduction des "obligatoire" (NOT NULL). 
+- t_cable :
+	- ajout référence à t_reference
+	- abandon : fabricant
+	- abandon : cb_fo_util
+	- reorg des attributs. 
+	- correspondance Syane. 
+- t_fourreau : 
+	- renommage fx_dateins, fx_dateaig, fx_dateman
+	- suppression fx_nb
+- t_love : 
+	- ajout d'un index unique cable/noeud : CREATE UNIQUE INDEX lo_cb_no_code_idx ON t_love (lo_cb_code, lo_no_code);
+- t_masque : 
+	- mq_pt_code remplacé par mq_no_code. 
+	- ajout d'un index unique pour garantir l'unicité de définition d'alvéole. DROP INDEX mq_alveole_idx; CREATE UNIQUE INDEX mq_alveole_idx ON t_masque (mq_no_code, mq_face, mq_col, mq_ligne);
+- t_noeud : 
+	- Modification du préfixe no_ en nd_ pour éviter les confusions O et 0. 
+	- Ajout relation récursive pour modéliser la hiérarchie FTTH : nd_coderat. Peut convenir à d'autres cas (hiérarchie des sites radio, ...). 
+	- abandon d'attributs. 
+- t_cassette : 
+	- correction relation bp_code
+- t_ptech :
+	- Ajout d'attributs spécifiques aux poteaux.
+- t_ebp : 
+	- Ajout bp_pm_code pour identifier les PBO et le PM (SRO) de rattachement. 
+- t_fibre : 
+	- ajout de la référence à t_fo_color. 
+- t_tranchee : 
+	- conservation seulement de tr_mut_org pour la gestion de la mutualisation/co-cons (cf. Oise). 
+- t_zone : 
+	- Ajout d'un attribut zo_code. 
+	- Ajout d'un attribut et d'une relation récursive pour la gestion de parentalité des subdivisions. 
+- Listes : 
+	- l_zd_type : 
+		- renommé l_zo_type
+		- ajout ZF pour zone fibrée comme défini par amendement de la loi Macron. 
+	- l_ptech_type : corrections/modifications/ajouts
+	- l_fx_nature fusionnée avec l_fx_type
+	- l_cassette_type : modif codes
+	- l_qualite_info : creation
+	- l_position_fonction : modif codes
+	- l_technologie_type : reprises (oise)
+	- l_technologie_cable_type : abandon au profit de l_technologie_type. 
+	- l_doc_tab : corrections codes
+	- l_bp_type : suppression des valeurs paliatives Grace v1. 	
+	- l_color : renommage en l_fo_color. 
+	- l_etat_type : abandon A CREER et EXISTANT
+	
 v2_alpha3b
 - Tables : 
 	- Ajout de t_ devant les noms de tables qui ne sont pas des listes. 

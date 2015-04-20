@@ -2,104 +2,104 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="GraceTHD_Tables">
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="tables">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_noeud20150412022201263" name="t_noeud">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_noeud20150417171507140" name="t_noeud">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_artere20150412022200968" name="t_artere">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cable20150417171507028" name="t_cable">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cable20150412022201156" name="t_cable">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_artere20150417171506888" name="t_artere">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_tranchee20150412022201368" name="t_tranchee">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_tranchee20150417171507250" name="t_tranchee">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_zone20150412022201395" name="t_zone">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_zone20150417171507278" name="t_zone">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_adresse20150412022200959" name="t_adresse">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_adresse20150417171506878" name="t_adresse">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_artere20150412022201138" name="t_artere">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_artere20150417171507010" name="t_artere">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_baie20150412022201147" name="t_baie">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_baie20150417171507019" name="t_baie">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cable20150412022201176" name="t_cable">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cable20150417171507048" name="t_cable">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cassette20150412022201185" name="t_cassette">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cassette20150417171507058" name="t_cassette">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_document20150412022201194" name="t_document">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_document20150417171507067" name="t_document">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ebp20150412022201202" name="t_ebp">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ebp20150417171507076" name="t_ebp">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_equipement20150412022201211" name="t_equipement">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_equipement20150417171507085" name="t_equipement">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_fibre20150412022201219" name="t_fibre">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_fibre20150417171507095" name="t_fibre">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_fourreau20150412022201228" name="t_fourreau">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_fourreau20150417171507104" name="t_fourreau">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_love20150412022201237" name="t_love">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_love20150417171507113" name="t_love">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ltech20150412022201246" name="t_ltech">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ltech20150417171507122" name="t_ltech">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_masque20150412022201254" name="t_masque">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_masque20150417171507131" name="t_masque">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_noeud20150412022201282" name="t_noeud">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_noeud20150417171507159" name="t_noeud">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_organisme20150412022201290" name="t_organisme">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_organisme20150417171507168" name="t_organisme">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_position20150412022201299" name="t_position">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_position20150417171507177" name="t_position">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ptech20150412022201308" name="t_ptech">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ptech20150417171507186" name="t_ptech">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_reference20150412022201316" name="t_reference">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_reference20150417171507195" name="t_reference">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ropt20150412022201325" name="t_ropt">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ropt20150417171507204" name="t_ropt">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_siteemission20150412022201333" name="t_siteemission">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_siteemission20150417171507214" name="t_siteemission">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_sitetech20150412022201342" name="t_sitetech">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_sitetech20150417171507223" name="t_sitetech">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_suf20150412022201351" name="t_suf">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_suf20150417171507232" name="t_suf">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_tiroir20150412022201359" name="t_tiroir">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_tiroir20150417171507241" name="t_tiroir">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_tranchee20150412022201387" name="t_tranchee">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_tranchee20150417171507269" name="t_tranchee">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_zone20150412022201459" name="t_zone">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_zone20150417171507322" name="t_zone">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
   </layer-tree-group>
   <maplayers>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>t_noeud20150412022201263</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_noeud" (geom) sql=</datasource>
+      <id>t_noeud20150417171507140</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_noeud" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -126,109 +126,112 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <edittypes>
-        <edittype widgetv2type="TextEdit" name="no_id">
+        <edittype widgetv2type="TextEdit" name="nd_id">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_code">
+        <edittype widgetv2type="TextEdit" name="nd_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_codeext">
+        <edittype widgetv2type="TextEdit" name="nd_codeext">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_nom">
+        <edittype widgetv2type="TextEdit" name="nd_nom">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_r1_code">
+        <edittype widgetv2type="TextEdit" name="nd_nd_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_r2_code">
+        <edittype widgetv2type="TextEdit" name="nd_r1_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_r3_code">
+        <edittype widgetv2type="TextEdit" name="nd_r2_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_r4_code">
+        <edittype widgetv2type="TextEdit" name="nd_r3_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_voie">
+        <edittype widgetv2type="TextEdit" name="nd_r4_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_c_insee">
+        <edittype widgetv2type="TextEdit" name="nd_voie">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_type">
+        <edittype widgetv2type="TextEdit" name="nd_c_insee">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_etat">
+        <edittype widgetv2type="TextEdit" name="nd_type">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_occp">
+        <edittype widgetv2type="TextEdit" name="nd_etat">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_type_lq">
+        <edittype widgetv2type="TextEdit" name="nd_occp">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_type_ph">
+        <edittype widgetv2type="TextEdit" name="nd_type_lq">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_access">
+        <edittype widgetv2type="TextEdit" name="nd_type_ph">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_haut">
+        <edittype widgetv2type="TextEdit" name="nd_access">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_detection">
+        <edittype widgetv2type="TextEdit" name="nd_haut">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_type_ep">
+        <edittype widgetv2type="TextEdit" name="nd_detection">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_dateins">
+        <edittype widgetv2type="TextEdit" name="nd_type_ep">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_pro">
+        <edittype widgetv2type="TextEdit" name="nd_dateins">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_gest">
+        <edittype widgetv2type="TextEdit" name="nd_pro">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_user">
+        <edittype widgetv2type="TextEdit" name="nd_gest">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_comment">
+        <edittype widgetv2type="TextEdit" name="nd_user">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_photo">
+        <edittype widgetv2type="TextEdit" name="nd_comment">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_statut">
+        <edittype widgetv2type="TextEdit" name="nd_photo">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_avcmnt">
+        <edittype widgetv2type="TextEdit" name="nd_statut">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_datems">
+        <edittype widgetv2type="TextEdit" name="nd_avcmnt">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_qltgeol">
+        <edittype widgetv2type="TextEdit" name="nd_datems">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_srcgeol">
+        <edittype widgetv2type="TextEdit" name="nd_qltgeol">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_creadat">
+        <edittype widgetv2type="TextEdit" name="nd_srcgeol">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_majdate">
+        <edittype widgetv2type="TextEdit" name="nd_creadat">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_majsrc">
+        <edittype widgetv2type="TextEdit" name="nd_majdate">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_abddate">
+        <edittype widgetv2type="TextEdit" name="nd_majsrc">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_abdsrc">
+        <edittype widgetv2type="TextEdit" name="nd_abddate">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="nd_abdsrc">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
@@ -263,7 +266,7 @@
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
-      <displayfield>no_id</displayfield>
+      <displayfield>nd_id</displayfield>
       <label>0</label>
       <labelattributes>
         <label fieldname="" text="Étiquette"/>
@@ -295,8 +298,203 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>t_artere20150412022200968</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_artere" (geom) sql=</datasource>
+      <id>t_cable20150417171507028</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_cable" (geom) sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>t_cable</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>145</srsid>
+          <srid>2154</srid>
+          <authid>EPSG:2154</authid>
+          <description>RGF93 / Lambert-93</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="cb_id">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_codeext">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_etiquet">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_ar_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_fx_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_bp_amon">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_bp_aval">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_r1_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_r2_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_r3_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_r4_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_long">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_lgreel">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_tech">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_ref">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_capafo">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_fo_disp">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_modulo">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_diam">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_color">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_prop">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_gest">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_util">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_datepos">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_statut">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_etat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_comment">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_qlt_geo">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_src_geo">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_creadat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_majdate">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_majsrc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_abddate">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_abdsrc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <renderer-v2 symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" type="line" name="0">
+            <layer pass="0" class="SimpleLine" locked="0">
+              <prop k="capstyle" v="square"/>
+              <prop k="customdash" v="5;2"/>
+              <prop k="customdash_map_unit_scale" v="0,0"/>
+              <prop k="customdash_unit" v="MM"/>
+              <prop k="draw_inside_polygon" v="0"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="line_color" v="104,160,87,255"/>
+              <prop k="line_style" v="solid"/>
+              <prop k="line_width" v="0.26"/>
+              <prop k="line_width_unit" v="MM"/>
+              <prop k="offset" v="0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="use_custom_dash" v="0"/>
+              <prop k="width_map_unit_scale" v="0,0"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="area"/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>cb_id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Étiquette"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>t_artere20150417171506888</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_artere" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -381,6 +579,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="ar_statut">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ar_proptyp">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="ar_avancmt">
@@ -472,206 +673,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>t_cable20150412022201156</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_cable" (geom) sql=</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>t_cable</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-          <srsid>145</srsid>
-          <srid>2154</srid>
-          <authid>EPSG:2154</authid>
-          <description>RGF93 / Lambert-93</description>
-          <projectionacronym>lcc</projectionacronym>
-          <ellipsoidacronym>GRS80</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <provider encoding="UTF-8">spatialite</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="cb_id">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_codeext">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_etiquet">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_ar_code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_fx_code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_bp_amon">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_bp_aval">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_r1_code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_r2_code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_r3_code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_r4_code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_type">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_etat">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_long">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_lgreel">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_diam">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_color">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_tech">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_fabric">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_ref">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_nbfo">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_fo_util">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_fo_disp">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_prop">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_gest">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_util">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_datepos">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_statut">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_avcmt">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_comment">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_creadat">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_majdate">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_majsrc">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_abddate">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_abdsrc">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <renderer-v2 symbollevels="0" type="singleSymbol">
-        <symbols>
-          <symbol alpha="1" type="line" name="0">
-            <layer pass="0" class="SimpleLine" locked="0">
-              <prop k="capstyle" v="square"/>
-              <prop k="customdash" v="5;2"/>
-              <prop k="customdash_map_unit_scale" v="0,0"/>
-              <prop k="customdash_unit" v="MM"/>
-              <prop k="draw_inside_polygon" v="0"/>
-              <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="104,160,87,255"/>
-              <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.26"/>
-              <prop k="line_width_unit" v="MM"/>
-              <prop k="offset" v="0"/>
-              <prop k="offset_map_unit_scale" v="0,0"/>
-              <prop k="offset_unit" v="MM"/>
-              <prop k="use_custom_dash" v="0"/>
-              <prop k="width_map_unit_scale" v="0,0"/>
-            </layer>
-          </symbol>
-        </symbols>
-        <rotation/>
-        <sizescale scalemethod="area"/>
-      </renderer-v2>
-      <customproperties/>
-      <blendMode>0</blendMode>
-      <featureBlendMode>0</featureBlendMode>
-      <layerTransparency>0</layerTransparency>
-      <displayfield>cb_id</displayfield>
-      <label>0</label>
-      <labelattributes>
-        <label fieldname="" text="Étiquette"/>
-        <family fieldname="" name="MS Shell Dlg 2"/>
-        <size fieldname="" units="pt" value="12"/>
-        <bold fieldname="" on="0"/>
-        <italic fieldname="" on="0"/>
-        <underline fieldname="" on="0"/>
-        <strikeout fieldname="" on="0"/>
-        <color fieldname="" red="0" blue="0" green="0"/>
-        <x fieldname=""/>
-        <y fieldname=""/>
-        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
-        <angle fieldname="" value="0" auto="0"/>
-        <alignment fieldname="" value="center"/>
-        <buffercolor fieldname="" red="255" blue="255" green="255"/>
-        <buffersize fieldname="" units="pt" value="1"/>
-        <bufferenabled fieldname="" on=""/>
-        <multilineenabled fieldname="" on=""/>
-        <selectedonly on=""/>
-      </labelattributes>
-      <editform></editform>
-      <editforminit/>
-      <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
-      <editorlayout>generatedlayout</editorlayout>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>t_tranchee20150412022201368</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_tranchee" (geom) sql=</datasource>
+      <id>t_tranchee20150417171507250</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_tranchee" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -761,13 +764,7 @@
         <edittype widgetv2type="TextEdit" name="tr_dategc">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="tr_mut">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="tr_mut_org">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="tr_mut_ref">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tr_comment">
@@ -868,8 +865,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>t_zone20150412022201395</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_zone" (geom) sql=</datasource>
+      <id>t_zone20150417171507278</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_zone" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -899,7 +896,13 @@
         <edittype widgetv2type="TextEdit" name="zo_id">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="zo_no_code">
+        <edittype widgetv2type="TextEdit" name="zo_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="zo_nd_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="zo_zo_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zo_type">
@@ -996,8 +999,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_adresse20150412022200959</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_adresse" sql=</datasource>
+      <id>t_adresse20150417171506878</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_adresse" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1050,6 +1053,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="ad_libel">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ad_id_ban">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="ad_hexacl">
@@ -1114,8 +1120,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_artere20150412022201138</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_artere" sql=</datasource>
+      <id>t_artere20150417171507010</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_artere" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1203,6 +1209,9 @@
         <edittype widgetv2type="TextEdit" name="ar_statut">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="ar_proptyp">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="ar_avancmt">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -1244,8 +1253,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_baie20150412022201147</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_baie" sql=</datasource>
+      <id>t_baie20150417171507019</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_baie" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1347,8 +1356,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_cable20150412022201176</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_cable" sql=</datasource>
+      <id>t_cable20150417171507048</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_cable" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1412,40 +1421,31 @@
         <edittype widgetv2type="TextEdit" name="cb_r4_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_type">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_etat">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="cb_long">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cb_lgreel">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_diam">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_color">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="cb_tech">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_fabric">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cb_ref">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_nbfo">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_fo_util">
+        <edittype widgetv2type="TextEdit" name="cb_capafo">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cb_fo_disp">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_modulo">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_diam">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_color">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cb_prop">
@@ -1463,10 +1463,16 @@
         <edittype widgetv2type="TextEdit" name="cb_statut">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_avcmt">
+        <edittype widgetv2type="TextEdit" name="cb_etat">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cb_comment">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_qlt_geo">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_src_geo">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cb_creadat">
@@ -1498,8 +1504,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_cassette20150412022201185</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_cassette" sql=</datasource>
+      <id>t_cassette20150417171507058</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_cassette" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1574,8 +1580,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_document20150412022201194</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_document" sql=</datasource>
+      <id>t_document20150417171507067</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_document" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1647,8 +1653,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_ebp20150412022201202</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_ebp" sql=</datasource>
+      <id>t_ebp20150417171507076</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_ebp" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1718,7 +1724,7 @@
         <edittype widgetv2type="TextEdit" name="bp_util">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="bp_photo">
+        <edittype widgetv2type="TextEdit" name="bp_pm_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="bp_suf">
@@ -1756,8 +1762,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_equipement20150412022201211</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_equipement" sql=</datasource>
+      <id>t_equipement20150417171507085</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_equipement" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1838,8 +1844,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_fibre20150412022201219</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_fibre" sql=</datasource>
+      <id>t_fibre20150417171507095</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_fibre" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1926,8 +1932,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_fourreau20150412022201228</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_fourreau" sql=</datasource>
+      <id>t_fourreau20150417171507104</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_fourreau" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2003,7 +2009,7 @@
         <edittype widgetv2type="TextEdit" name="fx_color">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="fx_nb">
+        <edittype widgetv2type="TextEdit" name="fx_long">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="fx_nbcable">
@@ -2012,13 +2018,13 @@
         <edittype widgetv2type="TextEdit" name="fx_occup">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="fx_instal">
+        <edittype widgetv2type="TextEdit" name="fx_dateins">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="fx_aiguill">
+        <edittype widgetv2type="TextEdit" name="fx_dateaig">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="fx_mandri">
+        <edittype widgetv2type="TextEdit" name="fx_dateman">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="fx_prop">
@@ -2059,8 +2065,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_love20150412022201237</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_love" sql=</datasource>
+      <id>t_love20150417171507113</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_love" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2094,7 +2100,7 @@
         <edittype widgetv2type="TextEdit" name="lo_cb_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="lo_no_code">
+        <edittype widgetv2type="TextEdit" name="lo_nd_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="lo_long">
@@ -2126,8 +2132,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_ltech20150412022201246</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_ltech" sql=</datasource>
+      <id>t_ltech20150417171507122</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_ltech" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2214,8 +2220,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_masque20150412022201254</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_masque" sql=</datasource>
+      <id>t_masque20150417171507131</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_masque" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2246,7 +2252,7 @@
         <edittype widgetv2type="TextEdit" name="mq_id">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="mq_pt_code">
+        <edittype widgetv2type="TextEdit" name="mq_nd_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mq_face">
@@ -2259,6 +2265,12 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mq_fx_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="mq_cb_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="mq_qualinf">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="mq_creadat">
@@ -2287,8 +2299,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_noeud20150412022201282</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_noeud" sql=</datasource>
+      <id>t_noeud20150417171507159</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_noeud" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2316,109 +2328,112 @@
         <map-layer-style name=""/>
       </map-layer-style-manager>
       <edittypes>
-        <edittype widgetv2type="TextEdit" name="no_id">
+        <edittype widgetv2type="TextEdit" name="nd_id">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_code">
+        <edittype widgetv2type="TextEdit" name="nd_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_codeext">
+        <edittype widgetv2type="TextEdit" name="nd_codeext">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_nom">
+        <edittype widgetv2type="TextEdit" name="nd_nom">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_r1_code">
+        <edittype widgetv2type="TextEdit" name="nd_nd_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_r2_code">
+        <edittype widgetv2type="TextEdit" name="nd_r1_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_r3_code">
+        <edittype widgetv2type="TextEdit" name="nd_r2_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_r4_code">
+        <edittype widgetv2type="TextEdit" name="nd_r3_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_voie">
+        <edittype widgetv2type="TextEdit" name="nd_r4_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_c_insee">
+        <edittype widgetv2type="TextEdit" name="nd_voie">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_type">
+        <edittype widgetv2type="TextEdit" name="nd_c_insee">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_etat">
+        <edittype widgetv2type="TextEdit" name="nd_type">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_occp">
+        <edittype widgetv2type="TextEdit" name="nd_etat">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_type_lq">
+        <edittype widgetv2type="TextEdit" name="nd_occp">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_type_ph">
+        <edittype widgetv2type="TextEdit" name="nd_type_lq">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_access">
+        <edittype widgetv2type="TextEdit" name="nd_type_ph">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_haut">
+        <edittype widgetv2type="TextEdit" name="nd_access">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_detection">
+        <edittype widgetv2type="TextEdit" name="nd_haut">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_type_ep">
+        <edittype widgetv2type="TextEdit" name="nd_detection">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_dateins">
+        <edittype widgetv2type="TextEdit" name="nd_type_ep">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_pro">
+        <edittype widgetv2type="TextEdit" name="nd_dateins">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_gest">
+        <edittype widgetv2type="TextEdit" name="nd_pro">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_user">
+        <edittype widgetv2type="TextEdit" name="nd_gest">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_comment">
+        <edittype widgetv2type="TextEdit" name="nd_user">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_photo">
+        <edittype widgetv2type="TextEdit" name="nd_comment">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_statut">
+        <edittype widgetv2type="TextEdit" name="nd_photo">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_avcmnt">
+        <edittype widgetv2type="TextEdit" name="nd_statut">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_datems">
+        <edittype widgetv2type="TextEdit" name="nd_avcmnt">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_qltgeol">
+        <edittype widgetv2type="TextEdit" name="nd_datems">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_srcgeol">
+        <edittype widgetv2type="TextEdit" name="nd_qltgeol">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_creadat">
+        <edittype widgetv2type="TextEdit" name="nd_srcgeol">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_majdate">
+        <edittype widgetv2type="TextEdit" name="nd_creadat">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_majsrc">
+        <edittype widgetv2type="TextEdit" name="nd_majdate">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_abddate">
+        <edittype widgetv2type="TextEdit" name="nd_majsrc">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="no_abdsrc">
+        <edittype widgetv2type="TextEdit" name="nd_abddate">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="nd_abdsrc">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="geom">
@@ -2435,8 +2450,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_organisme20150412022201290</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_organisme" sql=</datasource>
+      <id>t_organisme20150417171507168</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_organisme" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2520,8 +2535,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_position20150412022201299</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_position" sql=</datasource>
+      <id>t_position20150417171507177</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_position" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2605,8 +2620,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_ptech20150412022201308</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_ptech" sql=</datasource>
+      <id>t_ptech20150417171507186</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_ptech" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2646,7 +2661,7 @@
         <edittype widgetv2type="TextEdit" name="pt_etiquet">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="pt_no_code">
+        <edittype widgetv2type="TextEdit" name="pt_nd_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="pt_usage">
@@ -2661,7 +2676,19 @@
         <edittype widgetv2type="TextEdit" name="pt_lignes">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="pt_photo">
+        <edittype widgetv2type="TextEdit" name="pt_a_dan">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pt_a_dtetu">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pt_a_struc">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pt_a_strat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pt_a_passa">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="pt_rotatio">
@@ -2693,8 +2720,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_reference20150412022201316</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_reference" sql=</datasource>
+      <id>t_reference20150417171507195</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_reference" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2731,7 +2758,7 @@
         <edittype widgetv2type="TextEdit" name="rf_fabric">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="erf_design">
+        <edittype widgetv2type="TextEdit" name="rf_design">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="rf_etat">
@@ -2763,8 +2790,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_ropt20150412022201325</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_ropt" sql=</datasource>
+      <id>t_ropt20150417171507204</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_ropt" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2830,8 +2857,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_siteemission20150412022201333</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_siteemission" sql=</datasource>
+      <id>t_siteemission20150417171507214</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_siteemission" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2862,7 +2889,10 @@
         <edittype widgetv2type="TextEdit" name="se_id">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="se_no_code">
+        <edittype widgetv2type="TextEdit" name="se_anfr">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="se_nd_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="se_type">
@@ -2894,8 +2924,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_sitetech20150412022201342</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_sitetech" sql=</datasource>
+      <id>t_sitetech20150417171507223</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_sitetech" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2929,7 +2959,7 @@
         <edittype widgetv2type="TextEdit" name="st_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="st_no_code">
+        <edittype widgetv2type="TextEdit" name="st_nd_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="st_codeext">
@@ -2994,8 +3024,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_suf20150412022201351</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_suf" sql=</datasource>
+      <id>t_suf20150417171507232</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_suf" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3124,8 +3154,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_tiroir20150412022201359</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_tiroir" sql=</datasource>
+      <id>t_tiroir20150417171507241</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_tiroir" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3215,8 +3245,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_tranchee20150412022201387</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_tranchee" sql=</datasource>
+      <id>t_tranchee20150417171507269</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_tranchee" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3307,13 +3337,7 @@
         <edittype widgetv2type="TextEdit" name="tr_dategc">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="tr_mut">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="tr_mut_org">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="tr_mut_ref">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="tr_comment">
@@ -3366,8 +3390,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_zone20150412022201459</id>
-      <datasource>dbname='D:/cglocal/sync/cg01/Prod/A431_Avicca_gracev2/060_Prod/mission2/gracethd/v2_alpha3b/db_spatialite/gracethd_v2_alpha3b.sqlite' table="t_zone" sql=</datasource>
+      <id>t_zone20150417171507322</id>
+      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="t_zone" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3398,7 +3422,13 @@
         <edittype widgetv2type="TextEdit" name="zo_id">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="zo_no_code">
+        <edittype widgetv2type="TextEdit" name="zo_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="zo_nd_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="zo_zo_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zo_type">
