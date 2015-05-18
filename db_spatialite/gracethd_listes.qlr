@@ -2,161 +2,182 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="lists">
+    <layer-tree-group expanded="0" checked="Qt::Checked" name="Listes">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_accessibilite_type20150417171443515" name="l_accessibilite_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_adresse_etat20150519013101368" name="l_adresse_etat">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_adress_etat20150417171443580" name="l_adress_etat">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_baie_type20150519013101378" name="l_baie_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_adress_type20150417171443589" name="l_adress_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_localisation20150519013101387" name="l_bp_localisation">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_artere_implantation_type20150417171443598" name="l_artere_implantation_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_racco20150519013101396" name="l_bp_racco">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_artere_nature20150417171443607" name="l_artere_nature">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_type_log20150519013101405" name="l_bp_type_log">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_artere_type20150417171443617" name="l_artere_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_type_phy20150519013101433" name="l_bp_type_phy">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_baie_type20150417171443626" name="l_baie_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_cable_type20150519013101443" name="l_cable_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_localisation20150417171443635" name="l_bp_localisation">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_cassette_type20150519013101452" name="l_cassette_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_racco20150417171443645" name="l_bp_racco">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_classe_dict20150519013101461" name="l_classe_dict">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_type20150417171443654" name="l_bp_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_clim_type20150519013101470" name="l_clim_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_cable_type20150417171443663" name="l_cable_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_conduite_type20150519013101479" name="l_conduite_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_cassette_type20150417171443672" name="l_cassette_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_connexion_type20150519013101488" name="l_connexion_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_clim_type20150417171443681" name="l_clim_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_doc_tab20150519013101498" name="l_doc_tab">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_connexion_type20150417171443690" name="l_connexion_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_doc_type20150519013101507" name="l_doc_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_doc_tab20150417171443700" name="l_doc_tab">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_etat_type20150519013101516" name="l_etat_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_etat_type20150417171443709" name="l_etat_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_fo_color20150519013101525" name="l_fo_color">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_fibre_etat20150417171443719" name="l_fibre_etat">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_fo_type20150519013101534" name="l_fo_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_fo_color20150417171443728" name="l_fo_color">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_geoloc_classe20150519013101543" name="l_geoloc_classe">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_fx_type20150417171443737" name="l_fx_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_geoloc_mode20150519013101552" name="l_geoloc_mode">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_lgau_type20150417171443746" name="l_lgau_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_immeuble_type20150519013101562" name="l_immeuble_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_masque_face20150417171443756" name="l_masque_face">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_implantation_type20150519013101571" name="l_implantation_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_noeud_type20150417171443765" name="l_noeud_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_infra_nature20150519013101580" name="l_infra_nature">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_occupation_type20150417171443774" name="l_occupation_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_infra_type_log20150519013101589" name="l_infra_type_log">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_position_etat20150417171443783" name="l_position_etat">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_masque_face20150519013101598" name="l_masque_face">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_position_fonction20150417171443793" name="l_position_fonction">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_noeud_type20150519013101608" name="l_noeud_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_position_type20150417171443802" name="l_position_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_nro_etat20150519013101617" name="l_nro_etat">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_propriete_type20150417171443811" name="l_propriete_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_nro_type20150519013101627" name="l_nro_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_type20150417171443821" name="l_ptech_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_occupation_type20150519013101636" name="l_occupation_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_usage_type20150417171443830" name="l_ptech_usage_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_passage_type20150519013101645" name="l_passage_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_qualite_info20150417171443839" name="l_qualite_info">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_pose_type20150519013101670" name="l_pose_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_qualitegeolocalisation20150417171443848" name="l_qualitegeolocalisation">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_position_fonction20150519013101679" name="l_position_fonction">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_reference_etat20150417171443857" name="l_reference_etat">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_position_type20150519013101688" name="l_position_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_reference_type20150417171443866" name="l_reference_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_propriete_type20150519013101698" name="l_propriete_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_emission_type20150417171443875" name="l_site_emission_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_nature20150519013101707" name="l_ptech_nature">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type20150417171443884" name="l_site_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_type_log20150519013101716" name="l_ptech_type_log">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type_structurel20150417171443893" name="l_site_type_structurel">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_type_phy20150519013101725" name="l_ptech_type_phy">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_statut20150417171443903" name="l_statut">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_qualite_info20150519013101734" name="l_qualite_info">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_suf_type20150417171443912" name="l_suf_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_reference_etat20150519013101743" name="l_reference_etat">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_technologie_cable_type20150417171443921" name="l_technologie_cable_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_reference_type20150519013101752" name="l_reference_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_technologie_type20150417171443930" name="l_technologie_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_emission_type20150519013101761" name="l_site_emission_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tiroir_type20150417171443939" name="l_tiroir_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type_fonctionnel20150519013101770" name="l_site_type_fonctionnel">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tranchee_implantation_type20150417171443948" name="l_tranchee_implantation_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type_log20150519013101779" name="l_site_type_log">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tranchee_pose_type20150417171443957" name="l_tranchee_pose_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type_phy20150519013101788" name="l_site_type_phy">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tranchee_type20150417171443966" name="l_tranchee_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_sro_emplacement20150519013101798" name="l_sro_emplacement">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tube20150417171443976" name="l_tube">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_sro_etat20150519013101808" name="l_sro_etat">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_type_bati20150417171443985" name="l_type_bati">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_statut20150519013101817" name="l_statut">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_zo_type20150417171443994" name="l_zo_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_suf_racco20150519013101826" name="l_suf_racco">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_suf_type20150519013101835" name="l_suf_type">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_technologie_cable_type20150519013101844" name="l_technologie_cable_type">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_technologie_type20150519013101854" name="l_technologie_type">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tiroir_type20150519013101863" name="l_tiroir_type">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tube20150519013101875" name="l_tube">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_type_bati20150519013101884" name="l_type_bati">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_zone_densite20150519013101893" name="l_zone_densite">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
   </layer-tree-group>
   <maplayers>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_accessibilite_type20150417171443515</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_accessibilite_type" sql=</datasource>
+      <id>l_adresse_etat20150519013101368</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_adresse_etat" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>l_accessibilite_type</layername>
+      <layername>l_adresse_etat</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -171,7 +192,7 @@
       </srs>
       <customproperties/>
       <provider encoding="UTF-8">spatialite</provider>
-      <previewExpression></previewExpression>
+      <previewExpression>COALESCE("code", '&lt;NULL>')</previewExpression>
       <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
@@ -198,253 +219,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_adress_etat20150417171443580</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_adress_etat" sql=</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>l_adress_etat</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="libelle">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="definition">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <editform></editform>
-      <editforminit/>
-      <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
-      <editorlayout>generatedlayout</editorlayout>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_adress_type20150417171443589</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_adress_type" sql=</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>l_adress_type</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="libelle">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="definition">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <editform></editform>
-      <editforminit/>
-      <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
-      <editorlayout>generatedlayout</editorlayout>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_artere_implantation_type20150417171443598</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_artere_implantation_type" sql=</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>l_artere_implantation_type</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="libelle">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="definition">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <editform></editform>
-      <editforminit/>
-      <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
-      <editorlayout>generatedlayout</editorlayout>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_artere_nature20150417171443607</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_artere_nature" sql=</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>l_artere_nature</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="libelle">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="definition">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <editform></editform>
-      <editforminit/>
-      <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
-      <editorlayout>generatedlayout</editorlayout>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_artere_type20150417171443617</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_artere_type" sql=</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>l_artere_type</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="libelle">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="definition">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <editform></editform>
-      <editforminit/>
-      <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
-      <editorlayout>generatedlayout</editorlayout>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_baie_type20150417171443626</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_baie_type" sql=</datasource>
+      <id>l_baie_type20150519013101378</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_baie_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -492,8 +268,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_bp_localisation20150417171443635</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_bp_localisation" sql=</datasource>
+      <id>l_bp_localisation20150519013101387</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_bp_localisation" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -541,8 +317,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_bp_racco20150417171443645</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_bp_racco" sql=</datasource>
+      <id>l_bp_racco20150519013101396</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_bp_racco" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -590,14 +366,14 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_bp_type20150417171443654</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_bp_type" sql=</datasource>
+      <id>l_bp_type_log20150519013101405</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_bp_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>l_bp_type</layername>
+      <layername>l_bp_type_log</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -639,8 +415,57 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_cable_type20150417171443663</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_cable_type" sql=</datasource>
+      <id>l_bp_type_phy20150519013101433</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_bp_type_phy" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_bp_type_phy</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_cable_type20150519013101443</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_cable_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -688,8 +513,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_cassette_type20150417171443672</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_cassette_type" sql=</datasource>
+      <id>l_cassette_type20150519013101452</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_cassette_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -737,8 +562,57 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_clim_type20150417171443681</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_clim_type" sql=</datasource>
+      <id>l_classe_dict20150519013101461</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_classe_dict" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_classe_dict</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_clim_type20150519013101470</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_clim_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -786,8 +660,57 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_connexion_type20150417171443690</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_connexion_type" sql=</datasource>
+      <id>l_conduite_type20150519013101479</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_conduite_type" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_conduite_type</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_connexion_type20150519013101488</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_connexion_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -835,8 +758,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_doc_tab20150417171443700</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_doc_tab" sql=</datasource>
+      <id>l_doc_tab20150519013101498</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_doc_tab" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -884,8 +807,57 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_etat_type20150417171443709</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_etat_type" sql=</datasource>
+      <id>l_doc_type20150519013101507</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_doc_type" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_doc_type</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_etat_type20150519013101516</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_etat_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -933,57 +905,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_fibre_etat20150417171443719</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_fibre_etat" sql=</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>l_fibre_etat</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="libelle">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="definition">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <editform></editform>
-      <editforminit/>
-      <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
-      <editorlayout>generatedlayout</editorlayout>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_fo_color20150417171443728</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_fo_color" sql=</datasource>
+      <id>l_fo_color20150519013101525</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_fo_color" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1031,14 +954,14 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_fx_type20150417171443737</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_fx_type" sql=</datasource>
+      <id>l_fo_type20150519013101534</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_fo_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>l_fx_type</layername>
+      <layername>l_fo_type</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1080,14 +1003,14 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_lgau_type20150417171443746</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_lgau_type" sql=</datasource>
+      <id>l_geoloc_classe20150519013101543</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_geoloc_classe" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>l_lgau_type</layername>
+      <layername>l_geoloc_classe</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1129,8 +1052,253 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_masque_face20150417171443756</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_masque_face" sql=</datasource>
+      <id>l_geoloc_mode20150519013101552</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_geoloc_mode" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_geoloc_mode</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_immeuble_type20150519013101562</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_immeuble_type" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_immeuble_type</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_implantation_type20150519013101571</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_implantation_type" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_implantation_type</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_infra_nature20150519013101580</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_infra_nature" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_infra_nature</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_infra_type_log20150519013101589</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_infra_type_log" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_infra_type_log</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_masque_face20150519013101598</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_masque_face" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1178,8 +1346,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_noeud_type20150417171443765</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_noeud_type" sql=</datasource>
+      <id>l_noeud_type20150519013101608</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_noeud_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1227,8 +1395,106 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_occupation_type20150417171443774</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_occupation_type" sql=</datasource>
+      <id>l_nro_etat20150519013101617</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_nro_etat" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_nro_etat</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_nro_type20150519013101627</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_nro_type" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_nro_type</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_occupation_type20150519013101636</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_occupation_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1276,14 +1542,14 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_position_etat20150417171443783</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_position_etat" sql=</datasource>
+      <id>l_passage_type20150519013101645</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_passage_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>l_position_etat</layername>
+      <layername>l_passage_type</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1325,8 +1591,57 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_position_fonction20150417171443793</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_position_fonction" sql=</datasource>
+      <id>l_pose_type20150519013101670</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_pose_type" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_pose_type</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_position_fonction20150519013101679</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_position_fonction" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1374,8 +1689,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_position_type20150417171443802</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_position_type" sql=</datasource>
+      <id>l_position_type20150519013101688</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_position_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1423,8 +1738,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_propriete_type20150417171443811</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_propriete_type" sql=</datasource>
+      <id>l_propriete_type20150519013101698</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_propriete_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1472,14 +1787,14 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_ptech_type20150417171443821</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_ptech_type" sql=</datasource>
+      <id>l_ptech_nature20150519013101707</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_ptech_nature" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>l_ptech_type</layername>
+      <layername>l_ptech_nature</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1521,14 +1836,14 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_ptech_usage_type20150417171443830</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_ptech_usage_type" sql=</datasource>
+      <id>l_ptech_type_log20150519013101716</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_ptech_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>l_ptech_usage_type</layername>
+      <layername>l_ptech_type_log</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1570,8 +1885,57 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_qualite_info20150417171443839</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_qualite_info" sql=</datasource>
+      <id>l_ptech_type_phy20150519013101725</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_ptech_type_phy" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_ptech_type_phy</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_qualite_info20150519013101734</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_qualite_info" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1619,57 +1983,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_qualitegeolocalisation20150417171443848</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_qualitegeolocalisation" sql=</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>l_qualitegeolocalisation</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="libelle">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="definition">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <editform></editform>
-      <editforminit/>
-      <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
-      <editorlayout>generatedlayout</editorlayout>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_reference_etat20150417171443857</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_reference_etat" sql=</datasource>
+      <id>l_reference_etat20150519013101743</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_reference_etat" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1717,8 +2032,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_reference_type20150417171443866</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_reference_type" sql=</datasource>
+      <id>l_reference_type20150519013101752</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_reference_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1766,8 +2081,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_site_emission_type20150417171443875</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_site_emission_type" sql=</datasource>
+      <id>l_site_emission_type20150519013101761</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_site_emission_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1815,14 +2130,14 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_site_type20150417171443884</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_site_type" sql=</datasource>
+      <id>l_site_type_fonctionnel20150519013101770</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_site_type_fonctionnel" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>l_site_type</layername>
+      <layername>l_site_type_fonctionnel</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1864,14 +2179,14 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_site_type_structurel20150417171443893</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_site_type_structurel" sql=</datasource>
+      <id>l_site_type_log20150519013101779</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_site_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>l_site_type_structurel</layername>
+      <layername>l_site_type_log</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
@@ -1913,8 +2228,155 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_statut20150417171443903</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_statut" sql=</datasource>
+      <id>l_site_type_phy20150519013101788</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_site_type_phy" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_site_type_phy</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_sro_emplacement20150519013101798</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_sro_emplacement" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_sro_emplacement</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_sro_etat20150519013101808</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_sro_etat" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_sro_etat</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_statut20150519013101817</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_statut" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1962,8 +2424,57 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_suf_type20150417171443912</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_suf_type" sql=</datasource>
+      <id>l_suf_racco20150519013101826</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_suf_racco" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_suf_racco</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="UTF-8">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_suf_type20150519013101835</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_suf_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2011,8 +2522,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_technologie_cable_type20150417171443921</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_technologie_cable_type" sql=</datasource>
+      <id>l_technologie_cable_type20150519013101844</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_technologie_cable_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2060,8 +2571,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_technologie_type20150417171443930</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_technologie_type" sql=</datasource>
+      <id>l_technologie_type20150519013101854</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_technologie_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2109,8 +2620,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_tiroir_type20150417171443939</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_tiroir_type" sql=</datasource>
+      <id>l_tiroir_type20150519013101863</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_tiroir_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2158,155 +2669,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_tranchee_implantation_type20150417171443948</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_tranchee_implantation_type" sql=</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>l_tranchee_implantation_type</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="libelle">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="definition">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <editform></editform>
-      <editforminit/>
-      <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
-      <editorlayout>generatedlayout</editorlayout>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_tranchee_pose_type20150417171443957</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_tranchee_pose_type" sql=</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>l_tranchee_pose_type</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="libelle">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="definition">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <editform></editform>
-      <editforminit/>
-      <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
-      <editorlayout>generatedlayout</editorlayout>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_tranchee_type20150417171443966</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_tranchee_type" sql=</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>l_tranchee_type</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
-      <previewExpression></previewExpression>
-      <vectorjoins/>
-      <expressionfields/>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <edittypes>
-        <edittype widgetv2type="TextEdit" name="code">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="libelle">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="definition">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-      </edittypes>
-      <editform></editform>
-      <editforminit/>
-      <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
-      <editorlayout>generatedlayout</editorlayout>
-      <excludeAttributesWMS/>
-      <excludeAttributesWFS/>
-      <attributeactions/>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_tube20150417171443976</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_tube" sql=</datasource>
+      <id>l_tube20150519013101875</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_tube" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2354,8 +2718,8 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_type_bati20150417171443985</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_type_bati" sql=</datasource>
+      <id>l_type_bati20150519013101884</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_type_bati" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2403,14 +2767,14 @@
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_zo_type20150417171443994</id>
-      <datasource>dbname='./gracethd_v2_alpha3c.sqlite' table="l_zo_type" sql=</datasource>
+      <id>l_zone_densite20150519013101893</id>
+      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_zone_densite" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>l_zo_type</layername>
+      <layername>l_zone_densite</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>

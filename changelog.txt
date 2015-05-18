@@ -2,6 +2,216 @@
 
 ### Changelog
 
+v2_alpha3d
+- général : 
+	- Pour PostGIS 
+		- Réorganisation de l'ordre des tables pour passer la création sous PostGIS. 
+		- Suppression des IF NOT EXISTS. 
+		- Ajout des indexes spatiaux PostGIS. 
+		- Passage des geom en fin de table pour correspondance de l'ordre entre Spatialite et PostGIS. 
+	- Remplacement des ' et '' par des espaces dans les libellés et définitions des listes.
+	- Extension des valeurs l_statut et suppression des attributs avancement. 
+	- Ajout de TypePropriete sur les tables des équipements pouvant être construits, rachetés, loués, etc. 
+	- Généralisation des notions de "Type Physique" et "Type Logique". 
+	- Uniformation des noms et de l'ordre des attributs communs aux tables d'équipements. Notamment : 
+		- xx_prop
+		- xx_gest
+		- xx_user
+		- xx_typeprop
+		- xx_statut
+		- xx_etat
+		- xx_dateins
+		- xx_datems
+	- xx_creadat et xx_majdate passés en type TIMESTAMP. 
+	- ajout des indexes sur tous les attributs potentiellement bénéficiaires.
+	- Modification des définitions de classes : 
+		- SiteUtilisateurFinal
+		- Adresse
+	- Application générale d'un attribut commentaire. 
+	- Uniformisation des foreign keys sur des attributs "code" et plus d'ID. 
+- t_conduite 
+	- renommage de la table t_fourreau
+	- Occupation : passage en numérique, suppression de la relation et définition indiquant qu'il s'agit d'un pourcentage. 
+	- abandon numero de serie
+	- fx_ar_code : abandonné
+- t_cable : 
+	- cb_util -> cb_user
+	- modification nom cb_rf_id
+	- cb_ar_code : abandon
+	- cb_fx_code : abandon
+- t_cable_conduite : 
+	- Création de la table de relation. 
+- t_cheminement : 
+	- Création de la table (fusion tranchée et artère)
+- t_fibre : 
+	- remplacement de la fk par l_etat_type. 
+	- ajout : fo_type
+- t_noeud : 
+	- Passage sur les tables de spécialisation : 
+		- nd_statut (passé sur tables de spécialisation. Une chambre et une bpe peuvent ne pas avoir le même statut). 
+		- nd_etat (passé sur tables de spécialisation. Une chambre et une bpe peuvent ne pas avoir le même état). 
+		- nd_haut
+		- nd_pro
+		- nd_gest
+		- nd_user
+		- nd_dateins
+	- abandon nd_c_insee
+- t_ptech : 
+	- passage de : 
+		- nd_haut à pt_a_haut
+		- nd_pro à pt_pro
+		- nd_gest à pt_gest
+		- nd_user à pt_user
+		- nd_detection à pt_detec
+		- nd_statut à pt_statut
+		- nd_etat à pt_etat
+		- nd_dateins à pt_dateins
+		- inversion pt_a_passa et pt_a_strat
+		- nd_occup à pt_occup
+	- pt_type_phy restreint aux valeurs APPUI, CHAMBRE, AUTRE. 
+	- pt_nature ajouté pour prendre les types de chambres, poteaux, etc. 
+- t_ebp	: 
+	- ajout : bp_statut
+		- nd_statut à pt_statut
+		- nd_etat à pt_etat	
+		- nd_occup à bp_occup
+	- ajout : 
+		- bp_entrees
+		- bp_ca_nb
+		- bp_nb_pas
+		- bp_linecod
+		- bp_oc_code
+		- bp_sf_code
+		- bp_racco
+		- bp_typephy : avec liste des types fournis par E-Megalis. 
+	- modif : bp_ref en integer
+	- abandon : bp_dateins
+	- abandon : bp_voie (dispo sur le noeud)
+- t_cassette : 
+	- modif : cs_rf_id renommé et type modifié
+- t_adresse : 
+	- Mise en correspondance des attributs avec les principaux attributs de la BAN. 
+	- Prise en compte de relation avec la base MAJIC. 
+	- ajout CHECK : CHECK (ad_ban_id LIKE 'ADRNIVX_________________')
+	- ad_type : correction foreign keys
+	- ad_hexacl -> ad_hexacle
+	- Mise en correspondance IPE
+		- ad_ietat
+		- ad_idatsgn
+		- ad_iaccgst
+		- ad_id_gest
+		- ad_idatcab
+	- Abandon ADR_AUTRE0x du Syane. 
+	- Spatialisation de la table. 
+- t_suf : 
+	- ajout d'attributs pour relation avec IPE. 
+	- ajout référence sf_pr_adr
+	- st_code -> sf_st_code
+	- reorg sf_nbprise
+	- renom sf_nbestim
+	- sf_src_geo : abandon
+	- sf_qlt_geo : abandon
+	- sf_st_code : abandon
+	- sf_tbati : abandon
+	- sf_nd_code : ajout
+- t_love : 
+	- remplacement lo_ par lv_
+- t_ropt ! 
+	- remplacement ro_ par rt_
+	- rf_fo_id remplacé par rf_fo_code
+- t_position : 
+	- remplacement po_ par ps_
+	- type ps_amont et ps_aval passé en varchar pour code et non ID. 
+- t_sitetech : 
+	- ajout st_user depuis nd_user
+	- st_stat -> st_statut
+	- abandon st_cp et st_ville
+	- st_type renommé st_typestr
+	- ajout foreign key st_typestr	
+	- ajout st_typefon
+	- st_nbpr renommé st_nblines
+- t_ltech : 
+	- lt_stat -> lt_statut
+	- relation base local base MAJIC (à étudier)
+	- nd_occup à se_occup
+- t_baie : 
+	- ba_stat -> ba_statut
+- t_position : 
+	- modification ordre des attributs
+- t_siteemission : 
+	- se_nd_code
+	- se_anfr
+	- nd_pro à se_pro
+	- nd_gest à se_gest
+	- nd_user à se_user
+	- nd_statut à se_statut
+	- nd_etat à se_etat
+	- nd_dateins à se_dateins
+	- se_dt_ms
+	- nd_occup à se_occup
+- t_organisme : 
+	- or_type : ajout de la référence aux codes juridiques INSEE dans la définition. 
+	- or_activ : ajout de la référence aux codes NAF INSEE dans la définition. 
+	- ajout d'attributs pour saisir l'adresse + lien optionnel avec la table t_adresse. 
+- t_zone : abandon
+	- Remplacement par de multiples tables de zones. 
+	- Abandon des zones fibrées (loi macron) en attendant plus d'informations. 
+	- Abandon des zones d'aménagement (notion Orange), à laisser aux données demandées par Orange. 
+- t_znro : 
+	- Création de la table
+- t_zsro : 
+	- Création de la table
+- t_zpbo : 
+	- Création de la table
+- t_zdep : 
+	- Création de cette table pour les zones de déploiement. 
+- t_zcoax : 
+	- Création de cette table pour les zones de couverture cablées (cablo-opérateur). 
+- t_document : 
+	- renommage en t_objdoc : la table t_document était la table ged du Syane, destinée à créer des relations entre objets et documents. 
+	- création d'une nouvelle table t_document destinée à indexer les documents. 
+	- ajout index unique multi-attributs : DROP INDEX IF EXISTS od_unique_idx; CREATE UNIQUE INDEX od_unique_idx ON t_love (od_code, od_tbltype, od_codeobj);
+- t_objdoc : 
+	- Renommage de cette table qui correspond à la table t_document dans les versions alpha précédentes, et GED côté Syane. 
+	- od_budg abandonné
+- t_empreinte : 
+	- Création de cette table pour pouvoir stocker des polygones représentant l'empreinte (l'emprise géographique) de certains documents. 
+- Listes : 
+	- l_adress_type 
+		-> l_adresse_type
+		- ABANDON. 
+	- l_adress_etat 
+		-> l_adresse_etat
+		- Utilisation valeurs Interop
+	- l_artere_implantation_type : renommée l_implantation_type
+	- l_zo_type
+		- abandon (une table par type). 
+	- l_propriete_type
+		- OCCUPATION ajouté
+	- l_site_type
+		- renommé l_site_type_log
+	- l_fibre_etat 
+		- abandon au profit de l_etat. 
+	- l_position_fonction
+		- abandon EPISSURE-JCD / EPISSURE-HDS : spécifique Syane. 
+	- l_marche
+		- création de cette liste pour qualifier si c'est inclus, supplémentaire ou hors marché. 
+	- l_suf_immeuble_type : renommé l_immeuble_type
+	- l_suf_racco : création d'une liste avec la terminologie de raccordement des SUF selon l'Arcep. 
+	- l_ptech_type_phy : modif totale des codes et valeurs (A, C, Z). 
+	- l_ptech_nature : récupération des types de chambres, de poteaux, etc. 
+	- l_accessibilite_type : abandonnée
+	- l_zone_densite : ajouté
+	- l_sro_etat : ajouté
+	- l_sro_emplacement : ajouté
+	- l_geoloc_mode : ajouté
+	- l_fx_type : renommée l_conduite_type
+	- l_doc_tab : FX -> CD
+	- l_artere_type renommée l_infra_type_log
+	- l_fo_type : ajout
+	- l_tranchee_implantation_type : renommée l_passage_type. 
+	- l_statut : application des phases préconisées en mission 3 et issues de la loi MOP. 
+	
 v2_alpha3c
 - MCD : ajout de la prise en compte de la contrainte unique dans la génération SQL
 - Ajout d'indexes
@@ -51,7 +261,7 @@ v2_alpha3c
 	- l_doc_tab : corrections codes
 	- l_bp_type : suppression des valeurs paliatives Grace v1. 	
 	- l_color : renommage en l_fo_color. 
-	- l_etat_type : abandon A CREER et EXISTANT
+	- l_etat_type : abandon EXISTANT
 	
 v2_alpha3b
 - Tables : 
