@@ -53,7 +53,6 @@ DROP TABLE IF EXISTS l_tube;
 DROP TABLE IF EXISTS l_type_bati;
 DROP TABLE IF EXISTS l_zone_densite;
 
-
 CREATE TABLE l_adresse_etat(code VARCHAR(2), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_adresse_etat_pk" PRIMARY KEY (code));
 CREATE TABLE l_baie_type(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_baie_type_pk" PRIMARY KEY (code));
 CREATE TABLE l_bp_localisation(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_bp_localisation_pk" PRIMARY KEY (code));

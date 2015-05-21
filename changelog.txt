@@ -2,6 +2,30 @@
 
 ### Changelog
 
+v2_alpha3e
+- Ajout d'un dossier MCD_doc : 
+	- Ajout d'une présentation simplifiée du MCD : gracethd-mcd-v2alpha03e_doc_v01.ods
+	- Passage du schéma simplifié dans ce dossier : gracethd-mcd-v2alpha03e_schema_v01.png
+- mcd_alpha3e.ods
+	- Ajout d'une légende 
+	- Suppression de la feuille SQLite
+	- Renommage de feuilles -> Attributs et Valeurs. 
+- cb_bp_amon et cb_bp_aval : 
+	- renommage en cb_bpcode1 et cb_bpcode2
+	- définitions
+	- foreign keys cb_bp* sur bp_code
+- cm_noeud_a et cm_noeud_b : 
+	- renommage en cm_ndcode1 et cm_ndcode2
+	- définitions
+	- foreign keys sur nd_code
+	- suppression du NOT NULL pour permettre la saisie d'une BPE (noeud) à l'extrêmité d'un câble et non de devoir la créer au préalable. 
+- cm_cm1 et cm_cm2 : renommages
+	- renommage en cm_ndcode1 et cm_ndcode2
+	- définitions
+	- foreign keys sur nd_code
+- nd_ad_code : 
+	- modif type
+
 v2_alpha3d
 - général : 
 	- Pour PostGIS 
