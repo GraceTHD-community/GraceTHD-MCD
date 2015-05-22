@@ -2,176 +2,176 @@
 <qlr>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
-    <layer-tree-group expanded="0" checked="Qt::Checked" name="Listes">
+    <layer-tree-group expanded="0" checked="Qt::Checked" name="Lists">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_adresse_etat20150519013101368" name="l_adresse_etat">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_adresse_etat20150522101918964" name="l_adresse_etat">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_baie_type20150519013101378" name="l_baie_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_baie_type20150522101918973" name="l_baie_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_localisation20150519013101387" name="l_bp_localisation">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_localisation20150522101918982" name="l_bp_localisation">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_racco20150519013101396" name="l_bp_racco">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_racco20150522101918992" name="l_bp_racco">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_type_log20150519013101405" name="l_bp_type_log">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_type_log20150522101919001" name="l_bp_type_log">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_type_phy20150519013101433" name="l_bp_type_phy">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_type_phy20150522101919010" name="l_bp_type_phy">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_cable_type20150519013101443" name="l_cable_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_cable_type20150522101919020" name="l_cable_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_cassette_type20150519013101452" name="l_cassette_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_cassette_type20150522101919029" name="l_cassette_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_classe_dict20150519013101461" name="l_classe_dict">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_classe_dict20150522101919038" name="l_classe_dict">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_clim_type20150519013101470" name="l_clim_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_clim_type20150522101919047" name="l_clim_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_conduite_type20150519013101479" name="l_conduite_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_conduite_type20150522101919056" name="l_conduite_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_connexion_type20150519013101488" name="l_connexion_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_connexion_type20150522101919065" name="l_connexion_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_doc_tab20150519013101498" name="l_doc_tab">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_doc_tab20150522101919074" name="l_doc_tab">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_doc_type20150519013101507" name="l_doc_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_doc_type20150522101919083" name="l_doc_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_etat_type20150519013101516" name="l_etat_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_etat_type20150522101919093" name="l_etat_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_fo_color20150519013101525" name="l_fo_color">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_fo_color20150522101919102" name="l_fo_color">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_fo_type20150519013101534" name="l_fo_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_fo_type20150522101919111" name="l_fo_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_geoloc_classe20150519013101543" name="l_geoloc_classe">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_geoloc_classe20150522101919121" name="l_geoloc_classe">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_geoloc_mode20150519013101552" name="l_geoloc_mode">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_geoloc_mode20150522101919130" name="l_geoloc_mode">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_immeuble_type20150519013101562" name="l_immeuble_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_immeuble_type20150522101919139" name="l_immeuble_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_implantation_type20150519013101571" name="l_implantation_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_implantation_type20150522101919148" name="l_implantation_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_infra_nature20150519013101580" name="l_infra_nature">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_infra_nature20150522101919157" name="l_infra_nature">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_infra_type_log20150519013101589" name="l_infra_type_log">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_infra_type_log20150522101919167" name="l_infra_type_log">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_masque_face20150519013101598" name="l_masque_face">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_masque_face20150522101919176" name="l_masque_face">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_noeud_type20150519013101608" name="l_noeud_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_noeud_type20150522101919186" name="l_noeud_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_nro_etat20150519013101617" name="l_nro_etat">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_nro_etat20150522101919195" name="l_nro_etat">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_nro_type20150519013101627" name="l_nro_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_nro_type20150522101919205" name="l_nro_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_occupation_type20150519013101636" name="l_occupation_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_occupation_type20150522101919214" name="l_occupation_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_passage_type20150519013101645" name="l_passage_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_passage_type20150522101919224" name="l_passage_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_pose_type20150519013101670" name="l_pose_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_pose_type20150522101919233" name="l_pose_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_position_fonction20150519013101679" name="l_position_fonction">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_position_fonction20150522101919242" name="l_position_fonction">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_position_type20150519013101688" name="l_position_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_position_type20150522101919251" name="l_position_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_propriete_type20150519013101698" name="l_propriete_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_propriete_type20150522101919261" name="l_propriete_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_nature20150519013101707" name="l_ptech_nature">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_nature20150522101919270" name="l_ptech_nature">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_type_log20150519013101716" name="l_ptech_type_log">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_type_log20150522101919279" name="l_ptech_type_log">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_type_phy20150519013101725" name="l_ptech_type_phy">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_type_phy20150522101919288" name="l_ptech_type_phy">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_qualite_info20150519013101734" name="l_qualite_info">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_qualite_info20150522101919298" name="l_qualite_info">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_reference_etat20150519013101743" name="l_reference_etat">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_reference_etat20150522101919307" name="l_reference_etat">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_reference_type20150519013101752" name="l_reference_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_reference_type20150522101919316" name="l_reference_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_emission_type20150519013101761" name="l_site_emission_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_emission_type20150522101919325" name="l_site_emission_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type_fonctionnel20150519013101770" name="l_site_type_fonctionnel">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type_fonctionnel20150522101919335" name="l_site_type_fonctionnel">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type_log20150519013101779" name="l_site_type_log">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type_log20150522101919344" name="l_site_type_log">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type_phy20150519013101788" name="l_site_type_phy">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type_phy20150522101919353" name="l_site_type_phy">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_sro_emplacement20150519013101798" name="l_sro_emplacement">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_sro_emplacement20150522101919362" name="l_sro_emplacement">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_sro_etat20150519013101808" name="l_sro_etat">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_sro_etat20150522101919372" name="l_sro_etat">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_statut20150519013101817" name="l_statut">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_statut20150522101919382" name="l_statut">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_suf_racco20150519013101826" name="l_suf_racco">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_suf_racco20150522101919391" name="l_suf_racco">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_suf_type20150519013101835" name="l_suf_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_suf_type20150522101919400" name="l_suf_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_technologie_cable_type20150519013101844" name="l_technologie_cable_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_technologie_cable_type20150522101919410" name="l_technologie_cable_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_technologie_type20150519013101854" name="l_technologie_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_technologie_type20150522101919419" name="l_technologie_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tiroir_type20150519013101863" name="l_tiroir_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tiroir_type20150522101919429" name="l_tiroir_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tube20150519013101875" name="l_tube">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tube20150522101919438" name="l_tube">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_type_bati20150519013101884" name="l_type_bati">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_type_bati20150522101919448" name="l_type_bati">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_zone_densite20150519013101893" name="l_zone_densite">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_zone_densite20150522101919457" name="l_zone_densite">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
   </layer-tree-group>
   <maplayers>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_adresse_etat20150519013101368</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_adresse_etat" sql=</datasource>
+      <id>l_adresse_etat20150522101918964</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_adresse_etat" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -192,7 +192,7 @@
       </srs>
       <customproperties/>
       <provider encoding="UTF-8">spatialite</provider>
-      <previewExpression>COALESCE("code", '&lt;NULL>')</previewExpression>
+      <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
       <map-layer-style-manager current="">
@@ -209,18 +209,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_baie_type20150519013101378</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_baie_type" sql=</datasource>
+      <id>l_baie_type20150522101918973</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_baie_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -258,18 +258,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_bp_localisation20150519013101387</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_bp_localisation" sql=</datasource>
+      <id>l_bp_localisation20150522101918982</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_bp_localisation" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -307,18 +307,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_bp_racco20150519013101396</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_bp_racco" sql=</datasource>
+      <id>l_bp_racco20150522101918992</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_bp_racco" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -356,18 +356,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_bp_type_log20150519013101405</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_bp_type_log" sql=</datasource>
+      <id>l_bp_type_log20150522101919001</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_bp_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -405,18 +405,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_bp_type_phy20150519013101433</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_bp_type_phy" sql=</datasource>
+      <id>l_bp_type_phy20150522101919010</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_bp_type_phy" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -454,18 +454,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_cable_type20150519013101443</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_cable_type" sql=</datasource>
+      <id>l_cable_type20150522101919020</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_cable_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -503,18 +503,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_cassette_type20150519013101452</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_cassette_type" sql=</datasource>
+      <id>l_cassette_type20150522101919029</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_cassette_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -552,18 +552,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_classe_dict20150519013101461</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_classe_dict" sql=</datasource>
+      <id>l_classe_dict20150522101919038</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_classe_dict" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -601,18 +601,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_clim_type20150519013101470</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_clim_type" sql=</datasource>
+      <id>l_clim_type20150522101919047</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_clim_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -650,18 +650,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_conduite_type20150519013101479</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_conduite_type" sql=</datasource>
+      <id>l_conduite_type20150522101919056</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_conduite_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -699,18 +699,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_connexion_type20150519013101488</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_connexion_type" sql=</datasource>
+      <id>l_connexion_type20150522101919065</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_connexion_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -748,18 +748,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_doc_tab20150519013101498</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_doc_tab" sql=</datasource>
+      <id>l_doc_tab20150522101919074</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_doc_tab" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -797,18 +797,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_doc_type20150519013101507</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_doc_type" sql=</datasource>
+      <id>l_doc_type20150522101919083</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_doc_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -846,18 +846,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_etat_type20150519013101516</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_etat_type" sql=</datasource>
+      <id>l_etat_type20150522101919093</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_etat_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -895,18 +895,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_fo_color20150519013101525</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_fo_color" sql=</datasource>
+      <id>l_fo_color20150522101919102</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_fo_color" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -944,18 +944,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_fo_type20150519013101534</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_fo_type" sql=</datasource>
+      <id>l_fo_type20150522101919111</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_fo_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -993,18 +993,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_geoloc_classe20150519013101543</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_geoloc_classe" sql=</datasource>
+      <id>l_geoloc_classe20150522101919121</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_geoloc_classe" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1042,18 +1042,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_geoloc_mode20150519013101552</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_geoloc_mode" sql=</datasource>
+      <id>l_geoloc_mode20150522101919130</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_geoloc_mode" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1091,18 +1091,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_immeuble_type20150519013101562</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_immeuble_type" sql=</datasource>
+      <id>l_immeuble_type20150522101919139</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_immeuble_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1140,18 +1140,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_implantation_type20150519013101571</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_implantation_type" sql=</datasource>
+      <id>l_implantation_type20150522101919148</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_implantation_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1189,18 +1189,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_infra_nature20150519013101580</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_infra_nature" sql=</datasource>
+      <id>l_infra_nature20150522101919157</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_infra_nature" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1238,18 +1238,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_infra_type_log20150519013101589</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_infra_type_log" sql=</datasource>
+      <id>l_infra_type_log20150522101919167</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_infra_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1287,18 +1287,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_masque_face20150519013101598</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_masque_face" sql=</datasource>
+      <id>l_masque_face20150522101919176</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_masque_face" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1336,18 +1336,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_noeud_type20150519013101608</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_noeud_type" sql=</datasource>
+      <id>l_noeud_type20150522101919186</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_noeud_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1385,18 +1385,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_nro_etat20150519013101617</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_nro_etat" sql=</datasource>
+      <id>l_nro_etat20150522101919195</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_nro_etat" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1434,18 +1434,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_nro_type20150519013101627</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_nro_type" sql=</datasource>
+      <id>l_nro_type20150522101919205</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_nro_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1483,18 +1483,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_occupation_type20150519013101636</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_occupation_type" sql=</datasource>
+      <id>l_occupation_type20150522101919214</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_occupation_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1532,18 +1532,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_passage_type20150519013101645</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_passage_type" sql=</datasource>
+      <id>l_passage_type20150522101919224</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_passage_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1581,18 +1581,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_pose_type20150519013101670</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_pose_type" sql=</datasource>
+      <id>l_pose_type20150522101919233</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_pose_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1630,18 +1630,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_position_fonction20150519013101679</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_position_fonction" sql=</datasource>
+      <id>l_position_fonction20150522101919242</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_position_fonction" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1679,18 +1679,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_position_type20150519013101688</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_position_type" sql=</datasource>
+      <id>l_position_type20150522101919251</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_position_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1728,18 +1728,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_propriete_type20150519013101698</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_propriete_type" sql=</datasource>
+      <id>l_propriete_type20150522101919261</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_propriete_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1777,18 +1777,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_ptech_nature20150519013101707</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_ptech_nature" sql=</datasource>
+      <id>l_ptech_nature20150522101919270</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_ptech_nature" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1826,18 +1826,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_ptech_type_log20150519013101716</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_ptech_type_log" sql=</datasource>
+      <id>l_ptech_type_log20150522101919279</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_ptech_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1875,18 +1875,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_ptech_type_phy20150519013101725</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_ptech_type_phy" sql=</datasource>
+      <id>l_ptech_type_phy20150522101919288</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_ptech_type_phy" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1924,18 +1924,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_qualite_info20150519013101734</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_qualite_info" sql=</datasource>
+      <id>l_qualite_info20150522101919298</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_qualite_info" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1973,18 +1973,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_reference_etat20150519013101743</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_reference_etat" sql=</datasource>
+      <id>l_reference_etat20150522101919307</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_reference_etat" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2022,18 +2022,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_reference_type20150519013101752</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_reference_type" sql=</datasource>
+      <id>l_reference_type20150522101919316</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_reference_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2071,18 +2071,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_site_emission_type20150519013101761</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_site_emission_type" sql=</datasource>
+      <id>l_site_emission_type20150522101919325</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_site_emission_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2120,18 +2120,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_site_type_fonctionnel20150519013101770</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_site_type_fonctionnel" sql=</datasource>
+      <id>l_site_type_fonctionnel20150522101919335</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_site_type_fonctionnel" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2169,18 +2169,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_site_type_log20150519013101779</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_site_type_log" sql=</datasource>
+      <id>l_site_type_log20150522101919344</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_site_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2218,18 +2218,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_site_type_phy20150519013101788</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_site_type_phy" sql=</datasource>
+      <id>l_site_type_phy20150522101919353</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_site_type_phy" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2267,18 +2267,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_sro_emplacement20150519013101798</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_sro_emplacement" sql=</datasource>
+      <id>l_sro_emplacement20150522101919362</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_sro_emplacement" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2316,18 +2316,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_sro_etat20150519013101808</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_sro_etat" sql=</datasource>
+      <id>l_sro_etat20150522101919372</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_sro_etat" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2365,18 +2365,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_statut20150519013101817</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_statut" sql=</datasource>
+      <id>l_statut20150522101919382</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_statut" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2414,18 +2414,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_suf_racco20150519013101826</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_suf_racco" sql=</datasource>
+      <id>l_suf_racco20150522101919391</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_suf_racco" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2463,18 +2463,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_suf_type20150519013101835</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_suf_type" sql=</datasource>
+      <id>l_suf_type20150522101919400</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_suf_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2512,18 +2512,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_technologie_cable_type20150519013101844</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_technologie_cable_type" sql=</datasource>
+      <id>l_technologie_cable_type20150522101919410</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_technologie_cable_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2561,18 +2561,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_technologie_type20150519013101854</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_technologie_type" sql=</datasource>
+      <id>l_technologie_type20150522101919419</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_technologie_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2610,18 +2610,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_tiroir_type20150519013101863</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_tiroir_type" sql=</datasource>
+      <id>l_tiroir_type20150522101919429</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_tiroir_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2659,18 +2659,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_tube20150519013101875</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_tube" sql=</datasource>
+      <id>l_tube20150522101919438</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_tube" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2708,18 +2708,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_type_bati20150519013101884</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_type_bati" sql=</datasource>
+      <id>l_type_bati20150522101919448</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_type_bati" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2757,18 +2757,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>
       <attributeactions/>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_zone_densite20150519013101893</id>
-      <datasource>dbname='./gracethd_v2_alpha3d.sqlite' table="l_zone_densite" sql=</datasource>
+      <id>l_zone_densite20150522101919457</id>
+      <datasource>dbname='./gracethd_v2_alpha3f.sqlite' table="l_zone_densite" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2806,10 +2806,10 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
-      <editform></editform>
+      <editform>.</editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
-      <annotationform></annotationform>
+      <annotationform>.</annotationform>
       <editorlayout>generatedlayout</editorlayout>
       <excludeAttributesWMS/>
       <excludeAttributesWFS/>

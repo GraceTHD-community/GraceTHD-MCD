@@ -2,6 +2,58 @@
 
 ### Changelog
 
+v2_alpha3f
+- correction sur le projet qgis de la version alpha3e qui pointait sur la version alpha3d de la base. 
+- correction schéma simplifié (polygone sur Empreinte). 
+- ajout d'un readme.txt dans db_spatialite pour expliquer le contenu de ce dossier. 
+- diffusion d'un create.bat dans sql_spatialite
+- ajout des scripts de création des tables adapté à la syntaxe PostGIS : sql_postgis. 
+- Création d'un script sql spécifique pour la génération des index. 
+- Changement d'ordre des tables pour respecter la cohérence de création des foreign keys (PostGIS). 
+	- t_adresse
+	- t_suf
+	- t_ptech
+	- t_ebp
+	- t_cassette
+	- t_position
+	- t_ropt
+- Correction noms d'attributs : 
+	- ps_cs_code
+	- fo_cb_code
+	- ba_rf_code
+	- ps_amont -> ps_1
+	- ps_aval -> ps_2
+- Correction type d'attributs : 
+	- od_codeobj
+	- ad_ietat
+	- sf_ad_code
+	- ps_cs_code
+	- ba_rf_code
+	- rt_fo_code
+	- se_ad_code
+- Correction Foreign keys : 
+	- Plusieurs t_adrese au lieu de t_adresse. 
+	- Plusieurs t_zone au lieu des tables par type de zone. 
+	- dm_cd_code
+	- dm_cm_code
+	- fo_cb_code
+	- ba_rf_code
+	- ti_etat
+	- zs_etatpm
+	- zs_typeemp
+	- zp_zs_code
+- Correction NOT NULL
+	- zn_code
+	- zs_code
+	- zp_code
+	- zd_code
+	- zc_code
+- l_position_type : modification des codes et libellés. 
+- l_statut : modification des définitions pour tenir dans moins de 254 caractères. 
+- Indexes
+	- Ajouts
+- Correction index spatiaux PostGIS
+	
 v2_alpha3e
 - Ajout d'un dossier MCD_doc : 
 	- Ajout d'une présentation simplifiée du MCD : gracethd-mcd-v2alpha03e_doc_v01.ods
@@ -19,8 +71,8 @@ v2_alpha3e
 	- définitions
 	- foreign keys sur nd_code
 	- suppression du NOT NULL pour permettre la saisie d'une BPE (noeud) à l'extrêmité d'un câble et non de devoir la créer au préalable. 
-- cm_cm1 et cm_cm2 : renommages
-	- renommage en cm_ndcode1 et cm_ndcode2
+- cm_cm1 et cm_cm2 : 
+	- renommages
 	- définitions
 	- foreign keys sur nd_code
 - nd_ad_code : 
