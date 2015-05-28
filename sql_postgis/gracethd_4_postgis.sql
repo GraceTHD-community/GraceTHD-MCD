@@ -1,4 +1,9 @@
---Index spatial (Postgres)
+/*GraceTHD*/
+/*specifique au SGBD*/
+/*PostGIS*/
+
+SET search_path TO gracethd, public;
+
 CREATE INDEX t_adresse_geom_gist ON t_adresse USING GIST (geom); 
 CREATE INDEX t_noeud_geom_gist ON t_noeud USING GIST (geom); 
 CREATE INDEX t_cheminement_geom_gist ON t_cheminement USING GIST (geom); 

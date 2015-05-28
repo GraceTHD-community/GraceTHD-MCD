@@ -1,15 +1,16 @@
+/*GraceTHD v2 alpha3g*/
+/*Creation des tables qui vont accueillir les listes de valeurs*/
+/*Spatialite*/
+
 DROP TABLE IF EXISTS l_adresse_etat;
 DROP TABLE IF EXISTS l_baie_type;
-DROP TABLE IF EXISTS l_bp_localisation;
 DROP TABLE IF EXISTS l_bp_racco;
 DROP TABLE IF EXISTS l_bp_type_log;
 DROP TABLE IF EXISTS l_bp_type_phy;
 DROP TABLE IF EXISTS l_cable_type;
 DROP TABLE IF EXISTS l_cassette_type;
 DROP TABLE IF EXISTS l_conduite_type;
-DROP TABLE IF EXISTS l_classe_dict;
 DROP TABLE IF EXISTS l_clim_type;
-DROP TABLE IF EXISTS l_connexion_type;
 DROP TABLE IF EXISTS l_doc_tab;
 DROP TABLE IF EXISTS l_doc_type;
 DROP TABLE IF EXISTS l_etat_type;
@@ -38,7 +39,6 @@ DROP TABLE IF EXISTS l_qualite_info;
 DROP TABLE IF EXISTS l_reference_etat;
 DROP TABLE IF EXISTS l_reference_type;
 DROP TABLE IF EXISTS l_site_emission_type;
-DROP TABLE IF EXISTS l_site_type_fonctionnel;
 DROP TABLE IF EXISTS l_site_type_log;
 DROP TABLE IF EXISTS l_site_type_phy;
 DROP TABLE IF EXISTS l_sro_etat;
@@ -46,25 +46,21 @@ DROP TABLE IF EXISTS l_sro_emplacement;
 DROP TABLE IF EXISTS l_statut;
 DROP TABLE IF EXISTS l_suf_racco;
 DROP TABLE IF EXISTS l_suf_type;
-DROP TABLE IF EXISTS l_technologie_cable_type;
 DROP TABLE IF EXISTS l_technologie_type;
 DROP TABLE IF EXISTS l_tiroir_type;
 DROP TABLE IF EXISTS l_tube;
-DROP TABLE IF EXISTS l_type_bati;
 DROP TABLE IF EXISTS l_zone_densite;
+
 
 CREATE TABLE l_adresse_etat(code VARCHAR(2), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_adresse_etat_pk" PRIMARY KEY (code));
 CREATE TABLE l_baie_type(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_baie_type_pk" PRIMARY KEY (code));
-CREATE TABLE l_bp_localisation(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_bp_localisation_pk" PRIMARY KEY (code));
 CREATE TABLE l_bp_racco(code VARCHAR(6), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_bp_racco_pk" PRIMARY KEY (code));
 CREATE TABLE l_bp_type_log(code VARCHAR(3), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_bp_type_log_pk" PRIMARY KEY (code));
 CREATE TABLE l_bp_type_phy(code VARCHAR(5), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_bp_type_phy_pk" PRIMARY KEY (code));
-CREATE TABLE l_cable_type(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_cable_type_pk" PRIMARY KEY (code));
-CREATE TABLE l_cassette_type(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_cassette_type_pk" PRIMARY KEY (code));
+CREATE TABLE l_cable_type(code VARCHAR(1), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_cable_type_pk" PRIMARY KEY (code));
+CREATE TABLE l_cassette_type(code VARCHAR(1), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_cassette_type_pk" PRIMARY KEY (code));
 CREATE TABLE l_conduite_type(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_conduite_type_pk" PRIMARY KEY (code));
-CREATE TABLE l_classe_dict(code VARCHAR(2), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_classe_dict_pk" PRIMARY KEY (code));
-CREATE TABLE l_clim_type(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_clim_type_pk" PRIMARY KEY (code));
-CREATE TABLE l_connexion_type(code VARCHAR(2), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_connexion_type_pk" PRIMARY KEY (code));
+CREATE TABLE l_clim_type(code VARCHAR(6), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_clim_type_pk" PRIMARY KEY (code));
 CREATE TABLE l_doc_tab(code VARCHAR(2), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_doc_tab_pk" PRIMARY KEY (code));
 CREATE TABLE l_doc_type(code VARCHAR(3), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_doc_type_pk" PRIMARY KEY (code));
 CREATE TABLE l_etat_type(code VARCHAR(3), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_etat_type_pk" PRIMARY KEY (code));
@@ -93,7 +89,6 @@ CREATE TABLE l_qualite_info(code VARCHAR(3), libelle VARCHAR(254), definition VA
 CREATE TABLE l_reference_etat(code VARCHAR(1), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_reference_etat_pk" PRIMARY KEY (code));
 CREATE TABLE l_reference_type(code VARCHAR(2), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_reference_type_pk" PRIMARY KEY (code));
 CREATE TABLE l_site_emission_type(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_site_emission_type_pk" PRIMARY KEY (code));
-CREATE TABLE l_site_type_fonctionnel(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_site_type_fonctionnel_pk" PRIMARY KEY (code));
 CREATE TABLE l_site_type_log(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_site_type_log_pk" PRIMARY KEY (code));
 CREATE TABLE l_site_type_phy(code VARCHAR(3), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_site_type_phy_pk" PRIMARY KEY (code));
 CREATE TABLE l_sro_etat(code VARCHAR(2), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_sro_etat_pk" PRIMARY KEY (code));
@@ -101,9 +96,8 @@ CREATE TABLE l_sro_emplacement(code VARCHAR(3), libelle VARCHAR(254), definition
 CREATE TABLE l_statut(code VARCHAR(3), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_statut_pk" PRIMARY KEY (code));
 CREATE TABLE l_suf_racco(code VARCHAR(2), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_suf_racco_pk" PRIMARY KEY (code));
 CREATE TABLE l_suf_type(code VARCHAR(1), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_suf_type_pk" PRIMARY KEY (code));
-CREATE TABLE l_technologie_cable_type(code VARCHAR(2), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_technologie_cable_type_pk" PRIMARY KEY (code));
 CREATE TABLE l_technologie_type(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_technologie_type_pk" PRIMARY KEY (code));
 CREATE TABLE l_tiroir_type(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_tiroir_type_pk" PRIMARY KEY (code));
 CREATE TABLE l_tube(code VARCHAR(5), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_tube_pk" PRIMARY KEY (code));
-CREATE TABLE l_type_bati(code VARCHAR(1), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_type_bati_pk" PRIMARY KEY (code));
 CREATE TABLE l_zone_densite(code VARCHAR(1), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_zone_densite_pk" PRIMARY KEY (code));
+

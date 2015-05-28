@@ -1,3 +1,7 @@
+/*GraceTHD*/
+/*specifique au SGBD*/
+/*Spatialite*/
+
 SELECT AddGeometryColumn('t_cheminement','geom',2154,'LINESTRING','XY');
 SELECT AddGeometryColumn('t_cable','geom',2154,'LINESTRING','XY');
 SELECT AddGeometryColumn('t_noeud','geom',2154,'POINT','XY');
