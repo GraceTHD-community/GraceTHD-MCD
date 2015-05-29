@@ -2,6 +2,38 @@
 
 ### Changelog
 
+v2-alpha3g
+- gracethd-mcd-v2alpha03g_doc_v01.ods : 
+	- ajout colonne "Contraintes sur l'attribut". 
+	- ajout colonne "Relation"
+- gracethd-mcd-v2alpha03_schema_v02.png : Corrections sur le schéma simplifié. 
+- gracethd-mld-v2alpha3g.png : ajout - modèle logique de données issu d'une retroingénierie automatique. 
+- bp_pt_code : ajout relation + suppression NOT NULL. 
+- bp_lt_code : ajout de cet attribut + index. 
+- bp_sf_code : changement de position dans la table
+- MCD : changement de l'ordre de création des tables pour placer t_ltech avant t_ebp. 
+- nd_type : correction type
+- st_etat : plus obligatoire. 
+- tr_comment renommé cm_comment
+- em_do_ref : ajout relation. 
+- ad_typzone : ajout relation + index. 
+- fo_type : ajout relation + index. 
+- lt_clim : ajout attribut + relation + index. 
+- cb_type : ajout attribut + relation + index. 
+- eq_ti_code : abandon
+- eq_ba_code : obligatoire
+- st_proptyp : correction nom (bp_). 
+- se_nd_code : UNIQUE
+- l_noeud-type : suppression physique, remplacé par les types correspondant aux types d'objets ponctuels. 
+- l_etat_type : ajout NC
+- l_site_type_fonctionnel : abandon
+- l_classe_dict : abandon
+- l_type_bati : abandon
+- l_technologie_cable_type : abandon
+- l_connexion_type : abandon
+- l_cable_type : changement codes et type attribut CODE. 
+- l_bp_localisation : abandon
+
 v2_alpha3f
 - correction sur le projet qgis de la version alpha3e qui pointait sur la version alpha3d de la base. 
 - correction schéma simplifié (polygone sur Empreinte). 
@@ -50,7 +82,7 @@ v2_alpha3f
 	- zc_code
 - l_position_type : modification des codes et libellés. 
 - l_statut : modification des définitions pour tenir dans moins de 254 caractères. 
-- Indexes
+- Index
 	- Ajouts
 - Correction index spatiaux PostGIS
 	

@@ -1,4 +1,4 @@
-- Historique
+﻿- Historique
 	- Collecte et lecture des documentations et modèles de données existants. 
 	- Alpha 1 : Modèle préalable utilisé en support pour la consultation. 
 	
@@ -10,9 +10,10 @@
 		- premier prototype de base SQL
 	- Alpha 3 :  
 		- Stabiliser les tables. 
-	- Alpha 4 et + : traitement de détail des classes d'objets.
+	- Alpha 4 : traitement de détail des classes d'objets.
 		- Attributs et énumérations. 
 		- Soumission pour avis chaque fois qu'un sous-ensemble du modèle sera prêt. 
+		- NOTE : cette version ne sera pas produite, passage direct en beta 1. 
 	- Beta 1 : version soumise à la consultation. 
 	- Préparation du jeu de données test. 
 	- Préparation des outils "Gracelite". 
