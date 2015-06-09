@@ -11,6 +11,8 @@ SELECT AddGeometryColumn('t_zsro','geom',2154,'MULTIPOLYGON','XY');
 SELECT AddGeometryColumn('t_zpbo','geom',2154,'MULTIPOLYGON','XY');
 SELECT AddGeometryColumn('t_zdep','geom',2154,'MULTIPOLYGON','XY');
 SELECT AddGeometryColumn('t_zcoax','geom',2154,'MULTIPOLYGON','XY');
+SELECT AddGeometryColumn('t_empreinte','geom',2154,'MULTIPOLYGON','XY');
+
 
 SELECT CreateSpatialIndex('t_cheminement', 'geom');
 SELECT CreateSpatialIndex('t_cable', 'geom');
@@ -21,3 +23,4 @@ SELECT CreateSpatialIndex('t_zsro', 'geom');
 SELECT CreateSpatialIndex('t_zpbo', 'geom');
 SELECT CreateSpatialIndex('t_zdep', 'geom');
 SELECT CreateSpatialIndex('t_zcoax', 'geom');
+SELECT CreateSpatialIndex('t_empreinte', 'geom');

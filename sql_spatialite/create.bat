@@ -2,7 +2,7 @@
 
 :VARIABLES
 SET SPLEX=C:\Users\cgul0007\Documents\GitHub\Gracelite\spatialite.exe
-SET GLV=_alpha3g
+SET GLV=_beta1a
 SET SPLDB=..\db_spatialite\gracethd_v2%GLV%.sqlite
 SET SHPDB=.\shpcsv-in\
 

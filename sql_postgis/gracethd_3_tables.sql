@@ -1,4 +1,4 @@
-/*GraceTHD v2 alpha3g*/
+/*GraceTHD v2 beta1a*/
 /*Creation des tables*/
 /*PostGIS*/
 
@@ -120,6 +120,7 @@ CREATE TABLE t_reference(	rf_id INTEGER NOT NULL  ,
 	rf_fabric VARCHAR(20)   REFERENCES t_organisme (or_code),
 	rf_design VARCHAR(254)   ,
 	rf_etat VARCHAR(1)   REFERENCES l_reference_etat (code),
+	rf_comment VARCHAR(254)   ,
 	rf_creadat TIMESTAMP   ,
 	rf_majdate TIMESTAMP   ,
 	rf_majsrc VARCHAR(254)   ,
@@ -499,7 +500,7 @@ CREATE TABLE t_cable(	cb_id INTEGER   ,
 	cb_capafo INTEGER   ,
 	cb_fo_disp INTEGER   ,
 	cb_modulo INTEGER   ,
-	cb_diam NUMERIC NOT NULL  ,
+	cb_diam NUMERIC   ,
 	cb_color VARCHAR(254)   ,
 	cb_long NUMERIC   ,
 	cb_lgreel NUMERIC   ,
@@ -576,7 +577,7 @@ CREATE TABLE t_position(	ps_id INTEGER   ,
 CONSTRAINT "t_position_pk" PRIMARY KEY (ps_id));	
 	
 CREATE TABLE t_ropt(	rt_id INTEGER   ,
-	rt_code VARCHAR(254) NOT NULL UNIQUE ,
+	rt_code VARCHAR(254) NOT NULL  ,
 	rt_code_ext VARCHAR(254)   ,
 	rt_fo_code VARCHAR(254)   REFERENCES t_fibre (fo_code),
 	rt_comment VARCHAR(254)   ,
@@ -588,7 +589,7 @@ CREATE TABLE t_ropt(	rt_id INTEGER   ,
 CONSTRAINT "t_ropt_pk" PRIMARY KEY (rt_id));	
 	
 CREATE TABLE t_siteemission(	se_id INTEGER NOT NULL  ,
-	se_nd_code VARCHAR(254) NOT NULL  REFERENCES t_noeud (nd_code),
+	se_nd_code VARCHAR(254) NOT NULL UNIQUE REFERENCES t_noeud (nd_code),
 	se_anfr VARCHAR(50)   ,
 	se_prop VARCHAR(20)   REFERENCES t_organisme (or_code),
 	se_gest VARCHAR(20)   REFERENCES t_organisme (or_code),
@@ -739,7 +740,7 @@ CREATE TABLE t_document(	do_id INTEGER NOT NULL  ,
 CONSTRAINT "t_document_pk" PRIMARY KEY (do_id));	
 	
 CREATE TABLE t_docobj(	od_id INTEGER NOT NULL  ,
-	od_do_ref VARCHAR(254) NOT NULL  ,
+	od_do_ref VARCHAR(254) NOT NULL  REFERENCES t_document (do_ref),
 	od_tbltype VARCHAR(10) NOT NULL  REFERENCES l_doc_tab (code),
 	od_codeobj VARCHAR(254) NOT NULL  ,
 	od_creadat TIMESTAMP   ,
