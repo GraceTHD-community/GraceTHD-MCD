@@ -1,0 +1,12 @@
+code;libelle;definition
+CX;COLLECTE TRANSPORT DISTRIBUTION;"
+CO;COLLECTE;Liaison entre les PM"
+CT;COLLECTE TRANSPORT;"
+CD;COLLECTE DISTRIBUTION;"
+TD;TRANSPORT DISTRIBUTION;Mutualisation des fonctions transport et distribution"
+TR;TRANSPORT;> 144Fo"
+DI;DISTRIBUTION;<= 144Fo"
+RA;RACCORDEMENT FINAL;Entre le client et le point de branchement optique"
+BM;BOUCLE METROPOLITAINE;"
+LH;LONGUE DISTANCE (LONG HAUL);"
+NC;NON COMMUNIQUE;"

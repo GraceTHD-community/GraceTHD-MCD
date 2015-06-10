@@ -3,18 +3,21 @@
 ### Changelog
 
 v2-beta1a
+- db_shpcsv : Ajout d'un jeu de shapefiles et csv vierges (base shp/csv vide). 
 - Demo01 : Ajout d'un jeu de données de démonstration. 
 - t_empreinte : Ajout geom sur Spatialite. 
 - l_bp_type_phy	: ajout	B576
 - cb_diam : suppression NOT NULL
 - rt_code : suppression du UNIQUE. 
 - rf_code : correction définition
+- rf_comment : ajouté
 - od_do_ref : ajout reference
 - cm_mut_org : modif définition
 - l_cable_type : ajout breakout
 - l_technologie_type : VALUES ('RAD', 'RADIO', '');
 - l_doc_type : cf. cristel/flo (+ définition)
 - l_doc_tab : cf. cristel/flo (+ définition)
+- ad_batcode : renommé
 
 v2-alpha3g
 - gracethd-mcd-v2alpha03g_doc_v01.ods : 

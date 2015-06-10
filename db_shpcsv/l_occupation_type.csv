@@ -1,0 +1,5 @@
+code;libelle;definition
+0;VIDE;Infrastructure vide"
+1.1;NON VIDE EXPLOITABLE;Infrastructure non vide mais exploitable car rangee"
+1.2;NON VIDE NON EXPLOITABLE;Infrastructure non vide mais non exploitable car non rangee"
+2;SATUREE;Infrastructure saturee"

@@ -1,0 +1,6 @@
+code;libelle;definition
+ADR;PME-ARMOIRE DE RUE;PM Exterieur au sens de la reglementation, contenu dans une armoire de rue. "
+SHE;PME-SHELTER;PM Exterieur au sens de la reglementation, contenu dans un shelter"
+LTE;PME-LOCAL TECHNIQUE;PM Exterieur au sens de la reglementation, contenu dans un local technique, par exemple NRO. "
+PME;PM-EXTERIEUR;PM Exterieur au sens de la reglementation, dont l information du contenu n est pas disponible dans le SI de l OI. "
+PMI;PM-INTERIEUR;Situe dans une partie privative necessitant l accord d un tiers (syndic, gestionnaire) en plus de l accord de l OI. "

@@ -1,0 +1,5 @@
+code;libelle;definition
+A;Classe de précision A;Décret du 15 février 2012 : un ouvrage ou tronçon d ouvrage est rangé dans la classe A si l incertitude maximale de localisation indiquée par son exploitant est inférieure ou égale à 40 cm et s il est rigide, ou à 50 cm s il est flexible. "
+AP;Classe de précision A, en planimétrie uniquement;Idem classe A, mais uniquement pour les valeurs x et y (hors z)"
+B;Classe de précision B;Décret du 15 février 2012 : un ouvrage ou tronçon d ouvrage est rangé dans la classe B si l incertitude maximale de localisation indiquée par son exploitant est supérieure à celle relative à la classe A et inférieure ou égale à 1,5 mètre."
+C;Classe de précision C;Décret du 15 février 2012 : un ouvrage ou tronçon d ouvrage est rangé dans la classe C si l incertitude maximale de localisation indiquée par son exploitant est supérieure à 1,5 mètre, ou si son exploitant n est pas en mesure de fournir la localisation."
