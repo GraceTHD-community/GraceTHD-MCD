@@ -1,4 +1,4 @@
-/*GraceTHD v2 beta1a*/
+/*GraceTHD v2 beta1b*/
 /*Creation des tables*/
 /*PostGIS*/
 
@@ -38,7 +38,7 @@ DROP TABLE IF EXISTS t_docobj CASCADE;
 DROP TABLE IF EXISTS t_empreinte CASCADE;
 
 
-CREATE TABLE t_adresse(	ad_id INTEGER   ,
+CREATE TABLE t_adresse(	ad_id BIGINT NOT NULL  ,
 	ad_code VARCHAR (254)  UNIQUE ,
 	ad_ban_id VARCHAR (24)   ,
 	ad_nomvoie VARCHAR (254)   ,
@@ -114,7 +114,7 @@ CREATE TABLE t_organisme(	or_code VARCHAR (20) NOT NULL  ,
 	or_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_organisme_pk" PRIMARY KEY (or_code));	
 	
-CREATE TABLE t_reference(	rf_id INTEGER NOT NULL  ,
+CREATE TABLE t_reference(	rf_id BIGINT NOT NULL  ,
 	rf_code VARCHAR(254) NOT NULL UNIQUE ,
 	rf_type VARCHAR(2)   REFERENCES l_reference_type (code),
 	rf_fabric VARCHAR(20)   REFERENCES t_organisme (or_code),
@@ -128,7 +128,7 @@ CREATE TABLE t_reference(	rf_id INTEGER NOT NULL  ,
 	rf_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_reference_pk" PRIMARY KEY (rf_id));	
 	
-CREATE TABLE t_noeud(	nd_id INTEGER   ,
+CREATE TABLE t_noeud(	nd_id BIGINT NOT NULL  ,
 	nd_code VARCHAR(254) NOT NULL UNIQUE ,
 	nd_codeext VARCHAR(254)   ,
 	nd_nom VARCHAR(254)   ,
@@ -154,7 +154,7 @@ CREATE TABLE t_noeud(	nd_id INTEGER   ,
 	geom Geometry(Point,2154) NOT NULL  ,
 CONSTRAINT "t_noeud_pk" PRIMARY KEY (nd_id));	
 	
-CREATE TABLE t_sitetech(	st_id INTEGER   ,
+CREATE TABLE t_sitetech(	st_id BIGINT NOT NULL  ,
 	st_code VARCHAR(254) NOT NULL UNIQUE ,
 	st_nd_code VARCHAR(254) NOT NULL  REFERENCES t_noeud (nd_code),
 	st_codeext VARCHAR (254)   ,
@@ -179,7 +179,7 @@ CREATE TABLE t_sitetech(	st_id INTEGER   ,
 	st_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_sitetech_pk" PRIMARY KEY (st_id));	
 	
-CREATE TABLE t_ltech(	lt_id INTEGER NOT NULL  ,
+CREATE TABLE t_ltech(	lt_id BIGINT NOT NULL  ,
 	lt_code VARCHAR(254) NOT NULL UNIQUE ,
 	lt_codeext VARCHAR(254)   ,
 	lt_etiquet VARCHAR(20)   ,
@@ -205,7 +205,7 @@ CREATE TABLE t_ltech(	lt_id INTEGER NOT NULL  ,
 	lt_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_ltech_pk" PRIMARY KEY (lt_id));	
 	
-CREATE TABLE t_baie(	ba_id INTEGER NOT NULL  ,
+CREATE TABLE t_baie(	ba_id BIGINT NOT NULL  ,
 	ba_code VARCHAR(254) NOT NULL UNIQUE ,
 	ba_codeext VARCHAR(254)   ,
 	ba_etiquet VARCHAR(254)   ,
@@ -230,7 +230,7 @@ CREATE TABLE t_baie(	ba_id INTEGER NOT NULL  ,
 	ba_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_baie_pk" PRIMARY KEY (ba_id));	
 	
-CREATE TABLE t_tiroir(	ti_id INTEGER NOT NULL  ,
+CREATE TABLE t_tiroir(	ti_id BIGINT NOT NULL  ,
 	ti_code VARCHAR(254) NOT NULL UNIQUE ,
 	ti_codeext VARCHAR(254)   ,
 	ti_etiquet VARCHAR(254)   ,
@@ -250,7 +250,7 @@ CREATE TABLE t_tiroir(	ti_id INTEGER NOT NULL  ,
 	ti_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_tiroir_pk" PRIMARY KEY (ti_id));	
 	
-CREATE TABLE t_equipement(	eq_id INTEGER NOT NULL  ,
+CREATE TABLE t_equipement(	eq_id BIGINT NOT NULL  ,
 	eq_code VARCHAR(254) NOT NULL UNIQUE ,
 	eq_codeext VARCHAR(254)   ,
 	eq_etiquet VARCHAR(254)   ,
@@ -266,7 +266,7 @@ CREATE TABLE t_equipement(	eq_id INTEGER NOT NULL  ,
 	eq_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_equipement_pk" PRIMARY KEY (eq_id));	
 	
-CREATE TABLE t_suf(	sf_id INTEGER   ,
+CREATE TABLE t_suf(	sf_id BIGINT NOT NULL  ,
 	sf_code VARCHAR(254)  UNIQUE ,
 	sf_nd_code VARCHAR(254)   REFERENCES t_noeud (nd_code),
 	sf_ad_code VARCHAR(254)   REFERENCES t_adresse (ad_code),
@@ -288,7 +288,7 @@ CONSTRAINT "t_suf_pk" PRIMARY KEY (sf_id));
 	
 	
 	
-CREATE TABLE t_ptech(	pt_id INTEGER   ,
+CREATE TABLE t_ptech(	pt_id BIGINT NOT NULL  ,
 	pt_code VARCHAR(254) NOT NULL UNIQUE ,
 	pt_codeext Varchar(254)   ,
 	pt_etiquet VARCHAR(254)   ,
@@ -303,7 +303,7 @@ CREATE TABLE t_ptech(	pt_id INTEGER   ,
 	pt_datemes Date   ,
 	pt_typephy VARCHAR(20) NOT NULL  REFERENCES l_ptech_type_phy (code),
 	pt_typelog VARCHAR(1) NOT NULL  REFERENCES l_ptech_type_log (code),
-	pt_nature VARCHAR (1)   REFERENCES l_ptech_nature (code),
+	pt_nature VARCHAR (20)   REFERENCES l_ptech_nature (code),
 	pt_secu BOOLEAN   ,
 	pt_occp VARCHAR(10)   REFERENCES l_occupation_type (code),
 	pt_lignes INTEGER   ,
@@ -323,7 +323,7 @@ CREATE TABLE t_ptech(	pt_id INTEGER   ,
 	pt_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_ptech_pk" PRIMARY KEY (pt_id));	
 	
-CREATE TABLE t_ebp(	bp_id INTEGER   ,
+CREATE TABLE t_ebp(	bp_id BIGINT NOT NULL  ,
 	bp_code VARCHAR(254) NOT NULL UNIQUE ,
 	bp_etiquet VARCHAR(254)   ,
 	bp_codeext VARCHAR(254)   ,
@@ -357,7 +357,7 @@ CREATE TABLE t_ebp(	bp_id INTEGER   ,
 	bp_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_ebp_pk" PRIMARY KEY (bp_id));	
 	
-CREATE TABLE t_cassette(	cs_id INTEGER   ,
+CREATE TABLE t_cassette(	cs_id BIGINT NOT NULL  ,
 	cs_code VARCHAR(254)  UNIQUE ,
 	cs_nb_pas INTEGER   ,
 	cs_bp_code VARCHAR(254) NOT NULL  REFERENCES t_ebp (bp_code),
@@ -373,7 +373,7 @@ CREATE TABLE t_cassette(	cs_id INTEGER   ,
 	cs_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_cassette_pk" PRIMARY KEY (cs_id));	
 	
-CREATE TABLE t_cheminement(	cm_id INTEGER   ,
+CREATE TABLE t_cheminement(	cm_id BIGINT NOT NULL  ,
 	cm_code VARCHAR(254) NOT NULL UNIQUE ,
 	cm_codeext VARCHAR(254)   ,
 	cm_ndcode1 VARCHAR(254)   REFERENCES t_noeud(nd_code),
@@ -419,7 +419,7 @@ CREATE TABLE t_cheminement(	cm_id INTEGER   ,
 	geom Geometry(Linestring,2154) NOT NULL  ,
 CONSTRAINT "t_cheminement_pk" PRIMARY KEY (cm_id));	
 	
-CREATE TABLE t_conduite(	cd_id INTEGER   ,
+CREATE TABLE t_conduite(	cd_id BIGINT NOT NULL  ,
 	cd_code VARCHAR(254) NOT NULL UNIQUE ,
 	cd_codeext Varchar(254)   ,
 	cd_etiquet VARCHAR(254)   ,
@@ -461,7 +461,7 @@ CREATE TABLE t_cond_chem(	dm_cd_code VARCHAR(254) NOT NULL  REFERENCES t_conduit
 	dm_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_cond_chem_pk" PRIMARY KEY (dm_cd_code, dm_cm_code));	
 	
-CREATE TABLE t_masque(	mq_id INTEGER NOT NULL  ,
+CREATE TABLE t_masque(	mq_id BIGINT NOT NULL  ,
 	mq_nd_code VARCHAR(254) NOT NULL  REFERENCES t_noeud (nd_code),
 	mq_face VARCHAR(1) NOT NULL  REFERENCES l_masque_face (code),
 	mq_col INTEGER NOT NULL  ,
@@ -476,7 +476,7 @@ CREATE TABLE t_masque(	mq_id INTEGER NOT NULL  ,
 	mq_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_masque_pk" PRIMARY KEY (mq_id));	
 	
-CREATE TABLE t_cable(	cb_id INTEGER   ,
+CREATE TABLE t_cable(	cb_id BIGINT NOT NULL  ,
 	cb_code VARCHAR(254) NOT NULL UNIQUE ,
 	cb_codeext VARCHAR(254)   ,
 	cb_etiquet VARCHAR(254)   ,
@@ -526,7 +526,7 @@ CREATE TABLE t_cab_cond(	cc_cb_code VARCHAR(254) NOT NULL  REFERENCES t_cable(cb
 	cc_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_cab_cond_pk" PRIMARY KEY (cc_cb_code, cc_cd_code));	
 	
-CREATE TABLE t_love(	lv_id INTEGER NOT NULL  ,
+CREATE TABLE t_love(	lv_id BIGINT NOT NULL  ,
 	lv_cb_code VARCHAR(254) NOT NULL  REFERENCES t_cable (cb_code),
 	lv_nd_code VARCHAR(254) NOT NULL  REFERENCES t_noeud (nd_code),
 	lv_long INTEGER   ,
@@ -537,7 +537,7 @@ CREATE TABLE t_love(	lv_id INTEGER NOT NULL  ,
 	lv_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_love_pk" PRIMARY KEY (lv_id));	
 	
-CREATE TABLE t_fibre(	fo_id INTEGER   ,
+CREATE TABLE t_fibre(	fo_id BIGINT NOT NULL  ,
 	fo_code VARCHAR(254) NOT NULL UNIQUE ,
 	fo_code_ext VARCHAR(254)   ,
 	fo_cb_code VARCHAR(254) NOT NULL  REFERENCES t_cable (cb_code),
@@ -557,7 +557,7 @@ CREATE TABLE t_fibre(	fo_id INTEGER   ,
 	fo_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_fibre_pk" PRIMARY KEY (fo_id));	
 	
-CREATE TABLE t_position(	ps_id INTEGER   ,
+CREATE TABLE t_position(	ps_id BIGINT NOT NULL  ,
 	ps_code VARCHAR(254) NOT NULL UNIQUE ,
 	ps_numero INTEGER   ,
 	ps_1 VARCHAR (254)   REFERENCES t_fibre (fo_code),
@@ -576,7 +576,7 @@ CREATE TABLE t_position(	ps_id INTEGER   ,
 	ps_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_position_pk" PRIMARY KEY (ps_id));	
 	
-CREATE TABLE t_ropt(	rt_id INTEGER   ,
+CREATE TABLE t_ropt(	rt_id BIGINT NOT NULL  ,
 	rt_code VARCHAR(254) NOT NULL  ,
 	rt_code_ext VARCHAR(254)   ,
 	rt_fo_code VARCHAR(254)   REFERENCES t_fibre (fo_code),
@@ -588,7 +588,7 @@ CREATE TABLE t_ropt(	rt_id INTEGER   ,
 	rt_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_ropt_pk" PRIMARY KEY (rt_id));	
 	
-CREATE TABLE t_siteemission(	se_id INTEGER NOT NULL  ,
+CREATE TABLE t_siteemission(	se_id BIGINT NOT NULL  ,
 	se_nd_code VARCHAR(254) NOT NULL UNIQUE REFERENCES t_noeud (nd_code),
 	se_anfr VARCHAR(50)   ,
 	se_prop VARCHAR(20)   REFERENCES t_organisme (or_code),
@@ -610,7 +610,7 @@ CREATE TABLE t_siteemission(	se_id INTEGER NOT NULL  ,
 	se_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_siteemission_pk" PRIMARY KEY (se_id));	
 	
-CREATE TABLE t_znro(	zn_id INTEGER   ,
+CREATE TABLE t_znro(	zn_id BIGINT NOT NULL  ,
 	zn_code VARCHAR(254) NOT NULL UNIQUE ,
 	zn_nd_code VARCHAR(254) NOT NULL  REFERENCES t_noeud (nd_code),
 	zn_r1_code VARCHAR(100)   ,
@@ -632,7 +632,7 @@ CREATE TABLE t_znro(	zn_id INTEGER   ,
 	geom geometry(MultiPolygon,2154)   ,
 CONSTRAINT "t_znro_PK" PRIMARY KEY (zn_id));	
 	
-CREATE TABLE t_zsro(	zs_id INTEGER   ,
+CREATE TABLE t_zsro(	zs_id BIGINT NOT NULL  ,
 	zs_code VARCHAR(254) NOT NULL UNIQUE ,
 	zs_nd_code VARCHAR(254) NOT NULL  REFERENCES t_noeud (nd_code),
 	zs_r1_code VARCHAR(100)   ,
@@ -662,7 +662,7 @@ CREATE TABLE t_zsro(	zs_id INTEGER   ,
 	geom geometry(MultiPolygon,2154)   ,
 CONSTRAINT "t_zsro_PK" PRIMARY KEY (zs_id));	
 	
-CREATE TABLE t_zpbo(	zp_id INTEGER   ,
+CREATE TABLE t_zpbo(	zp_id BIGINT NOT NULL  ,
 	zp_code VARCHAR(254) NOT NULL UNIQUE ,
 	zp_nd_code VARCHAR(254) NOT NULL  REFERENCES t_noeud (nd_code),
 	zp_zs_code VARCHAR(254)   REFERENCES t_zsro (zs_code),
@@ -680,7 +680,7 @@ CREATE TABLE t_zpbo(	zp_id INTEGER   ,
 	geom geometry(MultiPolygon,2154)   ,
 CONSTRAINT "t_zpbo_PK" PRIMARY KEY (zp_id));	
 	
-CREATE TABLE t_zdep(	zd_id INTEGER   ,
+CREATE TABLE t_zdep(	zd_id BIGINT NOT NULL  ,
 	zd_code VARCHAR(254) NOT NULL UNIQUE ,
 	zd_nd_code VARCHAR(254)   REFERENCES t_noeud (nd_code),
 	zd_zs_code VARCHAR(254)   REFERENCES t_zsro (zs_code),
@@ -701,7 +701,7 @@ CREATE TABLE t_zdep(	zd_id INTEGER   ,
 	geom geometry(MultiPolygon,2154)   ,
 CONSTRAINT "t_zdep_PK" PRIMARY KEY (zd_id));	
 	
-CREATE TABLE t_zcoax(	zc_id INTEGER   ,
+CREATE TABLE t_zcoax(	zc_id BIGINT NOT NULL  ,
 	zc_code VARCHAR(254) NOT NULL UNIQUE ,
 	zc_codeext VARCHAR(254)   ,
 	zc_nd_code VARCHAR(254)   REFERENCES t_noeud (nd_code),
@@ -722,7 +722,7 @@ CREATE TABLE t_zcoax(	zc_id INTEGER   ,
 	geom geometry(MultiPolygon,2154)   ,
 CONSTRAINT "t_zcoax_PK" PRIMARY KEY (zc_id));	
 	
-CREATE TABLE t_document(	do_id INTEGER NOT NULL  ,
+CREATE TABLE t_document(	do_id BIGINT NOT NULL  ,
 	do_ref VARCHAR(254) NOT NULL UNIQUE ,
 	do_reftier VARCHAR(254)   ,
 	do_type VARCHAR(3)   REFERENCES l_doc_type (code),
@@ -739,7 +739,7 @@ CREATE TABLE t_document(	do_id INTEGER NOT NULL  ,
 	do_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_document_pk" PRIMARY KEY (do_id));	
 	
-CREATE TABLE t_docobj(	od_id INTEGER NOT NULL  ,
+CREATE TABLE t_docobj(	od_id BIGINT NOT NULL  ,
 	od_do_ref VARCHAR(254) NOT NULL  REFERENCES t_document (do_ref),
 	od_tbltype VARCHAR(10) NOT NULL  REFERENCES l_doc_tab (code),
 	od_codeobj VARCHAR(254) NOT NULL  ,
@@ -750,7 +750,7 @@ CREATE TABLE t_docobj(	od_id INTEGER NOT NULL  ,
 	od_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_docobj_pk" PRIMARY KEY (od_id));	
 	
-CREATE TABLE t_empreinte(	em_id INTEGER NOT NULL  ,
+CREATE TABLE t_empreinte(	em_id BIGINT NOT NULL  ,
 	em_code VARCHAR(254)  UNIQUE ,
 	em_do_ref VARCHAR(254) NOT NULL  REFERENCES t_document (do_ref),
 	em_geolsrc VARCHAR(254)   ,

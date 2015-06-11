@@ -2,6 +2,15 @@
 
 ### Changelog
 
+v2-beta1b
+- Quelques corrections sur Demo01. 
+- db_shpcsv : les shapefiles ont maintenant des types d'attributs plus conformes au MCD. 
+- Passage de tous les xx_id en BIGINT. 
+- pt_nature : correction longueur. 
+- cm_cm1 : suppression de la foreign key (trop contraignante, notamment pour les imports)
+- cm_cm2 : suppression de la foreign key (trop contraignante, notamment pour les imports)
+
+
 v2-beta1a
 - db_shpcsv : Ajout d'un jeu de shapefiles et csv vierges (base shp/csv vide). 
 - Demo01 : Ajout d'un jeu de données de démonstration. 
