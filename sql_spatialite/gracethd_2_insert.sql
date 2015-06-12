@@ -1,4 +1,4 @@
-/*GraceTHD v2 beta1a*/
+/*GraceTHD v2 beta1b*/
 /*Insertion des valeurs dans les listes de valeurs*/
 /*Spatialite*/
 

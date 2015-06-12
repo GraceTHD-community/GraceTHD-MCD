@@ -1,4 +1,4 @@
-/*GraceTHD v2 beta1a*/
+/*GraceTHD v2 beta1b*/
 /*Creation des tables qui vont accueillir les listes de valeurs*/
 /*Spatialite*/
 
