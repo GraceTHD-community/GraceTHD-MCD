@@ -5,247 +5,247 @@
     <customproperties/>
     <layer-tree-group expanded="1" checked="Qt::Checked" name="Tables">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_adresse20150529005139564" name="t_adresse">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cond_chem20150612185113887" name="t_cond_chem">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_noeud20150529005139823" name="t_noeud">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_conduite20150612185113900" name="t_conduite">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cable20150529005139783" name="t_cable">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_docobj20150612185113922" name="t_docobj">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cheminement20150529005139804" name="t_cheminement">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_document20150612185113932" name="t_document">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_zcoax20150529005139843" name="t_zcoax">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ebp20150612185113942" name="t_ebp">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_zdep20150529005139863" name="t_zdep">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_empreinte20150612185113955" name="t_empreinte">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_znro20150529005139882" name="t_znro">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cassette20150612185114056" name="t_cassette">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_zpbo20150529005139902" name="t_zpbo">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cheminement20150612185114066" name="t_cheminement">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_zsro20150529005139921" name="t_zsro">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_adresse20150612185114087" name="t_adresse">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_baie20150529005328660" name="t_baie">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_baie20150612185114108" name="t_baie">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cab_cond20150529005328670" name="t_cab_cond">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cab_cond20150612185114132" name="t_cab_cond">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cassette20150529005328679" name="t_cassette">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cable20150612185114142" name="t_cable">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_cond_chem20150529005328688" name="t_cond_chem">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_equipement20150612185114163" name="t_equipement">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_conduite20150529005328697" name="t_conduite">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_fibre20150612185114173" name="t_fibre">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_docobj20150529005328706" name="t_docobj">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_love20150612185114184" name="t_love">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_document20150529005328716" name="t_document">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ltech20150612185114193" name="t_ltech">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ebp20150529005328725" name="t_ebp">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_masque20150612185114206" name="t_masque">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_empreinte20150529005328734" name="t_empreinte">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_noeud20150612185114216" name="t_noeud">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_equipement20150529005328743" name="t_equipement">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_organisme20150612185114236" name="t_organisme">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_fibre20150529005328752" name="t_fibre">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_position20150612185114245" name="t_position">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_love20150529005328762" name="t_love">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ptech20150612185114257" name="t_ptech">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ltech20150529005328770" name="t_ltech">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_reference20150612185114276" name="t_reference">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_masque20150529005328780" name="t_masque">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ropt20150612185114292" name="t_ropt">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_organisme20150529005328789" name="t_organisme">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_siteemission20150612185114310" name="t_siteemission">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_position20150529005328798" name="t_position">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_sitetech20150612185114320" name="t_sitetech">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ptech20150529005328808" name="t_ptech">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_suf20150612185114330" name="t_suf">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_reference20150529005328818" name="t_reference">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_tiroir20150612185114342" name="t_tiroir">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_ropt20150529005328827" name="t_ropt">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_zcoax20150612185114351" name="t_zcoax">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_siteemission20150529005328836" name="t_siteemission">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_zdep20150612185114372" name="t_zdep">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_sitetech20150529005328845" name="t_sitetech">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_znro20150612185114393" name="t_znro">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_suf20150529005328854" name="t_suf">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_zpbo20150612185114414" name="t_zpbo">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_tiroir20150529005328863" name="t_tiroir">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="t_zsro20150612185114434" name="t_zsro">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
-    <layer-tree-group expanded="0" checked="Qt::Checked" name="Lists">
+    <layer-tree-group expanded="1" checked="Qt::Checked" name="Lists">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_adresse_etat20150529005157467" name="l_adresse_etat">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_adresse_etat20150612185113292" name="l_adresse_etat">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_baie_type20150529005157528" name="l_baie_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_baie_type20150612185113399" name="l_baie_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_racco20150529005157537" name="l_bp_racco">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_racco20150612185113410" name="l_bp_racco">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_type_log20150529005157546" name="l_bp_type_log">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_type_log20150612185113420" name="l_bp_type_log">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_type_phy20150529005157556" name="l_bp_type_phy">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_bp_type_phy20150612185113429" name="l_bp_type_phy">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_cable_type20150529005157565" name="l_cable_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_cable_type20150612185113467" name="l_cable_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_cassette_type20150529005157575" name="l_cassette_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_cassette_type20150612185113476" name="l_cassette_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_clim_type20150529005157584" name="l_clim_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_clim_type20150612185113487" name="l_clim_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_conduite_type20150529005157594" name="l_conduite_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_conduite_type20150612185113496" name="l_conduite_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_doc_tab20150529005157603" name="l_doc_tab">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_doc_tab20150612185113506" name="l_doc_tab">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_doc_type20150529005157613" name="l_doc_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_doc_type20150612185113516" name="l_doc_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_etat_type20150529005157622" name="l_etat_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_etat_type20150612185113526" name="l_etat_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_fo_color20150529005157633" name="l_fo_color">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_fo_color20150612185113537" name="l_fo_color">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_fo_type20150529005157642" name="l_fo_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_fo_type20150612185113546" name="l_fo_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_geoloc_classe20150529005157651" name="l_geoloc_classe">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_geoloc_classe20150612185113556" name="l_geoloc_classe">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_geoloc_mode20150529005157663" name="l_geoloc_mode">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_geoloc_mode20150612185113566" name="l_geoloc_mode">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_immeuble_type20150529005157673" name="l_immeuble_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_immeuble_type20150612185113575" name="l_immeuble_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_implantation_type20150529005157684" name="l_implantation_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_implantation_type20150612185113585" name="l_implantation_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_infra_nature20150529005157696" name="l_infra_nature">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_infra_nature20150612185113595" name="l_infra_nature">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_infra_type_log20150529005157711" name="l_infra_type_log">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_infra_type_log20150612185113605" name="l_infra_type_log">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_masque_face20150529005157721" name="l_masque_face">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_masque_face20150612185113614" name="l_masque_face">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_noeud_type20150529005157732" name="l_noeud_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_noeud_type20150612185113624" name="l_noeud_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_nro_etat20150529005157742" name="l_nro_etat">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_nro_etat20150612185113633" name="l_nro_etat">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_nro_type20150529005157752" name="l_nro_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_nro_type20150612185113643" name="l_nro_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_occupation_type20150529005157765" name="l_occupation_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_occupation_type20150612185113653" name="l_occupation_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_passage_type20150529005157776" name="l_passage_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_passage_type20150612185113663" name="l_passage_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_pose_type20150529005157785" name="l_pose_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_pose_type20150612185113673" name="l_pose_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_position_fonction20150529005157795" name="l_position_fonction">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_position_fonction20150612185113683" name="l_position_fonction">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_position_type20150529005157805" name="l_position_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_position_type20150612185113692" name="l_position_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_propriete_type20150529005157814" name="l_propriete_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_propriete_type20150612185113702" name="l_propriete_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_nature20150529005157823" name="l_ptech_nature">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_nature20150612185113712" name="l_ptech_nature">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_type_log20150529005157832" name="l_ptech_type_log">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_type_log20150612185113722" name="l_ptech_type_log">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_type_phy20150529005157841" name="l_ptech_type_phy">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_ptech_type_phy20150612185113731" name="l_ptech_type_phy">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_qualite_info20150529005157851" name="l_qualite_info">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_qualite_info20150612185113741" name="l_qualite_info">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_reference_etat20150529005157860" name="l_reference_etat">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_reference_etat20150612185113751" name="l_reference_etat">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_reference_type20150529005157869" name="l_reference_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_reference_type20150612185113761" name="l_reference_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_emission_type20150529005157878" name="l_site_emission_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_emission_type20150612185113771" name="l_site_emission_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type_log20150529005157887" name="l_site_type_log">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type_log20150612185113780" name="l_site_type_log">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type_phy20150529005157896" name="l_site_type_phy">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_site_type_phy20150612185113790" name="l_site_type_phy">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_sro_emplacement20150529005157907" name="l_sro_emplacement">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_sro_emplacement20150612185113800" name="l_sro_emplacement">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_sro_etat20150529005157917" name="l_sro_etat">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_sro_etat20150612185113810" name="l_sro_etat">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_statut20150529005157926" name="l_statut">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_statut20150612185113819" name="l_statut">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_suf_racco20150529005157936" name="l_suf_racco">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_suf_racco20150612185113828" name="l_suf_racco">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_suf_type20150529005157946" name="l_suf_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_suf_type20150612185113838" name="l_suf_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_technologie_type20150529005157955" name="l_technologie_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_technologie_type20150612185113848" name="l_technologie_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tiroir_type20150529005157964" name="l_tiroir_type">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tiroir_type20150612185113857" name="l_tiroir_type">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tube20150529005157973" name="l_tube">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_tube20150612185113867" name="l_tube">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_zone_densite20150529005157982" name="l_zone_densite">
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_zone_densite20150612185113877" name="l_zone_densite">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
@@ -274,512 +274,522 @@
       </spatialrefsys>
     </destinationsrs>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_adresse20150529005139564"/>
-      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_zcoax20150529005139843"/>
-      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_cheminement20150529005139804"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_zsro20150612185114434"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_empreinte20150612185113955"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_zdep20150529005139863"/>
-      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_zpbo20150529005139902"/>
-      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_cable20150529005139783"/>
-      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_znro20150529005139882"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_noeud20150529005139823"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_zcoax20150612185114351"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_cable20150529005139783"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_znro20150612185114393"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_zcoax20150529005139843"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_znro20150529005139882"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_adresse20150612185114087"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_zpbo20150612185114414"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_cheminement20150612185114066"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_zpbo20150529005139902"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_cable20150612185114142"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_zdep20150612185114372"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_cheminement20150529005139804"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_noeud20150612185114216"/>
+      <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_adresse20150529005139564"/>
       <layer_coordinate_transform destAuthId="EPSG:2154" srcAuthId="EPSG:2154" srcDatumTransform="-1" destDatumTransform="-1" layerid="t_zsro20150529005139921"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <visibility-presets/>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>t_adresse20150529005139564</item>
-      <item>t_cable20150529005139783</item>
-      <item>t_cheminement20150529005139804</item>
-      <item>t_noeud20150529005139823</item>
-      <item>t_zcoax20150529005139843</item>
-      <item>t_zdep20150529005139863</item>
-      <item>t_znro20150529005139882</item>
-      <item>t_zpbo20150529005139902</item>
-      <item>t_zsro20150529005139921</item>
-      <item>l_adresse_etat20150529005157467</item>
-      <item>l_baie_type20150529005157528</item>
-      <item>l_bp_racco20150529005157537</item>
-      <item>l_bp_type_log20150529005157546</item>
-      <item>l_bp_type_phy20150529005157556</item>
-      <item>l_cable_type20150529005157565</item>
-      <item>l_cassette_type20150529005157575</item>
-      <item>l_clim_type20150529005157584</item>
-      <item>l_conduite_type20150529005157594</item>
-      <item>l_doc_tab20150529005157603</item>
-      <item>l_doc_type20150529005157613</item>
-      <item>l_etat_type20150529005157622</item>
-      <item>l_fo_color20150529005157633</item>
-      <item>l_fo_type20150529005157642</item>
-      <item>l_geoloc_classe20150529005157651</item>
-      <item>l_geoloc_mode20150529005157663</item>
-      <item>l_immeuble_type20150529005157673</item>
-      <item>l_implantation_type20150529005157684</item>
-      <item>l_infra_nature20150529005157696</item>
-      <item>l_infra_type_log20150529005157711</item>
-      <item>l_masque_face20150529005157721</item>
-      <item>l_noeud_type20150529005157732</item>
-      <item>l_nro_etat20150529005157742</item>
-      <item>l_nro_type20150529005157752</item>
-      <item>l_occupation_type20150529005157765</item>
-      <item>l_passage_type20150529005157776</item>
-      <item>l_pose_type20150529005157785</item>
-      <item>l_position_fonction20150529005157795</item>
-      <item>l_position_type20150529005157805</item>
-      <item>l_propriete_type20150529005157814</item>
-      <item>l_ptech_nature20150529005157823</item>
-      <item>l_ptech_type_log20150529005157832</item>
-      <item>l_ptech_type_phy20150529005157841</item>
-      <item>l_qualite_info20150529005157851</item>
-      <item>l_reference_etat20150529005157860</item>
-      <item>l_reference_type20150529005157869</item>
-      <item>l_site_emission_type20150529005157878</item>
-      <item>l_site_type_log20150529005157887</item>
-      <item>l_site_type_phy20150529005157896</item>
-      <item>l_sro_emplacement20150529005157907</item>
-      <item>l_sro_etat20150529005157917</item>
-      <item>l_statut20150529005157926</item>
-      <item>l_suf_racco20150529005157936</item>
-      <item>l_suf_type20150529005157946</item>
-      <item>l_technologie_type20150529005157955</item>
-      <item>l_tiroir_type20150529005157964</item>
-      <item>l_tube20150529005157973</item>
-      <item>l_zone_densite20150529005157982</item>
-      <item>t_baie20150529005328660</item>
-      <item>t_cab_cond20150529005328670</item>
-      <item>t_cassette20150529005328679</item>
-      <item>t_cond_chem20150529005328688</item>
-      <item>t_conduite20150529005328697</item>
-      <item>t_docobj20150529005328706</item>
-      <item>t_document20150529005328716</item>
-      <item>t_ebp20150529005328725</item>
-      <item>t_empreinte20150529005328734</item>
-      <item>t_equipement20150529005328743</item>
-      <item>t_fibre20150529005328752</item>
-      <item>t_love20150529005328762</item>
-      <item>t_ltech20150529005328770</item>
-      <item>t_masque20150529005328780</item>
-      <item>t_organisme20150529005328789</item>
-      <item>t_position20150529005328798</item>
-      <item>t_ptech20150529005328808</item>
-      <item>t_reference20150529005328818</item>
-      <item>t_ropt20150529005328827</item>
-      <item>t_siteemission20150529005328836</item>
-      <item>t_sitetech20150529005328845</item>
-      <item>t_suf20150529005328854</item>
-      <item>t_tiroir20150529005328863</item>
+      <item>l_adresse_etat20150612185113292</item>
+      <item>l_baie_type20150612185113399</item>
+      <item>l_bp_racco20150612185113410</item>
+      <item>l_bp_type_log20150612185113420</item>
+      <item>l_bp_type_phy20150612185113429</item>
+      <item>l_cable_type20150612185113467</item>
+      <item>l_cassette_type20150612185113476</item>
+      <item>l_clim_type20150612185113487</item>
+      <item>l_conduite_type20150612185113496</item>
+      <item>l_doc_tab20150612185113506</item>
+      <item>l_doc_type20150612185113516</item>
+      <item>l_etat_type20150612185113526</item>
+      <item>l_fo_color20150612185113537</item>
+      <item>l_fo_type20150612185113546</item>
+      <item>l_geoloc_classe20150612185113556</item>
+      <item>l_geoloc_mode20150612185113566</item>
+      <item>l_immeuble_type20150612185113575</item>
+      <item>l_implantation_type20150612185113585</item>
+      <item>l_infra_nature20150612185113595</item>
+      <item>l_infra_type_log20150612185113605</item>
+      <item>l_masque_face20150612185113614</item>
+      <item>l_noeud_type20150612185113624</item>
+      <item>l_nro_etat20150612185113633</item>
+      <item>l_nro_type20150612185113643</item>
+      <item>l_occupation_type20150612185113653</item>
+      <item>l_passage_type20150612185113663</item>
+      <item>l_pose_type20150612185113673</item>
+      <item>l_position_fonction20150612185113683</item>
+      <item>l_position_type20150612185113692</item>
+      <item>l_propriete_type20150612185113702</item>
+      <item>l_ptech_nature20150612185113712</item>
+      <item>l_ptech_type_log20150612185113722</item>
+      <item>l_ptech_type_phy20150612185113731</item>
+      <item>l_qualite_info20150612185113741</item>
+      <item>l_reference_etat20150612185113751</item>
+      <item>l_reference_type20150612185113761</item>
+      <item>l_site_emission_type20150612185113771</item>
+      <item>l_site_type_log20150612185113780</item>
+      <item>l_site_type_phy20150612185113790</item>
+      <item>l_sro_emplacement20150612185113800</item>
+      <item>l_sro_etat20150612185113810</item>
+      <item>l_statut20150612185113819</item>
+      <item>l_suf_racco20150612185113828</item>
+      <item>l_suf_type20150612185113838</item>
+      <item>l_technologie_type20150612185113848</item>
+      <item>l_tiroir_type20150612185113857</item>
+      <item>l_tube20150612185113867</item>
+      <item>l_zone_densite20150612185113877</item>
+      <item>t_cond_chem20150612185113887</item>
+      <item>t_conduite20150612185113900</item>
+      <item>t_docobj20150612185113922</item>
+      <item>t_document20150612185113932</item>
+      <item>t_ebp20150612185113942</item>
+      <item>t_empreinte20150612185113955</item>
+      <item>t_cassette20150612185114056</item>
+      <item>t_cheminement20150612185114066</item>
+      <item>t_adresse20150612185114087</item>
+      <item>t_baie20150612185114108</item>
+      <item>t_cab_cond20150612185114132</item>
+      <item>t_cable20150612185114142</item>
+      <item>t_equipement20150612185114163</item>
+      <item>t_fibre20150612185114173</item>
+      <item>t_love20150612185114184</item>
+      <item>t_ltech20150612185114193</item>
+      <item>t_masque20150612185114206</item>
+      <item>t_noeud20150612185114216</item>
+      <item>t_organisme20150612185114236</item>
+      <item>t_position20150612185114245</item>
+      <item>t_ptech20150612185114257</item>
+      <item>t_reference20150612185114276</item>
+      <item>t_ropt20150612185114292</item>
+      <item>t_siteemission20150612185114310</item>
+      <item>t_sitetech20150612185114320</item>
+      <item>t_suf20150612185114330</item>
+      <item>t_tiroir20150612185114342</item>
+      <item>t_zcoax20150612185114351</item>
+      <item>t_zdep20150612185114372</item>
+      <item>t_znro20150612185114393</item>
+      <item>t_zpbo20150612185114414</item>
+      <item>t_zsro20150612185114434</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
     <legendgroup open="true" checked="Qt::Checked" name="Tables">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_adresse" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_adresse20150529005139564" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_noeud" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_noeud20150529005139823" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_cable" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_cable20150529005139783" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_cheminement" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_cheminement20150529005139804" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_zcoax" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_zcoax20150529005139843" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_zdep" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_zdep20150529005139863" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_znro" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_znro20150529005139882" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_zpbo" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_zpbo20150529005139902" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_zsro" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_zsro20150529005139921" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_baie" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_baie20150529005328660" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_cab_cond" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_cab_cond20150529005328670" visible="1"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_cassette" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_cassette20150529005328679" visible="1"/>
-        </filegroup>
-      </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_cond_chem" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_cond_chem20150529005328688" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_cond_chem20150612185113887" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_conduite" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_conduite20150529005328697" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_conduite20150612185113900" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_docobj" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_docobj20150529005328706" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_docobj20150612185113922" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_document" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_document20150529005328716" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_document20150612185113932" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_ebp" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_ebp20150529005328725" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_ebp20150612185113942" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_empreinte" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_empreinte20150529005328734" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_empreinte20150612185113955" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_cassette" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="t_cassette20150612185114056" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_cheminement" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="t_cheminement20150612185114066" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_adresse" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="t_adresse20150612185114087" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_baie" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="t_baie20150612185114108" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_cab_cond" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="t_cab_cond20150612185114132" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_cable" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="t_cable20150612185114142" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_equipement" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_equipement20150529005328743" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_equipement20150612185114163" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_fibre" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_fibre20150529005328752" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_fibre20150612185114173" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_love" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_love20150529005328762" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_love20150612185114184" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_ltech" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_ltech20150529005328770" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_ltech20150612185114193" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_masque" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_masque20150529005328780" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_masque20150612185114206" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_noeud" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="t_noeud20150612185114216" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_organisme" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_organisme20150529005328789" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_organisme20150612185114236" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_position" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_position20150529005328798" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_position20150612185114245" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_ptech" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_ptech20150529005328808" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_ptech20150612185114257" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_reference" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_reference20150529005328818" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_reference20150612185114276" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_ropt" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_ropt20150529005328827" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_ropt20150612185114292" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_siteemission" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_siteemission20150529005328836" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_siteemission20150612185114310" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_sitetech" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_sitetech20150529005328845" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_sitetech20150612185114320" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_suf" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_suf20150529005328854" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_suf20150612185114330" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_tiroir" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="t_tiroir20150529005328863" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="t_tiroir20150612185114342" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_zcoax" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="t_zcoax20150612185114351" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_zdep" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="t_zdep20150612185114372" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_znro" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="t_znro20150612185114393" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_zpbo" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="t_zpbo20150612185114414" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="t_zsro" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="t_zsro20150612185114434" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
-    <legendgroup open="false" checked="Qt::Checked" name="Lists">
+    <legendgroup open="true" checked="Qt::Checked" name="Lists">
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_adresse_etat" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_adresse_etat20150529005157467" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_adresse_etat20150612185113292" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_baie_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_baie_type20150529005157528" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_baie_type20150612185113399" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_bp_racco" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_bp_racco20150529005157537" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_bp_racco20150612185113410" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_bp_type_log" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_bp_type_log20150529005157546" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_bp_type_log20150612185113420" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_bp_type_phy" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_bp_type_phy20150529005157556" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_bp_type_phy20150612185113429" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_cable_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_cable_type20150529005157565" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_cable_type20150612185113467" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_cassette_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_cassette_type20150529005157575" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_cassette_type20150612185113476" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_clim_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_clim_type20150529005157584" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_clim_type20150612185113487" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_conduite_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_conduite_type20150529005157594" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_conduite_type20150612185113496" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_doc_tab" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_doc_tab20150529005157603" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_doc_tab20150612185113506" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_doc_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_doc_type20150529005157613" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_doc_type20150612185113516" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_etat_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_etat_type20150529005157622" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_etat_type20150612185113526" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_fo_color" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_fo_color20150529005157633" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_fo_color20150612185113537" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_fo_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_fo_type20150529005157642" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_fo_type20150612185113546" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_geoloc_classe" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_geoloc_classe20150529005157651" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_geoloc_classe20150612185113556" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_geoloc_mode" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_geoloc_mode20150529005157663" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_geoloc_mode20150612185113566" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_immeuble_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_immeuble_type20150529005157673" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_immeuble_type20150612185113575" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_implantation_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_implantation_type20150529005157684" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_implantation_type20150612185113585" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_infra_nature" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_infra_nature20150529005157696" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_infra_nature20150612185113595" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_infra_type_log" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_infra_type_log20150529005157711" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_infra_type_log20150612185113605" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_masque_face" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_masque_face20150529005157721" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_masque_face20150612185113614" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_noeud_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_noeud_type20150529005157732" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_noeud_type20150612185113624" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_nro_etat" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_nro_etat20150529005157742" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_nro_etat20150612185113633" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_nro_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_nro_type20150529005157752" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_nro_type20150612185113643" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_occupation_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_occupation_type20150529005157765" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_occupation_type20150612185113653" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_passage_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_passage_type20150529005157776" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_passage_type20150612185113663" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_pose_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_pose_type20150529005157785" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_pose_type20150612185113673" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_position_fonction" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_position_fonction20150529005157795" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_position_fonction20150612185113683" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_position_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_position_type20150529005157805" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_position_type20150612185113692" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_propriete_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_propriete_type20150529005157814" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_propriete_type20150612185113702" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_ptech_nature" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_ptech_nature20150529005157823" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_ptech_nature20150612185113712" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_ptech_type_log" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_ptech_type_log20150529005157832" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_ptech_type_log20150612185113722" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_ptech_type_phy" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_ptech_type_phy20150529005157841" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_ptech_type_phy20150612185113731" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_qualite_info" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_qualite_info20150529005157851" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_qualite_info20150612185113741" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_reference_etat" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_reference_etat20150529005157860" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_reference_etat20150612185113751" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_reference_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_reference_type20150529005157869" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_reference_type20150612185113761" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_site_emission_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_site_emission_type20150529005157878" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_site_emission_type20150612185113771" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_site_type_log" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_site_type_log20150529005157887" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_site_type_log20150612185113780" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_site_type_phy" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_site_type_phy20150529005157896" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_site_type_phy20150612185113790" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_sro_emplacement" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_sro_emplacement20150529005157907" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_sro_emplacement20150612185113800" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_sro_etat" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_sro_etat20150529005157917" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_sro_etat20150612185113810" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_statut" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_statut20150529005157926" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_statut20150612185113819" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_suf_racco" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_suf_racco20150529005157936" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_suf_racco20150612185113828" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_suf_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_suf_type20150529005157946" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_suf_type20150612185113838" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_technologie_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_technologie_type20150529005157955" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_technologie_type20150612185113848" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_tiroir_type" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_tiroir_type20150529005157964" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_tiroir_type20150612185113857" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_tube" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_tube20150529005157973" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_tube20150612185113867" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_zone_densite" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="l_zone_densite20150529005157982" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="l_zone_densite20150612185113877" visible="1"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
   </legend>
   <projectlayers layercount="80">
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_adresse_etat20150529005157467</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_adresse_etat" sql=</datasource>
+      <id>l_adresse_etat20150612185113292</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_adresse_etat" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -799,7 +809,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -838,8 +848,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_baie_type20150529005157528</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_baie_type" sql=</datasource>
+      <id>l_baie_type20150612185113399</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_baie_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -859,7 +869,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -898,8 +908,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_bp_racco20150529005157537</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_bp_racco" sql=</datasource>
+      <id>l_bp_racco20150612185113410</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_bp_racco" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -919,7 +929,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -958,8 +968,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_bp_type_log20150529005157546</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_bp_type_log" sql=</datasource>
+      <id>l_bp_type_log20150612185113420</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_bp_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -979,7 +989,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1018,8 +1028,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_bp_type_phy20150529005157556</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_bp_type_phy" sql=</datasource>
+      <id>l_bp_type_phy20150612185113429</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_bp_type_phy" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1039,7 +1049,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1078,8 +1088,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_cable_type20150529005157565</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_cable_type" sql=</datasource>
+      <id>l_cable_type20150612185113467</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_cable_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1099,7 +1109,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1138,8 +1148,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_cassette_type20150529005157575</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_cassette_type" sql=</datasource>
+      <id>l_cassette_type20150612185113476</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_cassette_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1159,7 +1169,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1198,8 +1208,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_clim_type20150529005157584</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_clim_type" sql=</datasource>
+      <id>l_clim_type20150612185113487</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_clim_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1219,7 +1229,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1258,8 +1268,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_conduite_type20150529005157594</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_conduite_type" sql=</datasource>
+      <id>l_conduite_type20150612185113496</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_conduite_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1279,7 +1289,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1318,8 +1328,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_doc_tab20150529005157603</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_doc_tab" sql=</datasource>
+      <id>l_doc_tab20150612185113506</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_doc_tab" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1339,7 +1349,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1378,8 +1388,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_doc_type20150529005157613</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_doc_type" sql=</datasource>
+      <id>l_doc_type20150612185113516</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_doc_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1399,7 +1409,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1438,8 +1448,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_etat_type20150529005157622</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_etat_type" sql=</datasource>
+      <id>l_etat_type20150612185113526</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_etat_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1459,7 +1469,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1498,8 +1508,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_fo_color20150529005157633</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_fo_color" sql=</datasource>
+      <id>l_fo_color20150612185113537</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_fo_color" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1519,7 +1529,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1558,8 +1568,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_fo_type20150529005157642</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_fo_type" sql=</datasource>
+      <id>l_fo_type20150612185113546</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_fo_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1579,7 +1589,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1618,8 +1628,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_geoloc_classe20150529005157651</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_geoloc_classe" sql=</datasource>
+      <id>l_geoloc_classe20150612185113556</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_geoloc_classe" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1639,7 +1649,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1678,8 +1688,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_geoloc_mode20150529005157663</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_geoloc_mode" sql=</datasource>
+      <id>l_geoloc_mode20150612185113566</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_geoloc_mode" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1699,7 +1709,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1738,8 +1748,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_immeuble_type20150529005157673</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_immeuble_type" sql=</datasource>
+      <id>l_immeuble_type20150612185113575</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_immeuble_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1759,7 +1769,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1798,8 +1808,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_implantation_type20150529005157684</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_implantation_type" sql=</datasource>
+      <id>l_implantation_type20150612185113585</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_implantation_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1819,7 +1829,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1858,8 +1868,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_infra_nature20150529005157696</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_infra_nature" sql=</datasource>
+      <id>l_infra_nature20150612185113595</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_infra_nature" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1879,7 +1889,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1918,8 +1928,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_infra_type_log20150529005157711</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_infra_type_log" sql=</datasource>
+      <id>l_infra_type_log20150612185113605</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_infra_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1939,7 +1949,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -1978,8 +1988,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_masque_face20150529005157721</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_masque_face" sql=</datasource>
+      <id>l_masque_face20150612185113614</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_masque_face" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1999,7 +2009,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2038,8 +2048,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_noeud_type20150529005157732</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_noeud_type" sql=</datasource>
+      <id>l_noeud_type20150612185113624</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_noeud_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2059,7 +2069,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2098,8 +2108,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_nro_etat20150529005157742</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_nro_etat" sql=</datasource>
+      <id>l_nro_etat20150612185113633</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_nro_etat" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2119,7 +2129,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2158,8 +2168,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_nro_type20150529005157752</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_nro_type" sql=</datasource>
+      <id>l_nro_type20150612185113643</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_nro_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2179,7 +2189,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2218,8 +2228,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_occupation_type20150529005157765</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_occupation_type" sql=</datasource>
+      <id>l_occupation_type20150612185113653</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_occupation_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2239,7 +2249,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2278,8 +2288,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_passage_type20150529005157776</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_passage_type" sql=</datasource>
+      <id>l_passage_type20150612185113663</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_passage_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2299,7 +2309,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2338,8 +2348,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_pose_type20150529005157785</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_pose_type" sql=</datasource>
+      <id>l_pose_type20150612185113673</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_pose_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2359,7 +2369,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2398,8 +2408,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_position_fonction20150529005157795</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_position_fonction" sql=</datasource>
+      <id>l_position_fonction20150612185113683</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_position_fonction" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2419,7 +2429,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2458,8 +2468,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_position_type20150529005157805</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_position_type" sql=</datasource>
+      <id>l_position_type20150612185113692</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_position_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2479,7 +2489,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2518,8 +2528,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_propriete_type20150529005157814</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_propriete_type" sql=</datasource>
+      <id>l_propriete_type20150612185113702</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_propriete_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2539,7 +2549,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2578,8 +2588,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_ptech_nature20150529005157823</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_ptech_nature" sql=</datasource>
+      <id>l_ptech_nature20150612185113712</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_ptech_nature" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2599,7 +2609,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2638,8 +2648,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_ptech_type_log20150529005157832</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_ptech_type_log" sql=</datasource>
+      <id>l_ptech_type_log20150612185113722</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_ptech_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2659,7 +2669,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2698,8 +2708,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_ptech_type_phy20150529005157841</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_ptech_type_phy" sql=</datasource>
+      <id>l_ptech_type_phy20150612185113731</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_ptech_type_phy" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2719,7 +2729,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2758,8 +2768,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_qualite_info20150529005157851</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_qualite_info" sql=</datasource>
+      <id>l_qualite_info20150612185113741</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_qualite_info" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2779,7 +2789,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2818,8 +2828,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_reference_etat20150529005157860</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_reference_etat" sql=</datasource>
+      <id>l_reference_etat20150612185113751</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_reference_etat" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2839,7 +2849,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2878,8 +2888,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_reference_type20150529005157869</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_reference_type" sql=</datasource>
+      <id>l_reference_type20150612185113761</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_reference_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2899,7 +2909,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2938,8 +2948,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_site_emission_type20150529005157878</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_site_emission_type" sql=</datasource>
+      <id>l_site_emission_type20150612185113771</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_site_emission_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2959,7 +2969,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -2998,8 +3008,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_site_type_log20150529005157887</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_site_type_log" sql=</datasource>
+      <id>l_site_type_log20150612185113780</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_site_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3019,7 +3029,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -3058,8 +3068,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_site_type_phy20150529005157896</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_site_type_phy" sql=</datasource>
+      <id>l_site_type_phy20150612185113790</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_site_type_phy" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3079,7 +3089,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -3118,8 +3128,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_sro_emplacement20150529005157907</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_sro_emplacement" sql=</datasource>
+      <id>l_sro_emplacement20150612185113800</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_sro_emplacement" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3139,7 +3149,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -3178,8 +3188,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_sro_etat20150529005157917</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_sro_etat" sql=</datasource>
+      <id>l_sro_etat20150612185113810</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_sro_etat" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3199,7 +3209,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -3238,8 +3248,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_statut20150529005157926</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_statut" sql=</datasource>
+      <id>l_statut20150612185113819</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_statut" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3259,7 +3269,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -3298,8 +3308,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_suf_racco20150529005157936</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_suf_racco" sql=</datasource>
+      <id>l_suf_racco20150612185113828</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_suf_racco" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3319,7 +3329,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -3358,8 +3368,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_suf_type20150529005157946</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_suf_type" sql=</datasource>
+      <id>l_suf_type20150612185113838</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_suf_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3379,7 +3389,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -3418,8 +3428,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_technologie_type20150529005157955</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_technologie_type" sql=</datasource>
+      <id>l_technologie_type20150612185113848</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_technologie_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3439,7 +3449,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -3478,8 +3488,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_tiroir_type20150529005157964</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_tiroir_type" sql=</datasource>
+      <id>l_tiroir_type20150612185113857</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_tiroir_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3499,7 +3509,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -3538,8 +3548,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_tube20150529005157973</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_tube" sql=</datasource>
+      <id>l_tube20150612185113867</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_tube" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3559,7 +3569,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -3598,8 +3608,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>l_zone_densite20150529005157982</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="l_zone_densite" sql=</datasource>
+      <id>l_zone_densite20150612185113877</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="l_zone_densite" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3619,7 +3629,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -3658,8 +3668,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>t_adresse20150529005139564</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_adresse" (geom) sql=</datasource>
+      <id>t_adresse20150612185114087</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_adresse" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3678,7 +3688,7 @@
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -3773,7 +3783,7 @@
         <edittype widgetv2type="TextEdit" name="ad_racc">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="ad_baticode">
+        <edittype widgetv2type="TextEdit" name="ad_batcode">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="ad_nombat">
@@ -3836,7 +3846,7 @@
           <symbol alpha="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="182,109,194,255"/>
+              <prop k="color" v="152,64,149,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -3980,7 +3990,7 @@
         <edittype widgetv2type="TextEdit" name="ad_racc">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="ad_baticode">
+        <edittype widgetv2type="TextEdit" name="ad_batcode">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="ad_nombat">
@@ -4040,8 +4050,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_baie20150529005328660</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_baie" sql=</datasource>
+      <id>t_baie20150612185114108</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_baie" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -4061,7 +4071,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -4220,8 +4230,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_cab_cond20150529005328670</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_cab_cond" sql=</datasource>
+      <id>t_cab_cond20150612185114132</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_cab_cond" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -4241,7 +4251,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -4303,9 +4313,9 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>t_cable20150529005139783</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_cable" (geom) sql=</datasource>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>t_cable20150612185114142</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_cable" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -4324,7 +4334,7 @@
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -4457,9 +4467,9 @@
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="227,26,28,255"/>
+              <prop k="line_color" v="129,7,204,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="0.66"/>
+              <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
@@ -4472,149 +4482,7 @@
         <rotation/>
         <sizescale scalemethod="area"/>
       </renderer-v2>
-      <customproperties>
-        <property key="labeling" value="pal"/>
-        <property key="labeling/addDirectionSymbol" value="false"/>
-        <property key="labeling/angleOffset" value="0"/>
-        <property key="labeling/blendMode" value="0"/>
-        <property key="labeling/bufferBlendMode" value="0"/>
-        <property key="labeling/bufferColorA" value="255"/>
-        <property key="labeling/bufferColorB" value="255"/>
-        <property key="labeling/bufferColorG" value="255"/>
-        <property key="labeling/bufferColorR" value="255"/>
-        <property key="labeling/bufferDraw" value="false"/>
-        <property key="labeling/bufferJoinStyle" value="64"/>
-        <property key="labeling/bufferNoFill" value="false"/>
-        <property key="labeling/bufferSize" value="1"/>
-        <property key="labeling/bufferSizeInMapUnits" value="false"/>
-        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/bufferTransp" value="0"/>
-        <property key="labeling/centroidInside" value="false"/>
-        <property key="labeling/centroidWhole" value="false"/>
-        <property key="labeling/decimals" value="3"/>
-        <property key="labeling/displayAll" value="false"/>
-        <property key="labeling/dist" value="0"/>
-        <property key="labeling/distInMapUnits" value="false"/>
-        <property key="labeling/distMapUnitMaxScale" value="0"/>
-        <property key="labeling/distMapUnitMinScale" value="0"/>
-        <property key="labeling/enabled" value="false"/>
-        <property key="labeling/fieldName" value=""/>
-        <property key="labeling/fontBold" value="false"/>
-        <property key="labeling/fontCapitals" value="0"/>
-        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
-        <property key="labeling/fontItalic" value="false"/>
-        <property key="labeling/fontLetterSpacing" value="0"/>
-        <property key="labeling/fontLimitPixelSize" value="false"/>
-        <property key="labeling/fontMaxPixelSize" value="10000"/>
-        <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="7.8"/>
-        <property key="labeling/fontSizeInMapUnits" value="false"/>
-        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/fontStrikeout" value="false"/>
-        <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="50"/>
-        <property key="labeling/fontWordSpacing" value="0"/>
-        <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="true"/>
-        <property key="labeling/labelOffsetInMapUnits" value="true"/>
-        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/labelPerPart" value="false"/>
-        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-        <property key="labeling/limitNumLabels" value="false"/>
-        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
-        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
-        <property key="labeling/maxNumLabels" value="2000"/>
-        <property key="labeling/mergeLines" value="false"/>
-        <property key="labeling/minFeatureSize" value="0"/>
-        <property key="labeling/multilineAlign" value="0"/>
-        <property key="labeling/multilineHeight" value="1"/>
-        <property key="labeling/namedStyle" value="Normal"/>
-        <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/placeDirectionSymbol" value="0"/>
-        <property key="labeling/placement" value="2"/>
-        <property key="labeling/placementFlags" value="10"/>
-        <property key="labeling/plussign" value="false"/>
-        <property key="labeling/preserveRotation" value="true"/>
-        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="5"/>
-        <property key="labeling/quadOffset" value="4"/>
-        <property key="labeling/repeatDistance" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
-        <property key="labeling/repeatDistanceUnit" value="1"/>
-        <property key="labeling/reverseDirectionSymbol" value="false"/>
-        <property key="labeling/rightDirectionSymbol" value=">"/>
-        <property key="labeling/scaleMax" value="10000000"/>
-        <property key="labeling/scaleMin" value="1"/>
-        <property key="labeling/scaleVisibility" value="false"/>
-        <property key="labeling/shadowBlendMode" value="6"/>
-        <property key="labeling/shadowColorB" value="0"/>
-        <property key="labeling/shadowColorG" value="0"/>
-        <property key="labeling/shadowColorR" value="0"/>
-        <property key="labeling/shadowDraw" value="false"/>
-        <property key="labeling/shadowOffsetAngle" value="135"/>
-        <property key="labeling/shadowOffsetDist" value="1"/>
-        <property key="labeling/shadowOffsetGlobal" value="true"/>
-        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/shadowOffsetUnits" value="1"/>
-        <property key="labeling/shadowRadius" value="1.5"/>
-        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
-        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
-        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
-        <property key="labeling/shadowRadiusUnits" value="1"/>
-        <property key="labeling/shadowScale" value="100"/>
-        <property key="labeling/shadowTransparency" value="30"/>
-        <property key="labeling/shadowUnder" value="0"/>
-        <property key="labeling/shapeBlendMode" value="0"/>
-        <property key="labeling/shapeBorderColorA" value="255"/>
-        <property key="labeling/shapeBorderColorB" value="128"/>
-        <property key="labeling/shapeBorderColorG" value="128"/>
-        <property key="labeling/shapeBorderColorR" value="128"/>
-        <property key="labeling/shapeBorderWidth" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeBorderWidthUnits" value="1"/>
-        <property key="labeling/shapeDraw" value="false"/>
-        <property key="labeling/shapeFillColorA" value="255"/>
-        <property key="labeling/shapeFillColorB" value="255"/>
-        <property key="labeling/shapeFillColorG" value="255"/>
-        <property key="labeling/shapeFillColorR" value="255"/>
-        <property key="labeling/shapeJoinStyle" value="64"/>
-        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeOffsetUnits" value="1"/>
-        <property key="labeling/shapeOffsetX" value="0"/>
-        <property key="labeling/shapeOffsetY" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeRadiiUnits" value="1"/>
-        <property key="labeling/shapeRadiiX" value="0"/>
-        <property key="labeling/shapeRadiiY" value="0"/>
-        <property key="labeling/shapeRotation" value="0"/>
-        <property key="labeling/shapeRotationType" value="0"/>
-        <property key="labeling/shapeSVGFile" value=""/>
-        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeSizeType" value="0"/>
-        <property key="labeling/shapeSizeUnits" value="1"/>
-        <property key="labeling/shapeSizeX" value="0"/>
-        <property key="labeling/shapeSizeY" value="0"/>
-        <property key="labeling/shapeTransparency" value="0"/>
-        <property key="labeling/shapeType" value="0"/>
-        <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="0"/>
-        <property key="labeling/textColorG" value="0"/>
-        <property key="labeling/textColorR" value="0"/>
-        <property key="labeling/textTransp" value="0"/>
-        <property key="labeling/upsidedownLabels" value="0"/>
-        <property key="labeling/wrapChar" value=""/>
-        <property key="labeling/xOffset" value="0"/>
-        <property key="labeling/yOffset" value="0"/>
-      </customproperties>
+      <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
@@ -4766,8 +4634,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_cassette20150529005328679</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_cassette" sql=</datasource>
+      <id>t_cassette20150612185114056</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_cassette" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -4787,7 +4655,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -4891,9 +4759,9 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>t_cheminement20150529005139804</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_cheminement" (geom) sql=</datasource>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>t_cheminement20150612185114066</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_cheminement" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -4912,7 +4780,7 @@
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -5060,9 +4928,9 @@
               <prop k="customdash_unit" v="MM"/>
               <prop k="draw_inside_polygon" v="0"/>
               <prop k="joinstyle" v="bevel"/>
-              <prop k="line_color" v="152,64,149,255"/>
+              <prop k="line_color" v="104,160,87,255"/>
               <prop k="line_style" v="solid"/>
-              <prop k="line_width" v="1.26"/>
+              <prop k="line_width" v="0.26"/>
               <prop k="line_width_unit" v="MM"/>
               <prop k="offset" v="0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
@@ -5075,149 +4943,7 @@
         <rotation/>
         <sizescale scalemethod="area"/>
       </renderer-v2>
-      <customproperties>
-        <property key="labeling" value="pal"/>
-        <property key="labeling/addDirectionSymbol" value="false"/>
-        <property key="labeling/angleOffset" value="0"/>
-        <property key="labeling/blendMode" value="0"/>
-        <property key="labeling/bufferBlendMode" value="0"/>
-        <property key="labeling/bufferColorA" value="255"/>
-        <property key="labeling/bufferColorB" value="255"/>
-        <property key="labeling/bufferColorG" value="255"/>
-        <property key="labeling/bufferColorR" value="255"/>
-        <property key="labeling/bufferDraw" value="false"/>
-        <property key="labeling/bufferJoinStyle" value="64"/>
-        <property key="labeling/bufferNoFill" value="false"/>
-        <property key="labeling/bufferSize" value="1"/>
-        <property key="labeling/bufferSizeInMapUnits" value="false"/>
-        <property key="labeling/bufferSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/bufferSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/bufferTransp" value="0"/>
-        <property key="labeling/centroidInside" value="false"/>
-        <property key="labeling/centroidWhole" value="false"/>
-        <property key="labeling/decimals" value="3"/>
-        <property key="labeling/displayAll" value="false"/>
-        <property key="labeling/dist" value="0"/>
-        <property key="labeling/distInMapUnits" value="false"/>
-        <property key="labeling/distMapUnitMaxScale" value="0"/>
-        <property key="labeling/distMapUnitMinScale" value="0"/>
-        <property key="labeling/enabled" value="false"/>
-        <property key="labeling/fieldName" value=""/>
-        <property key="labeling/fontBold" value="false"/>
-        <property key="labeling/fontCapitals" value="0"/>
-        <property key="labeling/fontFamily" value="MS Shell Dlg 2"/>
-        <property key="labeling/fontItalic" value="false"/>
-        <property key="labeling/fontLetterSpacing" value="0"/>
-        <property key="labeling/fontLimitPixelSize" value="false"/>
-        <property key="labeling/fontMaxPixelSize" value="10000"/>
-        <property key="labeling/fontMinPixelSize" value="3"/>
-        <property key="labeling/fontSize" value="7.8"/>
-        <property key="labeling/fontSizeInMapUnits" value="false"/>
-        <property key="labeling/fontSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/fontSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/fontStrikeout" value="false"/>
-        <property key="labeling/fontUnderline" value="false"/>
-        <property key="labeling/fontWeight" value="50"/>
-        <property key="labeling/fontWordSpacing" value="0"/>
-        <property key="labeling/formatNumbers" value="false"/>
-        <property key="labeling/isExpression" value="true"/>
-        <property key="labeling/labelOffsetInMapUnits" value="true"/>
-        <property key="labeling/labelOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/labelOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/labelPerPart" value="false"/>
-        <property key="labeling/leftDirectionSymbol" value="&lt;"/>
-        <property key="labeling/limitNumLabels" value="false"/>
-        <property key="labeling/maxCurvedCharAngleIn" value="20"/>
-        <property key="labeling/maxCurvedCharAngleOut" value="-20"/>
-        <property key="labeling/maxNumLabels" value="2000"/>
-        <property key="labeling/mergeLines" value="false"/>
-        <property key="labeling/minFeatureSize" value="0"/>
-        <property key="labeling/multilineAlign" value="0"/>
-        <property key="labeling/multilineHeight" value="1"/>
-        <property key="labeling/namedStyle" value="Normal"/>
-        <property key="labeling/obstacle" value="true"/>
-        <property key="labeling/placeDirectionSymbol" value="0"/>
-        <property key="labeling/placement" value="2"/>
-        <property key="labeling/placementFlags" value="10"/>
-        <property key="labeling/plussign" value="false"/>
-        <property key="labeling/preserveRotation" value="true"/>
-        <property key="labeling/previewBkgrdColor" value="#ffffff"/>
-        <property key="labeling/priority" value="5"/>
-        <property key="labeling/quadOffset" value="4"/>
-        <property key="labeling/repeatDistance" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitMaxScale" value="0"/>
-        <property key="labeling/repeatDistanceMapUnitMinScale" value="0"/>
-        <property key="labeling/repeatDistanceUnit" value="1"/>
-        <property key="labeling/reverseDirectionSymbol" value="false"/>
-        <property key="labeling/rightDirectionSymbol" value=">"/>
-        <property key="labeling/scaleMax" value="10000000"/>
-        <property key="labeling/scaleMin" value="1"/>
-        <property key="labeling/scaleVisibility" value="false"/>
-        <property key="labeling/shadowBlendMode" value="6"/>
-        <property key="labeling/shadowColorB" value="0"/>
-        <property key="labeling/shadowColorG" value="0"/>
-        <property key="labeling/shadowColorR" value="0"/>
-        <property key="labeling/shadowDraw" value="false"/>
-        <property key="labeling/shadowOffsetAngle" value="135"/>
-        <property key="labeling/shadowOffsetDist" value="1"/>
-        <property key="labeling/shadowOffsetGlobal" value="true"/>
-        <property key="labeling/shadowOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/shadowOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/shadowOffsetUnits" value="1"/>
-        <property key="labeling/shadowRadius" value="1.5"/>
-        <property key="labeling/shadowRadiusAlphaOnly" value="false"/>
-        <property key="labeling/shadowRadiusMapUnitMaxScale" value="0"/>
-        <property key="labeling/shadowRadiusMapUnitMinScale" value="0"/>
-        <property key="labeling/shadowRadiusUnits" value="1"/>
-        <property key="labeling/shadowScale" value="100"/>
-        <property key="labeling/shadowTransparency" value="30"/>
-        <property key="labeling/shadowUnder" value="0"/>
-        <property key="labeling/shapeBlendMode" value="0"/>
-        <property key="labeling/shapeBorderColorA" value="255"/>
-        <property key="labeling/shapeBorderColorB" value="128"/>
-        <property key="labeling/shapeBorderColorG" value="128"/>
-        <property key="labeling/shapeBorderColorR" value="128"/>
-        <property key="labeling/shapeBorderWidth" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeBorderWidthMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeBorderWidthUnits" value="1"/>
-        <property key="labeling/shapeDraw" value="false"/>
-        <property key="labeling/shapeFillColorA" value="255"/>
-        <property key="labeling/shapeFillColorB" value="255"/>
-        <property key="labeling/shapeFillColorG" value="255"/>
-        <property key="labeling/shapeFillColorR" value="255"/>
-        <property key="labeling/shapeJoinStyle" value="64"/>
-        <property key="labeling/shapeOffsetMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeOffsetMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeOffsetUnits" value="1"/>
-        <property key="labeling/shapeOffsetX" value="0"/>
-        <property key="labeling/shapeOffsetY" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeRadiiMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeRadiiUnits" value="1"/>
-        <property key="labeling/shapeRadiiX" value="0"/>
-        <property key="labeling/shapeRadiiY" value="0"/>
-        <property key="labeling/shapeRotation" value="0"/>
-        <property key="labeling/shapeRotationType" value="0"/>
-        <property key="labeling/shapeSVGFile" value=""/>
-        <property key="labeling/shapeSizeMapUnitMaxScale" value="0"/>
-        <property key="labeling/shapeSizeMapUnitMinScale" value="0"/>
-        <property key="labeling/shapeSizeType" value="0"/>
-        <property key="labeling/shapeSizeUnits" value="1"/>
-        <property key="labeling/shapeSizeX" value="0"/>
-        <property key="labeling/shapeSizeY" value="0"/>
-        <property key="labeling/shapeTransparency" value="0"/>
-        <property key="labeling/shapeType" value="0"/>
-        <property key="labeling/textColorA" value="255"/>
-        <property key="labeling/textColorB" value="0"/>
-        <property key="labeling/textColorG" value="0"/>
-        <property key="labeling/textColorR" value="0"/>
-        <property key="labeling/textTransp" value="0"/>
-        <property key="labeling/upsidedownLabels" value="0"/>
-        <property key="labeling/wrapChar" value=""/>
-        <property key="labeling/xOffset" value="0"/>
-        <property key="labeling/yOffset" value="0"/>
-      </customproperties>
+      <customproperties/>
       <blendMode>0</blendMode>
       <featureBlendMode>0</featureBlendMode>
       <layerTransparency>0</layerTransparency>
@@ -5384,8 +5110,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_cond_chem20150529005328688</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_cond_chem" sql=</datasource>
+      <id>t_cond_chem20150612185113887</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_cond_chem" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -5405,7 +5131,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -5468,8 +5194,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_conduite20150529005328697</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_conduite" sql=</datasource>
+      <id>t_conduite20150612185113900</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_conduite" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -5489,7 +5215,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -5696,8 +5422,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_docobj20150529005328706</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_docobj" sql=</datasource>
+      <id>t_docobj20150612185113922</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_docobj" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -5717,7 +5443,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -5792,8 +5518,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_document20150529005328716</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_document" sql=</datasource>
+      <id>t_document20150612185113932</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_document" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -5813,7 +5539,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -5924,8 +5650,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_ebp20150529005328725</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_ebp" sql=</datasource>
+      <id>t_ebp20150612185113942</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_ebp" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -5945,7 +5671,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -6157,9 +5883,9 @@
         </edittype>
       </edittypes>
     </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_empreinte20150529005328734</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_empreinte" sql=</datasource>
+    <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
+      <id>t_empreinte20150612185113955</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_empreinte" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6168,18 +5894,17 @@
       <layername>t_empreinte</layername>
       <srs>
         <spatialrefsys>
-          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
-          <srsid>3452</srsid>
-          <srid>4326</srid>
-          <authid>EPSG:4326</authid>
-          <description>WGS 84</description>
-          <projectionacronym>longlat</projectionacronym>
-          <ellipsoidacronym>WGS84</ellipsoidacronym>
-          <geographicflag>true</geographicflag>
+          <proj4>+proj=lcc +lat_1=49 +lat_2=44 +lat_0=46.5 +lon_0=3 +x_0=700000 +y_0=6600000 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>145</srsid>
+          <srid>2154</srid>
+          <authid>EPSG:2154</authid>
+          <description>RGF93 / Lambert-93</description>
+          <projectionacronym>lcc</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
-      <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -6215,6 +5940,53 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
       </edittypes>
+      <renderer-v2 symbollevels="0" type="singleSymbol">
+        <symbols>
+          <symbol alpha="1" type="fill" name="0">
+            <layer pass="0" class="SimpleFill" locked="0">
+              <prop k="border_width_map_unit_scale" v="0,0"/>
+              <prop k="color" v="182,109,194,255"/>
+              <prop k="joinstyle" v="bevel"/>
+              <prop k="offset" v="0,0"/>
+              <prop k="offset_map_unit_scale" v="0,0"/>
+              <prop k="offset_unit" v="MM"/>
+              <prop k="outline_color" v="0,0,0,255"/>
+              <prop k="outline_style" v="solid"/>
+              <prop k="outline_width" v="0.26"/>
+              <prop k="outline_width_unit" v="MM"/>
+              <prop k="style" v="solid"/>
+            </layer>
+          </symbol>
+        </symbols>
+        <rotation/>
+        <sizescale scalemethod="area"/>
+      </renderer-v2>
+      <customproperties/>
+      <blendMode>0</blendMode>
+      <featureBlendMode>0</featureBlendMode>
+      <layerTransparency>0</layerTransparency>
+      <displayfield>em_id</displayfield>
+      <label>0</label>
+      <labelattributes>
+        <label fieldname="" text="Étiquette"/>
+        <family fieldname="" name="MS Shell Dlg 2"/>
+        <size fieldname="" units="pt" value="12"/>
+        <bold fieldname="" on="0"/>
+        <italic fieldname="" on="0"/>
+        <underline fieldname="" on="0"/>
+        <strikeout fieldname="" on="0"/>
+        <color fieldname="" red="0" blue="0" green="0"/>
+        <x fieldname=""/>
+        <y fieldname=""/>
+        <offset x="0" y="0" units="pt" yfieldname="" xfieldname=""/>
+        <angle fieldname="" value="0" auto="0"/>
+        <alignment fieldname="" value="center"/>
+        <buffercolor fieldname="" red="255" blue="255" green="255"/>
+        <buffersize fieldname="" units="pt" value="1"/>
+        <bufferenabled fieldname="" on=""/>
+        <multilineenabled fieldname="" on=""/>
+        <selectedonly on=""/>
+      </labelattributes>
       <editform></editform>
       <editforminit/>
       <featformsuppress>0</featformsuppress>
@@ -6254,8 +6026,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_equipement20150529005328743</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_equipement" sql=</datasource>
+      <id>t_equipement20150612185114163</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_equipement" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6275,7 +6047,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -6380,8 +6152,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_fibre20150529005328752</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_fibre" sql=</datasource>
+      <id>t_fibre20150612185114173</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_fibre" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6401,7 +6173,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -6530,8 +6302,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_love20150529005328762</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_love" sql=</datasource>
+      <id>t_love20150612185114184</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_love" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6551,7 +6323,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -6626,8 +6398,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_ltech20150529005328770</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_ltech" sql=</datasource>
+      <id>t_ltech20150612185114193</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_ltech" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6647,7 +6419,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -6812,8 +6584,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_masque20150529005328780</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_masque" sql=</datasource>
+      <id>t_masque20150612185114206</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_masque" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6833,7 +6605,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -6932,8 +6704,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>t_noeud20150529005139823</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_noeud" (geom) sql=</datasource>
+      <id>t_noeud20150612185114216</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_noeud" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6952,7 +6724,7 @@
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -7035,7 +6807,7 @@
           <symbol alpha="1" type="marker" name="0">
             <layer pass="0" class="SimpleMarker" locked="0">
               <prop k="angle" v="0"/>
-              <prop k="color" v="129,7,204,255"/>
+              <prop k="color" v="207,156,94,255"/>
               <prop k="horizontal_anchor_point" v="1"/>
               <prop k="name" v="circle"/>
               <prop k="offset" v="0,0"/>
@@ -7164,8 +6936,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_organisme20150529005328789</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_organisme" sql=</datasource>
+      <id>t_organisme20150612185114236</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_organisme" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7185,7 +6957,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -7344,8 +7116,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_position20150529005328798</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_position" sql=</datasource>
+      <id>t_position20150612185114245</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_position" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7365,7 +7137,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -7488,8 +7260,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_ptech20150529005328808</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_ptech" sql=</datasource>
+      <id>t_ptech20150612185114257</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_ptech" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7509,7 +7281,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -7728,8 +7500,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_reference20150529005328818</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_reference" sql=</datasource>
+      <id>t_reference20150612185114276</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_reference" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7749,7 +7521,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -7773,6 +7545,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="rf_etat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="rf_comment">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="rf_creadat">
@@ -7818,6 +7593,9 @@
         <edittype widgetv2type="TextEdit" name="rf_etat">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="rf_comment">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="rf_creadat">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -7836,8 +7614,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_ropt20150529005328827</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_ropt" sql=</datasource>
+      <id>t_ropt20150612185114292</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_ropt" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7857,7 +7635,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -7938,8 +7716,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_siteemission20150529005328836</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_siteemission" sql=</datasource>
+      <id>t_siteemission20150612185114310</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_siteemission" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7959,7 +7737,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -8100,8 +7878,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_sitetech20150529005328845</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_sitetech" sql=</datasource>
+      <id>t_sitetech20150612185114320</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_sitetech" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8121,7 +7899,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -8280,8 +8058,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_suf20150529005328854</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_suf" sql=</datasource>
+      <id>t_suf20150612185114330</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_suf" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8301,7 +8079,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -8430,8 +8208,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
-      <id>t_tiroir20150529005328863</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_tiroir" sql=</datasource>
+      <id>t_tiroir20150612185114342</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_tiroir" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8451,7 +8229,7 @@
         </spatialrefsys>
       </srs>
       <customproperties/>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -8580,8 +8358,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>t_zcoax20150529005139843</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_zcoax" (geom) sql=</datasource>
+      <id>t_zcoax20150612185114351</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_zcoax" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8600,7 +8378,7 @@
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -8668,7 +8446,7 @@
           <symbol alpha="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0"/>
-              <prop k="color" v="207,156,94,255"/>
+              <prop k="color" v="233,133,150,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8776,8 +8554,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>t_zdep20150529005139863</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_zdep" (geom) sql=</datasource>
+      <id>t_zdep20150612185114372</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_zdep" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8796,7 +8574,7 @@
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -8864,7 +8642,7 @@
           <symbol alpha="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0"/>
-              <prop k="color" v="233,133,150,255"/>
+              <prop k="color" v="83,158,134,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
@@ -8972,8 +8750,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>t_znro20150529005139882</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_znro" (geom) sql=</datasource>
+      <id>t_znro20150612185114393</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_znro" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8992,7 +8770,7 @@
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -9063,7 +8841,7 @@
           <symbol alpha="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0"/>
-              <prop k="color" v="83,158,134,255"/>
+              <prop k="color" v="77,158,104,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
@@ -9174,8 +8952,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>t_zpbo20150529005139902</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_zpbo" (geom) sql=</datasource>
+      <id>t_zpbo20150612185114414</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_zpbo" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -9194,7 +8972,7 @@
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -9253,7 +9031,7 @@
           <symbol alpha="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0"/>
-              <prop k="color" v="77,158,104,255"/>
+              <prop k="color" v="158,96,145,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
@@ -9352,8 +9130,8 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
-      <id>t_zsro20150529005139921</id>
-      <datasource>dbname='./gracethd_v2_alpha3g.sqlite' table="t_zsro" (geom) sql=</datasource>
+      <id>t_zsro20150612185114434</id>
+      <datasource>dbname='./gracethd_v2_beta1b.sqlite' table="t_zsro" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -9372,7 +9150,7 @@
           <geographicflag>false</geographicflag>
         </spatialrefsys>
       </srs>
-      <provider encoding="UTF-8">spatialite</provider>
+      <provider encoding="windows-1252">spatialite</provider>
       <previewExpression></previewExpression>
       <vectorjoins/>
       <expressionfields/>
@@ -9467,7 +9245,7 @@
           <symbol alpha="1" type="fill" name="0">
             <layer pass="0" class="SimpleFill" locked="0">
               <prop k="border_width_map_unit_scale" v="0,0"/>
-              <prop k="color" v="158,96,145,255"/>
+              <prop k="color" v="205,221,156,255"/>
               <prop k="joinstyle" v="bevel"/>
               <prop k="offset" v="0,0"/>
               <prop k="offset_map_unit_scale" v="0,0"/>
@@ -9624,26 +9402,28 @@
     <Digitizing>
       <DefaultSnapToleranceUnit type="int">2</DefaultSnapToleranceUnit>
       <LayerSnappingList type="QStringList">
-        <value>t_adresse20150529005139564</value>
-        <value>t_cable20150529005139783</value>
-        <value>t_cheminement20150529005139804</value>
-        <value>t_noeud20150529005139823</value>
-        <value>t_zcoax20150529005139843</value>
-        <value>t_zdep20150529005139863</value>
-        <value>t_znro20150529005139882</value>
-        <value>t_zpbo20150529005139902</value>
-        <value>t_zsro20150529005139921</value>
+        <value>t_empreinte20150612185113955</value>
+        <value>t_cheminement20150612185114066</value>
+        <value>t_adresse20150612185114087</value>
+        <value>t_cable20150612185114142</value>
+        <value>t_noeud20150612185114216</value>
+        <value>t_zcoax20150612185114351</value>
+        <value>t_zdep20150612185114372</value>
+        <value>t_znro20150612185114393</value>
+        <value>t_zpbo20150612185114414</value>
+        <value>t_zsro20150612185114434</value>
       </LayerSnappingList>
       <LayerSnappingEnabledList type="QStringList">
-        <value>enabled</value>
-        <value>enabled</value>
-        <value>enabled</value>
-        <value>enabled</value>
-        <value>enabled</value>
-        <value>enabled</value>
-        <value>enabled</value>
-        <value>enabled</value>
-        <value>enabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
+        <value>disabled</value>
       </LayerSnappingEnabledList>
       <SnappingMode type="QString">current_layer</SnappingMode>
       <AvoidIntersectionsList type="QStringList"/>
@@ -9657,21 +9437,24 @@
         <value>2</value>
         <value>2</value>
         <value>2</value>
+        <value>2</value>
       </LayerSnappingToleranceUnitList>
       <LayerSnapToList type="QStringList">
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
-        <value>to_vertex</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
+        <value>to_vertex_and_segment</value>
       </LayerSnapToList>
       <DefaultSnapType type="QString">off</DefaultSnapType>
       <DefaultSnapTolerance type="double">0</DefaultSnapTolerance>
       <LayerSnappingToleranceList type="QStringList">
+        <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
         <value>0.000000</value>
