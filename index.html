@@ -42,26 +42,69 @@
 
 <p>Dans ce cadre, les travaux initiés par le projet GraceTHD visent à l'interopérabilité des Systèmes d'Informations Géographiques (SIG) mis en place pour chaque réseau d'initiative publique.</p>
 
-<p>La communauté GraceTHD et la Covadis collaborent à ce projet pour produire la version 2 du Geostandard Aménagement Numérique du Territoire. La première version du Geostandard Aménagement Numérique des Territoires de la la Covadis est disponible ici :
+<p>La communauté GraceTHD et la Covadis collaborent pour produire la version 2 du Geostandard Aménagement Numérique du Territoire. La première version du Geostandard Aménagement Numérique des Territoires de la la Covadis est disponible ici :
 <a href="http://www.territoires-ville.cerema.fr/geostandard-amenagement-numerique-a350.html">Geostandard ANT</a>
 GraceTHD-MCD devrait devenir la version 2 qui corrigera nombre conséquent de lacunes et supportera mieux les réseaux FTTH et les données liées à l'optique. </p>
 
 <h3>
 <a id="contenu" class="anchor" href="#contenu" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contenu</h3>
 
+<ul>
+<li>changelog.txt : historique des modifications</li>
+<li>gracethd-mcd-xxxxx.ods : fichier de développement</li>
+<li>roadmap.txt : feuille de route</li>
+<li>\db_shpcsv\ : base (shapefiles + CSV + csv des listes de valeurs) vierge et conforme au modèle de données + un projet QGIS 2.8. </li>
+<li>\db_spatialite\ : une base de données Spatialite vierge et conforme au modèle de données. </li>
+<li>\demo01\ : une base (shapefiles + CSV + csv des listes de valeurs) avec un jeu de données fictif. ATTENTION les valeurs de ce jeu de données ne sont pas garantie 100% conformes. C'est une première version d'un jeu de test. </li>
+<li>\mcd_doc\ : documentation du modèle de données. Un schéma très simplifié du MCD (gracethd-mcd-vxxxx_schema_vxx.png), le MCD "lisible" (gracethd-mcd-vxxxxxx_doc_vxx.ods), le Modèle Logique de Données (gracethd-mld-vxxxxx.png), sans organisation des tables à ce stade. </li>
+<li>\sql_postgis\ : les scripts pour créer les tables dans un schéma de base de données sous PostGIS 2.x</li>
+<li>\sql_spatialite\ : les scripts pour créer les tables dans un schéma de base de données sous Spatialite. </li>
+</ul>
+
+<h3>
+<a id="utilisation" class="anchor" href="#utilisation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Utilisation</h3>
+
+<p><strong>GraceTHD est un modèle de données DEDIE A L'ECHANGE</strong> ! Ce modèle n'est pas conçu comme un modèle de production de données. L'écosystème autour de ce modèle de données se batira à partir des initiatives des acteurs (éditeurs de progiciels, opérateurs, constructeurs, collectivités, ... ). </p>
+
+<p>Le format d'échange qui sera préconisé par le Geostandard ANT est shapefile et csv pour leur grande intéropérabilité. C'est une préconisation. Deux parties peuvent s'entendre pour échanger sous divers formats (comme des dumps SQL de base à base) tout en respectant le modèle de données. </p>
+
+<p><strong>Collectivités</strong>
+Le modèle seul n'est pas suffisant. Des outils d'intégration, de contrôle, d'analyse, de traitement et de publication des données doivent être développés. Vous pouvez vous tenir au courant des projets planifiés auprès de l'AVICCA et du groupe de discussion. Voir le projet GraceTHD-MOD qui vous fournit des préconisations complémentaires </p>
+
+<p><strong>Producteurs de données</strong>
+Des outils d'édition adaptés à vos plateformes doivent être mis en place. GraceTHD EST UN MODELE DE DONNEES DEDIE A L'ECHANGE, il n'est pas conçu en l'état pour la production. </p>
+
+<p><strong>Editeurs de progiciels</strong>
+Toute la documentation est disponible et les consultations ont été réalisées pour permettre de sensibiliser et remonter les points de blocage majeurs. De la même manière que plusieurs éditeurs ont produit des solutions pour convertir des données de leur solution vers Grace v1, les consultations ont remonté le besoin des éditeurs pour un format d'échange, et l'intention générale de produire des solutions d'import/export GraceTHD. </p>
+
+<p>Toute contribution au modèle est la bienvenue et encouragée. </p>
+
+<h3>
+<a id="projets-relatifs-à-gracethd" class="anchor" href="#projets-relatifs-%C3%A0-gracethd" aria-hidden="true"><span class="octicon octicon-link"></span></a>Projets relatifs à GraceTHD</h3>
+
+<p>Gracelite
+Projet open source en cours de développement. Il s'agira d'une boite à outils destinée dans un premier temps à garantir les imports / exports Spatialite et SHP/CSV. Ceci permettra de profiter en mode local d'une base de données SQL. Les imports permettront notamment de faire office d'un premier niveau de contrôle de conformité générale de la structure des shapefiles / CSV. </p>
+
+<p>Gracepg
+Projet open source en cours de développement. Equivalent client/serveur de Gracelite. Dans un premier temps Gracepg fournira des exemples de scripts d'import/export de shapefiles/csv GraceTHD dans une base GraceTHD sous PostGIS. </p>
+
+<p>La création d'un outil de contrôle à destination des collectivités est prévu. </p>
+
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
 <p><a href="mailto:geostandard-ant-users@googlegroups.com">geostandard-ant-users@googlegroups.com</a></p>
 
+<p>Une plateforme de gestion de projet (Redmine) destinée à remonter les demandes d'évolutions, les anomalies et les demandes d'assistance est disponible. S'inscrire préalablement sur le groupe de discussion. </p>
+
 <h3>
-<a id="contributeurs-principaux" class="anchor" href="#contributeurs-principaux" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributeurs principaux</h3>
+<a id="contributeurs" class="anchor" href="#contributeurs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributeurs</h3>
 
 <p>Comité de pilotage : Avicca - France Très Haut Débit - Caisse des dépôts - Région Alsace - Région Aquitaine - Syane - Mégalis Bretagne - Manche Numérique - La Fibre 59/62 - Gironde Numérique - Touraine Cher Numérique - Oise THD</p>
 
-<p>Groupement d'entreprises : DOTIC - CADaGEO - Aleno - <a href="mailto:Cochr@n">Cochr@n</a>. </p>
+<p>Groupement d'entreprises : DOTIC - CADaGEO - Aleno - Cochr@n.</p>
 
-<p>Contributeurs externes : Cerema - Ardèche Drôme Numérique - Axione - Covage - Tutor</p>
+<p>Comité consultatif : Aleno, Altitude Infrastructure, Ambition télécoms, Ardèche Drôme Numérique, Axione, CADaGEO, Circet, Covadis/Cerema, Covage, Dotic, Eiffage, Esri France, GISmartsware, Groupe Interop Fibre, Isère, Mégalis Bretagne, Oise THD, Orange, Région Alsace, SFR Collectivités, SPIE, Syane, Tutor. </p>
         </section>
 
         <aside id="sidebar">
