@@ -2,7 +2,7 @@
 
 GraceTHD-MCD est un modèle de données relationnel destiné à échanger des modèles numériques de réseaux de télécommunications. 
 
-Un autre projet modèle d'organisation des documents techniques et adminsitratifs est disponible en complément : [GraceTHD-MOD](http://gracethd-community.github.io/GraceTHD-MOD/). Celui-ci préconise notamment des règles de nommage des objets adaptés au modèle de données GraceTHD-MCD. 
+Un autre projet modèle d'organisation des documents techniques et administratifs est disponible en complément : [GraceTHD-MOD](http://gracethd-community.github.io/GraceTHD-MOD/). Celui-ci préconise notamment des règles de nommage des objets adaptés au modèle de données GraceTHD-MCD. 
 
 ### Contexte
 De nombreux réseaux télécoms de très hauts débit sont déployés actuellement en France, en mobilisant des acteurs publics et privés, avec pour objectif de garantir la couverture intégrale du territoire. Afin d'assurer la meilleure utilisation des réseaux, l'homogénéisation et l'industrialisation des déploiements est un enjeu majeur.
@@ -44,7 +44,7 @@ Quelques exemples de différences avec la version 1 :
 Le format d'échange qui sera préconisé par le Geostandard ANT est shapefile et csv pour leur grande intéropérabilité. C'est une préconisation. Deux parties peuvent s'entendre pour échanger sous divers formats (comme des dumps SQL de base à base) tout en respectant le modèle de données. 
 
 * **Collectivités** : 
-Le modèle seul n'est pas suffisant. Des outils d'intégration, de contrôle, d'analyse, de traitement et de publication des données doivent être développés. Vous pouvez vous tenir au courant des projets planifiés auprès de l'AVICCA et du groupe de discussion. Voir le projet GraceTHD-MOD qui vous fournit des préconisations complémentaires 
+Le modèle seul n'est pas suffisant. Des outils d'intégration, de contrôle, d'analyse, de traitement et de publication des données doivent être développés. Vous pouvez vous tenir au courant des projets planifiés auprès de l'AVICCA et du groupe de discussion. Voir le projet GraceTHD-MOD qui vous fournit des préconisations complémentaires. 
 
 * **Producteurs de données** : 
 Des outils d'édition adaptés à vos plateformes doivent être mis en place. GraceTHD EST UN MODELE DE DONNEES DEDIE A L'ECHANGE, il n'est pas conçu en l'état pour la production. 
