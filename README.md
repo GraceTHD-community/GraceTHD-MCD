@@ -2,7 +2,13 @@
 
 GraceTHD-MCD est un modèle de données relationnel destiné à échanger des modèles numériques de réseaux de télécommunications. 
 
-Un autre projet modèle d'organisation des documents techniques et administratifs est disponible en complément : [GraceTHD-MOD](http://gracethd-community.github.io/GraceTHD-MOD/). Celui-ci préconise notamment des règles de nommage des objets adaptés au modèle de données GraceTHD-MCD. 
+GraceTHD-MCD est un des projets maintenus par GraceTHD-community :
+https://github.com/GraceTHD-community
+
+Un modèle d'organisation des documents techniques et administratifs est disponible en complément : [GraceTHD-MOD](http://gracethd-community.github.io/GraceTHD-MOD/). Celui-ci préconise notamment des règles de nommage des objets adaptés au modèle de données GraceTHD-MCD. 
+
+Un dépôt dédié à des projets de démonstrations est également disponible : 
+[GraceTHD-Demo](http://gracethd-community.github.io/GraceTHD-Demo/)
 
 ### Contexte
 De nombreux réseaux télécoms de très hauts débit sont déployés actuellement en France, en mobilisant des acteurs publics et privés, avec pour objectif de garantir la couverture intégrale du territoire. Afin d'assurer la meilleure utilisation des réseaux, l'homogénéisation et l'industrialisation des déploiements est un enjeu majeur.
