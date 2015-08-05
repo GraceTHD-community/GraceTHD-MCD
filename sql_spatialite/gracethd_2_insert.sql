@@ -1,4 +1,4 @@
-/*GraceTHD v2 beta1b*/
+/*GraceTHD v2 beta2b*/
 /*Insertion des valeurs dans les listes de valeurs*/
 /*Spatialite*/
 
@@ -10,36 +10,73 @@ INSERT INTO l_adresse_etat VALUES ('DE', 'DEPLOYE', '');
 INSERT INTO l_adresse_etat VALUES ('AB', 'ABANDONNE', '');
 INSERT INTO l_baie_type VALUES ('BAIE', 'BAIE', '');
 INSERT INTO l_baie_type VALUES ('FERME', 'FERME', '');
-INSERT INTO l_bp_racco VALUES ('CLI001', '', '');
-INSERT INTO l_bp_racco VALUES ('CLI002', 'CLIENT INJOIGNABLE IMPOSSIBLE DE PRENDRE RDV', '');
-INSERT INTO l_bp_racco VALUES ('CLI003', '', '');
-INSERT INTO l_bp_racco VALUES ('CLI004', '', '');
-INSERT INTO l_bp_racco VALUES ('CLI005', 'CLIENT REFUS CLIENT', '');
-INSERT INTO l_bp_racco VALUES ('CLI006', 'CLIENT REFUS GESTIONNAIRE D IMMEUBLES', '');
-INSERT INTO l_bp_racco VALUES ('CLI007', 'CLIENT ABSENCE CLIENT LORS DE L INTERVENTION', '');
-INSERT INTO l_bp_racco VALUES ('ADR001', '', '');
-INSERT INTO l_bp_racco VALUES ('ADR002', '', '');
-INSERT INTO l_bp_racco VALUES ('ADR003', '', '');
-INSERT INTO l_bp_racco VALUES ('ADR004', '', '');
-INSERT INTO l_bp_racco VALUES ('ADR005', '', '');
-INSERT INTO l_bp_racco VALUES ('ADR006', '', '');
-INSERT INTO l_bp_racco VALUES ('IMP001', '', '');
-INSERT INTO l_bp_racco VALUES ('IMP002', 'PB OU PM SATURE', '');
-INSERT INTO l_bp_racco VALUES ('IMP003', '', '');
-INSERT INTO l_bp_racco VALUES ('IMP004', 'COMMANDE IMPOSSIBLE :  IDENTIFIANT INTERNE OC INCONNUE', '');
-INSERT INTO l_bp_racco VALUES ('IMP005', 'FORMAT ERRONE', '');
-INSERT INTO l_bp_racco VALUES ('IMP006', 'CHAMPS OBLIGATOIRES MANQUANTS', '');
-INSERT INTO l_bp_racco VALUES ('INT001', 'HL OI : HOTLINE OI INJOIGNABLE', '');
-INSERT INTO l_bp_racco VALUES ('INT002', 'ABSENCE DE CONTINUITE OPTIQUE', '');
-INSERT INTO l_bp_racco VALUES ('INT003', 'AFFAIBLISSEMENT TROP IMPORTANT', '');
-INSERT INTO l_bp_racco VALUES ('AUT001', 'AUTRE MOTIF : COMMENTAIRES LIBRES', '');
-INSERT INTO l_bp_racco VALUES ('RDV01', 'NOMBRE DE MODIFICATIONS MAX DEPASSE', '');
-INSERT INTO l_bp_racco VALUES ('RDV02', '', '');
-INSERT INTO l_bp_racco VALUES ('RDV03', 'COMMANDE GELEE', '');
-INSERT INTO l_bp_racco VALUES ('RACOK', 'PRISE RACCORDEE', '');
+INSERT INTO l_bp_racco VALUES ('FCLI01', 'CLIENT : CONTACT ERRONE', 'Le client ne peut être joint, exemple son nom ou ses coordonnées téléphoniques sont erronnées
+Utilisé dans le cas de raccordement par l OI');
+INSERT INTO l_bp_racco VALUES ('FCLI02', 'CLIENT : CLIENT INJOIGNABLE IMPOSSIBLE DE PRENDRE RDV', 'Les coordonnées ne sont pas nécessairement erronnées mais le client n est pas joignable (ne répond pas). La définition précise de ne répond pas n est pas normalisée Interop
+Utilisé dans le cas de raccordement par l OI');
+INSERT INTO l_bp_racco VALUES ('FCLI03', 'CLIENT : CLIENT N HABITE PAS A L ADRESSE INDIQUEE', 'Le RDV a été pris, lors du déplacement le technicien constate que le client n habite pas à l adresse indiquée par l OC');
+INSERT INTO l_bp_racco VALUES ('FCLI04', 'CLIENT : DEMANDE ANNULATION DE LA COMMANDE PAR LE CLIENT FINAL', 'Que ce soit en amont du RDV ou lors du RDV, le client demande à annuler sa commande
+Utilisé dans le cas de raccordement par l OI');
+INSERT INTO l_bp_racco VALUES ('FCLI05', 'CLIENT : REFUS TRAVAUX CLIENT ', 'Que ce soit en amont du RDV ou lors du RDV, le client refuse les travaux (percement, etc.) 
+Utilisé dans le cas de raccordement par l OI');
+INSERT INTO l_bp_racco VALUES ('FCLI06', 'CLIENT : REFUS GESTIONNAIRE IMMEUBLE', 'Lors du raccordement client, un passage en apparent sur le palier est nécessaire et a été refusé par le gestionnaire (par exemple car les goulottes sont saturées ou le palier a été refait)');
+INSERT INTO l_bp_racco VALUES ('FCLI07', 'CLIENT : CLIENT ABSENT LORS DE L INTERVENTION', 'Lors du RDV, le client est absent
+Utilisé dans le cas de raccordement par l OI');
+INSERT INTO l_bp_racco VALUES ('FADR01', 'ADRESSE : CODE ADRESSE IMMEUBLE INEXISTANT DANS LE REFERENTIEL OI', 'L OC envoie des codes adresses inexistants de l OI
+Les informations d adresse sont contrôlées dans l ordre suivant :
+1 Hexaclé 
+2 INSEE/RIVOLI/NUM VOIE/ COMPL VOIE
+3 Triplet Hexavia/numéro de voie /complément de voie 
+4 coordonnées xy 
+… (cf Interop)');
+INSERT INTO l_bp_racco VALUES ('FADR02', 'ADRESSE : BATIMENT MANQUANT OU INEXISTANT DANS LE REFERENTIEL OI', 'L adresse a été reconnue mais le batiment est manquant ou inexistant dans le référentiel de l OI');
+INSERT INTO l_bp_racco VALUES ('FADR03', 'ADRESSE : ESCALIER MANQUANT OU INEXISTANT DANS LE REFERENTIEL OI', 'L adresse et le batiment ont été reconnus mais l escalier est manquant ou inexistant dans le référentiel de l OI');
+INSERT INTO l_bp_racco VALUES ('FADR04', 'ADRESSE : ETAGE MANQUANT OU INEXISTANT DANS LE REFERENTIEL OI', 'L adresse, le batiment et l escalier ont été reconnus mais l étage est manquant ou inexistant dans le référentiel de l OI');
+INSERT INTO l_bp_racco VALUES ('FIMP01', 'TRAITEMENT IMPOSSIBLE : PTO REQUISE', 'L OC est tenu de passer une référence PTO dans sa commande. L OI refuse la commande.');
+INSERT INTO l_bp_racco VALUES ('FIMP02', 'TRAITEMENT IMPOSSIBLE : PTO INEXISTANTE DANS LE REFERENTIEL OI', 'L OC a fourni une référence PTO dans sa commande mais elle est inconnue de l OI');
+INSERT INTO l_bp_racco VALUES ('FIMP03', 'TRAITEMENT IMPOSSIBLE : PTO INCONNUE A L ADRESSE', 'L OC a fourni une référence PTO dans sa commande, elle est connue de l OI mais est incohérente par rapport à l adresse complète (y compris batiment/escalier/étage) dans le référentiel de l OI');
+INSERT INTO l_bp_racco VALUES ('FIMP04', 'TRAITEMENT IMPOSSIBLE : REF PRESTATION PM INEXISTANTE DANS LE REFERENTIEL OI', 'L OC a renvoyé une référence prestation PM inconnue de l OI (exemple l OC se trompe dans la référence PM ou l OI n a pas communiqué un changement de référence PM)');
+INSERT INTO l_bp_racco VALUES ('FIMP05', 'TRAITEMENT IMPOSSIBLE : REF PRESTATION PM ET ADRESSE INCOHERENTES', 'La reference prestation PM existe mais n est pas cohérente avec l adresse communiquée');
+INSERT INTO l_bp_racco VALUES ('FIMP06', 'TRAITEMENT IMPOSSIBLE : TYPE DE COMMANDE IRRECEVABLE SUR CETTE REF PRESTATION PM', 'La reference prestation PM existe, elle est cohérente avec l adresse communiquée mais elle est irrecevable (par exemple le type de commande est incompatible avec le choix de cofinancement ou de location du PM)');
+INSERT INTO l_bp_racco VALUES ('FIMP07', 'TRAITEMENT IMPOSSIBLE : PM INEXISTANT DANS LE REFERENTIEL OI', 'L OC envoie une commande d accès sur un PM inexistant dans le référentiel de l OI (exemple changement de reference PM par l OI non communiqué à l OC ou erreur de l OC dans l envoi de la référence)');
+INSERT INTO l_bp_racco VALUES ('FIMP08', 'TRAITEMENT IMPOSSIBLE : PM ET ADRESSE INCOHERENTS', 'L OC envoie une commande d accès sur un PM connu dans le référentiel de l OI mais incohérent avec l adresse');
+INSERT INTO l_bp_racco VALUES ('FIMP09', 'TRAITEMENT IMPOSSIBLE : COMMANDE IRRECEVABLE SUR CE PM', 'L OC n est pas adducté au PM ou il n a pas retourné toutes les infos ou documents attendus ou l OI n a pas intégré les données retournées par l OC ou l OI rejette la commande qui est passée avant la date de MESC ARCEP');
+INSERT INTO l_bp_racco VALUES ('FIMP10', 'TRAITEMENT IMPOSSIBLE : COMMANDE IRRECEVABLE SUR CETTE ADRESSE', 'L adresse n a pas été mise à disposition à l OC (le CR MAD n a pas été emis sur cette adresse)');
+INSERT INTO l_bp_racco VALUES ('FIMP11', 'TRAITEMENT IMPOSSIBLE : ADRESSE INELIGIBLE TEMPORAIREMENT', 'Le site est temporairement ineligible par exemple en maintenance');
+INSERT INTO l_bp_racco VALUES ('FIMP12', 'TRAITEMENT IMPOSSIBLE : TYPE COMMANDE ERRONNE', 'La valeur du champ TypeCommandeDemande n est pas une des valeurs attendues ');
+INSERT INTO l_bp_racco VALUES ('FIMP13', 'TRAITEMENT IMPOSSIBLE : IDENTIFIANT COMMANDE INTERNE OC DEJA UTILISE', 'L OC envoie une commande en utilisant une commande interne déjà envoyée. Il s agit potentiellement d un doublon de commande');
+INSERT INTO l_bp_racco VALUES ('FIMP14', 'TRAITEMENT IMPOSSIBLE : IDENTIFIANT COMMANDE INTERNE OC INCONNUE', 'L OC annule ou résilie une commande en utilisant un identifiant inconnu de l OI ');
+INSERT INTO l_bp_racco VALUES ('FIMP15', 'TRAITEMENT IMPOSSIBLE : CHAMPS OBLIGATOIRES MANQUANTS', 'L OC envoie une commande incomplète 
+Bonne pratique : l opérateur emetteur du flux de rejet indique dans le champ commentaire du rejet le premier champ obligatoire manquant');
+INSERT INTO l_bp_racco VALUES ('FIMP16', 'TRAITEMENT IMPOSSIBLE : CHAMPS INCOHERENTS', 'L OC envoie la commande avec une erreur de format (exemple chaine de caractère envoyée vs date attendue, champ présent non attendu...) ... (cf Interop)');
+INSERT INTO l_bp_racco VALUES ('FIMP17', 'TRAITEMENT IMPOSSIBLE : PTO INEXISTANTE', 'Lorsqu une commande a été passée avec PTO posée, qu elle n exite pas dans le logement et que le problème n a pas pu être résolu par un reprovisionning à chaud. ');
+INSERT INTO l_bp_racco VALUES ('FIMP18', 'TRAITEMENT IMPOSSIBLE : PTO EXISTANTE', 'Lorsqu une commande a été passée sans PTO (construction de ligne), qu il s avère qu elle existait le logement et que le problème n a pas pu être résolu par un reprovisionning à chaud. La référence de la PTO doit alors être indiquée... (cf Interop)');
+INSERT INTO l_bp_racco VALUES ('FIMP19', 'TRAITEMENT IMPOSSIBLE : PTO DEJA AFFECTEE A L OC', 'Lorsque d un OC détient déjà une ligne FTTH sur une PTO et repasse une commande d accès sur cette même PTO. L OI répond alors, s il refues ce cas de gestion, par un CR de commande KO, avec le motif PTO déjà affectée à l OC ');
+INSERT INTO l_bp_racco VALUES ('FINT01', 'ECHEC PRODUCTION : PB OU PM SATURE', 'L OI signifie à l OC qu il n est pas en mesure de fournir une route optique parce que vu de son SI le PB ou le PM est saturé');
+INSERT INTO l_bp_racco VALUES ('FINT02', 'ECHEC PRODUCTION : SATURATION VIRTUELLE PB OU PM', 'L OI signifie à l OC qu il n est pas en mesure de fournir une route optique en raison d une saturation virtuelle identifiée mais non traitée simultanément. ... (cf Interop)');
+INSERT INTO l_bp_racco VALUES ('FINT03', 'ECHEC PRODUCTION : HOTLINE OI INJOIGNABLE', 'L OC n a pas réussi à joindre la hotline sur le terrain et envoi un code rejet à l OI pour passer en reprovisionning à froid. ');
+INSERT INTO l_bp_racco VALUES ('FINT04', 'ECHEC PRODUCTION : ABSENCE DE CONTINUITE OPTIQUE', 'L OC constate sur le terrain qu il n y a pas de continuité sur la fibre et n a pas pu obtenir une nouvelle route optique via la hotline');
+INSERT INTO l_bp_racco VALUES ('FINT05', 'ECHEC PRODUCTION : AFFAIBLISSEMENT TROP IMPORTANT', 'L OC constate sur le terrain que l affaiblissement sur la fibre est hors norme et n a pas pu obtenir correction via la hotline');
+INSERT INTO l_bp_racco VALUES ('FINT06', 'ECHEC PRODUCTION : ROUTE OPTIQUE DEJA UTILISEE', 'L OC constate sur le terrain que la route qui lui a été transmise est déjà soudée pour un autre raccordement et n a pas pu obtenir une route optique appropriée via la hotline');
+INSERT INTO l_bp_racco VALUES ('FINT07', 'ECHEC PRODUCTION : INFORMATIONS ROUTE OPTIQUE ERRONEES', 'L OC constate sur le terrain que la route optique donnée n existe pas et n a pas pu obtenir une route optique appropriée');
+INSERT INTO l_bp_racco VALUES ('FINT08', 'ECHEC PRODUCTION : POSITION BRASSAGE BAIE OPERATEUR INTROUVABLE', 'Dans le cas d un brassage par l OI, l OI signale à l OC une position de brassage introuvable');
+INSERT INTO l_bp_racco VALUES ('FINT09', 'ECHEC PRODUCTION : POSITION BRASSAGE BAIE OPERATEUR DÉJÀ UTILISEE', 'Dans le cas d un brassage par l OI, l OI signale à l OC une position de brassage déjà utilisée');
+INSERT INTO l_bp_racco VALUES ('FINT10', 'ECHEC PRODUCTION : AUTRE PROBLEME TECHNIQUE', 'Autre problème technique constaté lors de l intervention de raccordement et n étant pas référencé dans les motifs de rejets');
+INSERT INTO l_bp_racco VALUES ('FINT11', 'ECHEC PRODUCTION : INFRA TIERS INDISPONIBLE OU DELAI', 'Dans le cas d un raccordement necessitant l utilisation d infrastructure tiers (poteau, fourreau), ces infra ne sont pas utilisable (bouchée, cassée, …) ou le délais de mise à disposition de ces infra est très important');
+INSERT INTO l_bp_racco VALUES ('FINT12', 'ECHEC PRODUCTION : PBO NON CONFORME', 'Dans le cas où le raccordement est impossible en raison d un problème lié au PBO (exemple : PBO mal fixé, fibre trop courte pour souder..)');
+INSERT INTO l_bp_racco VALUES ('FINT13', 'ECHEC PRODUCTION : DEFAUT DE VERTICALITE', 'Dans le cas d un problème physique identifié sur la colonne montante (exemple colonne HS, vandalisme…). Ce code permet de qualifier les problèmes collectifs c est-à-dire pouvant impacter plusieurs fibres.');
+INSERT INTO l_bp_racco VALUES ('FAUT01', 'AUTRE MOTIF : COMMENTAIRES LIBRES', 'Autre motif technique hors constatation de problème sur le terrain');
+INSERT INTO l_bp_racco VALUES ('FRDV01', 'RDV : NOMBRE MAX DE MODIFICATIONS DE RDV DEPASSE', 'Dans le cas d un raccordment par l OI et d une demande de RDV manuelle, l OC a dépassé le nombre maximum de modifications de RDV autorisé contractuellement par l OI... (cf Interop)');
+INSERT INTO l_bp_racco VALUES ('FRDV02', 'RDV : PAS DE PLAGES DE RDV DISPONIBLES SUR CES CRENEAUX', 'Dans le cas d un raccordement par OI, et d une demande de RDV manuelle, l OC indique des créneaux à l aveugle à l OI. Ce rejet indique que les créneaux proposés par l OC ne sont pas disponibles dans le plan de charge de l OI.... (cf Interop)');
+INSERT INTO l_bp_racco VALUES ('FRDV03', 'RDV : PLAGE DE RDV NON RESERVEE', 'Dans le cas d un raccordement par l OI, l OC a dépassé le délai pour passer sa commande. La réservation du RDV n a donc pas été confirmée par l OI');
+INSERT INTO l_bp_racco VALUES ('FRDV04', 'RDV : ETAT RDV NON VALIDE ', 'Dans le cas où la commande est passée avec un rdv dont l’état n’est pas valide, par exemple annulé, terminé, ...
+');
+INSERT INTO l_bp_racco VALUES ('FRDV05', 'RDV : RDV SUR PRODUIT NON FTTH ', 'Dans le cas où la commande est passée avec un rdv qui a été pris sur un produit autre que le produit accès FTTH');
+INSERT INTO l_bp_racco VALUES ('FRDV06', 'RDV : RDV SUR ADRESSE DIFFERENTE', 'Dans le cas où la commande est passée avec un rdv qui a été pris sur une autre adresse que celle de la commande (exemple n° ou nom de rue différents de l adresse de la commande)');
 INSERT INTO l_bp_type_log VALUES ('BPE', 'BOITIER PROTECTION EPISSURE', '');
 INSERT INTO l_bp_type_log VALUES ('PTO', 'POINT DE TERMINAISON OPTIQUE', '');
 INSERT INTO l_bp_type_log VALUES ('PBO', 'POINT DE BRANCHEMENT OPTIQUE', '');
+INSERT INTO l_bp_type_log VALUES ('DTI', 'DISPOSITIF DE TERMINAISON INTERIEUR OPTIQUE', 'PTO pose par le constructeur d immeuble. ');
 INSERT INTO l_bp_type_phy VALUES ('B006', 'BPE 6FO', '');
 INSERT INTO l_bp_type_phy VALUES ('B012', 'BPE 12FO', '');
 INSERT INTO l_bp_type_phy VALUES ('B024', 'BPE 24FO', '');
@@ -49,6 +86,7 @@ INSERT INTO l_bp_type_phy VALUES ('B096', 'BPE 96FO', '');
 INSERT INTO l_bp_type_phy VALUES ('B144', 'BPE 144FO', '');
 INSERT INTO l_bp_type_phy VALUES ('B288', 'BPE 288FO', '');
 INSERT INTO l_bp_type_phy VALUES ('B576', 'BPE 576FO', '');
+
 INSERT INTO l_bp_type_phy VALUES ('AUTR', 'AUTRE', '');
 INSERT INTO l_cable_type VALUES ('C', 'CABLE', '');
 INSERT INTO l_cable_type VALUES ('B', 'BREAKOUT', '');
@@ -155,9 +193,19 @@ INSERT INTO l_fo_color VALUES ('9', 'MARRON (BR)', '#993300');
 INSERT INTO l_fo_color VALUES ('10', 'NOIR (N)', '#000000');
 INSERT INTO l_fo_color VALUES ('11', 'TURQUOISE (TU)', '#00B0F0');
 INSERT INTO l_fo_color VALUES ('12', 'ROSE (RS)', '#FF65CC');
+INSERT INTO l_fo_type VALUES ('G651', 'G651', '');
 INSERT INTO l_fo_type VALUES ('G652', 'G652', '');
+INSERT INTO l_fo_type VALUES ('G652A', 'G652A', '');
+INSERT INTO l_fo_type VALUES ('G652B', 'G652B', '');
+INSERT INTO l_fo_type VALUES ('G652C', 'G652C', '');
+INSERT INTO l_fo_type VALUES ('G652D', 'G652D', '');
+INSERT INTO l_fo_type VALUES ('G653', 'G653', '');
 INSERT INTO l_fo_type VALUES ('G655', 'G655', '');
+INSERT INTO l_fo_type VALUES ('G656', 'G656', '');
 INSERT INTO l_fo_type VALUES ('G657', 'G657', '');
+INSERT INTO l_fo_type VALUES ('G657A', 'G657A', '');
+INSERT INTO l_fo_type VALUES ('G657B', 'G657B', '');
+INSERT INTO l_fo_type VALUES ('G657A2', 'G657A2', '');
 INSERT INTO l_geoloc_classe VALUES ('A', 'Classe de précision A', 'Décret du 15 février 2012 : un ouvrage ou tronçon d ouvrage est rangé dans la classe A si l incertitude maximale de localisation indiquée par son exploitant est inférieure ou égale à 40 cm et s il est rigide, ou à 50 cm s il est flexible. ');
 INSERT INTO l_geoloc_classe VALUES ('AP', 'Classe de précision A, en planimétrie uniquement', 'Idem classe A, mais uniquement pour les valeurs x et y (hors z)');
 INSERT INTO l_geoloc_classe VALUES ('B', 'Classe de précision B', 'Décret du 15 février 2012 : un ouvrage ou tronçon d ouvrage est rangé dans la classe B si l incertitude maximale de localisation indiquée par son exploitant est supérieure à celle relative à la classe A et inférieure ou égale à 1,5 mètre.');
@@ -380,6 +428,7 @@ INSERT INTO l_site_type_log VALUES ('HEBERG', 'SITE HEBERGEMENT', 'Site d heberg
 INSERT INTO l_site_type_phy VALUES ('ADR', 'ARMOIRE DE RUE', '');
 INSERT INTO l_site_type_phy VALUES ('BAT', 'BATIMENT', '');
 INSERT INTO l_site_type_phy VALUES ('SHE', 'SHELTER', '');
+INSERT INTO l_sro_etat VALUES ('PL', 'PLANIFIE', '');
 INSERT INTO l_sro_etat VALUES ('EC', 'EN COURS DE DEPLOIEMENT', 'En cours d installation, sans qu une definition precise n ait ete partagee en Interop. ');
 INSERT INTO l_sro_etat VALUES ('DP', 'DEPLOYE', 'Installe. Doit alors etre mis a disposition des operateurs ayant achete le PM. ');
 INSERT INTO l_sro_etat VALUES ('AB', 'ABANDONNE', 'Le PM est abandonne. Cet etat doit apparaitre pendant 3 mois.');

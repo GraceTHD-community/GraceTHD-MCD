@@ -6,4 +6,4 @@ FDPL;COTATION PAR RAPPORT A UN LEVE DE GEOMETRE;Objet implante en reportant des 
 CBDU;COTATION PAR RAPPORT A UN FOND DE PLAN TIERS TYPE BDU;Objet implante en reportant des cotations prises par rapport au meilleur fond de plan actuellement disponible."
 CADA;POSITIONNEMENT SUR CADASTRE;Objet positionne par rapport aux planches cadastrales."
 ORTO;POSITIONNEMENT SUR ORTHOPHOTOGRAPHIE OU FOND DE PLAN CARTOGRAPHIQUE;Objet positionne par rapport à des orthophotos, ou des fonds cartographiques type RGE, FRANCE RASTER, OSM ou Bing"
-INDT;INDETERMINE;"
+INDT;INDETERMINE;

@@ -1,4 +1,5 @@
 code;libelle;definition
+PL;PLANIFIE;
 EC;EN COURS DE DEPLOIEMENT;En cours d installation, sans qu une definition precise n ait ete partagee en Interop. "
 DP;DEPLOYE;Installe. Doit alors etre mis a disposition des operateurs ayant achete le PM. "
 AB;ABANDONNE;Le PM est abandonne. Cet etat doit apparaitre pendant 3 mois."

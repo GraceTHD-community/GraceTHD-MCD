@@ -52,14 +52,13 @@ DROP INDEX IF EXISTS ad_typzone_idx; CREATE INDEX  ad_typzone_idx ON t_adresse(a
 
 
 
+DROP INDEX IF EXISTS or_nom_idx; CREATE INDEX  or_nom_idx ON t_organisme(or_nom);
 
 
-
-
-
-
-
-
+DROP INDEX IF EXISTS or_l331_idx; CREATE INDEX  or_l331_idx ON t_organisme(or_l331);
+DROP INDEX IF EXISTS or_siret_idx; CREATE INDEX  or_siret_idx ON t_organisme(or_siret);
+DROP INDEX IF EXISTS or_nometab_idx; CREATE INDEX  or_nometab_idx ON t_organisme(or_nometab);
+DROP INDEX IF EXISTS or_ad_code_idx; CREATE INDEX  or_ad_code_idx ON t_organisme(or_ad_code);
 
 
 
@@ -89,7 +88,7 @@ DROP INDEX IF EXISTS rf_etat_idx; CREATE INDEX  rf_etat_idx ON t_reference(rf_et
 
 
 
-DROP INDEX IF EXISTS nd_code_idx; CREATE INDEX  nd_code_idx ON t_noeud(nd_code);
+
 
 
 DROP INDEX IF EXISTS nd_coderat_idx; CREATE INDEX  nd_coderat_idx ON t_noeud(nd_coderat);
@@ -115,7 +114,6 @@ DROP INDEX IF EXISTS nd_dtclass_idx; CREATE INDEX  nd_dtclass_idx ON t_noeud(nd_
 
 
 
-DROP INDEX IF EXISTS st_code_idx; CREATE INDEX  st_code_idx ON t_sitetech(st_code);
 DROP INDEX IF EXISTS st_nd_code_idx; CREATE INDEX  st_nd_code_idx ON t_sitetech(st_nd_code);
 
 
@@ -140,9 +138,8 @@ DROP INDEX IF EXISTS st_etat_idx; CREATE INDEX  st_etat_idx ON t_sitetech(st_eta
 
 
 
-DROP INDEX IF EXISTS lt_code_idx; CREATE INDEX  lt_code_idx ON t_ltech(lt_code);
 
-
+DROP INDEX IF EXISTS lt_etiquet_idx; CREATE INDEX  lt_etiquet_idx ON t_ltech(lt_etiquet);
 DROP INDEX IF EXISTS lt_st_code_idx; CREATE INDEX  lt_st_code_idx ON t_ltech(lt_st_code);
 DROP INDEX IF EXISTS lt_prop_idx; CREATE INDEX  lt_prop_idx ON t_ltech(lt_prop);
 DROP INDEX IF EXISTS lt_gest_idx; CREATE INDEX  lt_gest_idx ON t_ltech(lt_gest);
@@ -166,7 +163,6 @@ DROP INDEX IF EXISTS lt_clim_idx; CREATE INDEX  lt_clim_idx ON t_ltech(lt_clim);
 
 
 
-DROP INDEX IF EXISTS ba_code_idx; CREATE INDEX  ba_code_idx ON t_baie(ba_code);
 
 DROP INDEX IF EXISTS ba_etiquet_idx; CREATE INDEX  ba_etiquet_idx ON t_baie(ba_etiquet);
 DROP INDEX IF EXISTS ba_lt_code_idx; CREATE INDEX  ba_lt_code_idx ON t_baie(ba_lt_code);
@@ -191,7 +187,6 @@ DROP INDEX IF EXISTS ba_type_idx; CREATE INDEX  ba_type_idx ON t_baie(ba_type);
 
 
 
-DROP INDEX IF EXISTS ti_code_idx; CREATE INDEX  ti_code_idx ON t_tiroir(ti_code);
 
 
 DROP INDEX IF EXISTS ti_ba_code_idx; CREATE INDEX  ti_ba_code_idx ON t_tiroir(ti_ba_code);
@@ -211,7 +206,6 @@ DROP INDEX IF EXISTS ti_rf_code_idx; CREATE INDEX  ti_rf_code_idx ON t_tiroir(ti
 
 
 
-DROP INDEX IF EXISTS eq_code_idx; CREATE INDEX  eq_code_idx ON t_equipement(eq_code);
 
 
 DROP INDEX IF EXISTS eq_ba_code_idx; CREATE INDEX  eq_ba_code_idx ON t_equipement(eq_ba_code);
@@ -227,7 +221,7 @@ DROP INDEX IF EXISTS eq_prop_idx; CREATE INDEX  eq_prop_idx ON t_equipement(eq_p
 
 
 
-DROP INDEX IF EXISTS sf_code_idx; CREATE INDEX  sf_code_idx ON t_suf(sf_code);
+
 DROP INDEX IF EXISTS sf_nd_code_idx; CREATE INDEX  sf_nd_code_idx ON t_suf(sf_nd_code);
 DROP INDEX IF EXISTS sf_ad_code_idx; CREATE INDEX  sf_ad_code_idx ON t_suf(sf_ad_code);
 
@@ -249,7 +243,6 @@ DROP INDEX IF EXISTS sf_type_idx; CREATE INDEX  sf_type_idx ON t_suf(sf_type);
 
 
 
-DROP INDEX IF EXISTS pt_code_idx; CREATE INDEX  pt_code_idx ON t_ptech(pt_code);
 
 
 DROP INDEX IF EXISTS pt_nd_code_idx; CREATE INDEX  pt_nd_code_idx ON t_ptech(pt_nd_code);
@@ -284,7 +277,6 @@ DROP INDEX IF EXISTS pt_nature_idx; CREATE INDEX  pt_nature_idx ON t_ptech(pt_na
 
 
 
-DROP INDEX IF EXISTS bp_code_idx; CREATE INDEX  bp_code_idx ON t_ebp(bp_code);
 
 
 DROP INDEX IF EXISTS bp_pt_code_idx; CREATE INDEX  bp_pt_code_idx ON t_ebp(bp_pt_code);
@@ -318,8 +310,6 @@ DROP INDEX IF EXISTS bp_rf_code_idx; CREATE INDEX  bp_rf_code_idx ON t_ebp(bp_rf
 
 
 
-DROP INDEX IF EXISTS cs_code_idx; CREATE INDEX  cs_code_idx ON t_cassette(cs_code);
-
 DROP INDEX IF EXISTS cs_bp_code_idx; CREATE INDEX  cs_bp_code_idx ON t_cassette(cs_bp_code);
 
 DROP INDEX IF EXISTS cs_type_idx; CREATE INDEX  cs_type_idx ON t_cassette(cs_type);
@@ -334,7 +324,6 @@ DROP INDEX IF EXISTS cs_rf_code_idx; CREATE INDEX  cs_rf_code_idx ON t_cassette(
 
 
 
-DROP INDEX IF EXISTS cm_code_idx; CREATE INDEX  cm_code_idx ON t_cheminement(cm_code);
 
 DROP INDEX IF EXISTS cm_ndcode1_idx; CREATE INDEX  cm_ndcode1_idx ON t_cheminement(cm_ndcode1);
 DROP INDEX IF EXISTS cm_ndcode2_idx; CREATE INDEX  cm_ndcode2_idx ON t_cheminement(cm_ndcode2);
@@ -380,7 +369,6 @@ DROP INDEX IF EXISTS cm_typ_imp_idx; CREATE INDEX  cm_typ_imp_idx ON t_chemineme
 
 
 
-DROP INDEX IF EXISTS cd_code_idx; CREATE INDEX  cd_code_idx ON t_conduite(cd_code);
 
 
 DROP INDEX IF EXISTS cd_cd_code_idx; CREATE INDEX  cd_cd_code_idx ON t_conduite(cd_cd_code);
@@ -437,11 +425,10 @@ DROP INDEX IF EXISTS mq_alveole_idx; CREATE UNIQUE INDEX mq_alveole_idx ON t_mas
 
 
 
-DROP INDEX IF EXISTS cb_code_idx; CREATE INDEX  cb_code_idx ON t_cable(cb_code);
 
 
-DROP INDEX IF EXISTS cb_bp1_idx; CREATE INDEX  cb_bp1_idx ON t_cable(cb_bp1);
-DROP INDEX IF EXISTS cb_bp2_idx; CREATE INDEX  cb_bp2_idx ON t_cable(cb_bp2);
+DROP INDEX IF EXISTS cb_nd1_idx; CREATE INDEX  cb_nd1_idx ON t_cable(cb_nd1);
+DROP INDEX IF EXISTS cb_nd2_idx; CREATE INDEX  cb_nd2_idx ON t_cable(cb_nd2);
 
 
 
@@ -487,6 +474,16 @@ DROP INDEX IF EXISTS cb_type_idx; CREATE INDEX  cb_type_idx ON t_cable(cb_type);
 
 
 
+
+
+
+
+
+
+
+
+
+
 DROP INDEX IF EXISTS lv_unique_idx; CREATE UNIQUE INDEX lv_unique_idx ON t_love (lv_cb_code, lv_nd_code);
 
 
@@ -498,7 +495,6 @@ DROP INDEX IF EXISTS lv_unique_idx; CREATE UNIQUE INDEX lv_unique_idx ON t_love 
 
 
 
-DROP INDEX IF EXISTS fo_code_idx; CREATE INDEX  fo_code_idx ON t_fibre(fo_code);
 
 DROP INDEX IF EXISTS fo_cb_code_idx; CREATE INDEX  fo_cb_code_idx ON t_fibre(fo_cb_code);
 
@@ -518,7 +514,6 @@ DROP INDEX IF EXISTS fo_proptyp_idx; CREATE INDEX  fo_proptyp_idx ON t_fibre(fo_
 
 
 
-DROP INDEX IF EXISTS ps_code_idx; CREATE INDEX  ps_code_idx ON t_position(ps_code);
 DROP INDEX IF EXISTS ps_numero_idx; CREATE INDEX  ps_numero_idx ON t_position(ps_numero);
 DROP INDEX IF EXISTS ps_1_idx; CREATE INDEX  ps_1_idx ON t_position(ps_1);
 DROP INDEX IF EXISTS ps_2_idx; CREATE INDEX  ps_2_idx ON t_position(ps_2);
@@ -540,6 +535,7 @@ DROP INDEX IF EXISTS ps_etat_idx; CREATE INDEX  ps_etat_idx ON t_position(ps_eta
 DROP INDEX IF EXISTS rt_code_idx; CREATE INDEX  rt_code_idx ON t_ropt(rt_code);
 
 DROP INDEX IF EXISTS rt_fo_code_idx; CREATE INDEX  rt_fo_code_idx ON t_ropt(rt_fo_code);
+
 
 
 
@@ -571,7 +567,6 @@ DROP INDEX IF EXISTS se_ad_code_idx; CREATE INDEX  se_ad_code_idx ON t_siteemiss
 
 
 
-DROP INDEX IF EXISTS zn_code_idx; CREATE INDEX  zn_code_idx ON t_znro(zn_code);
 DROP INDEX IF EXISTS zn_nd_code_idx; CREATE INDEX  zn_nd_code_idx ON t_znro(zn_nd_code);
 DROP INDEX IF EXISTS zn_r1_code_idx; CREATE INDEX  zn_r1_code_idx ON t_znro(zn_r1_code);
 DROP INDEX IF EXISTS zn_r2_code_idx; CREATE INDEX  zn_r2_code_idx ON t_znro(zn_r2_code);
@@ -593,7 +588,6 @@ DROP INDEX IF EXISTS zn_r4_code_idx; CREATE INDEX  zn_r4_code_idx ON t_znro(zn_r
 
 
 
-DROP INDEX IF EXISTS zs_code_idx; CREATE INDEX  zs_code_idx ON t_zsro(zs_code);
 DROP INDEX IF EXISTS zs_nd_code_idx; CREATE INDEX  zs_nd_code_idx ON t_zsro(zs_nd_code);
 DROP INDEX IF EXISTS zs_r1_code_idx; CREATE INDEX  zs_r1_code_idx ON t_zsro(zs_r1_code);
 DROP INDEX IF EXISTS zs_r2_code_idx; CREATE INDEX  zs_r2_code_idx ON t_zsro(zs_r2_code);
@@ -623,7 +617,6 @@ DROP INDEX IF EXISTS zs_r4_code_idx; CREATE INDEX  zs_r4_code_idx ON t_zsro(zs_r
 
 
 
-DROP INDEX IF EXISTS zp_code_idx; CREATE INDEX  zp_code_idx ON t_zpbo(zp_code);
 DROP INDEX IF EXISTS zp_nd_code_idx; CREATE INDEX  zp_nd_code_idx ON t_zpbo(zp_nd_code);
 DROP INDEX IF EXISTS zp_zs_code_idx; CREATE INDEX  zp_zs_code_idx ON t_zpbo(zp_zs_code);
 DROP INDEX IF EXISTS zp_r1_code_idx; CREATE INDEX  zp_r1_code_idx ON t_zpbo(zp_r1_code);
@@ -641,7 +634,6 @@ DROP INDEX IF EXISTS zp_r4_code_idx; CREATE INDEX  zp_r4_code_idx ON t_zpbo(zp_r
 
 
 
-DROP INDEX IF EXISTS zd_code_idx; CREATE INDEX  zd_code_idx ON t_zdep(zd_code);
 DROP INDEX IF EXISTS zd_nd_code_idx; CREATE INDEX  zd_nd_code_idx ON t_zdep(zd_nd_code);
 DROP INDEX IF EXISTS zd_zs_code_idx; CREATE INDEX  zd_zs_code_idx ON t_zdep(zd_zs_code);
 DROP INDEX IF EXISTS zd_r1_code_idx; CREATE INDEX  zd_r1_code_idx ON t_zdep(zd_r1_code);
@@ -662,7 +654,6 @@ DROP INDEX IF EXISTS zd_statut_idx; CREATE INDEX  zd_statut_idx ON t_zdep(zd_sta
 
 
 
-DROP INDEX IF EXISTS zc_code_idx; CREATE INDEX  zc_code_idx ON t_zcoax(zc_code);
 
 DROP INDEX IF EXISTS zc_nd_code_idx; CREATE INDEX  zc_nd_code_idx ON t_zcoax(zc_nd_code);
 DROP INDEX IF EXISTS zc_r1_code_idx; CREATE INDEX  zc_r1_code_idx ON t_zcoax(zc_r1_code);
@@ -700,7 +691,7 @@ DROP INDEX IF EXISTS do_url2_idx; CREATE INDEX  do_url2_idx ON t_document(do_url
 
 
 
-DROP INDEX IF EXISTS od_do_ref_idx; CREATE INDEX  od_do_ref_idx ON t_docobj(od_do_ref);
+DROP INDEX IF EXISTS od_do_code_idx; CREATE INDEX  od_do_code_idx ON t_docobj(od_do_code);
 
 
 
@@ -711,5 +702,4 @@ DROP INDEX IF EXISTS od_do_ref_idx; CREATE INDEX  od_do_ref_idx ON t_docobj(od_d
 
 
 
-DROP INDEX IF EXISTS em_code_idx; CREATE INDEX  em_code_idx ON t_empreinte(em_code);
-DROP INDEX IF EXISTS em_do_ref_idx; CREATE INDEX  em_do_ref_idx ON t_empreinte(em_do_ref);
+DROP INDEX IF EXISTS em_do_code_idx; CREATE INDEX  em_do_code_idx ON t_empreinte(em_do_code);

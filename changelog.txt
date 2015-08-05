@@ -1,6 +1,67 @@
 ﻿GraceTHD-MCD
 
 ### Changelog
+v2-beta2b
+Evolutions majeures : 
+- xx_id : 
+	- xx_id : suppression de ces attributs (sauf rt_id, mq_id, lv_id, od_id). 
+- xx_code : 
+	- xx_code deviennent clé primaire
+	- Création de do_code et se_code. 
+	- Remplacements : od_do_ref par od_do_code, em_do_ref par em_do_code. 
+- t_cableline : 
+	- Création de cette table pour déporter les géométries des câbles extérieurs qui sont modélisés par des géométries linéaires. 
+- t_cable : 
+	- Passage de la géométrie et des attributs liés à la géométrie sur t_cableline. 
+	- Remplacement de cb_bp1 et cb_bp2 par cb_nd1 et cb_nd2 (t_noeud au lieu de t_ebp). 
+		- Les câbles intrasites (jarretières, breakouts voire câbles classiques) n'ont plus besoin d'être modélisés par une ligne et peuvent simplement être localisés par la mise en relation avec un noeud d'extrêmité. 
+		- Désormais il est possible de mettre le code du noeud quand un câble a une extrêmité qui n'est pas un EBP. 
+		- Par contre lorsqu'il y a plusieurs équipements (EBP ou tiroirs) permettant potentiellement de raccorder le câble sur un même noeud, il faut modéliser la partie fibre (positions) pour connaitre les objets précis aux extrêmités d'un câble. 
+	- cb_localis : ajout. 
+Corrections : 
+- bp_occup : Suppression car doublon bp_occp
+- st_typephy : correction définition
+- eq_dateins : correction définition
+- cb_rf_id : renommé en cb_rf_code
+- pt_nd_code : ajout de la reference sur nd_code. 
+- do_code : définition
+Améliorations :
+- pt_a_strat : précision de la définition renvoyant vers les PIT Orange. 
+- zs_etatpm / l_sro_etat : ajout de PL/PLANIFIE en anticipation IPE 2.2
+- zs_refpm : passage de 100 à 20 caractères. 
+- zs_typeing : de 6 à 254 caractères selon Interop qui autorise des valeurs autres que mono, bi, quadri. 
+- l_bp_racco : valeurs mises à jour / codes erreur Interop. 
+- l_bp_type_log : ajout du code DTI pour les DTIo. 
+- l_bp_type_phy : ajout COF	/ COFFRET
+- cb_fo_util : ajout de cet attribut. 
+- t_organisme : ajout d'indexes
+- or_telfixe : VARCHAR(20)
+- or_siret : VARCHAR(14)
+- lt_etiquet : ajout index
+- rt_fo_ordr : ajout pour stocker l'ordre des fibres sur une route optique. 
+- eq_rf_code : ajout
+Général : 
+- gracethd-mcd-v2beta2b_schema_v01 : 
+	- ajout CableLigne
+	- Ajout "relations avec différentes classes" pour Adresse. 
+- gracethd-mcd-v2beta2b_schema_metiers_v01 : 
+	- identique à gracethd-mcd-v2beta2b_schema_metiers_v01 mais avec des couleurs par métier. 
+- gracethd-mcd-v2beta2b.ods	: 
+	- Création d'un dossier sources et déplacement de ce fichier de la racine à sources. 
+- Projets QGIS : 
+	- Le groupe de couches "Tables" est séparé en plusieurs groupes de couches métier. 
+- Demo01 : 
+	- Déplacement dans un projet spécifique https://github.com/GraceTHD-community/GraceTHD-Demo
+
+	
+v2-beta2a
+VERSION ARCHIVEE ET NON PUBLIEE
+La solution suivante pour la problématique générale des jarretières n'est pas retenue. 
+- t_cableinfra : Création de la table t_cableintra pour les câblages intrasite (jaretières, breackout, mais pourquoi pas des câbles intrasite). 
+- t_fibre : 
+	- fo_cb_code : modification définition + suppression NOT NULL
+	- fo_ci_code : ajout
+
 
 v2-beta1b
 - Quelques corrections sur Demo01. 
