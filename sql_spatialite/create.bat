@@ -1,8 +1,9 @@
 @ECHO OFF
 
 :VARIABLES
-SET SPLEX=C:\Users\cgul0007\Documents\GitHub\Gracelite\spatialite.exe
-SET GLV=_beta2b
+REM MODIFIER CHEMIN VERS exécutable spatialite.exe (sous gracelite par exemple)
+SET SPLEX=[chemin vers]\spatialite.exe
+SET GLV=rc1
 SET SPLDB=..\db_spatialite\gracethd_v2%GLV%.sqlite
 REM SET SHPDB=.\shpcsv-in\
 

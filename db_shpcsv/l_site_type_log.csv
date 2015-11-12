@@ -8,6 +8,7 @@ SRS;SOUS-REPARTITEUR CUIVRE SECONDAIRE;
 SRT;SOUS-REPARTITEUR CUIVRE TERTIAIRE;
 NRO;NŒUD RACCORDEMENT OPTIQUE;
 SRO;SOUS-REPARTITEUR OPTIQUE;
+SROL;SOUS-REPARTITEUR OPTIQUE COLOCALISE;Sous-repartiteur localise dans le NRO. "
 BRASSAGE;SITE DE BRASSAGE;Site non prevu pour heberger des equipements actifs (surtout longue distance)"
 CLIENT;SITE CLIENT;Site entreprise ou administration qui n est pas un site utilisateur final (SUF). "
 HEBERG;SITE HEBERGEMENT;Site d hebergement d equipements actifs qui n est pas un NRO (hors architecture FTTH). "

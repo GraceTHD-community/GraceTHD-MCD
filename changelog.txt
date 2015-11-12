@@ -1,6 +1,84 @@
 ﻿GraceTHD-MCD
 
 ### Changelog
+v2-RC1
+Corrections et évolutions mineures :
+- l_ptech_type_phy	: 
+	- F; ANCRAGE FACADE
+	- I; IMMEUBLE
+- cd_long : correction définition (issues #66 -> #93)
+- t_cableline : correction définition (issue #66 -> #94)
+- cl_cb_code : création de cet attribut pour avoir un code CLXXXXXXXXXXXX cohérent avec la table (issue #74). 
+- cl_code : modification de la définition (issue #74)
+- cb_nd1 et cb_nd2 : correction de la relation qui pointait encore t_ebp. (issue #71)
+- l_bp_type_phy : correction pour coffret mal pris en compte (colonne L non renseignée). (issue #72)
+- bp_racco : modification définition pour ne plus parler des succès de raccordement (conformité Interop). 
+- cm_gest_vo : renommé cm_gest_do + modification définition (issue #79)
+- cm_gest_vo : renommé cm_prop_do + modification définition (issue #79)
+- cm_passage : modification définition
+- cm_charge : modification définition
+- l_passage_type : ajout AQU
+- pt_secu : modification définition (issue #77). 
+- fo_type : modification définition. 
+- Ajout (retour) d'un suivi synthétique de l'avancement (issue #51)
+	- l_avancement : ajout. 
+	- cm_avct : ajout. 
+	- pt_avct : ajout. 
+	- st_avct : ajout. 
+	- bp_avct : ajout. 
+	- cb_avct : ajout. 
+	- cd_avct : ajout. 
+- Capacité lignes (issue #48) :
+	- zp_capamax : ajout (correspondance avec zs_capamax)
+	- pt_lignes : suppression
+- Types câbles (issues #58 et #89) 
+	- cb_typelog : ajout
+	- cb_typephy : renommage de cb_type, modification définition et nom long. 
+	- l_infra_type_log : 
+		- CO : Modification définition
+		- TR : Modification définition
+		- DI : Modification définition
+		- RA : Modification définition
+- cb_tech : Modification définition
+- st_datemes : renommage de st_dt_ms pour uniformiser avec les autres tables (issue #101). 
+- ad_batcode : modification définition
+- sf_zp_code : ajout. 
+- xx_ad_code (issue #53)
+	- pt_ad_code : ajout
+	- nd_ad_code : suppression
+- t_ltech : modification définition (issue #60)
+- l_site_type_log : ajout code SROL. 
+- pt_etat : modification définition (issue #108)
+- cm_voie : modification définition (issue #110)
+- Domanialité sur points techniques (issue #82)
+	- pt_gest_vo : ajout
+	- pt_pro_voi : ajout
+- l_site_type_phy : ajout COF;COFFRET (issue #123)
+- l_fo_type : ajout de valeurs (ITU et ISO) et de définitions (issue #129). 
+- l_fo_color : 
+	- ajout des valeurs FOTAG IEEE 802.8. 
+	- modification des définitions. 
+- l_position_type (issue #130): 
+	- ajout de valeurs
+	- ajout de définitions
+- t_ropt : modification définition. 
+- Protocole Interop 2.2 (issue #90)
+	- ad_hexaclv : ajout
+	- ad_idatcom : ajout
+	- ad_imneuf : ajout
+	- ad_idatimn : ajout
+	- zs_brassoi : ajout
+- l_suf_racco : ajout "RACCORDABLE SUR DEMANDE" (issue #55)
+- l_tube : ajout de 72 valeurs (issue #132)
+- zs_zn_code : ajout
+Général : 
+- roadmap.txt : réécriture
+- gracethd_6_specifique.sql : 
+	- Evolution de t_emprise : prototype de table pour stocker des emprises de chambres, sites, etc. 
+- db_spatialite/readme.txt : mises à jour. 
+- Fichiers ods : changement ordre des tables t_z* (après t_noeud)
+
+	
 v2-beta2b
 Evolutions majeures : 
 - xx_id : 

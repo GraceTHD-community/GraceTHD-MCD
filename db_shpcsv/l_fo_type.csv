@@ -1,14 +1,27 @@
 code;libelle;definition
-G651;G651;
-G652A;G652A;
-G652B;G652B;
-G652C;G652C;
-G652D;G652D;
-G653;G653;
-G655;G655;
-G656;G656;
-G657;G657;
-G657A;G657A;
-G657B;G657B;
-G657A2;G657A2;
-G652;G652;
+G651;G651;Norme ITU : Fibre multimode a gradient d indice type 50/125μm"
+G652;G652;Norme ITU : Fibre monomode standard SMF pour utilisation a 1300 nm et eventuellement a 1550 nm "
+G652A;G652A;Norme ITU : Version de base de la fibre G652, definie a 1310 nm et a 1550 nm"
+G652B;G652B;Norme ITU : Version de la fibre G652, definie à 1625nm avec des affaiblissements ameliores a 1310nm et a 1550nm par rapport a la version a, et avec une meilleure PMD."
+G652C;G652C;Norme ITU : Version  de  la  fibre  G652,  definie  a  1383nm  (faible  pic  OH)  avec  un  affaiblissement 
+ameliore a 1550nm par rapport à la version b."
+G652D;G652D;Norme ITU : Version de la fibre G652 la plus performante (meilleures caracteristiques des versions b et c)"
+G653;G653;Norme ITU : Fibre monomode a dispersion decalee DSF"
+G654;G654;Norme ITU : Fibre monomode a longueur d onde de coupure decalee. "
+G655;G655;Norme ITU : Fibre a dispersion decalee non nulle NZ-DSF "
+G656;G656;Norme ITU : Fibre monomode a dispersion non nulle pour large bande. "
+G657;G657;Norme ITU : Fibre monomode pour reseaux d acces FTTH. "
+G657A;G657A;Norme ITU : Fibre G657 compatible avec la fibre optique G652d"
+G657A1;G657A1;Norme ITU : Fibre  G657  compatible  a  la  fibre  G652d  et  offrant  une  insensibilite aux courbes de plus de 10mm. "
+G657A2;G657A2;Norme ITU : Fibre  G657  compatible  a  la  fibre  G652d  et  offrant  une  insensibilite aux courbes de plus de 7,5mm. "
+G657A3;G657A3;Norme ITU : Fibre  G657  compatible  a  la  fibre  G652d  et  offrant  une  insensibilite aux courbes de plus de 5mm. "
+G657B;G657B;Norme ITU : Fibre  G657  non  compatible  avec  la  fibre  optique  G652  mais  avec  des  meilleures caracteristiques d insensibilite aux courbes que la version a."
+G657B1;G657B1;Norme ITU : Fibre  G657  non  compatible  avec  la  fibre  optique  G652  et offrant une insensibilite aux courbes de plus de 10mm. "
+G657B2;G657B2;Norme ITU : Fibre  G657  non  compatible  avec  la  fibre  optique  G652  et offrant une insensibilite aux courbes de plus de 7,5mm. "
+G657B3;G657B3;Norme ITU : Fibre  G657  non  compatible  avec  la  fibre  optique  G652  et offrant une insensibilite aux courbes de plus de 5mm. "
+OM1;OM1;Norme ISO/IEC 11801 : Caracteristique  d une  fibre  optique  multimode  avec  une  bande passante minimum de 200MHz.km a 850nm. Peut transmettre 100Mbits sur 2km et 1 Gbit sur 275m a 850nm."
+OM2;OM2;Norme ISO/IEC 11801 : Caracteristique d une fibre optique multimode avec une bande passante minimum de 500MHz.km à 850nm. Peut transmettre 100Mbits sur 5km, 1 Gbits sur 550m et 10Gbits sur 82m a 850m. "
+OM3;OM3;Norme ISO/IEC 11801 : Caracteristique d une fibre optique multimode avec une bande de passante minimum de 1500MHz.km.. Peut transmettre 10 Gbits sur 330m à 850nm."
+OM4;OM4;Norme ISO/IEC 11801 : Caracteristique d une fibre optique multimode. Peut transmettre 10 Gbits sur 550m a 850nm."
+OS1;OS1;Norme ISO/EN : fibre monomode d attenuation maximum 1.0 dB par km (1310 et 1550nm). Pour des transmissions de 2km maximum. "
+OS2;OS2;Norme ISO/EN : fibre monomode d attenuation maximum 0.4 dB par km (1310 et 1550nm). Pour des transmissions superieures a 2km. "

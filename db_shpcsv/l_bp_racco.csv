@@ -9,15 +9,13 @@ Utilisé dans le cas de raccordement par l OI"
 FCLI05;CLIENT : REFUS TRAVAUX CLIENT ;Que ce soit en amont du RDV ou lors du RDV, le client refuse les travaux (percement, etc.) 
 Utilisé dans le cas de raccordement par l OI"
 FCLI06;CLIENT : REFUS GESTIONNAIRE IMMEUBLE;Lors du raccordement client, un passage en apparent sur le palier est nécessaire et a été refusé par le gestionnaire (par exemple car les goulottes sont saturées ou le palier a été refait)"
-FCLI07;CLIENT : CLIENT ABSENT LORS DE L INTERVENTION;Lors du RDV, le client est absent
-Utilisé dans le cas de raccordement par l OI"
+FCLI07;CLIENT : CLIENT ABSENT LORS DE L INTERVENTION;Lors du RDV, le client est absent. Utilisé dans le cas de raccordement par l OI"
 FADR01;ADRESSE : CODE ADRESSE IMMEUBLE INEXISTANT DANS LE REFERENTIEL OI;L OC envoie des codes adresses inexistants de l OI
 Les informations d adresse sont contrôlées dans l ordre suivant :
 1 Hexaclé 
 2 INSEE/RIVOLI/NUM VOIE/ COMPL VOIE
 3 Triplet Hexavia/numéro de voie /complément de voie 
-4 coordonnées xy 
-… (cf Interop)"
+4 coordonnées xy"
 FADR02;ADRESSE : BATIMENT MANQUANT OU INEXISTANT DANS LE REFERENTIEL OI;L adresse a été reconnue mais le batiment est manquant ou inexistant dans le référentiel de l OI"
 FADR03;ADRESSE : ESCALIER MANQUANT OU INEXISTANT DANS LE REFERENTIEL OI;L adresse et le batiment ont été reconnus mais l escalier est manquant ou inexistant dans le référentiel de l OI"
 FADR04;ADRESSE : ETAGE MANQUANT OU INEXISTANT DANS LE REFERENTIEL OI;L adresse, le batiment et l escalier ont été reconnus mais l étage est manquant ou inexistant dans le référentiel de l OI"
@@ -58,7 +56,6 @@ FAUT01;AUTRE MOTIF : COMMENTAIRES LIBRES;Autre motif technique hors constatation
 FRDV01;RDV : NOMBRE MAX DE MODIFICATIONS DE RDV DEPASSE;Dans le cas d un raccordment par l OI et d une demande de RDV manuelle, l OC a dépassé le nombre maximum de modifications de RDV autorisé contractuellement par l OI... (cf Interop)"
 FRDV02;RDV : PAS DE PLAGES DE RDV DISPONIBLES SUR CES CRENEAUX;Dans le cas d un raccordement par OI, et d une demande de RDV manuelle, l OC indique des créneaux à l aveugle à l OI. Ce rejet indique que les créneaux proposés par l OC ne sont pas disponibles dans le plan de charge de l OI.... (cf Interop)"
 FRDV03;RDV : PLAGE DE RDV NON RESERVEE;Dans le cas d un raccordement par l OI, l OC a dépassé le délai pour passer sa commande. La réservation du RDV n a donc pas été confirmée par l OI"
-FRDV04;RDV : ETAT RDV NON VALIDE ;Dans le cas où la commande est passée avec un rdv dont l’état n’est pas valide, par exemple annulé, terminé, ...
-"
+FRDV04;RDV : ETAT RDV NON VALIDE ;Dans le cas où la commande est passée avec un rdv dont l’état n’est pas valide, par exemple annulé, terminé, …"
 FRDV05;RDV : RDV SUR PRODUIT NON FTTH ;Dans le cas où la commande est passée avec un rdv qui a été pris sur un produit autre que le produit accès FTTH"
 FRDV06;RDV : RDV SUR ADRESSE DIFFERENTE;Dans le cas où la commande est passée avec un rdv qui a été pris sur une autre adresse que celle de la commande (exemple n° ou nom de rue différents de l adresse de la commande)"

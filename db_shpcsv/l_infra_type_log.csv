@@ -1,12 +1,12 @@
 code;libelle;definition
 CX;COLLECTE TRANSPORT DISTRIBUTION;
-CO;COLLECTE;Liaison entre les PM"
+CO;COLLECTE;Infrastructures en amont d’un NRO, d un NRA ou d un POP, permettant de faire transiter les flux mutualises des abonnes vers le cœur de reseau de l operateur."
 CT;COLLECTE TRANSPORT;
 CD;COLLECTE DISTRIBUTION;
 TD;TRANSPORT DISTRIBUTION;Mutualisation des fonctions transport et distribution"
-TR;TRANSPORT;> 144Fo"
-DI;DISTRIBUTION;<= 144Fo"
-RA;RACCORDEMENT FINAL;Entre le client et le point de branchement optique"
+TR;TRANSPORT;Infrastructure situee entre un noeud de raccordement (NRO, NRA, …) et les sous-repartiteurs (SRO, ...). "
+DI;DISTRIBUTION;Infrastructure situee entre le sous-repartiteur (SRO, ...) et les points de branchement (PBO, ...). "
+RA;RACCORDEMENT FINAL;Infrastructure  situee  entre  le  point de branchement (PBO, ...) et la prise terminale (DTIO, ...). "
 BM;BOUCLE METROPOLITAINE;
 LH;LONGUE DISTANCE (LONG HAUL);
 NC;NON COMMUNIQUE;

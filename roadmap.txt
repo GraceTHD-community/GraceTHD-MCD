@@ -1,31 +1,21 @@
-﻿Roadmap
-- v2 RC1 : 09/2015
-	- Evolutions suite retours Redmine de l'été + évolutions récentes Interop. 
-	- Base pour la pré-version du géostandard ANT v2. 
-	- Thématiques identifiées : 
-		- Attributs de regroupement des capacités fibre et lignes sur réseau FTTH. 
-		- Attributs de suivi d'avancement. 
-		- Evolutions Interop de septembre. 
-- v2 Release : 11/2015
-	- Synchro validation Covadis mi-novembre. 
-- v2.1 : 
-	- Interop : gérer des attributs supplémentaires (cf. cr_mad, etc.) ?
-	- Corrections
-- v3 alpha1 : 
-	- Gestion de l'échelle topographique et de l'intéropérabilité DAO/SIG ?
-	- Relations avec le SI financier ?
+﻿GraceTHD-MCD
+
+Roadmap 
+http://redmine.gracethd.org/projects/modele_grace/roadmap
+
 	
 Historique
-- Collecte et lecture des documentations et modèles de données existants. 
-- v2 Alpha1 : Modèle préalable utilisé en support pour la consultation. 
+- v2 Release Candidate 1 : corrections et évolutions mineures. 
+- v2 Beta2 : modifications prioritaires
+	--> version utilisée pour l'appel à commentaires de la Covadis (Geostandard ANT v2)
+- v2 Beta1 : version soumise à la consultation. 
+- v2 Alpha4 : traitement de détail des classes d'objets (attributs et énumérations).
+	--> VERSION ANNULEE, passage direct en beta 1. 
+- v2 Alpha3 :  
+	- Stabiliser les tables. 
 - v2 Alpha2 : 
 	- aboutir à un MCD intégrant les classes d'objets ciblées
 	- intégration des évolutions "aisées"
 	- nommages et typages conformes Covadis. 
 	- premier prototype de base SQL
-- v2 Alpha3 :  
-	- Stabiliser les tables. 
-- v2 Alpha4 : traitement de détail des classes d'objets (attributs et énumérations).
-	--> VERSION ANNULEE, passage direct en beta 1. 
-- v2 Beta1 : version soumise à la consultation. 
-- v2 Beta2 : modifications prioritaires
+- v2 Alpha1 : Modèle préalable utilisé en support pour la consultation. 

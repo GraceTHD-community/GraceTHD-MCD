@@ -1,7 +1,21 @@
 code;libelle;definition
-CSA;CONNECTEUR SC-APC;
-CSP;CONNECTEUR SC-PC;
-CFA;CONNECTEUR FC-APC;
-CFP;CONNECTEUR FC-PC;
-SFU;SOUDURE FUSION;
-SME;SOUDURE MECANIQUE;
+CEA;CONNECTEUR E2000-APC;Connecteur a verrouillage de type push/pull avec protection poussiere. Polissage permettant d avoir une reflectance meilleure que -60dB."
+CEU;CONNECTEUR E2000-UPC;Connecteur a verrouillage de type push/pull avec protection poussiere. Polissage permettant d avoir une reflectance meilleure que -50dB."
+CEP;CONNECTEUR E2000-PC;Connecteur a verrouillage de type push/pull avec protection poussiere. Polissage permettant d avoir une reflectance meilleure que -30dB."
+CFA;CONNECTEUR FC-APC;Connecteur a verrouillage a vis. Polissage permettant d avoir une reflectance meilleure que -60dB."
+CFU;CONNECTEUR FC-UPC;Connecteur a verrouillage a vis. Polissage permettant d avoir une reflectance meilleure que -50dB."
+CFP;CONNECTEUR FC-PC;Connecteur a verrouillage a vis. Polissage permettant d avoir une reflectance meilleure que -30dB."
+CLA;CONNECTEUR LC-APC;Connecteur a verrouillage de type push/pull et par languette. Polissage permettant d avoir une reflectance meilleure que -60dB."
+CLU;CONNECTEUR LC-UPC;Connecteur a verrouillage de type push/pull et par languette. Polissage permettant d avoir une reflectance meilleure que -50dB."
+CLP;CONNECTEUR LC-PC;Connecteur a verrouillage de type push/pull et par languette. Polissage permettant d avoir une reflectance meilleure que -30dB."
+CMA;CONNECTEUR MU-APC;Connecteur a verrouillage de type push/pull diametre 1.25mm. Polissage permettant d avoir une reflectance meilleure que -60dB."
+CMU;CONNECTEUR MU-UPC;Connecteur a verrouillage de type push/pull diametre 1.25mm. Polissage permettant d avoir une reflectance meilleure que -50dB."
+CMP;CONNECTEUR MU-PC;Connecteur a verrouillage de type push/pull diametre 1.25mm. Polissage permettant d avoir une reflectance meilleure que -30dB."
+CSA;CONNECTEUR SC-APC;Connecteur a verrouillage de type push/pull diametre 2.5mm. Polissage permettant d avoir une reflectance meilleure que -60dB."
+CSU;CONNECTEUR SC-UPC;Connecteur a verrouillage de type push/pull diametre 2.5mm. Polissage permettant d avoir une reflectance meilleure que -50dB."
+CSP;CONNECTEUR SC-PC;Connecteur a verrouillage de type push/pull diametre 2.5mm. Polissage permettant d avoir une reflectance meilleure que -30dB."
+CTU;CONNECTEUR ST-UPC;Connecteur a verrouillage de type baionnette. Polissage permettant d avoir une reflectance meilleure que -50dB."
+CTP;CONNECTEUR ST-PC;Connecteur a verrouillage de type baionette. Polissage permettant d avoir une reflectance meilleure que -30dB."
+CPO;CONNECTEUR MT MPO;Fiche polymère intégrant plusieurs fibres SM ou MM. MTRJ pour la version 2 fibres. "
+SFU;SOUDURE FUSION;Raccordement sous l effet d une chaleur intense avec une soudeuse. "
+SME;SOUDURE MECANIQUE;Raccordement mecanique, generalement par sertissage. "

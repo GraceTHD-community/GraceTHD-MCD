@@ -1,4 +1,4 @@
-LA BASE DE DONNEES SPATIALITE : gracethd_v2_*.sqlite
+﻿LA BASE DE DONNEES SPATIALITE : gracethd_v*.sqlite
 - Inutile pour un utilisateur de chercher à ouvrir ce fichier autrement qu'avec son outil SIG (QGIS par exemple). 
 - Un administrateur (maîtrise du SQL) peut utiliser par exemple : 
 	- les outils de l'éditeur : http://www.gaia-gis.it/gaia-sins/
@@ -6,7 +6,7 @@ LA BASE DE DONNEES SPATIALITE : gracethd_v2_*.sqlite
 
 
 EXPLOITER LA BASE AVEC LES FICHIERS FOURNIS
-Projet QGIS (v2.8) : gracethd.qgs 
+Projet QGIS (v2.8) : gracethd-spatialite.qgs 
 - Permet à un utilisateur non initié à QGIS d'ouvrir directement un projet avec les couches et les tables connectées. 
 
 Alternative avec les fichiers de couches QGIS (.qlr depuis QGIS 2.4)

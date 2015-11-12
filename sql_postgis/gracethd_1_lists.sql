@@ -1,10 +1,11 @@
-/*GraceTHD v2 beta1b*/
+/*GraceTHD v2-RC1*/
 /*Creation des tables qui vont accueillir les listes de valeurs*/
 /*PostGIS*/
 
 SET search_path TO gracethd, public;
 
 DROP TABLE IF EXISTS l_adresse_etat;
+DROP TABLE IF EXISTS l_avancement;
 DROP TABLE IF EXISTS l_baie_type;
 DROP TABLE IF EXISTS l_bp_racco;
 DROP TABLE IF EXISTS l_bp_type_log;
@@ -54,7 +55,9 @@ DROP TABLE IF EXISTS l_tube;
 DROP TABLE IF EXISTS l_zone_densite;
 
 
+
 CREATE TABLE l_adresse_etat(code VARCHAR(2), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_adresse_etat_pk" PRIMARY KEY (code));
+CREATE TABLE l_avancement(code VARCHAR(1), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_avancement_pk" PRIMARY KEY (code));
 CREATE TABLE l_baie_type(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_baie_type_pk" PRIMARY KEY (code));
 CREATE TABLE l_bp_racco(code VARCHAR(6), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_bp_racco_pk" PRIMARY KEY (code));
 CREATE TABLE l_bp_type_log(code VARCHAR(3), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_bp_type_log_pk" PRIMARY KEY (code));
@@ -102,3 +105,4 @@ CREATE TABLE l_technologie_type(code VARCHAR(10), libelle VARCHAR(254), definiti
 CREATE TABLE l_tiroir_type(code VARCHAR(10), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_tiroir_type_pk" PRIMARY KEY (code));
 CREATE TABLE l_tube(code VARCHAR(5), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_tube_pk" PRIMARY KEY (code));
 CREATE TABLE l_zone_densite(code VARCHAR(1), libelle VARCHAR(254), definition VARCHAR(254), CONSTRAINT "l_zone_densite_pk" PRIMARY KEY (code));
+

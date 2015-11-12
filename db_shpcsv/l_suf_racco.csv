@@ -2,6 +2,7 @@ code;libelle;definition
 AB;ABONNE;Logement dont l occupant a souscrit un abonnement a une offre d un operateur commercial sur un reseau en fibre optique jusqu a l abonne. "
 RA;RACCORDE;Logement pour lequel il existe une continuite entre le PM et la PTO. "
 RB;RACCORDABLE;Logement pour lequel il existe une continuite optique entre le PM et le PBO, ou entre le PM et la PTO si le PBO est absent. "
+RD;RACCORDABLE SUR DEMANDE;Deploiement differe de PBO sous certaines conditions. "
 EL;ELIGIBLE;Logement pour lequel au moins un operateur a relie le point de mutualisation a son NRO, et pour lequel il manque seulement le raccordement final et un eventuel  brassage au PM pour avoir une continuite optique entre le NRO et la PTO. "
 EM;ELIGIBLE MUTUALISE;Logement eligible pour lequel plusieurs operateurs ont relie le PM a leur NRO. "
 PR;PROGRAMME;Logement situe dans la zone arriere d un PM pour lequel le PM a ete installe et mis  a disposition des operateurs tiers, au sens de l annexe OO de la decision 2009-1106. "

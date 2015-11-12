@@ -1,4 +1,6 @@
 code;libelle;definition
 A;APPUI;
 C;CHAMBRE;
+F;ANCRAGE FACADE;
+I;IMMEUBLE;
 Z;AUTRE;
