@@ -13,8 +13,8 @@ Corrections et évolutions mineures :
 - cb_nd1 et cb_nd2 : correction de la relation qui pointait encore t_ebp. (issue #71)
 - l_bp_type_phy : correction pour coffret mal pris en compte (colonne L non renseignée). (issue #72)
 - bp_racco : modification définition pour ne plus parler des succès de raccordement (conformité Interop). 
-- cm_gest_vo : renommé cm_gest_do + modification définition (issue #79)
-- cm_gest_vo : renommé cm_prop_do + modification définition (issue #79)
+- cm_gest_vo : renommé cm_gest_do + modification définition (issue #79) -> ERRATUM : modification initalement anoncée non appliquée. 
+- cm_gest_vo : renommé cm_prop_do + modification définition (issue #79) -> ERRATUM : modification initalement anoncée non appliquée. 
 - cm_passage : modification définition
 - cm_charge : modification définition
 - l_passage_type : ajout AQU
