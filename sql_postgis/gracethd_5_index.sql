@@ -1,8 +1,7 @@
-/*GraceTHD v2-RC1*/
+/*GraceTHD v2-RC2*/
 /* Creation des index*/
 /*PostGIS*/
 
-SET search_path TO gracethd, public;
 DROP INDEX IF EXISTS ad_ban_id_idx; CREATE INDEX  ad_ban_id_idx ON t_adresse(ad_ban_id);
 
 
@@ -364,8 +363,8 @@ DROP INDEX IF EXISTS sf_type_idx; CREATE INDEX  sf_type_idx ON t_suf(sf_type);
 
 DROP INDEX IF EXISTS pt_nd_code_idx; CREATE INDEX  pt_nd_code_idx ON t_ptech(pt_nd_code);
 DROP INDEX IF EXISTS pt_ad_code_idx; CREATE INDEX  pt_ad_code_idx ON t_ptech(pt_ad_code);
-DROP INDEX IF EXISTS pt_gest_vo_idx; CREATE INDEX  pt_gest_vo_idx ON t_ptech(pt_gest_vo);
-DROP INDEX IF EXISTS pt_pro_voi_idx; CREATE INDEX  pt_pro_voi_idx ON t_ptech(pt_pro_voi);
+DROP INDEX IF EXISTS pt_gest_do_idx; CREATE INDEX  pt_gest_do_idx ON t_ptech(pt_gest_do);
+DROP INDEX IF EXISTS pt_prop_do_idx; CREATE INDEX  pt_prop_do_idx ON t_ptech(pt_prop_do);
 DROP INDEX IF EXISTS pt_prop_idx; CREATE INDEX  pt_prop_idx ON t_ptech(pt_prop);
 DROP INDEX IF EXISTS pt_gest_idx; CREATE INDEX  pt_gest_idx ON t_ptech(pt_gest);
 
@@ -456,8 +455,8 @@ DROP INDEX IF EXISTS cm_cm2_idx; CREATE INDEX  cm_cm2_idx ON t_cheminement(cm_cm
 
 
 
-DROP INDEX IF EXISTS cm_gest_vo_idx; CREATE INDEX  cm_gest_vo_idx ON t_cheminement(cm_gest_vo);
-DROP INDEX IF EXISTS cm_pro_voi_idx; CREATE INDEX  cm_pro_voi_idx ON t_cheminement(cm_pro_voi);
+DROP INDEX IF EXISTS cm_gest_do_idx; CREATE INDEX  cm_gest_do_idx ON t_cheminement(cm_gest_do);
+DROP INDEX IF EXISTS cm_prop_do_idx; CREATE INDEX  cm_prop_do_idx ON t_cheminement(cm_prop_do);
 DROP INDEX IF EXISTS cm_statut_idx; CREATE INDEX  cm_statut_idx ON t_cheminement(cm_statut);
 DROP INDEX IF EXISTS cm_etat_idx; CREATE INDEX  cm_etat_idx ON t_cheminement(cm_etat);
 

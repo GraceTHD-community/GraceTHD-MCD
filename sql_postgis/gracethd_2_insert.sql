@@ -1,4 +1,4 @@
-/*GraceTHD v2-RC1*/
+/*GraceTHD v2-RC2*/
 /*Insertion des valeurs dans les listes de valeurs*/
 /*PostGIS*/
 SET search_path TO gracethd, public;

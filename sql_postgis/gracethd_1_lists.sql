@@ -1,4 +1,4 @@
-/*GraceTHD v2-RC1*/
+/*GraceTHD v2-RC2*/
 /*Creation des tables qui vont accueillir les listes de valeurs*/
 /*PostGIS*/
 

@@ -1,10 +1,11 @@
 ﻿GraceTHD-MCD
 
-Roadmap 
+Roadmap :
 http://redmine.gracethd.org/projects/modele_grace/roadmap
 
 	
-Historique
+Historique : 
+- v2 Release Candidate 2 : corrections
 - v2 Release Candidate 1 : corrections et évolutions mineures. 
 - v2 Beta2 : modifications prioritaires
 	--> version utilisée pour l'appel à commentaires de la Covadis (Geostandard ANT v2)

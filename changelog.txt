@@ -1,6 +1,16 @@
 ﻿GraceTHD-MCD
 
 ### Changelog
+v2-RC2
+- Domanialité : 
+	- cm_gest_do : cm_gest_vo renommé + modification définition (issue #79)
+	- cm_prop_do : cm_pro_voi renommé + modification définition (issue #79)
+	- pt_gest_do : pt_gest_vo renommé + modification définition (issue #82)
+	- pt_prop_do : pt_pro_voi renommé + modification définition (issue #82)
+- cl_code : suppression de la référence à cb_code. 
+- l_avancement.csv : oubliée dans rc1. 
+
+
 v2-RC1
 Corrections et évolutions mineures :
 - l_ptech_type_phy	: 
@@ -51,7 +61,7 @@ Corrections et évolutions mineures :
 - pt_etat : modification définition (issue #108)
 - cm_voie : modification définition (issue #110)
 - Domanialité sur points techniques (issue #82)
-	- pt_gest_vo : ajout
+	- pt_gest_vo : ajout 
 	- pt_pro_voi : ajout
 - l_site_type_phy : ajout COF;COFFRET (issue #123)
 - l_fo_type : ajout de valeurs (ITU et ISO) et de définitions (issue #129). 

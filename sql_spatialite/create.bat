@@ -2,9 +2,9 @@
 
 :VARIABLES
 REM MODIFIER CHEMIN VERS exécutable spatialite.exe (sous gracelite par exemple)
-SET SPLEX=[chemin vers]\spatialite.exe
-SET GLV=rc1
-SET SPLDB=..\db_spatialite\gracethd_v2%GLV%.sqlite
+SET SPLEX=D:\apps_portables_free\spatialite42\spatialite.exe
+SET GLV=v2rc2
+SET SPLDB=..\db_spatialite\gracethd_%GLV%.sqlite
 REM SET SHPDB=.\shpcsv-in\
 
 :BASE

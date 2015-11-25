@@ -1,4 +1,4 @@
-/*GraceTHD v2-RC1*/
+/*GraceTHD v2-RC2*/
 /*Creation des tables*/
 /*PostGIS*/
 
@@ -402,8 +402,8 @@ CREATE TABLE t_ptech(	pt_code VARCHAR(254) NOT NULL  ,
 	pt_etiquet VARCHAR(254)   ,
 	pt_nd_code VARCHAR(254) NOT NULL  REFERENCES t_noeud (nd_code),
 	pt_ad_code VARCHAR(254)   REFERENCES t_adresse(ad_code),
-	pt_gest_vo VARCHAR(20)   REFERENCES t_organisme (or_code),
-	pt_pro_voi VARCHAR(20)   REFERENCES t_organisme (or_code),
+	pt_gest_do VARCHAR(20)   REFERENCES t_organisme (or_code),
+	pt_prop_do VARCHAR(20)   REFERENCES t_organisme (or_code),
 	pt_prop VARCHAR(20)   REFERENCES t_organisme (or_code),
 	pt_gest VARCHAR(20)   REFERENCES t_organisme (or_code),
 	pt_user VARCHAR(254)   REFERENCES t_organisme (or_code),
@@ -434,6 +434,7 @@ CREATE TABLE t_ptech(	pt_code VARCHAR(254) NOT NULL  ,
 	pt_abddate DATE   ,
 	pt_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_ptech_pk" PRIMARY KEY (pt_code));	
+
 	
 CREATE TABLE t_ebp(	bp_code VARCHAR(254) NOT NULL  ,
 	bp_etiquet VARCHAR(254)   ,
@@ -494,8 +495,8 @@ CREATE TABLE t_cheminement(	cm_code VARCHAR(254) NOT NULL  ,
 	cm_r3_code VARCHAR(100)   ,
 	cm_r4_code VARCHAR(100)   ,
 	cm_voie VARCHAR(254)   ,
-	cm_gest_vo VARCHAR(20)   REFERENCES t_organisme (or_code),
-	cm_pro_voi VARCHAR(20)   REFERENCES t_organisme (or_code),
+	cm_gest_do VARCHAR(20)   REFERENCES t_organisme (or_code),
+	cm_prop_do VARCHAR(20)   REFERENCES t_organisme (or_code),
 	cm_statut VARCHAR(3)   REFERENCES l_statut (code),
 	cm_etat VARCHAR(3)   REFERENCES l_etat_type (code),
 	cm_datcons DATE   ,
@@ -529,6 +530,7 @@ CREATE TABLE t_cheminement(	cm_code VARCHAR(254) NOT NULL  ,
 	cm_abdsrc VARCHAR(254)   ,
 	geom Geometry(Linestring,2154) NOT NULL  ,
 CONSTRAINT "t_cheminement_pk" PRIMARY KEY (cm_code));	
+
 	
 CREATE TABLE t_conduite(	cd_code VARCHAR(254) NOT NULL  ,
 	cd_codeext Varchar(254)   ,
@@ -624,7 +626,7 @@ CREATE TABLE t_cable(	cb_code VARCHAR(254) NOT NULL  ,
 	cb_abdsrc VARCHAR(254)   ,
 CONSTRAINT "t_cable_pk" PRIMARY KEY (cb_code));	
 	
-CREATE TABLE t_cableline(	cl_code VARCHAR(254) NOT NULL  REFERENCES t_cable(cb_code),
+CREATE TABLE t_cableline(	cl_code VARCHAR(254) NOT NULL  ,
 	cl_cb_code VARCHAR (254) NOT NULL UNIQUE REFERENCES t_cable(cb_code),
 	cl_long NUMERIC   ,
 	cl_comment VARCHAR(254)   ,
