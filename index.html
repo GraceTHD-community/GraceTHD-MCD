@@ -20,7 +20,7 @@
     <header>
       <div class="inner">
         <h1>GraceTHD-MCD</h1>
-        <h2>Modèle de données GraceTHD</h2>
+        <h2>Modèle de données GraceTHD-MCD</h2>
         <a href="https://github.com/GraceTHD-community/GraceTHD-MCD" class="button"><small>View project on</small> GitHub</a>
       </div>
     </header>
@@ -31,15 +31,19 @@
           <h1>
 <a id="gracethd-mcd" class="anchor" href="#gracethd-mcd" aria-hidden="true"><span class="octicon octicon-link"></span></a>GraceTHD-MCD</h1>
 
-<p>GraceTHD-MCD est un modèle de données relationnel destiné à échanger des modèles numériques de réseaux de télécommunications. </p>
+<p>GraceTHD-MCD est un modèle de données relationnel destiné à échanger des modèles numériques de réseaux de télécommunications. 
+La plateforme de gestion du projet GraceTHD : <a href="http://redmine.gracethd.org">http://redmine.gracethd.org</a></p>
 
-<p>GraceTHD-MCD est un des projets maintenus par GraceTHD-community :
-<a href="https://github.com/GraceTHD-community">https://github.com/GraceTHD-community</a></p>
+<p>GraceTHD-MCD est un des projets maintenus par <a href="https://github.com/GraceTHD-community">GraceTHD-community</a></p>
 
-<p>Un modèle d'organisation des documents techniques et administratifs est disponible en complément : <a href="http://gracethd-community.github.io/GraceTHD-MOD/">GraceTHD-MOD</a>. Celui-ci préconise notamment des règles de nommage des objets adaptés au modèle de données GraceTHD-MCD. </p>
+<ul>
+<li>
+<a href="http://gracethd-community.github.io/GraceTHD-MOD/">GraceTHD-MOD</a> : Un modèle d'organisation des documents techniques et administratifs est disponible en complément. Préconise également des règles de nommage des objets adaptés au modèle de données GraceTHD-MCD. </li>
+<li>
+<a href="http://gracethd-community.github.io/GraceTHD-Demo/">GraceTHD-Demo</a> : Un dépôt dédié à des projets de démonstrations est également disponible. </li>
+</ul>
 
-<p>Un dépôt dédié à des projets de démonstrations est également disponible : 
-<a href="http://gracethd-community.github.io/GraceTHD-Demo/">GraceTHD-Demo</a></p>
+<p>GraceTHD-MCD est le modèle de données validé par la Covadis comme <a href="http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html">Geostandard Aménagement Numérique des Territoires v2</a>. </p>
 
 <h3>
 <a id="contexte" class="anchor" href="#contexte" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contexte</h3>
@@ -55,7 +59,7 @@ GraceTHD-MCD devrait devenir la version 2 qui corrigera nombre conséquent de la
 <h3>
 <a id="caractéristiques-de-la-v2" class="anchor" href="#caract%C3%A9ristiques-de-la-v2" aria-hidden="true"><span class="octicon octicon-link"></span></a>Caractéristiques de la v2</h3>
 
-<p>GraceTHD v2 est une importante refonte du Geostandard ANT v1 complété d'éléments du modèle de données du Syane notamment pour la partie optique, ainsi qu'un rapprochement d'autres modèles de données de référence comme par exemple le Groupe Interop Fibre ou la BAN de sortes à simplifier les échanges avec ces modèles de données. </p>
+<p>GraceTHD-MCD v2 est une importante refonte du Geostandard ANT v1 complétée d'éléments du modèle de données du Syane notamment pour la partie optique, ainsi qu'un rapprochement d'autres modèles de données de référence comme par exemple le Groupe Interop Fibre ou la BAN de sortes à simplifier les échanges avec ces modèles de données. </p>
 
 <p>Quelques exemples de différences avec la version 1 : </p>
 
@@ -80,12 +84,11 @@ GraceTHD-MCD devrait devenir la version 2 qui corrigera nombre conséquent de la
 
 <ul>
 <li>changelog.txt : historique des modifications</li>
-<li>gracethd-mcd-xxxxx.ods : fichier de développement</li>
 <li>roadmap.txt : feuille de route</li>
 <li>\db_shpcsv\ : base (shapefiles + CSV + csv des listes de valeurs) vierge et conforme au modèle de données + un projet QGIS 2.8. </li>
 <li>\db_spatialite\ : une base de données Spatialite vierge et conforme au modèle de données. </li>
-<li>\demo01\ : une base (shapefiles + CSV + csv des listes de valeurs) avec un jeu de données fictif. ATTENTION les valeurs de ce jeu de données ne sont pas garantie 100% conformes. C'est une première version d'un jeu de test. </li>
 <li>\mcd_doc\ : documentation du modèle de données. Un schéma très simplifié du MCD (gracethd-mcd-vxxxx_schema_vxx.png), le MCD "lisible" (gracethd-mcd-vxxxxxx_doc_vxx.ods), le Modèle Logique de Données (gracethd-mld-vxxxxx.png), sans organisation des tables à ce stade. </li>
+<li>\sources\gracethd-mcd-xxxxx.ods : fichier de développement</li>
 <li>\sql_postgis\ : les scripts pour créer les tables dans un schéma de base de données sous PostGIS 2.x</li>
 <li>\sql_spatialite\ : les scripts pour créer les tables dans un schéma de base de données sous Spatialite. </li>
 </ul>
@@ -95,7 +98,7 @@ GraceTHD-MCD devrait devenir la version 2 qui corrigera nombre conséquent de la
 
 <p><strong>GraceTHD est un modèle de données DEDIE A L'ECHANGE</strong> ! Ce modèle n'est pas conçu comme un modèle de production de données. L'écosystème autour de ce modèle de données se batira à partir des initiatives des acteurs (éditeurs de progiciels, opérateurs, constructeurs, collectivités, ... ). </p>
 
-<p>Le format d'échange qui sera préconisé par le Geostandard ANT est shapefile et csv pour leur grande intéropérabilité. C'est une préconisation. Deux parties peuvent s'entendre pour échanger sous divers formats (comme des dumps SQL de base à base) tout en respectant le modèle de données. </p>
+<p>Le format d'échange préconisé par le Geostandard ANT v2.0 est shapefile et csv pour leur grande intéropérabilité. C'est une préconisation. Deux parties peuvent s'entendre pour échanger sous divers formats (comme des dumps SQL de base à base) tout en respectant le modèle de données. </p>
 
 <ul>
 <li><p><strong>Collectivités</strong> : 
@@ -113,24 +116,20 @@ Toute la documentation est disponible et les consultations ont été réalisées
 
 <ul>
 <li><p><strong>Gracelite</strong> : 
-Projet open source en cours de développement. Il s'agira d'une boite à outils destinée dans un premier temps à garantir les imports / exports Spatialite et SHP/CSV. Ceci permettra de profiter en mode local d'une base de données SQL. Les imports permettront notamment de faire office d'un premier niveau de contrôle de conformité générale de la structure des shapefiles / CSV. </p></li>
-<li><p><strong>Gracepg</strong> : 
-Projet open source en cours de développement. Equivalent client/serveur de Gracelite. Dans un premier temps Gracepg fournira des exemples de scripts d'import/export de shapefiles/csv GraceTHD dans une base GraceTHD sous PostGIS. </p></li>
+Projet open source en cours de développement. Il s'agit d'une boite à outils destinée dans un premier temps à garantir les imports / exports Spatialite et SHP/CSV. Ceci permet de profiter en mode local d'une base de données SQL. Les imports permettront notamment de faire office d'un premier niveau de contrôle de conformité générale de la structure des shapefiles / CSV. Des exemples de scripts d'import/export PostGIS sont également disponibles. </p></li>
 <li><p><strong>Outil de contrôle</strong> : 
-La création d'un outil de contrôle à destination des collectivités est prévu. </p></li>
+La création d'un outil de contrôle à destination des collectivités est prévue. </p></li>
 </ul>
 
 <h3>
 <a id="support-or-contact" class="anchor" href="#support-or-contact" aria-hidden="true"><span class="octicon octicon-link"></span></a>Support or Contact</h3>
 
-<p><a href="mailto:geostandard-ant-users@googlegroups.com">geostandard-ant-users@googlegroups.com</a></p>
-
-<p>Une plateforme de gestion de projet (Redmine) destinée à remonter les demandes d'évolutions, les anomalies et les demandes d'assistance est disponible. S'inscrire préalablement sur le groupe de discussion. </p>
+<p>Une plateforme de gestion de projet <a href="http://redmine.gracethd.org">Redmine</a> destinée à remonter les demandes d'évolutions, les anomalies et les demandes d'assistance est disponible. </p>
 
 <h3>
 <a id="contributeurs" class="anchor" href="#contributeurs" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributeurs</h3>
 
-<p>Comité de pilotage : Avicca - France Très Haut Débit - Caisse des dépôts - Région Alsace - Région Aquitaine - Syane - Mégalis Bretagne - Manche Numérique - La Fibre 59/62 - Gironde Numérique - Touraine Cher Numérique - Oise THD</p>
+<p>Comité de pilotage : Avicca - L'Agence du Numérique - Caisse des dépôts - Région Alsace - Région Aquitaine - Syane - Mégalis Bretagne - Manche Numérique - La Fibre 59/62 - Gironde Numérique - Touraine Cher Numérique - Oise THD. De nouvelles collectivités rejoignent actuellement le comité de pilotage. </p>
 
 <p>Groupement d'entreprises : DOTIC - CADaGEO - Aleno - Cochr@n.</p>
 
