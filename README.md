@@ -1,6 +1,9 @@
 # GraceTHD-MCD
 
 GraceTHD-MCD est un modèle de données relationnel destiné à échanger des modèles numériques de réseaux de télécommunications. 
+La plateforme de gestion du projet : [Redmine](http://redmine.gracethd.org)
+
+GraceTHD-MCD est le modèle de données validé par la Covadis comme [Geostandard Aménagement Numérique des Territoires v2](http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html). 
 
 GraceTHD-MCD est un des projets maintenus par GraceTHD-community :
 https://github.com/GraceTHD-community
@@ -67,7 +70,7 @@ Projet open source en cours de développement. Il s'agit d'une boite à outils d
 La création d'un outil de contrôle à destination des collectivités est prévue. 
 
 ### Support or Contact
-Une plateforme de gestion de projet [Redmine] (http://redmine.gracethd.org) destinée à remonter les demandes d'évolutions, les anomalies et les demandes d'assistance est disponible. 
+Une plateforme de gestion de projet [Redmine](http://redmine.gracethd.org) destinée à remonter les demandes d'évolutions, les anomalies et les demandes d'assistance est disponible. 
 
 ### Contributeurs
 Comité de pilotage : Avicca - L'Agence du Numérique - Caisse des dépôts - Région Alsace - Région Aquitaine - Syane - Mégalis Bretagne - Manche Numérique - La Fibre 59/62 - Gironde Numérique - Touraine Cher Numérique - Oise THD. De nouvelles collectivités rejoignent actuellement le comité de pilotage. 
