@@ -20,7 +20,7 @@ La communauté GraceTHD et la Covadis collaborent pour produire la version 2 du 
 GraceTHD-MCD devrait devenir la version 2 qui corrigera nombre conséquent de lacunes et supportera mieux les réseaux FTTH et les données liées à l'optique. 
 
 ### Caractéristiques de la v2
-GraceTHD v2 est une importante refonte du Geostandard ANT v1 complété d'éléments du modèle de données du Syane notamment pour la partie optique, ainsi qu'un rapprochement d'autres modèles de données de référence comme par exemple le Groupe Interop Fibre ou la BAN de sortes à simplifier les échanges avec ces modèles de données. 
+GraceTHD-MCD v2 est une importante refonte du Geostandard ANT v1 complétée d'éléments du modèle de données du Syane notamment pour la partie optique, ainsi qu'un rapprochement d'autres modèles de données de référence comme par exemple le Groupe Interop Fibre ou la BAN de sortes à simplifier les échanges avec ces modèles de données. 
 
 Quelques exemples de différences avec la version 1 : 
 * Nombreuses évolutions pour répondre aux nouveaux usages. 
@@ -35,19 +35,18 @@ Quelques exemples de différences avec la version 1 :
 
 ### Contenu
 * changelog.txt : historique des modifications
-* gracethd-mcd-xxxxx.ods : fichier de développement
 * roadmap.txt : feuille de route
 * \db_shpcsv\ : base (shapefiles + CSV + csv des listes de valeurs) vierge et conforme au modèle de données + un projet QGIS 2.8. 
 * \db_spatialite\ : une base de données Spatialite vierge et conforme au modèle de données. 
-* \demo01\ : une base (shapefiles + CSV + csv des listes de valeurs) avec un jeu de données fictif. ATTENTION les valeurs de ce jeu de données ne sont pas garantie 100% conformes. C'est une première version d'un jeu de test. 
 * \mcd_doc\ : documentation du modèle de données. Un schéma très simplifié du MCD (gracethd-mcd-vxxxx_schema_vxx.png), le MCD "lisible" (gracethd-mcd-vxxxxxx_doc_vxx.ods), le Modèle Logique de Données (gracethd-mld-vxxxxx.png), sans organisation des tables à ce stade. 
+* \sources\gracethd-mcd-xxxxx.ods : fichier de développement
 * \sql_postgis\ : les scripts pour créer les tables dans un schéma de base de données sous PostGIS 2.x
 * \sql_spatialite\ : les scripts pour créer les tables dans un schéma de base de données sous Spatialite. 
 
 ### Utilisation
 **GraceTHD est un modèle de données DEDIE A L'ECHANGE** ! Ce modèle n'est pas conçu comme un modèle de production de données. L'écosystème autour de ce modèle de données se batira à partir des initiatives des acteurs (éditeurs de progiciels, opérateurs, constructeurs, collectivités, ... ). 
 
-Le format d'échange qui sera préconisé par le Geostandard ANT est shapefile et csv pour leur grande intéropérabilité. C'est une préconisation. Deux parties peuvent s'entendre pour échanger sous divers formats (comme des dumps SQL de base à base) tout en respectant le modèle de données. 
+Le format d'échange préconisé par le Geostandard ANT v2.0 est shapefile et csv pour leur grande intéropérabilité. C'est une préconisation. Deux parties peuvent s'entendre pour échanger sous divers formats (comme des dumps SQL de base à base) tout en respectant le modèle de données. 
 
 * **Collectivités** : 
 Le modèle seul n'est pas suffisant. Des outils d'intégration, de contrôle, d'analyse, de traitement et de publication des données doivent être développés. Vous pouvez vous tenir au courant des projets planifiés auprès de l'AVICCA et du groupe de discussion. Voir le projet GraceTHD-MOD qui vous fournit des préconisations complémentaires. 
@@ -62,21 +61,16 @@ Toute contribution au modèle est la bienvenue et encouragée.
 
 ### Projets relatifs à GraceTHD
 * **Gracelite** : 
-Projet open source en cours de développement. Il s'agira d'une boite à outils destinée dans un premier temps à garantir les imports / exports Spatialite et SHP/CSV. Ceci permettra de profiter en mode local d'une base de données SQL. Les imports permettront notamment de faire office d'un premier niveau de contrôle de conformité générale de la structure des shapefiles / CSV. 
-
-* **Gracepg** : 
-Projet open source en cours de développement. Equivalent client/serveur de Gracelite. Dans un premier temps Gracepg fournira des exemples de scripts d'import/export de shapefiles/csv GraceTHD dans une base GraceTHD sous PostGIS. 
+Projet open source en cours de développement. Il s'agit d'une boite à outils destinée dans un premier temps à garantir les imports / exports Spatialite et SHP/CSV. Ceci permet de profiter en mode local d'une base de données SQL. Les imports permettront notamment de faire office d'un premier niveau de contrôle de conformité générale de la structure des shapefiles / CSV. Des exemples de scripts d'import/export PostGIS sont également disponibles. 
 
 * **Outil de contrôle** : 
-La création d'un outil de contrôle à destination des collectivités est prévu. 
+La création d'un outil de contrôle à destination des collectivités est prévue. 
 
 ### Support or Contact
-geostandard-ant-users@googlegroups.com
-
-Une plateforme de gestion de projet (Redmine) destinée à remonter les demandes d'évolutions, les anomalies et les demandes d'assistance est disponible. S'inscrire préalablement sur le groupe de discussion. 
+Une plateforme de gestion de projet [Redmine] (http://redmine.gracethd.org) destinée à remonter les demandes d'évolutions, les anomalies et les demandes d'assistance est disponible. 
 
 ### Contributeurs
-Comité de pilotage : Avicca - France Très Haut Débit - Caisse des dépôts - Région Alsace - Région Aquitaine - Syane - Mégalis Bretagne - Manche Numérique - La Fibre 59/62 - Gironde Numérique - Touraine Cher Numérique - Oise THD
+Comité de pilotage : Avicca - L'Agence du Numérique - Caisse des dépôts - Région Alsace - Région Aquitaine - Syane - Mégalis Bretagne - Manche Numérique - La Fibre 59/62 - Gironde Numérique - Touraine Cher Numérique - Oise THD. De nouvelles collectivités rejoignent actuellement le comité de pilotage. 
 
 Groupement d'entreprises : DOTIC - CADaGEO - Aleno - Cochr@n.
 
