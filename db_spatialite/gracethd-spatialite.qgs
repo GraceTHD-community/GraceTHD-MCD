@@ -1,5 +1,5 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.8.2-Wien">
+<qgis projectname="" version="2.8.4-Wien">
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::Checked" name="">
     <customproperties/>
@@ -123,6 +123,9 @@
     <layer-tree-group expanded="0" checked="Qt::Checked" name="Listes">
       <customproperties/>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_adresse_etat20150612185113292" name="l_adresse_etat">
+        <customproperties/>
+      </layer-tree-layer>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_avancement20160105022742574" name="l_avancement">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Checked" id="l_baie_type20150612185113399" name="l_baie_type">
@@ -408,6 +411,7 @@
       <item>t_cab_cond20150803170000589</item>
       <item>t_cable20150803170000599</item>
       <item>t_cableline20150803170000608</item>
+      <item>l_avancement20160105022742574</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
@@ -592,6 +596,11 @@
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_adresse_etat" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="l_adresse_etat20150612185113292" visible="1"/>
+        </filegroup>
+      </legendlayer>
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_avancement" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="l_avancement20160105022742574" visible="1"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="l_baie_type" showFeatureCount="0">
@@ -831,10 +840,10 @@
       </legendlayer>
     </legendgroup>
   </legend>
-  <projectlayers layercount="81">
+  <projectlayers layercount="82">
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_adresse_etat20150612185113292</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_adresse_etat" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_adresse_etat" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -893,8 +902,68 @@
       </edittypes>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
+      <id>l_avancement20160105022742574</id>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_avancement" sql=</datasource>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>l_avancement</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=longlat +datum=WGS84 +no_defs</proj4>
+          <srsid>3452</srsid>
+          <srid>4326</srid>
+          <authid>EPSG:4326</authid>
+          <description>WGS 84</description>
+          <projectionacronym>longlat</projectionacronym>
+          <ellipsoidacronym>WGS84</ellipsoidacronym>
+          <geographicflag>true</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties/>
+      <provider encoding="windows-1252">spatialite</provider>
+      <previewExpression></previewExpression>
+      <vectorjoins/>
+      <expressionfields/>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+      <editform></editform>
+      <editforminit/>
+      <featformsuppress>0</featformsuppress>
+      <annotationform></annotationform>
+      <editorlayout>generatedlayout</editorlayout>
+      <excludeAttributesWMS/>
+      <excludeAttributesWFS/>
+      <attributeactions/>
+      <edittypes>
+        <edittype widgetv2type="TextEdit" name="code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="libelle">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="definition">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+      </edittypes>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_baie_type20150612185113399</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_baie_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_baie_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -954,7 +1023,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_bp_racco20150612185113410</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_bp_racco" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_bp_racco" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1014,7 +1083,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_bp_type_log20150612185113420</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_bp_type_log" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_bp_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1074,7 +1143,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_bp_type_phy20150612185113429</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_bp_type_phy" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_bp_type_phy" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1134,7 +1203,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_cable_type20150612185113467</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_cable_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_cable_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1194,7 +1263,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_cassette_type20150612185113476</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_cassette_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_cassette_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1254,7 +1323,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_clim_type20150612185113487</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_clim_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_clim_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1314,7 +1383,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_conduite_type20150612185113496</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_conduite_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_conduite_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1374,7 +1443,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_doc_tab20150612185113506</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_doc_tab" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_doc_tab" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1434,7 +1503,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_doc_type20150612185113516</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_doc_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_doc_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1494,7 +1563,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_etat_type20150612185113526</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_etat_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_etat_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1554,7 +1623,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_fo_color20150612185113537</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_fo_color" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_fo_color" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1614,7 +1683,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_fo_type20150612185113546</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_fo_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_fo_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1674,7 +1743,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_geoloc_classe20150612185113556</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_geoloc_classe" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_geoloc_classe" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1734,7 +1803,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_geoloc_mode20150612185113566</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_geoloc_mode" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_geoloc_mode" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1794,7 +1863,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_immeuble_type20150612185113575</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_immeuble_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_immeuble_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1854,7 +1923,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_implantation_type20150612185113585</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_implantation_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_implantation_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1914,7 +1983,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_infra_nature20150612185113595</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_infra_nature" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_infra_nature" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -1974,7 +2043,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_infra_type_log20150612185113605</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_infra_type_log" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_infra_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2034,7 +2103,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_masque_face20150612185113614</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_masque_face" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_masque_face" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2094,7 +2163,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_noeud_type20150612185113624</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_noeud_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_noeud_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2154,7 +2223,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_nro_etat20150612185113633</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_nro_etat" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_nro_etat" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2214,7 +2283,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_nro_type20150612185113643</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_nro_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_nro_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2274,7 +2343,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_occupation_type20150612185113653</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_occupation_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_occupation_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2334,7 +2403,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_passage_type20150612185113663</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_passage_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_passage_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2394,7 +2463,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_pose_type20150612185113673</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_pose_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_pose_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2454,7 +2523,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_position_fonction20150612185113683</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_position_fonction" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_position_fonction" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2514,7 +2583,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_position_type20150612185113692</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_position_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_position_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2574,7 +2643,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_propriete_type20150612185113702</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_propriete_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_propriete_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2634,7 +2703,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_ptech_nature20150612185113712</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_ptech_nature" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_ptech_nature" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2694,7 +2763,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_ptech_type_log20150612185113722</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_ptech_type_log" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_ptech_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2754,7 +2823,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_ptech_type_phy20150612185113731</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_ptech_type_phy" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_ptech_type_phy" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2814,7 +2883,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_qualite_info20150612185113741</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_qualite_info" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_qualite_info" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2874,7 +2943,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_reference_etat20150612185113751</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_reference_etat" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_reference_etat" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2934,7 +3003,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_reference_type20150612185113761</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_reference_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_reference_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -2994,7 +3063,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_site_emission_type20150612185113771</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_site_emission_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_site_emission_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3054,7 +3123,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_site_type_log20150612185113780</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_site_type_log" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_site_type_log" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3114,7 +3183,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_site_type_phy20150612185113790</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_site_type_phy" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_site_type_phy" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3174,7 +3243,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_sro_emplacement20150612185113800</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_sro_emplacement" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_sro_emplacement" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3234,7 +3303,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_sro_etat20150612185113810</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_sro_etat" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_sro_etat" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3294,7 +3363,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_statut20150612185113819</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_statut" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_statut" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3354,7 +3423,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_suf_racco20150612185113828</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_suf_racco" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_suf_racco" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3414,7 +3483,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_suf_type20150612185113838</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_suf_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_suf_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3474,7 +3543,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_technologie_type20150612185113848</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_technologie_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_technologie_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3534,7 +3603,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_tiroir_type20150612185113857</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_tiroir_type" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_tiroir_type" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3594,7 +3663,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_tube20150612185113867</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_tube" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_tube" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3654,7 +3723,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>l_zone_densite20150612185113877</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="l_zone_densite" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="l_zone_densite" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3714,7 +3783,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>t_adresse20150803170000569</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_adresse" (geom) sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_adresse" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -3813,6 +3882,9 @@
         <edittype widgetv2type="TextEdit" name="ad_hexacle">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="ad_hexaclv">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="ad_distinf">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -3837,6 +3909,12 @@
         <edittype widgetv2type="TextEdit" name="ad_itypeim">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="ad_imneuf">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ad_idatimn">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="ad_prop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -3850,6 +3928,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="ad_idatcab">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ad_idatcom">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="ad_typzone">
@@ -4159,6 +4240,9 @@
         <edittype widgetv2type="TextEdit" name="ad_hexacle">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="ad_hexaclv">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="ad_distinf">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -4183,6 +4267,12 @@
         <edittype widgetv2type="TextEdit" name="ad_itypeim">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="ad_imneuf">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ad_idatimn">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="ad_prop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -4196,6 +4286,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="ad_idatcab">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="ad_idatcom">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="ad_typzone">
@@ -4232,7 +4325,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_baie20150803170000580</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_baie" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_baie" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -4406,7 +4499,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_cab_cond20150803170000589</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_cab_cond" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_cab_cond" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -4490,7 +4583,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_cable20150803170000599</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_cable" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_cable" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -4569,10 +4662,16 @@
         <edittype widgetv2type="TextEdit" name="cb_datemes">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_avct">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="cb_tech">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_type">
+        <edittype widgetv2type="TextEdit" name="cb_typephy">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_typelog">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cb_rf_code">
@@ -4603,6 +4702,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cb_comment">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_creadat">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cb_majdate">
@@ -4678,10 +4780,16 @@
         <edittype widgetv2type="TextEdit" name="cb_datemes">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_avct">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="cb_tech">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="cb_type">
+        <edittype widgetv2type="TextEdit" name="cb_typephy">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_typelog">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cb_rf_code">
@@ -4714,6 +4822,9 @@
         <edittype widgetv2type="TextEdit" name="cb_comment">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="cb_creadat">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="cb_majdate">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -4730,7 +4841,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>t_cableline20150803170000608</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_cableline" (geom) sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_cableline" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -4758,6 +4869,9 @@
       </map-layer-style-manager>
       <edittypes>
         <edittype widgetv2type="TextEdit" name="cl_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cl_cb_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cl_long">
@@ -4999,6 +5113,9 @@
         <edittype widgetv2type="TextEdit" name="cl_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="cl_cb_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="cl_long">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -5036,7 +5153,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_cassette20150803170000549</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_cassette" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_cassette" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -5156,7 +5273,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Line" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>t_cheminement20150803170000558</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_cheminement" (geom) sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_cheminement" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -5216,10 +5333,10 @@
         <edittype widgetv2type="TextEdit" name="cm_voie">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="cm_gest_vo">
+        <edittype widgetv2type="TextEdit" name="cm_gest_do">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="cm_pro_voi">
+        <edittype widgetv2type="TextEdit" name="cm_prop_do">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cm_statut">
@@ -5232,6 +5349,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cm_datemes">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cm_avct">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cm_typelog">
@@ -5247,6 +5367,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cm_cddispo">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cm_fo_util">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cm_mod_pos">
@@ -5579,10 +5702,10 @@
         <edittype widgetv2type="TextEdit" name="cm_voie">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="cm_gest_vo">
+        <edittype widgetv2type="TextEdit" name="cm_gest_do">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="cm_pro_voi">
+        <edittype widgetv2type="TextEdit" name="cm_prop_do">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cm_statut">
@@ -5595,6 +5718,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cm_datemes">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cm_avct">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cm_typelog">
@@ -5610,6 +5736,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cm_cddispo">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cm_fo_util">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cm_mod_pos">
@@ -5676,7 +5805,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_cond_chem20150803170000492</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_cond_chem" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_cond_chem" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -5760,7 +5889,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_conduite20150803170000502</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_conduite" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_conduite" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -5837,6 +5966,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cd_datemes">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="cd_avct">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="cd_type">
@@ -5939,6 +6071,9 @@
         <edittype widgetv2type="TextEdit" name="cd_datemes">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="cd_avct">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="cd_type">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -5982,7 +6117,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_docobj20150803170000511</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_docobj" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_docobj" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6078,7 +6213,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_document20150803170000520</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_document" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_document" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6113,6 +6248,18 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="do_reftier">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="do_r1_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="do_r2_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="do_r3_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="do_r4_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="do_type">
@@ -6170,6 +6317,18 @@
         <edittype widgetv2type="TextEdit" name="do_reftier">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="do_r1_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="do_r2_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="do_r3_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="do_r4_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="do_type">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -6210,7 +6369,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_ebp20150803170000529</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_ebp" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_ebp" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6280,6 +6439,9 @@
         <edittype widgetv2type="TextEdit" name="bp_datemes">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="bp_avct">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="bp_typephy">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -6380,6 +6542,9 @@
         <edittype widgetv2type="TextEdit" name="bp_datemes">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="bp_avct">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="bp_typephy">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -6432,7 +6597,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>t_empreinte20150803170000538</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_empreinte" (geom) sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_empreinte" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6710,7 +6875,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_equipement20150803170000435</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_equipement" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_equipement" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6836,7 +7001,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_fibre20150803170000445</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_fibre" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_fibre" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -6980,7 +7145,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_love20150803170000454</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_love" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_love" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7076,7 +7241,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_ltech20150803170000463</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_ltech" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_ltech" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7256,7 +7421,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_masque20150803170000472</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_masque" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_masque" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7376,7 +7541,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="0" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Point" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>t_noeud20150803170000482</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_noeud" (geom) sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_noeud" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7426,9 +7591,6 @@
         </edittype>
         <edittype widgetv2type="TextEdit" name="nd_r4_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="ValueRelation" name="nd_ad_code">
-          <widgetv2config OrderByValue="0" AllowNull="0" FilterExpression="" fieldEditable="1" Key="ad_code" Layer="t_adresse20150521173230988" Value="" labelOnTop="0" AllowMulti="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="nd_voie">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
@@ -7698,9 +7860,6 @@
         <edittype widgetv2type="TextEdit" name="nd_r4_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="ValueRelation" name="nd_ad_code">
-          <widgetv2config OrderByValue="0" AllowNull="0" FilterExpression="" fieldEditable="1" Key="ad_code" Layer="t_adresse20150521173230988" Value="" labelOnTop="0" AllowMulti="0"/>
-        </edittype>
         <edittype widgetv2type="TextEdit" name="nd_voie">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -7744,7 +7903,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_organisme20150803170000340</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_organisme" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_organisme" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -7924,7 +8083,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_position20150803170000350</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_position" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_position" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8062,7 +8221,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_ptech20150803170000359</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_ptech" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_ptech" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8102,6 +8261,15 @@
         <edittype widgetv2type="TextEdit" name="pt_nd_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="pt_ad_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pt_gest_do">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pt_prop_do">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="pt_prop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -8126,10 +8294,16 @@
         <edittype widgetv2type="TextEdit" name="pt_datemes">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="pt_avct">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="pt_typephy">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="pt_typelog">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pt_rf_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="pt_nature">
@@ -8139,9 +8313,6 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="pt_occp">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="pt_lignes">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="pt_a_dan">
@@ -8208,6 +8379,15 @@
         <edittype widgetv2type="TextEdit" name="pt_nd_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="pt_ad_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pt_gest_do">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pt_prop_do">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="pt_prop">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -8232,10 +8412,16 @@
         <edittype widgetv2type="TextEdit" name="pt_datemes">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="pt_avct">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="pt_typephy">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="pt_typelog">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="pt_rf_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="pt_nature">
@@ -8245,9 +8431,6 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="pt_occp">
-          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
-        </edittype>
-        <edittype widgetv2type="TextEdit" name="pt_lignes">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="pt_a_dan">
@@ -8296,7 +8479,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_reference20150803170000369</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_reference" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_reference" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8404,7 +8587,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_ropt20150803170000378</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_ropt" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_ropt" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8512,7 +8695,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_siteemission20150803170000387</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_siteemission" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_siteemission" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8585,6 +8768,9 @@
         <edittype widgetv2type="TextEdit" name="se_ad_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="se_comment">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="se_creadat">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -8655,6 +8841,9 @@
         <edittype widgetv2type="TextEdit" name="se_ad_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="se_comment">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="se_creadat">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -8674,7 +8863,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_sitetech20150803170000396</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_sitetech" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_sitetech" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8735,7 +8924,10 @@
         <edittype widgetv2type="TextEdit" name="st_dateins">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="st_dt_ms">
+        <edittype widgetv2type="TextEdit" name="st_datemes">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="st_avct">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="st_typephy">
@@ -8811,7 +9003,10 @@
         <edittype widgetv2type="TextEdit" name="st_dateins">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
-        <edittype widgetv2type="TextEdit" name="st_dt_ms">
+        <edittype widgetv2type="TextEdit" name="st_datemes">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="st_avct">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="st_typephy">
@@ -8848,7 +9043,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_suf20150803170000406</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_suf" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_suf" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -8883,6 +9078,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="sf_ad_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="sf_zp_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="sf_escal">
@@ -8946,6 +9144,9 @@
         <edittype widgetv2type="TextEdit" name="sf_ad_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="sf_zp_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="sf_escal">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -8992,7 +9193,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" geometry="No geometry" type="vector" hasScaleBasedVisibilityFlag="0">
       <id>t_tiroir20150803170000415</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_tiroir" sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_tiroir" sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -9136,7 +9337,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>t_zcoax20150803170000424</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_zcoax" (geom) sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_zcoax" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -9502,7 +9703,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>t_zdep20150803170000328</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_zdep" (geom) sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_zdep" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -9834,7 +10035,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>t_znro20150803170000317</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_znro" (geom) sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_znro" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -10172,7 +10373,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>t_zpbo20150803170000306</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_zpbo" (geom) sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_zpbo" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -10218,6 +10419,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zp_r4_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="zp_capamax">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zp_comment">
@@ -10461,6 +10665,9 @@
         <edittype widgetv2type="TextEdit" name="zp_r4_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="zp_capamax">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="zp_comment">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -10486,7 +10693,7 @@
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" simplifyDrawingHints="1" minLabelScale="0" maxLabelScale="1e+08" simplifyDrawingTol="1" geometry="Polygon" simplifyMaxScale="1" type="vector" hasScaleBasedVisibilityFlag="0" simplifyLocal="1" scaleBasedLabelVisibilityFlag="0">
       <id>t_zsro20150803170000294</id>
-      <datasource>dbname='./gracethd_v2rc2.sqlite' table="t_zsro" (geom) sql=</datasource>
+      <datasource>dbname='./gracethd_v2.0.sqlite' table="t_zsro" (geom) sql=</datasource>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -10517,6 +10724,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zs_nd_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="zs_zn_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zs_r1_code">
@@ -10568,6 +10778,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zs_accgest">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="zs_brassoi">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zs_comment">
@@ -10796,6 +11009,9 @@
         <edittype widgetv2type="TextEdit" name="zs_nd_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
+        <edittype widgetv2type="TextEdit" name="zs_zn_code">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
         <edittype widgetv2type="TextEdit" name="zs_r1_code">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
@@ -10845,6 +11061,9 @@
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zs_accgest">
+          <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
+        </edittype>
+        <edittype widgetv2type="TextEdit" name="zs_brassoi">
           <widgetv2config IsMultiline="0" fieldEditable="1" UseHtml="0" labelOnTop="0"/>
         </edittype>
         <edittype widgetv2type="TextEdit" name="zs_comment">

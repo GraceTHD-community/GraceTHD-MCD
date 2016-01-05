@@ -1,6 +1,34 @@
 ﻿GraceTHD-MCD
 
 ### Changelog
+v2.0-release
+- ad_racc : VARCHAR(2)
+- zs_ad_code : VARCHAR(254)
+- pt_user : VARCHAR(20)
+- pt_type_phy : VARCHAR(1)
+- cs_type : VARCHAR(1)
+- cm_modpose : VARCHAR(20)
+- cm_passage : VARCHAR(10)
+- cd_type : VARCHAR(10)
+- l_masque_face : CODE VARCHAR(1)
+- cb_prop : VARCHAR(20)
+- l_technologie_type : CODE VARCHAR(3)
+- nd_type_ep : VARCHAR(3)
+- fo_color : VARCHAR(10)
+- ps_fonct : VARCHAR(2)
+- ps_etat : VARCHAR(3)
+- se_type : VARCHAR(10)
+- od_tbltype : VARCHAR(2)
+- cm_gest_do : définition
+- cm_prop_do : définition
+- cb_creadat : ajout
+- Noms des contraintes PRIMARY KEY des tables t_z* : "_PK" passés en minuscules "_pk". 
+- Nom de fichiers .sql : 
+	- Ajout d'une décimale aux numéros pour pouvoir ajouter des scripts spécifiques (gracethd_10_lists.sql, etc.). 
+	- gracethd_6_specifique.sql devient gracethd_90_labo.sql
+- Classes : corrections d'orthographe dans les définitions. 
+
+	
 v2-RC2
 - Domanialité : 
 	- cm_gest_do : cm_gest_vo renommé + modification définition (issue #79)
