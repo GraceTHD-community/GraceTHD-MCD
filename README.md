@@ -39,7 +39,7 @@ Quelques exemples de différences avec la version 1 :
 * \sql_spatialite\ : les scripts pour créer les tables dans un schéma de base de données sous Spatialite. 
 
 ### Utilisation
-**GraceTHD est un modèle de données DEDIE A L'ECHANGE** ! Ce modèle n'est pas conçu comme un modèle de production de données. L'écosystème autour de ce modèle de données se batira à partir des initiatives des acteurs (éditeurs de progiciels, opérateurs, constructeurs, collectivités, ... ). 
+**GraceTHD est un modèle de données DEDIE EN PRIORITE A L'ECHANGE** ! Ce modèle n'est pas conçu comme un modèle de production de données ou d'exploitation d'un réseau. Toutefois il se veut être un modèle de données répondant permettant la gestion patrimoniale d'un réseau de télécommunications. L'écosystème autour de ce modèle de données se batira à partir des initiatives des différents acteurs (éditeurs de progiciels, opérateurs, constructeurs, collectivités, ... ). 
 
 Le format d'échange préconisé par le Geostandard ANT v2.0 est shapefile et csv pour leur grande intéropérabilité. C'est une préconisation. Deux parties peuvent s'entendre pour échanger sous divers formats (comme des dumps SQL de base à base) tout en respectant le modèle de données. 
 
