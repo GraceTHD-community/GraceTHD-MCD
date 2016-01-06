@@ -14,10 +14,6 @@ De nombreux réseaux télécoms de très hauts débit sont déployés actuelleme
 
 Dans ce cadre, les travaux initiés par le projet GraceTHD visent à l'interopérabilité des Systèmes d'Informations Géographiques (SIG) mis en place pour chaque réseau d'initiative publique.
 
-La communauté GraceTHD et la Covadis collaborent pour produire la version 2 du Geostandard Aménagement Numérique du Territoire. La première version du Geostandard Aménagement Numérique des Territoires de la la Covadis est disponible ici :
-[Geostandard ANT](http://www.territoires-ville.cerema.fr/geostandard-amenagement-numerique-a350.html)
-GraceTHD-MCD devrait devenir la version 2 qui corrigera nombre conséquent de lacunes et supportera mieux les réseaux FTTH et les données liées à l'optique. 
-
 ### Caractéristiques de la v2
 GraceTHD-MCD v2 est une importante refonte du Geostandard ANT v1 complétée d'éléments du modèle de données du Syane notamment pour la partie optique, ainsi qu'un rapprochement d'autres modèles de données de référence comme par exemple le Groupe Interop Fibre ou la BAN de sortes à simplifier les échanges avec ces modèles de données. 
 
