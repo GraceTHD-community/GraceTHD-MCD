@@ -1,6 +1,7 @@
 /*GraceTHD v2-RC2*/
 /* Creation des index*/
 /*PostGIS*/
+SET search_path TO gracethd, public;
 
 DROP INDEX IF EXISTS ad_ban_id_idx; CREATE INDEX  ad_ban_id_idx ON t_adresse(ad_ban_id);
 
