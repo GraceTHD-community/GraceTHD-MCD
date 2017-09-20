@@ -2,7 +2,6 @@
 /*Creation des indexes*/
 /* gracethd_50_index.sql */
 /*PostGIS*/
-SET search_path TO gracethd, public;
 
 /* Owner : GraceTHD-Community - http://gracethd-community.github.io/ */
 /* Author : stephane dot byache at aleno dot eu */
