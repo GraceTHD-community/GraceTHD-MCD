@@ -1,6 +1,29 @@
-/*GraceTHD v2-RC2*/
-/*Insertion des valeurs dans les listes de valeurs*/
-/*PostGIS*/
+/*GraceTHD-MCD v2.0.1*/
+/*Insertion des valeurs dans les listes*/
+/* gracethd_20_insert.sql */
+/*Postgis*/
+
+/* Owner : GraceTHD-Community - http://gracethd-community.github.io/ */
+/* Author : stephane dot byache at aleno dot eu */
+/* Rev. date : 17/07/2017 */
+
+/* ********************************************************************
+    This file is part of GraceTHD.
+
+    GraceTHD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    GraceTHD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with GraceTHD.  If not, see <http://www.gnu.org/licenses/>.
+*********************************************************************** */
+
 SET search_path TO gracethd, public;
 
 BEGIN;
@@ -65,7 +88,7 @@ INSERT INTO l_bp_racco VALUES ('FINT05', 'ECHEC PRODUCTION : AFFAIBLISSEMENT TRO
 INSERT INTO l_bp_racco VALUES ('FINT06', 'ECHEC PRODUCTION : ROUTE OPTIQUE DEJA UTILISEE', 'L OC constate sur le terrain que la route qui lui a été transmise est déjà soudée pour un autre raccordement et n a pas pu obtenir une route optique appropriée via la hotline');
 INSERT INTO l_bp_racco VALUES ('FINT07', 'ECHEC PRODUCTION : INFORMATIONS ROUTE OPTIQUE ERRONEES', 'L OC constate sur le terrain que la route optique donnée n existe pas et n a pas pu obtenir une route optique appropriée');
 INSERT INTO l_bp_racco VALUES ('FINT08', 'ECHEC PRODUCTION : POSITION BRASSAGE BAIE OPERATEUR INTROUVABLE', 'Dans le cas d un brassage par l OI, l OI signale à l OC une position de brassage introuvable');
-INSERT INTO l_bp_racco VALUES ('FINT09', 'ECHEC PRODUCTION : POSITION BRASSAGE BAIE OPERATEUR DÉJÀ UTILISEE', 'Dans le cas d un brassage par l OI, l OI signale à l OC une position de brassage déjà utilisée');
+INSERT INTO l_bp_racco VALUES ('FINT09', 'ECHEC PRODUCTION : POSITION BRASSAGE BAIE OPERATEUR DEJA UTILISEE', 'Dans le cas d un brassage par l OI, l OI signale à l OC une position de brassage déjà utilisée');
 INSERT INTO l_bp_racco VALUES ('FINT10', 'ECHEC PRODUCTION : AUTRE PROBLEME TECHNIQUE', 'Autre problème technique constaté lors de l intervention de raccordement et n étant pas référencé dans les motifs de rejets');
 INSERT INTO l_bp_racco VALUES ('FINT11', 'ECHEC PRODUCTION : INFRA TIERS INDISPONIBLE OU DELAI', 'Dans le cas d un raccordement necessitant l utilisation d infrastructure tiers (poteau, fourreau), ces infra ne sont pas utilisable (bouchée, cassée, …) ou le délais de mise à disposition de ces infra est très important');
 INSERT INTO l_bp_racco VALUES ('FINT12', 'ECHEC PRODUCTION : PBO NON CONFORME', 'Dans le cas où le raccordement est impossible en raison d un problème lié au PBO (exemple : PBO mal fixé, fibre trop courte pour souder..)');
@@ -84,13 +107,19 @@ INSERT INTO l_bp_type_log VALUES ('DTI', 'DISPOSITIF DE TERMINAISON INTERIEUR OP
 INSERT INTO l_bp_type_phy VALUES ('B006', 'BPE 6FO', '');
 INSERT INTO l_bp_type_phy VALUES ('B012', 'BPE 12FO', '');
 INSERT INTO l_bp_type_phy VALUES ('B024', 'BPE 24FO', '');
+INSERT INTO l_bp_type_phy VALUES ('B036', 'BPE 36FO', '');
 INSERT INTO l_bp_type_phy VALUES ('B048', 'BPE 48FO', '');
 INSERT INTO l_bp_type_phy VALUES ('B072', 'BPE 72FO', '');
 INSERT INTO l_bp_type_phy VALUES ('B096', 'BPE 96FO', '');
 INSERT INTO l_bp_type_phy VALUES ('B144', 'BPE 144FO', '');
 INSERT INTO l_bp_type_phy VALUES ('B288', 'BPE 288FO', '');
+INSERT INTO l_bp_type_phy VALUES ('B432', 'BPE 432FO', '');
 INSERT INTO l_bp_type_phy VALUES ('B576', 'BPE 576FO', '');
+INSERT INTO l_bp_type_phy VALUES ('B720', 'BPE 720FO', '');
 INSERT INTO l_bp_type_phy VALUES ('COF', 'COFFRET', '');
+INSERT INTO l_bp_type_phy VALUES ('DTI1', 'DTIO 1FO', '');
+INSERT INTO l_bp_type_phy VALUES ('DTI2', 'DTIO 2FO', '');
+INSERT INTO l_bp_type_phy VALUES ('DTI4', 'DTIO 4FO', '');
 INSERT INTO l_bp_type_phy VALUES ('AUTR', 'AUTRE', '');
 INSERT INTO l_cable_type VALUES ('C', 'CABLE', '');
 INSERT INTO l_cable_type VALUES ('B', 'BREAKOUT', '');
@@ -151,7 +180,7 @@ INSERT INTO l_doc_type VALUES ('DLV', 'DOSSIER DE LEVE OU D INVESTIGATIONS COMPL
 INSERT INTO l_doc_type VALUES ('SGC', 'DETAIL OU SCHEMA DE GENIE CIVIL', '');
 INSERT INTO l_doc_type VALUES ('DPI', 'DOSSIER DE PIQUETAGE', '');
 INSERT INTO l_doc_type VALUES ('DBL', 'DOSSIER DE RELEVE BOITES AUX LETTRES', '');
-INSERT INTO l_doc_type VALUES ('KRV', 'RÈGLEMENT DE VOIRIE', '');
+INSERT INTO l_doc_type VALUES ('KRV', 'REGLEMENT DE VOIRIE', '');
 INSERT INTO l_doc_type VALUES ('CPV', 'PERMISSION OU AUTORISATION DE VOIRIE', '');
 INSERT INTO l_doc_type VALUES ('DTT', 'DT EMISES DANS LE CADRE DU PROJET DE DEPLOIEMENT', '');
 INSERT INTO l_doc_type VALUES ('DIT', 'DICT EMISES DANS LE CADRE DU PROJET DE DEPLOIEMENT', '');
@@ -165,7 +194,7 @@ INSERT INTO l_doc_type VALUES ('SRA', 'SCHEMA DE RACCORDEMENT (BAIE, ARMOIRE, RE
 INSERT INTO l_doc_type VALUES ('KEQ', 'DOCUMENTATION TECHNIQUE D EQUIPEMENT', '');
 INSERT INTO l_doc_type VALUES ('CIM', 'CONVENTION THD IMMEUBLE', '');
 INSERT INTO l_doc_type VALUES ('CIS', 'CONVENTION CADRE BAILLEUR SOCIAL', '');
-INSERT INTO l_doc_type VALUES ('CDS', 'RÈGLEMENT DE SERVICE', '');
+INSERT INTO l_doc_type VALUES ('CDS', 'REGLEMENT DE SERVICE', '');
 INSERT INTO l_doc_type VALUES ('COC', 'AUTRE CONVENTION D OCCUPATION EMPRISE PRIVEE', '');
 INSERT INTO l_doc_type VALUES ('MRF', 'MESURE DE REFLECTOMETRIE', '');
 INSERT INTO l_doc_type VALUES ('MFX', 'TEST D ETANCHEITE DE FOURREAUX ET/OU TESTS DE MANDRINAGE, AIGUILLAGE', '');
@@ -181,6 +210,7 @@ INSERT INTO l_doc_type VALUES ('DRS', 'DOSSIER DE RACCORDEMENT DE SITE', '');
 INSERT INTO l_doc_type VALUES ('KPL', 'PLAN LOCAL D URBANISME', '');
 INSERT INTO l_doc_type VALUES ('RFR', 'FICHE DE RECETTE', '');
 INSERT INTO l_doc_type VALUES ('RVR', 'PV DE RECEPTION DE VOIRIE', '');
+INSERT INTO l_doc_type VALUES ('DTA', 'DIAGNOSTIC TECHNIQUE AMIANTE POUR UN IMMEUBLE', '');
 INSERT INTO l_etat_type VALUES ('HS', 'A CHANGER', 'L infrastructure doit etre changee car la moindre intervention peut etre prejudiciable a la fourniture du service');
 INSERT INTO l_etat_type VALUES ('ME', 'MAUVAIS ETAT', 'Mauvais etat general de l infrastructure qui ne permet pas certaines interventions');
 INSERT INTO l_etat_type VALUES ('OK', 'BON ETAT', 'Bon etat general qui permet de realiser toute operation de maintenance, d exploitation ou d evolution');
@@ -235,10 +265,10 @@ INSERT INTO l_fo_type VALUES ('OM3', 'OM3', 'Norme ISO/IEC 11801 : Caracteristi
 INSERT INTO l_fo_type VALUES ('OM4', 'OM4', 'Norme ISO/IEC 11801 : Caracteristique d une fibre optique multimode. Peut transmettre 10 Gbits sur 550m a 850nm.');
 INSERT INTO l_fo_type VALUES ('OS1', 'OS1', 'Norme ISO/EN : fibre monomode d attenuation maximum 1.0 dB par km (1310 et 1550nm). Pour des transmissions de 2km maximum. ');
 INSERT INTO l_fo_type VALUES ('OS2', 'OS2', 'Norme ISO/EN : fibre monomode d attenuation maximum 0.4 dB par km (1310 et 1550nm). Pour des transmissions superieures a 2km. ');
-INSERT INTO l_geoloc_classe VALUES ('A', 'Classe de précision A', 'Décret du 15 février 2012 : un ouvrage ou tronçon d ouvrage est rangé dans la classe A si l incertitude maximale de localisation indiquée par son exploitant est inférieure ou égale à 40 cm et s il est rigide, ou à 50 cm s il est flexible. ');
-INSERT INTO l_geoloc_classe VALUES ('AP', 'Classe de précision A, en planimétrie uniquement', 'Idem classe A, mais uniquement pour les valeurs x et y (hors z)');
-INSERT INTO l_geoloc_classe VALUES ('B', 'Classe de précision B', 'Décret du 15 février 2012 : un ouvrage ou tronçon d ouvrage est rangé dans la classe B si l incertitude maximale de localisation indiquée par son exploitant est supérieure à celle relative à la classe A et inférieure ou égale à 1,5 mètre.');
-INSERT INTO l_geoloc_classe VALUES ('C', 'Classe de précision C', 'Décret du 15 février 2012 : un ouvrage ou tronçon d ouvrage est rangé dans la classe C si l incertitude maximale de localisation indiquée par son exploitant est supérieure à 1,5 mètre, ou si son exploitant n est pas en mesure de fournir la localisation.');
+INSERT INTO l_geoloc_classe VALUES ('A', 'CLASSE DE PRECISION A', 'Décret du 15 février 2012 : un ouvrage ou tronçon d ouvrage est rangé dans la classe A si l incertitude maximale de localisation indiquée par son exploitant est inférieure ou égale à 40 cm et s il est rigide, ou à 50 cm s il est flexible. ');
+INSERT INTO l_geoloc_classe VALUES ('AP', 'CLASSE DE PRECISION A, EN PLANIMETRIE UNIQUEMENT', 'Idem classe A, mais uniquement pour les valeurs x et y (hors z)');
+INSERT INTO l_geoloc_classe VALUES ('B', 'CLASSE DE PRECISION B', 'Décret du 15 février 2012 : un ouvrage ou tronçon d ouvrage est rangé dans la classe B si l incertitude maximale de localisation indiquée par son exploitant est supérieure à celle relative à la classe A et inférieure ou égale à 1,5 mètre.');
+INSERT INTO l_geoloc_classe VALUES ('C', 'CLASSE DE PRECISION C', 'Décret du 15 février 2012 : un ouvrage ou tronçon d ouvrage est rangé dans la classe C si l incertitude maximale de localisation indiquée par son exploitant est supérieure à 1,5 mètre, ou si son exploitant n est pas en mesure de fournir la localisation.');
 INSERT INTO l_geoloc_mode VALUES ('LTRO', 'LEVE DURANT LA POSE', 'Objet positionne grace à un leve durant la phase travaux. Dans le cas de tranchee, ce leve a ete realise tranchee ouverte.');
 INSERT INTO l_geoloc_mode VALUES ('LVIS', 'LEVE APRES LA POSE', 'Objet positionne grace a un leve. Dans le cas d une tranchee, uniquement les elements visibles ont ete leves (rustines sur le revetement, chambres encadrantes). Des cotations prises pendant la pose ont permis de completer ce lever.');
 INSERT INTO l_geoloc_mode VALUES ('DETC', 'LEVE AVEC DETECTION', 'Un appareil de detection a ete utilise pour positionner les elements à lever.');
@@ -265,7 +295,7 @@ INSERT INTO l_infra_nature VALUES ('ELE', 'ELECTRICITE', '');
 INSERT INTO l_infra_nature VALUES ('GAZ', 'GAZ', '');
 INSERT INTO l_infra_nature VALUES ('NC', 'NON COMMUNIQUE', '');
 INSERT INTO l_infra_nature VALUES ('TEL', 'TELECOM', '');
-INSERT INTO l_infra_nature VALUES ('HTZ', 'HERZIEN', 'Faisceau hertzien. ');
+INSERT INTO l_infra_nature VALUES ('HTZ', 'HERTZIEN', 'Faisceau hertzien. ');
 INSERT INTO l_infra_type_log VALUES ('CX', 'COLLECTE TRANSPORT DISTRIBUTION', '');
 INSERT INTO l_infra_type_log VALUES ('CO', 'COLLECTE', 'Infrastructures en amont d’un NRO, d un NRA ou d un POP, permettant de faire transiter les flux mutualises des abonnes vers le cœur de reseau de l operateur.');
 INSERT INTO l_infra_type_log VALUES ('CT', 'COLLECTE TRANSPORT', '');
@@ -291,6 +321,11 @@ INSERT INTO l_noeud_type VALUES ('PT', 'POINT TECHNIQUE', '');
 INSERT INTO l_noeud_type VALUES ('ST', 'SITE TECHNIQUE', '');
 INSERT INTO l_noeud_type VALUES ('SF', 'SITE UTILISATEUR FINAL', '');
 INSERT INTO l_noeud_type VALUES ('SE', 'SITE EMISSION', '');
+INSERT INTO l_noeud_type VALUES ('JX', 'DISJONCTION', 'Positionner un nœud de type disjonction lorsqu un cheminement se separe pour former par exemple un Y, sans qu il y ait pour autant de point technique physique au niveau de la disjonction (pas de manchonnage, pas de chambre, ...). ');
+INSERT INTO l_noeud_type VALUES ('SH ', 'SITE FTTH COMPLEXE ', 'Immeuble raccorde a un reseau FTTH et accueillant notamment un ou des PBI');
+INSERT INTO l_noeud_type VALUES ('SC ', 'SITE TECHNIQUE COMPLEXE ', 'Site technique avec points techniques');
+INSERT INTO l_noeud_type VALUES ('PC ', 'POINT TECHNIQUE COMPLEXE ', '');
+INSERT INTO l_noeud_type VALUES ('EC ', 'SITE EMISSION COMPLEXE', '');
 INSERT INTO l_noeud_type VALUES ('SP', 'SPECIFIQUE', '');
 INSERT INTO l_nro_type VALUES ('PON', 'NRO-PON', '');
 INSERT INTO l_nro_type VALUES ('PTP', 'NRO-PTP', '');
@@ -358,6 +393,15 @@ INSERT INTO l_ptech_nature VALUES ('A1', 'CHAMBRE A1', '');
 INSERT INTO l_ptech_nature VALUES ('A2', 'CHAMBRE A2', '');
 INSERT INTO l_ptech_nature VALUES ('A3', 'CHAMBRE A3', '');
 INSERT INTO l_ptech_nature VALUES ('A4', 'CHAMBRE A4', '');
+INSERT INTO l_ptech_nature VALUES ('A10', 'CHAMBRE A10', '');
+INSERT INTO l_ptech_nature VALUES ('A11', 'CHAMBRE A11', '');
+INSERT INTO l_ptech_nature VALUES ('A12', 'CHAMBRE A12', '');
+INSERT INTO l_ptech_nature VALUES ('A13', 'CHAMBRE A13', '');
+INSERT INTO l_ptech_nature VALUES ('A14', 'CHAMBRE A14', '');
+INSERT INTO l_ptech_nature VALUES ('A15', 'CHAMBRE A4', '');
+INSERT INTO l_ptech_nature VALUES ('A16', 'CHAMBRE A4', '');
+INSERT INTO l_ptech_nature VALUES ('A17', 'CHAMBRE A4', '');
+INSERT INTO l_ptech_nature VALUES ('A18', 'CHAMBRE A4', '');
 INSERT INTO l_ptech_nature VALUES ('B1', 'CHAMBRE B1', '');
 INSERT INTO l_ptech_nature VALUES ('B2', 'CHAMBRE B2', '');
 INSERT INTO l_ptech_nature VALUES ('B3', 'CHAMBRE B3', '');
@@ -367,9 +411,25 @@ INSERT INTO l_ptech_nature VALUES ('C2', 'CHAMBRE C2', '');
 INSERT INTO l_ptech_nature VALUES ('C3', 'CHAMBRE C3', '');
 INSERT INTO l_ptech_nature VALUES ('C4', 'CHAMBRE C4', '');
 INSERT INTO l_ptech_nature VALUES ('D1', 'CHAMBRE D1', '');
+INSERT INTO l_ptech_nature VALUES ('D1C', 'CHAMBRE D1C', '');
+INSERT INTO l_ptech_nature VALUES ('D1T', 'CHAMBRE D1T', '');
 INSERT INTO l_ptech_nature VALUES ('D2', 'CHAMBRE D2', '');
+INSERT INTO l_ptech_nature VALUES ('D2C', 'CHAMBRE D2C', '');
+INSERT INTO l_ptech_nature VALUES ('D2T', 'CHAMBRE D2T', '');
 INSERT INTO l_ptech_nature VALUES ('D3', 'CHAMBRE D3', '');
+INSERT INTO l_ptech_nature VALUES ('D3C', 'CHAMBRE D3C', '');
+INSERT INTO l_ptech_nature VALUES ('D3T', 'CHAMBRE D3T', '');
 INSERT INTO l_ptech_nature VALUES ('D4', 'CHAMBRE D4', '');
+INSERT INTO l_ptech_nature VALUES ('D4C', 'CHAMBRE D4C', '');
+INSERT INTO l_ptech_nature VALUES ('D4T', 'CHAMBRE D4T', '');
+INSERT INTO l_ptech_nature VALUES ('D5', 'CHAMBRE D5', '');
+INSERT INTO l_ptech_nature VALUES ('D5C', 'CHAMBRE D5C', '');
+INSERT INTO l_ptech_nature VALUES ('D6', 'CHAMBRE D6', '');
+INSERT INTO l_ptech_nature VALUES ('D6C', 'CHAMBRE D6C', '');
+INSERT INTO l_ptech_nature VALUES ('D11', 'CHAMBRE D11', '');
+INSERT INTO l_ptech_nature VALUES ('D12', 'CHAMBRE D12', '');
+INSERT INTO l_ptech_nature VALUES ('D13', 'CHAMBRE D13', '');
+INSERT INTO l_ptech_nature VALUES ('D14', 'CHAMBRE D14', '');
 INSERT INTO l_ptech_nature VALUES ('E1', 'CHAMBRE E1', '');
 INSERT INTO l_ptech_nature VALUES ('E2', 'CHAMBRE E2', '');
 INSERT INTO l_ptech_nature VALUES ('E3', 'CHAMBRE E3', '');
@@ -378,10 +438,13 @@ INSERT INTO l_ptech_nature VALUES ('J2C', 'CHAMBRE J2C', '');
 INSERT INTO l_ptech_nature VALUES ('J2CR', 'CHAMBRE J2C REHAUSSEE', '');
 INSERT INTO l_ptech_nature VALUES ('K1C', 'CHAMBRE K1C', '');
 INSERT INTO l_ptech_nature VALUES ('K1CR', 'CHAMBRE K1C REHAUSSEE', '');
+INSERT INTO l_ptech_nature VALUES ('K1T', 'CHAMBRE K1T', '');
 INSERT INTO l_ptech_nature VALUES ('K2C', 'CHAMBRE K2C', '');
 INSERT INTO l_ptech_nature VALUES ('K2CR', 'CHAMBRE K2C REHAUSSEE', '');
+INSERT INTO l_ptech_nature VALUES ('K2T', 'CHAMBRE K2T', '');
 INSERT INTO l_ptech_nature VALUES ('K3C', 'CHAMBRE K3C', '');
 INSERT INTO l_ptech_nature VALUES ('K3CR', 'CHAMBRE K3C REHAUSSEE', '');
+INSERT INTO l_ptech_nature VALUES ('K3T', 'CHAMBRE K3T', '');
 INSERT INTO l_ptech_nature VALUES ('L0T', 'CHAMBRE L0T', '');
 INSERT INTO l_ptech_nature VALUES ('L0TR', 'CHAMBRE L0T REHAUSSEE', '');
 INSERT INTO l_ptech_nature VALUES ('L1C', 'CHAMBRE L1C', '');
@@ -415,27 +478,50 @@ INSERT INTO l_ptech_nature VALUES ('P2C', 'CHAMBRE P2C', '');
 INSERT INTO l_ptech_nature VALUES ('P2CR', 'CHAMBRE P2C REHAUSSEE', '');
 INSERT INTO l_ptech_nature VALUES ('P2T', 'CHAMBRE P2T', '');
 INSERT INTO l_ptech_nature VALUES ('P2TR', 'CHAMBRE P2T REHAUSSEE', '');
+INSERT INTO l_ptech_nature VALUES ('P3C', 'CHAMBRE P3C', '');
+INSERT INTO l_ptech_nature VALUES ('P3T', 'CHAMBRE P3T', '');
+INSERT INTO l_ptech_nature VALUES ('P4C', 'CHAMBRE P4C', '');
+INSERT INTO l_ptech_nature VALUES ('P4T', 'CHAMBRE P4T', '');
+INSERT INTO l_ptech_nature VALUES ('P5C', 'CHAMBRE P5C', '');
+INSERT INTO l_ptech_nature VALUES ('P5T', 'CHAMBRE P5T', '');
+INSERT INTO l_ptech_nature VALUES ('P6C', 'CHAMBRE P6C', '');
+INSERT INTO l_ptech_nature VALUES ('P6T', 'CHAMBRE P6T', '');
+INSERT INTO l_ptech_nature VALUES ('R1T', 'CHAMBRE R1T', '');
+INSERT INTO l_ptech_nature VALUES ('R2T', 'CHAMBRE R2T', '');
+INSERT INTO l_ptech_nature VALUES ('R3T', 'CHAMBRE R3T', '');
+INSERT INTO l_ptech_nature VALUES ('S1', 'CHAMBRE S1', 'SNCF Reseau : Chambre prefabriquee aux dimensions standardisees. ');
+INSERT INTO l_ptech_nature VALUES ('S2', 'CHAMBRE S2', 'SNCF Reseau : Chambre prefabriquee aux dimensions standardisees. ');
+INSERT INTO l_ptech_nature VALUES ('S3', 'CHAMBRE S3', 'SNCF Reseau : Chambre prefabriquee aux dimensions standardisees. ');
+INSERT INTO l_ptech_nature VALUES ('S4', 'CHAMBRE S4', 'SNCF Reseau : Chambre prefabriquee aux dimensions standardisees. ');
+INSERT INTO l_ptech_nature VALUES ('S5', 'CHAMBRE S5', 'SNCF Reseau : Chambre prefabriquee aux dimensions standardisees. ');
+INSERT INTO l_ptech_nature VALUES ('S6', 'CHAMBRE S6', 'SNCF Reseau : Chambre prefabriquee aux dimensions standardisees. ');
+INSERT INTO l_ptech_nature VALUES ('S6bis', 'CHAMBRE S6bis', 'SNCF Reseau : Chambre prefabriquee aux dimensions standardisees. ');
+INSERT INTO l_ptech_nature VALUES ('S7', 'CHAMBRE S7', 'SNCF Reseau : Chambre prefabriquee aux dimensions standardisees. ');
+INSERT INTO l_ptech_nature VALUES ('TU1', 'CHAMBRE TU1', 'SNCF Reseau : chambre avec trappes unifiees. ');
+INSERT INTO l_ptech_nature VALUES ('TU2', 'CHAMBRE TU2', 'SNCF Reseau : chambre avec trappes unifiees. ');
+INSERT INTO l_ptech_nature VALUES ('TU4', 'CHAMBRE TU4', 'SNCF Reseau : chambre avec trappes unifiees. ');
+INSERT INTO l_ptech_nature VALUES ('TU6', 'CHAMBRE TU6', 'SNCF Reseau : chambre avec trappes unifiees. ');
+INSERT INTO l_ptech_nature VALUES ('TU8', 'CHAMBRE TU8', 'SNCF Reseau : chambre avec trappes unifiees. ');
+INSERT INTO l_ptech_nature VALUES ('TU10', 'CHAMBRE TU10', 'SNCF Reseau : chambre avec trappes unifiees. ');
+INSERT INTO l_ptech_nature VALUES ('OHN', 'OUVRAGE HORS NORMES', '');
 INSERT INTO l_ptech_nature VALUES ('PBOI', 'POTEAU BOIS', '');
 INSERT INTO l_ptech_nature VALUES ('PBET', 'POTEAU BETON', '');
 INSERT INTO l_ptech_nature VALUES ('PMET', 'POTEAU METAL', '');
 INSERT INTO l_ptech_nature VALUES ('PIND', 'POTEAU INDETERMINE', '');
 INSERT INTO l_ptech_nature VALUES ('POTL', 'POTELET', '');
-INSERT INTO l_ptech_nature VALUES ('R1T', 'CHAMBRE R1T', '');
-INSERT INTO l_ptech_nature VALUES ('R2T', 'CHAMBRE R2T', '');
-INSERT INTO l_ptech_nature VALUES ('R3T', 'CHAMBRE R3T', '');
 INSERT INTO l_ptech_nature VALUES ('BOU', 'BOUCHON', '');
 INSERT INTO l_ptech_nature VALUES ('REG', 'REGARD 30X30', '');
-INSERT INTO l_ptech_nature VALUES ('OHN', 'OUVRAGE HORS NORMES', '');
-INSERT INTO l_ptech_nature VALUES ('TRA', 'TRAVERSE', '');
-INSERT INTO l_ptech_nature VALUES ('CRO', 'CROCHET', '');
 INSERT INTO l_ptech_nature VALUES ('BAL', 'BALCON', '');
+INSERT INTO l_ptech_nature VALUES ('CRO', 'CROCHET', '');
 INSERT INTO l_ptech_nature VALUES ('FAI', 'FAITIERE', '');
 INSERT INTO l_ptech_nature VALUES ('STR', 'SOUTERRAIN', '');
 INSERT INTO l_ptech_nature VALUES ('SSO', 'SOUS-SOL', '');
+INSERT INTO l_ptech_nature VALUES ('TRA', 'TRAVERSE', '');
 INSERT INTO l_ptech_nature VALUES ('Y', 'SITE MANCHONNAGE Y', 'Fenêtre ouverture sur fourreaux existant pour mise en Y');
 INSERT INTO l_ptech_nature VALUES ('IND', 'INDETERMINE', '');
 INSERT INTO l_ptech_type_log VALUES ('T', 'TIRAGE', '');
 INSERT INTO l_ptech_type_log VALUES ('R', 'RACCORDEMENT', '');
+INSERT INTO l_ptech_type_log VALUES ('I', 'INDETERMINE', '');
 INSERT INTO l_ptech_type_phy VALUES ('A', 'APPUI', '');
 INSERT INTO l_ptech_type_phy VALUES ('C', 'CHAMBRE', '');
 INSERT INTO l_ptech_type_phy VALUES ('F', 'ANCRAGE FACADE', '');

@@ -1,0 +1,98 @@
+GraceTHD-Layers
+
+### Changelog
+
+v0.3.0
+# Arborescence :
+- chg: Les scripts SQL pour la création des vues élémentaires ne sont plus diffusés dans GraceTHD-Layers mais dans GraceTHD-MCD (à partir de GraceTHD-MCD v2.0.1). 
+- add: ajout dans GraceTHD-MCD v2.0.1 d'un script SQL pour rendre les vues élémentaires éditables sous PostGIS (gracethd_80_triggers.sql). 
+- chg: évolution de la nomenclature des fichiers QGIS. 
+- add: ajout d'une version "pour les nuls" des projets QGIS. Les valeurs issues de listes de valeurs sont affichées avec les libellés et pas avec les codes, contrairement aux versions "pros". 
+- add: ajout d'une version "nuls" et "pros" PostGIS utilisant les vues matérialisées (vmat). 
+- chg: mise à jour de la documentation. 
+
+# Relations : 
+- add: ajout relation sf_ad_code-ad_code2
+- add: ajout relation dm_cm_code-cm_code. 
+- add: ajout relation dm_cd_code-cd_code. 
+- add: ajout relation lv_cb_code_cb_code. 
+- add: ajout relation lv_cb_code-cb_code-cables. 
+- add: ajout relation bp_pt_code-pt_code. 
+- add: ajout relation cs_bp_code-bp_code. 
+- add: ajout relation cs_bp_code-bp_code-pto.
+- add: ajout relation fo_cb_code-cb_code-cables.
+- add: ajout relation fo_cb_code-cb_code-cablesextra.
+- add: ajout relation fo_cb_code-cb_code-extremites. 
+- add: ajout relation cb_rf_code-rf_code-cables. 
+- add: ajout relation cb_rf_code-rf_code-extrem.
+- add: ajout relation cb_rf_code-rf_code-extrasite.
+- add: ajout relation bp_rf_code-rf_code-bpe. 
+- add: ajout relation nro-zanro. 
+- add: ajout relation sro-zasro. 
+- add: ajout relation pbo-zapbo. 
+
+# Groupes de couches :
+- chg: Groupe "Aménagement des sites" - Devient "Hébergement". 
+- chg: Couche "Adresses (t_adresse)" - Couche déplacée dans "Sites"
+- chg: Groupe "GraceTHD" - renommage en "GraceTHD-Layers (PostGIS)"
+- chg: Groupe "FTTH" - ordre des couches, "FTTH" passé sous le groupe "Génie civil"
+- chg: Groupe "Documentation" devient un groupe de couches niveau 1
+- add: Groupe "Coaxial" : ajout d'un groupe de couches Coaxial et déplacement des zones de couverture coaxiales dans ce groupe. 
+- add: Couche "Câbles extrasites (vs_elem_cl_cb)" ajoutée. 
+- del: Couche "Câbles (vs_elem_cl_cb_lv)" supprimée. 
+- del: Couche "Chambres (vs_elem_pt_nd [pt_typephy C]"
+- del: Couche "Appuis (vs_elem_pt_nd [pt_typephy A])"
+- del: Couche "Ancrages facade (vs_elem_pt_nd [pt_typephy F])"
+- del: Couche "Points techniques Immeubles et autres (vs_elem_pt_nd [pt_typephy I OR Z])"
+- add: Couche "Points techniques (vs_elem_pt_nd)"
+- del: Groupe de couches "Database / Vues élémentaires" supprimé. 
+- chg: Couche "Cassettes (vs_elem_cs_bp_pt_nd)" renommée en "Cassettes ptech (vs_elem_cs_bp_pt_nd)"
+- add: Couche "Cassettes BP Immeuble (vs_elem_cs_bp_lt_st_nd)" ajoutée. 
+- add: Couche Cassettes ajoutée. 
+- add: Couche "BP Immeuble (vs_elem_bp_lt_st_nd)" ajoutée. 
+- chg: Couche "PBO (vs_elem_bp_pt_nd [PBO])" renommée "PBO extrasite (vs_elem_bp_pt_nd [PBO])". 
+- add: Couche "PBO immeuble (vs_elem_bp_lt_st_nd)" ajoutée. 
+
+# Propriétés des couches :
+- chg: Application ou modification des échelles d'affichage et échelle d'affichage des étiquettes pour la plupart des couches. 
+- chg: "Général/Zones de déploiement (t_zdep)" - configuration des outils d'édition (widgets). 
+- chg: "Général/Références produits (t_reference)" - configuration des outils d'édition (widgets). 
+- chg: "FTTH/ZAPBO (t_zpbo)" - configuration des outils d'édition (widgets). 
+- chg: "Database/t_ebp" - configuration des outils d'édition (widgets). 
+- chg: "Database/t_fibre" - configuration des outils d'édition (widgets). 
+- chg: "Database/t_ltech" - configuration des outils d'édition (widgets). 
+- chg: "Database/t_ptech" - configuration des outils d'édition (widgets). 
+- chg: "Database/t_sitetech" - configuration des outils d'édition (widgets). 
+- chg: "Database/t_suf" - configuration des outils d'édition (widgets). 
+- chg: "Cablage/Love" - configuration des outils d'édition (widgets). 
+- fix: "ZAPBO (t_zpbo)" : infobulle corrigée. 
+- fix: "ZASRO (t_zsro)" : infobulle corrigée. 
+- fix: "ZANRO (t_znro)" : infobulle corrigée. 
+- fix: "Extrêmités des câbles (vs_elem_cb_nd)" : infobulle corrigée. 
+- fix: "Cheminement (t_cheminement)" : étiquetage OK si des valeurs manquantes. 
+- fix: "Points techniques (vs_elem_pt_nd)" : étiquetage OK si des valeurs manquantes. 
+- fix: "Adresses (t_adresse)" : étiquetage OK si numéro manquant. 
+- chg: "Sites/Site technique (vs_elem_st_nd)" - contrôle de l'ordre de rendu des entités [2st_typephy = 'BAT' ASC NULLS LAST, st_typephy = 'SHE' ASC NULLS LAST, st_typephy = 'ADR' ASC NULLS LAST, st_typephy = 'COF' ASC NULLS LAST]. 
+
+# Formulaires : 
+- add: "Général/Noeuds (t_noeud)" - ajout formulaire glisser-déposer + widgets. 
+- add: "Général/Organismes (t_organisme)" - ajout formulaire glisser-déposer + widgets. 
+- add: "FTTH/ZANRO (t_znro)" - ajout formulaire glisser-déposer + widgets. 
+- add: "FTTH/ZASRO (t_zsro)" - ajout formulaire glisser-déposer + widgets. 
+- add: "FTTH/ZAPBO (t_zsro)" - ajout formulaire glisser-déposer + widgets. 
+- add: "FTTH/NRO (vs_elem_st_nd [NRO])" - ajout formulaire glisser-déposer. 
+- add: "FTTH/SRO (vs_elem_st_nd [SRO])" - ajout formulaire glisser-déposer. 
+- add: "FTTH/PBO (vs_elem_pt_nd [PBO])" - ajout formulaire glisser-déposer. 
+- add: "Génie civil/Cheminement (t_cheminement)" - ajout formulaire glisser-déposer + widgets. 
+- add: "Génie civil/Points techniques (vs_elem_pt_nd)" - ajout formulaire glisser-déposer + widgets. 
+- chg: "Sites/Adresses (t_adresse)" - modification formulaire glisser-déposer + widgets. 
+- chg: "Sites/SUF (vs_elem_sf_nd)" - modification formulaire glisser-déposer + widgets. 
+- add: "Sites/Site technique (vs_elem_st_nd)" - ajout formulaire glisser-déposer + widgets. 
+- add: "Sites/Sites d'émission (vs_elem_se_nd)" - ajout formulaire glisser-déposer. 
+- add: "Cablage/Câbles extrasites (vs_elem_cl_cb)" - ajout formulaire glisser-déposer + widgets. 
+- add: "Cablage/Câbles (vs_elem_cl_cb)" - ajout formulaire glisser-déposer + widgets. 
+- add: "Cablage/BPE (vs_elem_bp_pt_nd)" - ajout formulaire glisser-déposer + widgets. 
+- add: "Cablage/PTO (vs_elem_bp_sf_nd)" - ajout formulaire glisser-déposer. 
+- add: "Conduites/Conduites (vs_elem_cd_dm_cm)" - ajout formulaire glisser-déposer + widgets. 
+- add: "Conduites/Masques (vs_elem_mq_nd)" - ajout formulaire glisser-déposer + widgets. 
+

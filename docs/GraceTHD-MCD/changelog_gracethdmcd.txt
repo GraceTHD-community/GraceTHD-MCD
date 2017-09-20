@@ -1,0 +1,699 @@
+﻿GraceTHD-MCD
+
+### Changelog
+
+v2.0.1-release
+
+Général : 
+- chg: gracethd-mcd-v2.0.1_doc_v01.ods : 
+	- Mise en page. 
+	- Ajout version PDF
+- add: Contraintes : ajout d'une page décrivant et codifiant 25 contraintes obligatoires et recommandées. 
+- fix: GraceTHD-MCD v2.0.1 est standardisé via le Géostandard ANT GraceTHD v2.0.1 qui applique les présentes évolutions et correctifs de GraceTHD-MCD ains que de multiples corrections d'anomalies propres au document du géostandard ANT v2.0. 
+- chg: README.md : mises à jour. 
+
+Arborescence : 
+- chg: ".\mcd_doc" renommé ".\docs\gracethd-mcd" pour harmoniser l'arborescence des différents projets. 
+- add: .\qgis : ajout de GraceTHD-Layers v0.03 afin de permettre aux utilisateurs de profiter d'un environnement de consultation et d'édition générique. 
+- chg: .\db_spatialite\readme.txt modifié, déplacé et renommé : .\docs\GraceTHD-MCD\gracethd-mcd-v2.0.1_readme.txt
+- chg: .\db_spatialite\gracethd-spatialite.qgs : prise en compte MCD v2.0.1. 
+- chg: renommage de changelog.txt en changelog_gracethdmcd.txt pour harmoniser les arborescences et déplacement dans .\docs\GraceTHD-MCD\. 
+
+SQL : 
+- fix: .\sql_postgis\gracethd_50_index.sql : ajout de SET search_path TO gracethd, public;
+- fix: .\sql_spatialite\gracethd_40_spatialite.sql : application du NOT NULL pour les attributs geom sur les tables t_adresse, t_noeud, t_cheminement, t_cableline. 
+- chg: Modification des entêtes des fichiers SQL
+- add: .\sql_spatialite\gracethd_61_vues_elem.sql : création des vues élémentaires historiquement distribuées avec GraceTHD-Layers. Transfert de GraceTHD-Layers. 
+- chg: .\sql_spatialite\gracethd_61_vues_elem.sql : ajout de vs_elem_bp_lt_st_nd. 
+- chg: .\sql_spatialite\gracethd_61_vues_elem.sql : ajout de vs_elem_cs_bp_lt_st_nd. 
+- fix : .\sql_spatialite\gracethd_61_vues_elem.sql : corrections vs_elem_st_nd. 
+- add: .\sql_postgis\gracethd_61_vues_elem.sql : création des vues élémentaires historiquement distribuées avec GraceTHD-Layers. Transfert de GraceTHD-Layers v0.02. 
+- chg: .\sql_postgis\gracethd_61_vues_elem.sql : ajout de vs_elem_bp_lt_st_nd.
+- chg: .\sql_postgis\gracethd_61_vues_elem.sql : ajout de vs_elem_cs_bp_lt_st_nd.  
+- add: .\sql_postgis\gracethd_61_vues_elem_vmat.sql : création de vues matérialisées sur la base des vues élémentaires. Les vues matérialisées visent une consultation plus rapide, mais ne sont pas éditables et doivent être rafraichies si les données évoluent. Transfert de GraceTHD-Check. 
+- chg: .\sql_postgis\gracethd_61_vues_elem_vmat.sql : ajout mvs_elem_bp_lt_st_nd. 
+- chg: .\sql_postgis\gracethd_61_vues_elem_vmat.sql : ajout mvs_elem_cs_bp_lt_st_nd. 
+- add: .\sql_postgis\gracethd_80_triggers.sql : fonctions et triggers permettant de rendre les vues élémentaires éditables. 
+- add: .\sql_postgis\gracethd_99_grant.sql : Inopérant. Permet aux utilisateur d'y intégrer l'application de privilèges par défaut pour les nouvelles bases GraceTHD. Destiné à être pris en compte par les scripts de création de base (cf. GraceTHD-Check). 
+
+Correctifs MCD :
+- fix: cs_bp_code : suppression NOT NULL ; (demandes #37 #270, GEFO)
+- fix: l_infra_nature : libellé HERTZIEN au lieu de HERZIEN ; (Seine et Marne Numérique/M.Locq). 
+- chg: l_bp_racco : suppression accent dans le libelle 'ECHEC PRODUCTION : POSITION BRASSAGE BAIE OPERATEUR DÉJÀ UTILISEE' ; (demande #352)
+- chg: l_doc_type : suppression accent dans le libelle 'REGLEMENT DE SERVICE' ; (demande #352)
+- chg: l_doc_type :	suppression accent dans le libelle 'RÈGLEMENT DE VOIRIE' ; (demande #352)
+- chg: l_geoloc_classe : suppression accent et passage en majuscules dans le libelle 'Classe de précision A' ; (demande #352)
+- chg: l_geoloc_classe : suppression accent et passage en majuscules dans le libelle 'Classe de précision A, en planimétrie uniquement' ; (demande #352)
+- chg: l_geoloc_classe : suppression accent et passage en majuscules dans le libelle 'Classe de précision B' ; (demande #352)
+- chg: l_geoloc_classe : suppression accent et passage en majuscules dans le libelle 'Classe de précision C' ; (demande #352)
+- chg: cd_cd_code : relation récursive, suppression de "REFERENCES cd_code" (pour ne pas bloquer les chargements si le parent arrive après l'enfant) ; (GEDB). 
+- chg: nd_coderat : relation récursive, suppression de "REFERENCES nd_code" (pour ne pas bloquer les chargements si le parent arrive après l'enfant) ; (GEDB). 
+
+Evolutions MCD : 
+- add: l_noeud_type : ajout des codes JX, SH, SC, PC, EC ; (GEGC, GEDB). 
+- add: l_ptech_nature : ajout des codes A10, A11, A12, A13, A14, A15, A16, A17, A18, D1C, D1T, D2C, D2T, D3C, D3T, D4C, D4T, D5, D5C, D6, D6C, D11, D12, D13, D14, K1T, K2T, K3T, P3C, P3T, P4C, P4T, P5C, P5T, P6C, P6T, S1, S2, S3, S4, S5, S6, S6bis, S7, TU1, TU2, TU4, TU6, TU8, TU10 ; (GEGC). 
+- add: l_ptech_type_log : ajout valeur I;INDETERMINE ; (demande #248)
+- add: l_bp_type_phy : ajout B036, B432, B720, DTI1, DTI2, DTI4 ; (GEFO)
+
+Patchs optionnels : 
+- add: gracethd_91_patchs.sql : fichier sql permettant de déployer de manière optionnelle des tables proposant quelques attributs importants prévus dans la v2.1.0 ; (Aleno/SBY, Orange/D.Bonnard). 
+- add: table t_cable_patch201 : table optionnelle permettant d'utiliser les attributs cp_bp1, cb_bp2, cb_ba2 ; (GEDB). 
+- add: table t_zpbo_patch201 : table optionnelle permettant d'utiliser l'attribut zp_bp_code ; (GEDB). 
+- add: table t_cassette_patch201 : table optionnelle permettant d'utiliser l'attribut cs_ti_code ; (GEFO). 
+Listes de valeurs :
+- add: table t_ltech_patch201 : table optionnelle permettant d'utiliser les attributs lt_bat, lt_escal, lt_etage ; GEFO. 
+
+
+v2.0-release
+- ad_racc : VARCHAR(2)
+- zs_ad_code : VARCHAR(254)
+- pt_user : VARCHAR(20)
+- pt_type_phy : VARCHAR(1)
+- cs_type : VARCHAR(1)
+- cm_modpose : VARCHAR(20)
+- cm_passage : VARCHAR(10)
+- cd_type : VARCHAR(10)
+- l_masque_face : CODE VARCHAR(1)
+- cb_prop : VARCHAR(20)
+- l_technologie_type : CODE VARCHAR(3)
+- nd_type_ep : VARCHAR(3)
+- fo_color : VARCHAR(10)
+- ps_fonct : VARCHAR(2)
+- ps_etat : VARCHAR(3)
+- se_type : VARCHAR(10)
+- od_tbltype : VARCHAR(2)
+- cm_gest_do : définition
+- cm_prop_do : définition
+- cb_creadat : ajout
+- Noms des contraintes PRIMARY KEY des tables t_z* : "_PK" passés en minuscules "_pk". 
+- Nom de fichiers .sql : 
+	- Ajout d'une décimale aux numéros pour pouvoir ajouter des scripts spécifiques (gracethd_10_lists.sql, etc.). 
+	- gracethd_6_specifique.sql devient gracethd_90_labo.sql
+- Classes : corrections d'orthographe dans les définitions. 
+
+	
+v2-RC2
+- Domanialité : 
+	- cm_gest_do : cm_gest_vo renommé + modification définition (issue #79)
+	- cm_prop_do : cm_pro_voi renommé + modification définition (issue #79)
+	- pt_gest_do : pt_gest_vo renommé + modification définition (issue #82)
+	- pt_prop_do : pt_pro_voi renommé + modification définition (issue #82)
+- cl_code : suppression de la référence à cb_code. 
+- l_avancement.csv : oubliée dans rc1. 
+
+
+v2-RC1
+Corrections et évolutions mineures :
+- l_ptech_type_phy	: 
+	- F; ANCRAGE FACADE
+	- I; IMMEUBLE
+- cd_long : correction définition (issues #66 -> #93)
+- t_cableline : correction définition (issue #66 -> #94)
+- cl_cb_code : création de cet attribut pour avoir un code CLXXXXXXXXXXXX cohérent avec la table (issue #74). 
+- cl_code : modification de la définition (issue #74)
+- cb_nd1 et cb_nd2 : correction de la relation qui pointait encore t_ebp. (issue #71)
+- l_bp_type_phy : correction pour coffret mal pris en compte (colonne L non renseignée). (issue #72)
+- bp_racco : modification définition pour ne plus parler des succès de raccordement (conformité Interop). 
+- cm_gest_vo : renommé cm_gest_do + modification définition (issue #79) -> ERRATUM : modification initalement anoncée non appliquée. 
+- cm_gest_vo : renommé cm_prop_do + modification définition (issue #79) -> ERRATUM : modification initalement anoncée non appliquée. 
+- cm_passage : modification définition
+- cm_charge : modification définition
+- l_passage_type : ajout AQU
+- pt_secu : modification définition (issue #77). 
+- fo_type : modification définition. 
+- Ajout (retour) d'un suivi synthétique de l'avancement (issue #51)
+	- l_avancement : ajout. 
+	- cm_avct : ajout. 
+	- pt_avct : ajout. 
+	- st_avct : ajout. 
+	- bp_avct : ajout. 
+	- cb_avct : ajout. 
+	- cd_avct : ajout. 
+- Capacité lignes (issue #48) :
+	- zp_capamax : ajout (correspondance avec zs_capamax)
+	- pt_lignes : suppression
+- Types câbles (issues #58 et #89) 
+	- cb_typelog : ajout
+	- cb_typephy : renommage de cb_type, modification définition et nom long. 
+	- l_infra_type_log : 
+		- CO : Modification définition
+		- TR : Modification définition
+		- DI : Modification définition
+		- RA : Modification définition
+- cb_tech : Modification définition
+- st_datemes : renommage de st_dt_ms pour uniformiser avec les autres tables (issue #101). 
+- ad_batcode : modification définition
+- sf_zp_code : ajout. 
+- xx_ad_code (issue #53)
+	- pt_ad_code : ajout
+	- nd_ad_code : suppression
+- t_ltech : modification définition (issue #60)
+- l_site_type_log : ajout code SROL. 
+- pt_etat : modification définition (issue #108)
+- cm_voie : modification définition (issue #110)
+- Domanialité sur points techniques (issue #82)
+	- pt_gest_vo : ajout 
+	- pt_pro_voi : ajout
+- l_site_type_phy : ajout COF;COFFRET (issue #123)
+- l_fo_type : ajout de valeurs (ITU et ISO) et de définitions (issue #129). 
+- l_fo_color : 
+	- ajout des valeurs FOTAG IEEE 802.8. 
+	- modification des définitions. 
+- l_position_type (issue #130): 
+	- ajout de valeurs
+	- ajout de définitions
+- t_ropt : modification définition. 
+- Protocole Interop 2.2 (issue #90)
+	- ad_hexaclv : ajout
+	- ad_idatcom : ajout
+	- ad_imneuf : ajout
+	- ad_idatimn : ajout
+	- zs_brassoi : ajout
+- l_suf_racco : ajout "RACCORDABLE SUR DEMANDE" (issue #55)
+- l_tube : ajout de 72 valeurs (issue #132)
+- zs_zn_code : ajout
+Général : 
+- roadmap.txt : réécriture
+- gracethd_6_specifique.sql : 
+	- Evolution de t_emprise : prototype de table pour stocker des emprises de chambres, sites, etc. 
+- db_spatialite/readme.txt : mises à jour. 
+- Fichiers ods : changement ordre des tables t_z* (après t_noeud)
+
+	
+v2-beta2b
+Evolutions majeures : 
+- xx_id : 
+	- xx_id : suppression de ces attributs (sauf rt_id, mq_id, lv_id, od_id). 
+- xx_code : 
+	- xx_code deviennent clé primaire
+	- Création de do_code et se_code. 
+	- Remplacements : od_do_ref par od_do_code, em_do_ref par em_do_code. 
+- t_cableline : 
+	- Création de cette table pour déporter les géométries des câbles extérieurs qui sont modélisés par des géométries linéaires. 
+- t_cable : 
+	- Passage de la géométrie et des attributs liés à la géométrie sur t_cableline. 
+	- Remplacement de cb_bp1 et cb_bp2 par cb_nd1 et cb_nd2 (t_noeud au lieu de t_ebp). 
+		- Les câbles intrasites (jarretières, breakouts voire câbles classiques) n'ont plus besoin d'être modélisés par une ligne et peuvent simplement être localisés par la mise en relation avec un noeud d'extrêmité. 
+		- Désormais il est possible de mettre le code du noeud quand un câble a une extrêmité qui n'est pas un EBP. 
+		- Par contre lorsqu'il y a plusieurs équipements (EBP ou tiroirs) permettant potentiellement de raccorder le câble sur un même noeud, il faut modéliser la partie fibre (positions) pour connaitre les objets précis aux extrêmités d'un câble. 
+	- cb_localis : ajout. 
+Corrections : 
+- bp_occup : Suppression car doublon bp_occp
+- st_typephy : correction définition
+- eq_dateins : correction définition
+- cb_rf_id : renommé en cb_rf_code
+- pt_nd_code : ajout de la reference sur nd_code. 
+- do_code : définition
+Améliorations :
+- pt_a_strat : précision de la définition renvoyant vers les PIT Orange. 
+- zs_etatpm / l_sro_etat : ajout de PL/PLANIFIE en anticipation IPE 2.2
+- zs_refpm : passage de 100 à 20 caractères. 
+- zs_typeing : de 6 à 254 caractères selon Interop qui autorise des valeurs autres que mono, bi, quadri. 
+- l_bp_racco : valeurs mises à jour / codes erreur Interop. 
+- l_bp_type_log : ajout du code DTI pour les DTIo. 
+- l_bp_type_phy : ajout COF	/ COFFRET
+- cb_fo_util : ajout de cet attribut. 
+- t_organisme : ajout d'indexes
+- or_telfixe : VARCHAR(20)
+- or_siret : VARCHAR(14)
+- lt_etiquet : ajout index
+- rt_fo_ordr : ajout pour stocker l'ordre des fibres sur une route optique. 
+- eq_rf_code : ajout
+Général : 
+- gracethd-mcd-v2beta2b_schema_v01 : 
+	- ajout CableLigne
+	- Ajout "relations avec différentes classes" pour Adresse. 
+- gracethd-mcd-v2beta2b_schema_metiers_v01 : 
+	- identique à gracethd-mcd-v2beta2b_schema_metiers_v01 mais avec des couleurs par métier. 
+- gracethd-mcd-v2beta2b.ods	: 
+	- Création d'un dossier sources et déplacement de ce fichier de la racine à sources. 
+- Projets QGIS : 
+	- Le groupe de couches "Tables" est séparé en plusieurs groupes de couches métier. 
+- Demo01 : 
+	- Déplacement dans un projet spécifique https://github.com/GraceTHD-community/GraceTHD-Demo
+
+	
+v2-beta2a
+VERSION ARCHIVEE ET NON PUBLIEE
+La solution suivante pour la problématique générale des jarretières n'est pas retenue. 
+- t_cableinfra : Création de la table t_cableintra pour les câblages intrasite (jaretières, breackout, mais pourquoi pas des câbles intrasite). 
+- t_fibre : 
+	- fo_cb_code : modification définition + suppression NOT NULL
+	- fo_ci_code : ajout
+
+
+v2-beta1b
+- Quelques corrections sur Demo01. 
+- db_shpcsv : les shapefiles ont maintenant des types d'attributs plus conformes au MCD. 
+- Passage de tous les xx_id en BIGINT. 
+- pt_nature : correction longueur. 
+- cm_cm1 : suppression de la foreign key (trop contraignante, notamment pour les imports)
+- cm_cm2 : suppression de la foreign key (trop contraignante, notamment pour les imports)
+
+
+v2-beta1a
+- db_shpcsv : Ajout d'un jeu de shapefiles et csv vierges (base shp/csv vide). 
+- Demo01 : Ajout d'un jeu de données de démonstration. 
+- t_empreinte : Ajout geom sur Spatialite. 
+- l_bp_type_phy	: ajout	B576
+- cb_diam : suppression NOT NULL
+- rt_code : suppression du UNIQUE. 
+- rf_code : correction définition
+- rf_comment : ajouté
+- od_do_ref : ajout reference
+- cm_mut_org : modif définition
+- l_cable_type : ajout breakout
+- l_technologie_type : VALUES ('RAD', 'RADIO', '');
+- l_doc_type : cf. cristel/flo (+ définition)
+- l_doc_tab : cf. cristel/flo (+ définition)
+- ad_batcode : renommé
+
+v2-alpha3g
+- gracethd-mcd-v2alpha03g_doc_v01.ods : 
+	- ajout colonne "Contraintes sur l'attribut". 
+	- ajout colonne "Relation"
+- gracethd-mcd-v2alpha03_schema_v02.png : Corrections sur le schéma simplifié. 
+- gracethd-mld-v2alpha3g.png : ajout - modèle logique de données issu d'une retroingénierie automatique. 
+- bp_pt_code : ajout relation + suppression NOT NULL. 
+- bp_lt_code : ajout de cet attribut + index. 
+- bp_sf_code : changement de position dans la table
+- MCD : changement de l'ordre de création des tables pour placer t_ltech avant t_ebp. 
+- nd_type : correction type
+- st_etat : plus obligatoire. 
+- tr_comment renommé cm_comment
+- em_do_ref : ajout relation. 
+- ad_typzone : ajout relation + index. 
+- fo_type : ajout relation + index. 
+- lt_clim : ajout attribut + relation + index. 
+- cb_type : ajout attribut + relation + index. 
+- eq_ti_code : abandon
+- eq_ba_code : obligatoire
+- st_proptyp : correction nom (bp_). 
+- se_nd_code : UNIQUE
+- l_noeud-type : suppression physique, remplacé par les types correspondant aux types d'objets ponctuels. 
+- l_etat_type : ajout NC
+- l_site_type_fonctionnel : abandon
+- l_classe_dict : abandon
+- l_type_bati : abandon
+- l_technologie_cable_type : abandon
+- l_connexion_type : abandon
+- l_cable_type : changement codes et type attribut CODE. 
+- l_bp_localisation : abandon
+
+v2_alpha3f
+- correction sur le projet qgis de la version alpha3e qui pointait sur la version alpha3d de la base. 
+- correction schéma simplifié (polygone sur Empreinte). 
+- ajout d'un readme.txt dans db_spatialite pour expliquer le contenu de ce dossier. 
+- diffusion d'un create.bat dans sql_spatialite
+- ajout des scripts de création des tables adapté à la syntaxe PostGIS : sql_postgis. 
+- Création d'un script sql spécifique pour la génération des index. 
+- Changement d'ordre des tables pour respecter la cohérence de création des foreign keys (PostGIS). 
+	- t_adresse
+	- t_suf
+	- t_ptech
+	- t_ebp
+	- t_cassette
+	- t_position
+	- t_ropt
+- Correction noms d'attributs : 
+	- ps_cs_code
+	- fo_cb_code
+	- ba_rf_code
+	- ps_amont -> ps_1
+	- ps_aval -> ps_2
+- Correction type d'attributs : 
+	- od_codeobj
+	- ad_ietat
+	- sf_ad_code
+	- ps_cs_code
+	- ba_rf_code
+	- rt_fo_code
+	- se_ad_code
+- Correction Foreign keys : 
+	- Plusieurs t_adrese au lieu de t_adresse. 
+	- Plusieurs t_zone au lieu des tables par type de zone. 
+	- dm_cd_code
+	- dm_cm_code
+	- fo_cb_code
+	- ba_rf_code
+	- ti_etat
+	- zs_etatpm
+	- zs_typeemp
+	- zp_zs_code
+- Correction NOT NULL
+	- zn_code
+	- zs_code
+	- zp_code
+	- zd_code
+	- zc_code
+- l_position_type : modification des codes et libellés. 
+- l_statut : modification des définitions pour tenir dans moins de 254 caractères. 
+- Index
+	- Ajouts
+- Correction index spatiaux PostGIS
+	
+v2_alpha3e
+- Ajout d'un dossier MCD_doc : 
+	- Ajout d'une présentation simplifiée du MCD : gracethd-mcd-v2alpha03e_doc_v01.ods
+	- Passage du schéma simplifié dans ce dossier : gracethd-mcd-v2alpha03e_schema_v01.png
+- mcd_alpha3e.ods
+	- Ajout d'une légende 
+	- Suppression de la feuille SQLite
+	- Renommage de feuilles -> Attributs et Valeurs. 
+- cb_bp_amon et cb_bp_aval : 
+	- renommage en cb_bpcode1 et cb_bpcode2
+	- définitions
+	- foreign keys cb_bp* sur bp_code
+- cm_noeud_a et cm_noeud_b : 
+	- renommage en cm_ndcode1 et cm_ndcode2
+	- définitions
+	- foreign keys sur nd_code
+	- suppression du NOT NULL pour permettre la saisie d'une BPE (noeud) à l'extrêmité d'un câble et non de devoir la créer au préalable. 
+- cm_cm1 et cm_cm2 : 
+	- renommages
+	- définitions
+	- foreign keys sur nd_code
+- nd_ad_code : 
+	- modif type
+
+v2_alpha3d
+- général : 
+	- Pour PostGIS 
+		- Réorganisation de l'ordre des tables pour passer la création sous PostGIS. 
+		- Suppression des IF NOT EXISTS. 
+		- Ajout des indexes spatiaux PostGIS. 
+		- Passage des geom en fin de table pour correspondance de l'ordre entre Spatialite et PostGIS. 
+	- Remplacement des ' et '' par des espaces dans les libellés et définitions des listes.
+	- Extension des valeurs l_statut et suppression des attributs avancement. 
+	- Ajout de TypePropriete sur les tables des équipements pouvant être construits, rachetés, loués, etc. 
+	- Généralisation des notions de "Type Physique" et "Type Logique". 
+	- Uniformation des noms et de l'ordre des attributs communs aux tables d'équipements. Notamment : 
+		- xx_prop
+		- xx_gest
+		- xx_user
+		- xx_typeprop
+		- xx_statut
+		- xx_etat
+		- xx_dateins
+		- xx_datems
+	- xx_creadat et xx_majdate passés en type TIMESTAMP. 
+	- ajout des indexes sur tous les attributs potentiellement bénéficiaires.
+	- Modification des définitions de classes : 
+		- SiteUtilisateurFinal
+		- Adresse
+	- Application générale d'un attribut commentaire. 
+	- Uniformisation des foreign keys sur des attributs "code" et plus d'ID. 
+- t_conduite 
+	- renommage de la table t_fourreau
+	- Occupation : passage en numérique, suppression de la relation et définition indiquant qu'il s'agit d'un pourcentage. 
+	- abandon numero de serie
+	- fx_ar_code : abandonné
+- t_cable : 
+	- cb_util -> cb_user
+	- modification nom cb_rf_id
+	- cb_ar_code : abandon
+	- cb_fx_code : abandon
+- t_cable_conduite : 
+	- Création de la table de relation. 
+- t_cheminement : 
+	- Création de la table (fusion tranchée et artère)
+- t_fibre : 
+	- remplacement de la fk par l_etat_type. 
+	- ajout : fo_type
+- t_noeud : 
+	- Passage sur les tables de spécialisation : 
+		- nd_statut (passé sur tables de spécialisation. Une chambre et une bpe peuvent ne pas avoir le même statut). 
+		- nd_etat (passé sur tables de spécialisation. Une chambre et une bpe peuvent ne pas avoir le même état). 
+		- nd_haut
+		- nd_pro
+		- nd_gest
+		- nd_user
+		- nd_dateins
+	- abandon nd_c_insee
+- t_ptech : 
+	- passage de : 
+		- nd_haut à pt_a_haut
+		- nd_pro à pt_pro
+		- nd_gest à pt_gest
+		- nd_user à pt_user
+		- nd_detection à pt_detec
+		- nd_statut à pt_statut
+		- nd_etat à pt_etat
+		- nd_dateins à pt_dateins
+		- inversion pt_a_passa et pt_a_strat
+		- nd_occup à pt_occup
+	- pt_type_phy restreint aux valeurs APPUI, CHAMBRE, AUTRE. 
+	- pt_nature ajouté pour prendre les types de chambres, poteaux, etc. 
+- t_ebp	: 
+	- ajout : bp_statut
+		- nd_statut à pt_statut
+		- nd_etat à pt_etat	
+		- nd_occup à bp_occup
+	- ajout : 
+		- bp_entrees
+		- bp_ca_nb
+		- bp_nb_pas
+		- bp_linecod
+		- bp_oc_code
+		- bp_sf_code
+		- bp_racco
+		- bp_typephy : avec liste des types fournis par E-Megalis. 
+	- modif : bp_ref en integer
+	- abandon : bp_dateins
+	- abandon : bp_voie (dispo sur le noeud)
+- t_cassette : 
+	- modif : cs_rf_id renommé et type modifié
+- t_adresse : 
+	- Mise en correspondance des attributs avec les principaux attributs de la BAN. 
+	- Prise en compte de relation avec la base MAJIC. 
+	- ajout CHECK : CHECK (ad_ban_id LIKE 'ADRNIVX_________________')
+	- ad_type : correction foreign keys
+	- ad_hexacl -> ad_hexacle
+	- Mise en correspondance IPE
+		- ad_ietat
+		- ad_idatsgn
+		- ad_iaccgst
+		- ad_id_gest
+		- ad_idatcab
+	- Abandon ADR_AUTRE0x du Syane. 
+	- Spatialisation de la table. 
+- t_suf : 
+	- ajout d'attributs pour relation avec IPE. 
+	- ajout référence sf_pr_adr
+	- st_code -> sf_st_code
+	- reorg sf_nbprise
+	- renom sf_nbestim
+	- sf_src_geo : abandon
+	- sf_qlt_geo : abandon
+	- sf_st_code : abandon
+	- sf_tbati : abandon
+	- sf_nd_code : ajout
+- t_love : 
+	- remplacement lo_ par lv_
+- t_ropt ! 
+	- remplacement ro_ par rt_
+	- rf_fo_id remplacé par rf_fo_code
+- t_position : 
+	- remplacement po_ par ps_
+	- type ps_amont et ps_aval passé en varchar pour code et non ID. 
+- t_sitetech : 
+	- ajout st_user depuis nd_user
+	- st_stat -> st_statut
+	- abandon st_cp et st_ville
+	- st_type renommé st_typestr
+	- ajout foreign key st_typestr	
+	- ajout st_typefon
+	- st_nbpr renommé st_nblines
+- t_ltech : 
+	- lt_stat -> lt_statut
+	- relation base local base MAJIC (à étudier)
+	- nd_occup à se_occup
+- t_baie : 
+	- ba_stat -> ba_statut
+- t_position : 
+	- modification ordre des attributs
+- t_siteemission : 
+	- se_nd_code
+	- se_anfr
+	- nd_pro à se_pro
+	- nd_gest à se_gest
+	- nd_user à se_user
+	- nd_statut à se_statut
+	- nd_etat à se_etat
+	- nd_dateins à se_dateins
+	- se_dt_ms
+	- nd_occup à se_occup
+- t_organisme : 
+	- or_type : ajout de la référence aux codes juridiques INSEE dans la définition. 
+	- or_activ : ajout de la référence aux codes NAF INSEE dans la définition. 
+	- ajout d'attributs pour saisir l'adresse + lien optionnel avec la table t_adresse. 
+- t_zone : abandon
+	- Remplacement par de multiples tables de zones. 
+	- Abandon des zones fibrées (loi macron) en attendant plus d'informations. 
+	- Abandon des zones d'aménagement (notion Orange), à laisser aux données demandées par Orange. 
+- t_znro : 
+	- Création de la table
+- t_zsro : 
+	- Création de la table
+- t_zpbo : 
+	- Création de la table
+- t_zdep : 
+	- Création de cette table pour les zones de déploiement. 
+- t_zcoax : 
+	- Création de cette table pour les zones de couverture cablées (cablo-opérateur). 
+- t_document : 
+	- renommage en t_objdoc : la table t_document était la table ged du Syane, destinée à créer des relations entre objets et documents. 
+	- création d'une nouvelle table t_document destinée à indexer les documents. 
+	- ajout index unique multi-attributs : DROP INDEX IF EXISTS od_unique_idx; CREATE UNIQUE INDEX od_unique_idx ON t_love (od_code, od_tbltype, od_codeobj);
+- t_objdoc : 
+	- Renommage de cette table qui correspond à la table t_document dans les versions alpha précédentes, et GED côté Syane. 
+	- od_budg abandonné
+- t_empreinte : 
+	- Création de cette table pour pouvoir stocker des polygones représentant l'empreinte (l'emprise géographique) de certains documents. 
+- Listes : 
+	- l_adress_type 
+		-> l_adresse_type
+		- ABANDON. 
+	- l_adress_etat 
+		-> l_adresse_etat
+		- Utilisation valeurs Interop
+	- l_artere_implantation_type : renommée l_implantation_type
+	- l_zo_type
+		- abandon (une table par type). 
+	- l_propriete_type
+		- OCCUPATION ajouté
+	- l_site_type
+		- renommé l_site_type_log
+	- l_fibre_etat 
+		- abandon au profit de l_etat. 
+	- l_position_fonction
+		- abandon EPISSURE-JCD / EPISSURE-HDS : spécifique Syane. 
+	- l_marche
+		- création de cette liste pour qualifier si c'est inclus, supplémentaire ou hors marché. 
+	- l_suf_immeuble_type : renommé l_immeuble_type
+	- l_suf_racco : création d'une liste avec la terminologie de raccordement des SUF selon l'Arcep. 
+	- l_ptech_type_phy : modif totale des codes et valeurs (A, C, Z). 
+	- l_ptech_nature : récupération des types de chambres, de poteaux, etc. 
+	- l_accessibilite_type : abandonnée
+	- l_zone_densite : ajouté
+	- l_sro_etat : ajouté
+	- l_sro_emplacement : ajouté
+	- l_geoloc_mode : ajouté
+	- l_fx_type : renommée l_conduite_type
+	- l_doc_tab : FX -> CD
+	- l_artere_type renommée l_infra_type_log
+	- l_fo_type : ajout
+	- l_tranchee_implantation_type : renommée l_passage_type. 
+	- l_statut : application des phases préconisées en mission 3 et issues de la loi MOP. 
+	
+v2_alpha3c
+- MCD : ajout de la prise en compte de la contrainte unique dans la génération SQL
+- Ajout d'indexes
+- Réduction des "obligatoire" (NOT NULL). 
+- t_cable :
+	- ajout référence à t_reference
+	- abandon : fabricant
+	- abandon : cb_fo_util
+	- reorg des attributs. 
+	- correspondance Syane. 
+- t_fourreau : 
+	- renommage fx_dateins, fx_dateaig, fx_dateman
+	- suppression fx_nb
+- t_love : 
+	- ajout d'un index unique cable/noeud : CREATE UNIQUE INDEX lo_cb_no_code_idx ON t_love (lo_cb_code, lo_no_code);
+- t_masque : 
+	- mq_pt_code remplacé par mq_no_code. 
+	- ajout d'un index unique pour garantir l'unicité de définition d'alvéole. DROP INDEX mq_alveole_idx; CREATE UNIQUE INDEX mq_alveole_idx ON t_masque (mq_no_code, mq_face, mq_col, mq_ligne);
+- t_noeud : 
+	- Modification du préfixe no_ en nd_ pour éviter les confusions O et 0. 
+	- Ajout relation récursive pour modéliser la hiérarchie FTTH : nd_coderat. Peut convenir à d'autres cas (hiérarchie des sites radio, ...). 
+	- abandon d'attributs. 
+- t_cassette : 
+	- correction relation bp_code
+- t_ptech :
+	- Ajout d'attributs spécifiques aux poteaux.
+- t_ebp : 
+	- Ajout bp_pm_code pour identifier les PBO et le PM (SRO) de rattachement. 
+- t_fibre : 
+	- ajout de la référence à t_fo_color. 
+- t_tranchee : 
+	- conservation seulement de tr_mut_org pour la gestion de la mutualisation/co-cons (cf. Oise). 
+- t_zone : 
+	- Ajout d'un attribut zo_code. 
+	- Ajout d'un attribut et d'une relation récursive pour la gestion de parentalité des subdivisions. 
+- Listes : 
+	- l_zd_type : 
+		- renommé l_zo_type
+		- ajout ZF pour zone fibrée comme défini par amendement de la loi Macron. 
+	- l_ptech_type : corrections/modifications/ajouts
+	- l_fx_nature fusionnée avec l_fx_type
+	- l_cassette_type : modif codes
+	- l_qualite_info : creation
+	- l_position_fonction : modif codes
+	- l_technologie_type : reprises (oise)
+	- l_technologie_cable_type : abandon au profit de l_technologie_type. 
+	- l_doc_tab : corrections codes
+	- l_bp_type : suppression des valeurs paliatives Grace v1. 	
+	- l_color : renommage en l_fo_color. 
+	- l_etat_type : abandon EXISTANT
+	
+v2_alpha3b
+- Tables : 
+	- Ajout de t_ devant les noms de tables qui ne sont pas des listes. 
+- Listes :
+	- Attributs : code, libelle, definition
+	- l_propriete_type : ajouté + foreign keys
+	- l_doc_tab : reprise des codes et VARCHAR(2)
+- t_cable : 
+	- suppression cb_tu_code (sous-tubage)
+- t_love : 
+	- Ajout des foreign keys
+
+
+09/04/2015
+v2_alpha3a
+- Passage noms de tables et attributs en minuscules. 
+- fourreau : 
+	- ajout de fx_fx_code pour remplacer la table sous-tubage par une relation récursive. 
+- sous-tubage : suppresion / fusion avec la table fourreau
+- reference : ajout de la table reference du Syane. 
+- renommage zonedesserte en zone. 
+- Ajout d'attributs xx_r1_code, xx_r2_code, xx_r3_code, xx_r4_code sur tranchee, artere, fourreau, cable, noeud, zone. 
+- Version non publiée. 
+
+
+07/04/2015
+v2_alpha2c (première version permettant de générer une base de données)
+- Version augmentée de tables du Syane qui n'avaient pas été retenues (LOVE, MASQUE, ROPT). 
+- Version diminuée des tables "RADIO", remise de la table SITEEMISSION grace v1. 
+- Uniformisation des noms de tables. 
+- Uniformisation des noms d'attributs (-10 caractères et préfixe "XX_" de tous les champs)
+- Uniformisation des métadonnées de "cycle de vie" : date création, date mise à jour, source mise à jour, date abandon, cause abandon. 
+- Attributs "CodeExterne" et "étiquette" généralisés pour tenir compte des infrastructures tierces. 
+- Uniformisation des types de données pour la partie physique. 
+- Uniformisation de la structure des tables d'énumérations et listes avec mise en conformité aux directives Covadis (Codes, pas d'entiers, etc.). 
+- Abandon de certains attributs (feuille Att_abd du fichier de production du MCD). 
+- TRANCHEE :
+	- Remaniements
+- PTECH
+	- PT_ROTATIO
+- EBP :
+	- BP_ENTREES
+- MASQUE : 
+	- Pour test : Ajout code câble dans la table masque. 
+
+
+v2_alpha2b
+- Version dédiée à l'uniformisation avec les directives Covadis.  
+- Version non publiée. 
+
+
+v2_alpha2a
+- Version un peu modifiée, dédiée à l'uniformisation avec les directives Covadis.  
+- Version non publiée en dehors de la COVADIS (sans implications). 
+
+
+04/02/2015
+v2_alpha1e (modèle préalable consultation février 2015)
+- Association du Geostandard ANT v1 avec quelques adaptations + partiellement Référentiel technique Syane
+- Version "quick and dirty" destinée à servir de base de travail lors de la consultation de février 2015. 

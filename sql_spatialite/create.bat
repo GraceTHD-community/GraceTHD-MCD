@@ -3,7 +3,7 @@
 :VARIABLES
 REM MODIFIER CHEMIN VERS exécutable spatialite.exe (sous gracelite par exemple)
 SET SPLEX=D:\apps_portables_free\spatialite42\spatialite.exe
-SET GLV=v20
+SET GLV=v201
 SET SPLDB=..\db_spatialite\gracethd_%GLV%.sqlite
 REM SET SHPDB=.\shpcsv-in\
 
@@ -35,8 +35,14 @@ SET FSQL=gracethd_40_spatialite.sql
 ECHO GRACELITE - AJOUT DES INDEX
 SET FSQL=gracethd_50_index.sql
 %SPLEX% -silent %SPLDB% < %FSQL%
+ECHO GRACELITE -CREATION DES VUES ELEMENTAIRES
+SET FSQL=gracethd_61_vues_elem.sql
+%SPLEX% -silent %SPLDB% < %FSQL%
 ECHO GRACELITE - AJOUT DES SPECIFICITES
 SET FSQL=gracethd_90_labo.sql
+%SPLEX% -silent %SPLDB% < %FSQL%
+ECHO GRACELITE - AJOUT DES TABLES DE PATCH OPTIONNELLES
+SET FSQL=gracethd_91_patchs.sql
 %SPLEX% -silent %SPLDB% < %FSQL%
 
 :INSERTSHP

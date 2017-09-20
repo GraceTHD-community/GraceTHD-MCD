@@ -1,5 +1,5 @@
 code;libelle;definition
-HS;A CHANGER;L infrastructure doit etre changee car la moindre intervention peut etre prejudiciable a la fourniture du service"
-ME;MAUVAIS ETAT;Mauvais etat general de l infrastructure qui ne permet pas certaines interventions"
-OK;BON ETAT;Bon etat general qui permet de realiser toute operation de maintenance, d exploitation ou d evolution"
-NC;NON CONCERNE;
+HS;A CHANGER;L infrastructure doit etre changee car la moindre intervention peut etre prejudiciable a la fourniture du service
+ME;MAUVAIS ETAT;Mauvais etat general de l infrastructure qui ne permet pas certaines interventions
+OK;BON ETAT;Bon etat general qui permet de realiser toute operation de maintenance, d exploitation ou d evolution
+NC;NON CONCERNE;""

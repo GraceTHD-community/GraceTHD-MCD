@@ -1,58 +1,80 @@
-/*GraceTHD v2-RC2*/
+/*GraceTHD-MCD v2.0.1*/
 /*Creation des tables qui vont accueillir les listes de valeurs*/
+/* gracethd_10_lists.sql */
 /*PostGIS*/
+
+/* Owner : GraceTHD-Community - http://gracethd-community.github.io/ */
+/* Author : stephane dot byache at aleno dot eu */
+/* Rev. date : 17/07/2017 */
+
+/* ********************************************************************
+    This file is part of GraceTHD.
+
+    GraceTHD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    GraceTHD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with GraceTHD.  If not, see <http://www.gnu.org/licenses/>.
+*********************************************************************** */
 
 SET search_path TO gracethd, public;
 
-DROP TABLE IF EXISTS l_adresse_etat;
-DROP TABLE IF EXISTS l_avancement;
-DROP TABLE IF EXISTS l_baie_type;
-DROP TABLE IF EXISTS l_bp_racco;
-DROP TABLE IF EXISTS l_bp_type_log;
-DROP TABLE IF EXISTS l_bp_type_phy;
-DROP TABLE IF EXISTS l_cable_type;
-DROP TABLE IF EXISTS l_cassette_type;
-DROP TABLE IF EXISTS l_conduite_type;
-DROP TABLE IF EXISTS l_clim_type;
-DROP TABLE IF EXISTS l_doc_tab;
-DROP TABLE IF EXISTS l_doc_type;
-DROP TABLE IF EXISTS l_etat_type;
-DROP TABLE IF EXISTS l_fo_color;
-DROP TABLE IF EXISTS l_fo_type;
-DROP TABLE IF EXISTS l_geoloc_classe;
-DROP TABLE IF EXISTS l_geoloc_mode;
-DROP TABLE IF EXISTS l_immeuble_type;
-DROP TABLE IF EXISTS l_implantation_type;
-DROP TABLE IF EXISTS l_infra_nature;
-DROP TABLE IF EXISTS l_infra_type_log;
-DROP TABLE IF EXISTS l_masque_face;
-DROP TABLE IF EXISTS l_noeud_type;
-DROP TABLE IF EXISTS l_nro_etat;
-DROP TABLE IF EXISTS l_nro_type;
-DROP TABLE IF EXISTS l_occupation_type;
-DROP TABLE IF EXISTS l_passage_type;
-DROP TABLE IF EXISTS l_pose_type;
-DROP TABLE IF EXISTS l_position_fonction;
-DROP TABLE IF EXISTS l_position_type;
-DROP TABLE IF EXISTS l_propriete_type;
-DROP TABLE IF EXISTS l_ptech_nature;
-DROP TABLE IF EXISTS l_ptech_type_log;
-DROP TABLE IF EXISTS l_ptech_type_phy;
-DROP TABLE IF EXISTS l_qualite_info;
-DROP TABLE IF EXISTS l_reference_etat;
-DROP TABLE IF EXISTS l_reference_type;
-DROP TABLE IF EXISTS l_site_emission_type;
-DROP TABLE IF EXISTS l_site_type_log;
-DROP TABLE IF EXISTS l_site_type_phy;
-DROP TABLE IF EXISTS l_sro_etat;
-DROP TABLE IF EXISTS l_sro_emplacement;
-DROP TABLE IF EXISTS l_statut;
-DROP TABLE IF EXISTS l_suf_racco;
-DROP TABLE IF EXISTS l_suf_type;
-DROP TABLE IF EXISTS l_technologie_type;
-DROP TABLE IF EXISTS l_tiroir_type;
-DROP TABLE IF EXISTS l_tube;
-DROP TABLE IF EXISTS l_zone_densite;
+DROP TABLE IF EXISTS l_adresse_etat CASCADE;
+DROP TABLE IF EXISTS l_avancement CASCADE;
+DROP TABLE IF EXISTS l_baie_type CASCADE;
+DROP TABLE IF EXISTS l_bp_racco CASCADE;
+DROP TABLE IF EXISTS l_bp_type_log CASCADE;
+DROP TABLE IF EXISTS l_bp_type_phy CASCADE;
+DROP TABLE IF EXISTS l_cable_type CASCADE;
+DROP TABLE IF EXISTS l_cassette_type CASCADE;
+DROP TABLE IF EXISTS l_conduite_type CASCADE;
+DROP TABLE IF EXISTS l_clim_type CASCADE;
+DROP TABLE IF EXISTS l_doc_tab CASCADE;
+DROP TABLE IF EXISTS l_doc_type CASCADE;
+DROP TABLE IF EXISTS l_etat_type CASCADE;
+DROP TABLE IF EXISTS l_fo_color CASCADE;
+DROP TABLE IF EXISTS l_fo_type CASCADE;
+DROP TABLE IF EXISTS l_geoloc_classe CASCADE;
+DROP TABLE IF EXISTS l_geoloc_mode CASCADE;
+DROP TABLE IF EXISTS l_immeuble_type CASCADE;
+DROP TABLE IF EXISTS l_implantation_type CASCADE;
+DROP TABLE IF EXISTS l_infra_nature CASCADE;
+DROP TABLE IF EXISTS l_infra_type_log CASCADE;
+DROP TABLE IF EXISTS l_masque_face CASCADE;
+DROP TABLE IF EXISTS l_noeud_type CASCADE;
+DROP TABLE IF EXISTS l_nro_etat CASCADE;
+DROP TABLE IF EXISTS l_nro_type CASCADE;
+DROP TABLE IF EXISTS l_occupation_type CASCADE;
+DROP TABLE IF EXISTS l_passage_type CASCADE;
+DROP TABLE IF EXISTS l_pose_type CASCADE;
+DROP TABLE IF EXISTS l_position_fonction CASCADE;
+DROP TABLE IF EXISTS l_position_type CASCADE;
+DROP TABLE IF EXISTS l_propriete_type CASCADE;
+DROP TABLE IF EXISTS l_ptech_nature CASCADE;
+DROP TABLE IF EXISTS l_ptech_type_log CASCADE;
+DROP TABLE IF EXISTS l_ptech_type_phy CASCADE;
+DROP TABLE IF EXISTS l_qualite_info CASCADE;
+DROP TABLE IF EXISTS l_reference_etat CASCADE;
+DROP TABLE IF EXISTS l_reference_type CASCADE;
+DROP TABLE IF EXISTS l_site_emission_type CASCADE;
+DROP TABLE IF EXISTS l_site_type_log CASCADE;
+DROP TABLE IF EXISTS l_site_type_phy CASCADE;
+DROP TABLE IF EXISTS l_sro_etat CASCADE;
+DROP TABLE IF EXISTS l_sro_emplacement CASCADE;
+DROP TABLE IF EXISTS l_statut CASCADE;
+DROP TABLE IF EXISTS l_suf_racco CASCADE;
+DROP TABLE IF EXISTS l_suf_type CASCADE;
+DROP TABLE IF EXISTS l_technologie_type CASCADE;
+DROP TABLE IF EXISTS l_tiroir_type CASCADE;
+DROP TABLE IF EXISTS l_tube CASCADE;
+DROP TABLE IF EXISTS l_zone_densite CASCADE;
 
 
 

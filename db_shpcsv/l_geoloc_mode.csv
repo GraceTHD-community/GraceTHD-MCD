@@ -1,9 +1,9 @@
 code;libelle;definition
-LTRO;LEVE DURANT LA POSE;Objet positionne grace à un leve durant la phase travaux. Dans le cas de tranchee, ce leve a ete realise tranchee ouverte."
-LVIS;LEVE APRES LA POSE;Objet positionne grace a un leve. Dans le cas d une tranchee, uniquement les elements visibles ont ete leves (rustines sur le revetement, chambres encadrantes). Des cotations prises pendant la pose ont permis de completer ce lever."
-DETC;LEVE AVEC DETECTION;Un appareil de detection a ete utilise pour positionner les elements à lever."
-FDPL;COTATION PAR RAPPORT A UN LEVE DE GEOMETRE;Objet implante en reportant des cotations prises par rapport à un fond de plan precedemment leve."
-CBDU;COTATION PAR RAPPORT A UN FOND DE PLAN TIERS TYPE BDU;Objet implante en reportant des cotations prises par rapport au meilleur fond de plan actuellement disponible."
-CADA;POSITIONNEMENT SUR CADASTRE;Objet positionne par rapport aux planches cadastrales."
-ORTO;POSITIONNEMENT SUR ORTHOPHOTOGRAPHIE OU FOND DE PLAN CARTOGRAPHIQUE;Objet positionne par rapport à des orthophotos, ou des fonds cartographiques type RGE, FRANCE RASTER, OSM ou Bing"
-INDT;INDETERMINE;
+LTRO;LEVE DURANT LA POSE;Objet positionne grace à un leve durant la phase travaux. Dans le cas de tranchee, ce leve a ete realise tranchee ouverte.
+LVIS;LEVE APRES LA POSE;Objet positionne grace a un leve. Dans le cas d une tranchee, uniquement les elements visibles ont ete leves (rustines sur le revetement, chambres encadrantes). Des cotations prises pendant la pose ont permis de completer ce lever.
+DETC;LEVE AVEC DETECTION;Un appareil de detection a ete utilise pour positionner les elements à lever.
+FDPL;COTATION PAR RAPPORT A UN LEVE DE GEOMETRE;Objet implante en reportant des cotations prises par rapport à un fond de plan precedemment leve.
+CBDU;COTATION PAR RAPPORT A UN FOND DE PLAN TIERS TYPE BDU;Objet implante en reportant des cotations prises par rapport au meilleur fond de plan actuellement disponible.
+CADA;POSITIONNEMENT SUR CADASTRE;Objet positionne par rapport aux planches cadastrales.
+ORTO;POSITIONNEMENT SUR ORTHOPHOTOGRAPHIE OU FOND DE PLAN CARTOGRAPHIQUE;Objet positionne par rapport à des orthophotos, ou des fonds cartographiques type RGE, FRANCE RASTER, OSM ou Bing
+INDT;INDETERMINE;""

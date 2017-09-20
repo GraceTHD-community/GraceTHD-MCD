@@ -1,6 +1,30 @@
-/*GraceTHD v2.0*/
+/*GraceTHD-MCD v2.0.1*/
 /*Creation des tables*/
+/* gracethd_30_tables.sql */
 /*PostGIS*/
+
+/* Owner : GraceTHD-Community - http://gracethd-community.github.io/ */
+/* Author : stephane dot byache at aleno dot eu */
+/* Rev. date : 17/07/2017 */
+
+/* ********************************************************************
+    This file is part of GraceTHD.
+
+    GraceTHD is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    GraceTHD is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
+
+    You should have received a copy of the GNU General Public License
+    along with GraceTHD.  If not, see <http://www.gnu.org/licenses/>.
+*********************************************************************** */
+
+
 
 SET search_path TO gracethd, public;
 
@@ -135,7 +159,7 @@ CONSTRAINT "t_reference_pk" PRIMARY KEY (rf_code));
 CREATE TABLE t_noeud(	nd_code VARCHAR(254) NOT NULL  ,
 	nd_codeext VARCHAR(254)   ,
 	nd_nom VARCHAR(254)   ,
-	nd_coderat VARCHAR(254)   REFERENCES t_noeud (nd_code),
+	nd_coderat VARCHAR(254)   ,
 	nd_r1_code VARCHAR(100)   ,
 	nd_r2_code VARCHAR(100)   ,
 	nd_r3_code VARCHAR(100)   ,
@@ -470,7 +494,7 @@ CONSTRAINT "t_ebp_pk" PRIMARY KEY (bp_code));
 	
 CREATE TABLE t_cassette(	cs_code VARCHAR(254) NOT NULL  ,
 	cs_nb_pas INTEGER   ,
-	cs_bp_code VARCHAR(254) NOT NULL  REFERENCES t_ebp (bp_code),
+	cs_bp_code VARCHAR(254)   REFERENCES t_ebp (bp_code),
 	cs_num INTEGER   ,
 	cs_type VARCHAR(1)   REFERENCES l_cassette_type (code),
 	cs_face VARCHAR(20)   ,
@@ -533,7 +557,7 @@ CONSTRAINT "t_cheminement_pk" PRIMARY KEY (cm_code));
 CREATE TABLE t_conduite(	cd_code VARCHAR(254) NOT NULL  ,
 	cd_codeext Varchar(254)   ,
 	cd_etiquet VARCHAR(254)   ,
-	cd_cd_code VARCHAR(254)   REFERENCES t_conduite (cd_code),
+	cd_cd_code VARCHAR(254)   ,
 	cd_r1_code VARCHAR(100)   ,
 	cd_r2_code VARCHAR(100)   ,
 	cd_r3_code VARCHAR(100)   ,

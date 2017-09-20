@@ -1,6 +1,11 @@
 code;libelle;definition
-PT;POINT TECHNIQUE;
-ST;SITE TECHNIQUE;
-SF;SITE UTILISATEUR FINAL;
-SE;SITE EMISSION;
-SP;SPECIFIQUE;
+PT;POINT TECHNIQUE;""
+ST;SITE TECHNIQUE;""
+SF;SITE UTILISATEUR FINAL;""
+SE;SITE EMISSION;""
+JX;DISJONCTION;Positionner un nœud de type disjonction lorsqu un cheminement se separe pour former par exemple un Y, sans qu il y ait pour autant de point technique physique au niveau de la disjonction (pas de manchonnage, pas de chambre, ...). 
+SH;SITE FTTH COMPLEXE ;Immeuble raccorde a un reseau FTTH et accueillant notamment un ou des PBI
+SC;SITE TECHNIQUE COMPLEXE ;Site technique avec points techniques
+PC;POINT TECHNIQUE COMPLEXE ;""
+EC;SITE EMISSION COMPLEXE;""
+SP;SPECIFIQUE;""

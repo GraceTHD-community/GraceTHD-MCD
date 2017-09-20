@@ -1,10 +1,10 @@
 code;libelle;definition
-PEHD;PEHD;
-PVC;PVC;
-TPC;TPC;
-CUC;CONDUITE UNITAIRE CIMENT;
-CAN;ALVEOLE DE CANIVEAU;Possibilite de realiser des masques pour les caniveaux. "
-GOU;ALVEOLE DE GOULOTTE;Possibilite de realiser des masques pour les goulottes avec multiples alveoles. "
-AER;CONDUITE AERIENNE VIRTUELLE;Utilise pour creer la relation entre le cable et le cheminement dans le cas de cheminement aerien. "
-AUTRE;AUTRE;
-NC;NON COMMUNIQUE;
+PEHD;PEHD;""
+PVC;PVC;""
+TPC;TPC;""
+CUC;CONDUITE UNITAIRE CIMENT;""
+CAN;ALVEOLE DE CANIVEAU;Possibilite de realiser des masques pour les caniveaux. 
+GOU;ALVEOLE DE GOULOTTE;Possibilite de realiser des masques pour les goulottes avec multiples alveoles. 
+AER;CONDUITE AERIENNE VIRTUELLE;Utilise pour creer la relation entre le cable et le cheminement dans le cas de cheminement aerien. 
+AUTRE;AUTRE;""
+NC;NON COMMUNIQUE;""

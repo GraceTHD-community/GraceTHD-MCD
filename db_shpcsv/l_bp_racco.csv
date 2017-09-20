@@ -1,61 +1,61 @@
 code;libelle;definition
-FCLI01;CLIENT : CONTACT ERRONE;Le client ne peut être joint, exemple son nom ou ses coordonnées téléphoniques sont erronnées
+FCLI01;CLIENT : CONTACT ERRONE;"Le client ne peut être joint, exemple son nom ou ses coordonnées téléphoniques sont erronnées
 Utilisé dans le cas de raccordement par l OI"
-FCLI02;CLIENT : CLIENT INJOIGNABLE IMPOSSIBLE DE PRENDRE RDV;Les coordonnées ne sont pas nécessairement erronnées mais le client n est pas joignable (ne répond pas). La définition précise de ne répond pas n est pas normalisée Interop
+FCLI02;CLIENT : CLIENT INJOIGNABLE IMPOSSIBLE DE PRENDRE RDV;"Les coordonnées ne sont pas nécessairement erronnées mais le client n est pas joignable (ne répond pas). La définition précise de ne répond pas n est pas normalisée Interop
 Utilisé dans le cas de raccordement par l OI"
-FCLI03;CLIENT : CLIENT N HABITE PAS A L ADRESSE INDIQUEE;Le RDV a été pris, lors du déplacement le technicien constate que le client n habite pas à l adresse indiquée par l OC"
-FCLI04;CLIENT : DEMANDE ANNULATION DE LA COMMANDE PAR LE CLIENT FINAL;Que ce soit en amont du RDV ou lors du RDV, le client demande à annuler sa commande
+FCLI03;CLIENT : CLIENT N HABITE PAS A L ADRESSE INDIQUEE;Le RDV a été pris, lors du déplacement le technicien constate que le client n habite pas à l adresse indiquée par l OC
+FCLI04;CLIENT : DEMANDE ANNULATION DE LA COMMANDE PAR LE CLIENT FINAL;"Que ce soit en amont du RDV ou lors du RDV, le client demande à annuler sa commande
 Utilisé dans le cas de raccordement par l OI"
-FCLI05;CLIENT : REFUS TRAVAUX CLIENT ;Que ce soit en amont du RDV ou lors du RDV, le client refuse les travaux (percement, etc.) 
+FCLI05;CLIENT : REFUS TRAVAUX CLIENT ;"Que ce soit en amont du RDV ou lors du RDV, le client refuse les travaux (percement, etc.) 
 Utilisé dans le cas de raccordement par l OI"
-FCLI06;CLIENT : REFUS GESTIONNAIRE IMMEUBLE;Lors du raccordement client, un passage en apparent sur le palier est nécessaire et a été refusé par le gestionnaire (par exemple car les goulottes sont saturées ou le palier a été refait)"
-FCLI07;CLIENT : CLIENT ABSENT LORS DE L INTERVENTION;Lors du RDV, le client est absent. Utilisé dans le cas de raccordement par l OI"
-FADR01;ADRESSE : CODE ADRESSE IMMEUBLE INEXISTANT DANS LE REFERENTIEL OI;L OC envoie des codes adresses inexistants de l OI
+FCLI06;CLIENT : REFUS GESTIONNAIRE IMMEUBLE;Lors du raccordement client, un passage en apparent sur le palier est nécessaire et a été refusé par le gestionnaire (par exemple car les goulottes sont saturées ou le palier a été refait)
+FCLI07;CLIENT : CLIENT ABSENT LORS DE L INTERVENTION;Lors du RDV, le client est absent. Utilisé dans le cas de raccordement par l OI
+FADR01;ADRESSE : CODE ADRESSE IMMEUBLE INEXISTANT DANS LE REFERENTIEL OI;"L OC envoie des codes adresses inexistants de l OI
 Les informations d adresse sont contrôlées dans l ordre suivant :
 1 Hexaclé 
 2 INSEE/RIVOLI/NUM VOIE/ COMPL VOIE
 3 Triplet Hexavia/numéro de voie /complément de voie 
 4 coordonnées xy"
-FADR02;ADRESSE : BATIMENT MANQUANT OU INEXISTANT DANS LE REFERENTIEL OI;L adresse a été reconnue mais le batiment est manquant ou inexistant dans le référentiel de l OI"
-FADR03;ADRESSE : ESCALIER MANQUANT OU INEXISTANT DANS LE REFERENTIEL OI;L adresse et le batiment ont été reconnus mais l escalier est manquant ou inexistant dans le référentiel de l OI"
-FADR04;ADRESSE : ETAGE MANQUANT OU INEXISTANT DANS LE REFERENTIEL OI;L adresse, le batiment et l escalier ont été reconnus mais l étage est manquant ou inexistant dans le référentiel de l OI"
-FIMP01;TRAITEMENT IMPOSSIBLE : PTO REQUISE;L OC est tenu de passer une référence PTO dans sa commande. L OI refuse la commande."
-FIMP02;TRAITEMENT IMPOSSIBLE : PTO INEXISTANTE DANS LE REFERENTIEL OI;L OC a fourni une référence PTO dans sa commande mais elle est inconnue de l OI"
-FIMP03;TRAITEMENT IMPOSSIBLE : PTO INCONNUE A L ADRESSE;L OC a fourni une référence PTO dans sa commande, elle est connue de l OI mais est incohérente par rapport à l adresse complète (y compris batiment/escalier/étage) dans le référentiel de l OI"
-FIMP04;TRAITEMENT IMPOSSIBLE : REF PRESTATION PM INEXISTANTE DANS LE REFERENTIEL OI;L OC a renvoyé une référence prestation PM inconnue de l OI (exemple l OC se trompe dans la référence PM ou l OI n a pas communiqué un changement de référence PM)"
-FIMP05;TRAITEMENT IMPOSSIBLE : REF PRESTATION PM ET ADRESSE INCOHERENTES;La reference prestation PM existe mais n est pas cohérente avec l adresse communiquée"
-FIMP06;TRAITEMENT IMPOSSIBLE : TYPE DE COMMANDE IRRECEVABLE SUR CETTE REF PRESTATION PM;La reference prestation PM existe, elle est cohérente avec l adresse communiquée mais elle est irrecevable (par exemple le type de commande est incompatible avec le choix de cofinancement ou de location du PM)"
-FIMP07;TRAITEMENT IMPOSSIBLE : PM INEXISTANT DANS LE REFERENTIEL OI;L OC envoie une commande d accès sur un PM inexistant dans le référentiel de l OI (exemple changement de reference PM par l OI non communiqué à l OC ou erreur de l OC dans l envoi de la référence)"
-FIMP08;TRAITEMENT IMPOSSIBLE : PM ET ADRESSE INCOHERENTS;L OC envoie une commande d accès sur un PM connu dans le référentiel de l OI mais incohérent avec l adresse"
-FIMP09;TRAITEMENT IMPOSSIBLE : COMMANDE IRRECEVABLE SUR CE PM;L OC n est pas adducté au PM ou il n a pas retourné toutes les infos ou documents attendus ou l OI n a pas intégré les données retournées par l OC ou l OI rejette la commande qui est passée avant la date de MESC ARCEP"
-FIMP10;TRAITEMENT IMPOSSIBLE : COMMANDE IRRECEVABLE SUR CETTE ADRESSE;L adresse n a pas été mise à disposition à l OC (le CR MAD n a pas été emis sur cette adresse)"
-FIMP11;TRAITEMENT IMPOSSIBLE : ADRESSE INELIGIBLE TEMPORAIREMENT;Le site est temporairement ineligible par exemple en maintenance"
-FIMP12;TRAITEMENT IMPOSSIBLE : TYPE COMMANDE ERRONNE;La valeur du champ TypeCommandeDemande n est pas une des valeurs attendues "
-FIMP13;TRAITEMENT IMPOSSIBLE : IDENTIFIANT COMMANDE INTERNE OC DEJA UTILISE;L OC envoie une commande en utilisant une commande interne déjà envoyée. Il s agit potentiellement d un doublon de commande"
-FIMP14;TRAITEMENT IMPOSSIBLE : IDENTIFIANT COMMANDE INTERNE OC INCONNUE;L OC annule ou résilie une commande en utilisant un identifiant inconnu de l OI "
-FIMP15;TRAITEMENT IMPOSSIBLE : CHAMPS OBLIGATOIRES MANQUANTS;L OC envoie une commande incomplète 
+FADR02;ADRESSE : BATIMENT MANQUANT OU INEXISTANT DANS LE REFERENTIEL OI;L adresse a été reconnue mais le batiment est manquant ou inexistant dans le référentiel de l OI
+FADR03;ADRESSE : ESCALIER MANQUANT OU INEXISTANT DANS LE REFERENTIEL OI;L adresse et le batiment ont été reconnus mais l escalier est manquant ou inexistant dans le référentiel de l OI
+FADR04;ADRESSE : ETAGE MANQUANT OU INEXISTANT DANS LE REFERENTIEL OI;L adresse, le batiment et l escalier ont été reconnus mais l étage est manquant ou inexistant dans le référentiel de l OI
+FIMP01;TRAITEMENT IMPOSSIBLE : PTO REQUISE;L OC est tenu de passer une référence PTO dans sa commande. L OI refuse la commande.
+FIMP02;TRAITEMENT IMPOSSIBLE : PTO INEXISTANTE DANS LE REFERENTIEL OI;L OC a fourni une référence PTO dans sa commande mais elle est inconnue de l OI
+FIMP03;TRAITEMENT IMPOSSIBLE : PTO INCONNUE A L ADRESSE;L OC a fourni une référence PTO dans sa commande, elle est connue de l OI mais est incohérente par rapport à l adresse complète (y compris batiment/escalier/étage) dans le référentiel de l OI
+FIMP04;TRAITEMENT IMPOSSIBLE : REF PRESTATION PM INEXISTANTE DANS LE REFERENTIEL OI;L OC a renvoyé une référence prestation PM inconnue de l OI (exemple l OC se trompe dans la référence PM ou l OI n a pas communiqué un changement de référence PM)
+FIMP05;TRAITEMENT IMPOSSIBLE : REF PRESTATION PM ET ADRESSE INCOHERENTES;La reference prestation PM existe mais n est pas cohérente avec l adresse communiquée
+FIMP06;TRAITEMENT IMPOSSIBLE : TYPE DE COMMANDE IRRECEVABLE SUR CETTE REF PRESTATION PM;La reference prestation PM existe, elle est cohérente avec l adresse communiquée mais elle est irrecevable (par exemple le type de commande est incompatible avec le choix de cofinancement ou de location du PM)
+FIMP07;TRAITEMENT IMPOSSIBLE : PM INEXISTANT DANS LE REFERENTIEL OI;L OC envoie une commande d accès sur un PM inexistant dans le référentiel de l OI (exemple changement de reference PM par l OI non communiqué à l OC ou erreur de l OC dans l envoi de la référence)
+FIMP08;TRAITEMENT IMPOSSIBLE : PM ET ADRESSE INCOHERENTS;L OC envoie une commande d accès sur un PM connu dans le référentiel de l OI mais incohérent avec l adresse
+FIMP09;TRAITEMENT IMPOSSIBLE : COMMANDE IRRECEVABLE SUR CE PM;L OC n est pas adducté au PM ou il n a pas retourné toutes les infos ou documents attendus ou l OI n a pas intégré les données retournées par l OC ou l OI rejette la commande qui est passée avant la date de MESC ARCEP
+FIMP10;TRAITEMENT IMPOSSIBLE : COMMANDE IRRECEVABLE SUR CETTE ADRESSE;L adresse n a pas été mise à disposition à l OC (le CR MAD n a pas été emis sur cette adresse)
+FIMP11;TRAITEMENT IMPOSSIBLE : ADRESSE INELIGIBLE TEMPORAIREMENT;Le site est temporairement ineligible par exemple en maintenance
+FIMP12;TRAITEMENT IMPOSSIBLE : TYPE COMMANDE ERRONNE;La valeur du champ TypeCommandeDemande n est pas une des valeurs attendues 
+FIMP13;TRAITEMENT IMPOSSIBLE : IDENTIFIANT COMMANDE INTERNE OC DEJA UTILISE;L OC envoie une commande en utilisant une commande interne déjà envoyée. Il s agit potentiellement d un doublon de commande
+FIMP14;TRAITEMENT IMPOSSIBLE : IDENTIFIANT COMMANDE INTERNE OC INCONNUE;L OC annule ou résilie une commande en utilisant un identifiant inconnu de l OI 
+FIMP15;TRAITEMENT IMPOSSIBLE : CHAMPS OBLIGATOIRES MANQUANTS;"L OC envoie une commande incomplète 
 Bonne pratique : l opérateur emetteur du flux de rejet indique dans le champ commentaire du rejet le premier champ obligatoire manquant"
-FIMP16;TRAITEMENT IMPOSSIBLE : CHAMPS INCOHERENTS;L OC envoie la commande avec une erreur de format (exemple chaine de caractère envoyée vs date attendue, champ présent non attendu...) ... (cf Interop)"
-FIMP17;TRAITEMENT IMPOSSIBLE : PTO INEXISTANTE;Lorsqu une commande a été passée avec PTO posée, qu elle n exite pas dans le logement et que le problème n a pas pu être résolu par un reprovisionning à chaud. "
-FIMP18;TRAITEMENT IMPOSSIBLE : PTO EXISTANTE;Lorsqu une commande a été passée sans PTO (construction de ligne), qu il s avère qu elle existait le logement et que le problème n a pas pu être résolu par un reprovisionning à chaud. La référence de la PTO doit alors être indiquée... (cf Interop)"
-FIMP19;TRAITEMENT IMPOSSIBLE : PTO DEJA AFFECTEE A L OC;Lorsque d un OC détient déjà une ligne FTTH sur une PTO et repasse une commande d accès sur cette même PTO. L OI répond alors, s il refues ce cas de gestion, par un CR de commande KO, avec le motif PTO déjà affectée à l OC "
-FINT01;ECHEC PRODUCTION : PB OU PM SATURE;L OI signifie à l OC qu il n est pas en mesure de fournir une route optique parce que vu de son SI le PB ou le PM est saturé"
-FINT02;ECHEC PRODUCTION : SATURATION VIRTUELLE PB OU PM;L OI signifie à l OC qu il n est pas en mesure de fournir une route optique en raison d une saturation virtuelle identifiée mais non traitée simultanément. ... (cf Interop)"
-FINT03;ECHEC PRODUCTION : HOTLINE OI INJOIGNABLE;L OC n a pas réussi à joindre la hotline sur le terrain et envoi un code rejet à l OI pour passer en reprovisionning à froid. "
-FINT04;ECHEC PRODUCTION : ABSENCE DE CONTINUITE OPTIQUE;L OC constate sur le terrain qu il n y a pas de continuité sur la fibre et n a pas pu obtenir une nouvelle route optique via la hotline"
-FINT05;ECHEC PRODUCTION : AFFAIBLISSEMENT TROP IMPORTANT;L OC constate sur le terrain que l affaiblissement sur la fibre est hors norme et n a pas pu obtenir correction via la hotline"
-FINT06;ECHEC PRODUCTION : ROUTE OPTIQUE DEJA UTILISEE;L OC constate sur le terrain que la route qui lui a été transmise est déjà soudée pour un autre raccordement et n a pas pu obtenir une route optique appropriée via la hotline"
-FINT07;ECHEC PRODUCTION : INFORMATIONS ROUTE OPTIQUE ERRONEES;L OC constate sur le terrain que la route optique donnée n existe pas et n a pas pu obtenir une route optique appropriée"
-FINT08;ECHEC PRODUCTION : POSITION BRASSAGE BAIE OPERATEUR INTROUVABLE;Dans le cas d un brassage par l OI, l OI signale à l OC une position de brassage introuvable"
-FINT09;ECHEC PRODUCTION : POSITION BRASSAGE BAIE OPERATEUR DÉJÀ UTILISEE;Dans le cas d un brassage par l OI, l OI signale à l OC une position de brassage déjà utilisée"
-FINT10;ECHEC PRODUCTION : AUTRE PROBLEME TECHNIQUE;Autre problème technique constaté lors de l intervention de raccordement et n étant pas référencé dans les motifs de rejets"
-FINT11;ECHEC PRODUCTION : INFRA TIERS INDISPONIBLE OU DELAI;Dans le cas d un raccordement necessitant l utilisation d infrastructure tiers (poteau, fourreau), ces infra ne sont pas utilisable (bouchée, cassée, …) ou le délais de mise à disposition de ces infra est très important"
-FINT12;ECHEC PRODUCTION : PBO NON CONFORME;Dans le cas où le raccordement est impossible en raison d un problème lié au PBO (exemple : PBO mal fixé, fibre trop courte pour souder..)"
-FINT13;ECHEC PRODUCTION : DEFAUT DE VERTICALITE;Dans le cas d un problème physique identifié sur la colonne montante (exemple colonne HS, vandalisme…). Ce code permet de qualifier les problèmes collectifs c est-à-dire pouvant impacter plusieurs fibres."
-FAUT01;AUTRE MOTIF : COMMENTAIRES LIBRES;Autre motif technique hors constatation de problème sur le terrain"
-FRDV01;RDV : NOMBRE MAX DE MODIFICATIONS DE RDV DEPASSE;Dans le cas d un raccordment par l OI et d une demande de RDV manuelle, l OC a dépassé le nombre maximum de modifications de RDV autorisé contractuellement par l OI... (cf Interop)"
-FRDV02;RDV : PAS DE PLAGES DE RDV DISPONIBLES SUR CES CRENEAUX;Dans le cas d un raccordement par OI, et d une demande de RDV manuelle, l OC indique des créneaux à l aveugle à l OI. Ce rejet indique que les créneaux proposés par l OC ne sont pas disponibles dans le plan de charge de l OI.... (cf Interop)"
-FRDV03;RDV : PLAGE DE RDV NON RESERVEE;Dans le cas d un raccordement par l OI, l OC a dépassé le délai pour passer sa commande. La réservation du RDV n a donc pas été confirmée par l OI"
-FRDV04;RDV : ETAT RDV NON VALIDE ;Dans le cas où la commande est passée avec un rdv dont l’état n’est pas valide, par exemple annulé, terminé, …"
-FRDV05;RDV : RDV SUR PRODUIT NON FTTH ;Dans le cas où la commande est passée avec un rdv qui a été pris sur un produit autre que le produit accès FTTH"
-FRDV06;RDV : RDV SUR ADRESSE DIFFERENTE;Dans le cas où la commande est passée avec un rdv qui a été pris sur une autre adresse que celle de la commande (exemple n° ou nom de rue différents de l adresse de la commande)"
+FIMP16;TRAITEMENT IMPOSSIBLE : CHAMPS INCOHERENTS;L OC envoie la commande avec une erreur de format (exemple chaine de caractère envoyée vs date attendue, champ présent non attendu...) ... (cf Interop)
+FIMP17;TRAITEMENT IMPOSSIBLE : PTO INEXISTANTE;Lorsqu une commande a été passée avec PTO posée, qu elle n exite pas dans le logement et que le problème n a pas pu être résolu par un reprovisionning à chaud. 
+FIMP18;TRAITEMENT IMPOSSIBLE : PTO EXISTANTE;Lorsqu une commande a été passée sans PTO (construction de ligne), qu il s avère qu elle existait le logement et que le problème n a pas pu être résolu par un reprovisionning à chaud. La référence de la PTO doit alors être indiquée... (cf Interop)
+FIMP19;TRAITEMENT IMPOSSIBLE : PTO DEJA AFFECTEE A L OC;Lorsque d un OC détient déjà une ligne FTTH sur une PTO et repasse une commande d accès sur cette même PTO. L OI répond alors, s il refues ce cas de gestion, par un CR de commande KO, avec le motif PTO déjà affectée à l OC 
+FINT01;ECHEC PRODUCTION : PB OU PM SATURE;L OI signifie à l OC qu il n est pas en mesure de fournir une route optique parce que vu de son SI le PB ou le PM est saturé
+FINT02;ECHEC PRODUCTION : SATURATION VIRTUELLE PB OU PM;L OI signifie à l OC qu il n est pas en mesure de fournir une route optique en raison d une saturation virtuelle identifiée mais non traitée simultanément. ... (cf Interop)
+FINT03;ECHEC PRODUCTION : HOTLINE OI INJOIGNABLE;L OC n a pas réussi à joindre la hotline sur le terrain et envoi un code rejet à l OI pour passer en reprovisionning à froid. 
+FINT04;ECHEC PRODUCTION : ABSENCE DE CONTINUITE OPTIQUE;L OC constate sur le terrain qu il n y a pas de continuité sur la fibre et n a pas pu obtenir une nouvelle route optique via la hotline
+FINT05;ECHEC PRODUCTION : AFFAIBLISSEMENT TROP IMPORTANT;L OC constate sur le terrain que l affaiblissement sur la fibre est hors norme et n a pas pu obtenir correction via la hotline
+FINT06;ECHEC PRODUCTION : ROUTE OPTIQUE DEJA UTILISEE;L OC constate sur le terrain que la route qui lui a été transmise est déjà soudée pour un autre raccordement et n a pas pu obtenir une route optique appropriée via la hotline
+FINT07;ECHEC PRODUCTION : INFORMATIONS ROUTE OPTIQUE ERRONEES;L OC constate sur le terrain que la route optique donnée n existe pas et n a pas pu obtenir une route optique appropriée
+FINT08;ECHEC PRODUCTION : POSITION BRASSAGE BAIE OPERATEUR INTROUVABLE;Dans le cas d un brassage par l OI, l OI signale à l OC une position de brassage introuvable
+FINT09;ECHEC PRODUCTION : POSITION BRASSAGE BAIE OPERATEUR DEJA UTILISEE;Dans le cas d un brassage par l OI, l OI signale à l OC une position de brassage déjà utilisée
+FINT10;ECHEC PRODUCTION : AUTRE PROBLEME TECHNIQUE;Autre problème technique constaté lors de l intervention de raccordement et n étant pas référencé dans les motifs de rejets
+FINT11;ECHEC PRODUCTION : INFRA TIERS INDISPONIBLE OU DELAI;Dans le cas d un raccordement necessitant l utilisation d infrastructure tiers (poteau, fourreau), ces infra ne sont pas utilisable (bouchée, cassée, …) ou le délais de mise à disposition de ces infra est très important
+FINT12;ECHEC PRODUCTION : PBO NON CONFORME;Dans le cas où le raccordement est impossible en raison d un problème lié au PBO (exemple : PBO mal fixé, fibre trop courte pour souder..)
+FINT13;ECHEC PRODUCTION : DEFAUT DE VERTICALITE;Dans le cas d un problème physique identifié sur la colonne montante (exemple colonne HS, vandalisme…). Ce code permet de qualifier les problèmes collectifs c est-à-dire pouvant impacter plusieurs fibres.
+FAUT01;AUTRE MOTIF : COMMENTAIRES LIBRES;Autre motif technique hors constatation de problème sur le terrain
+FRDV01;RDV : NOMBRE MAX DE MODIFICATIONS DE RDV DEPASSE;Dans le cas d un raccordment par l OI et d une demande de RDV manuelle, l OC a dépassé le nombre maximum de modifications de RDV autorisé contractuellement par l OI... (cf Interop)
+FRDV02;RDV : PAS DE PLAGES DE RDV DISPONIBLES SUR CES CRENEAUX;Dans le cas d un raccordement par OI, et d une demande de RDV manuelle, l OC indique des créneaux à l aveugle à l OI. Ce rejet indique que les créneaux proposés par l OC ne sont pas disponibles dans le plan de charge de l OI.... (cf Interop)
+FRDV03;RDV : PLAGE DE RDV NON RESERVEE;Dans le cas d un raccordement par l OI, l OC a dépassé le délai pour passer sa commande. La réservation du RDV n a donc pas été confirmée par l OI
+FRDV04;RDV : ETAT RDV NON VALIDE ;Dans le cas où la commande est passée avec un rdv dont l’état n’est pas valide, par exemple annulé, terminé, …
+FRDV05;RDV : RDV SUR PRODUIT NON FTTH ;Dans le cas où la commande est passée avec un rdv qui a été pris sur un produit autre que le produit accès FTTH
+FRDV06;RDV : RDV SUR ADRESSE DIFFERENTE;Dans le cas où la commande est passée avec un rdv qui a été pris sur une autre adresse que celle de la commande (exemple n° ou nom de rue différents de l adresse de la commande)
