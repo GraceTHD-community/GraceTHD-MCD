@@ -4,22 +4,23 @@
 
 v2.0.1-release
 
-Général : 
+# Général : 
 - chg: gracethd-mcd-v2.0.1_doc_v01.ods : 
 	- Mise en page. 
 	- Ajout version PDF
+- fix: gracethd-mcd-v2.0.1_doc_v02 : correction attribut cm_pro_do renommé cm_prop_do (demande #340). 
 - add: Contraintes : ajout d'une page décrivant et codifiant 25 contraintes obligatoires et recommandées. 
 - fix: GraceTHD-MCD v2.0.1 est standardisé via le Géostandard ANT GraceTHD v2.0.1 qui applique les présentes évolutions et correctifs de GraceTHD-MCD ains que de multiples corrections d'anomalies propres au document du géostandard ANT v2.0. 
 - chg: README.md : mises à jour. 
 
-Arborescence : 
+# Arborescence : 
 - chg: ".\mcd_doc" renommé ".\docs\gracethd-mcd" pour harmoniser l'arborescence des différents projets. 
 - add: .\qgis : ajout de GraceTHD-Layers v0.03 afin de permettre aux utilisateurs de profiter d'un environnement de consultation et d'édition générique. 
 - chg: .\db_spatialite\readme.txt modifié, déplacé et renommé : .\docs\GraceTHD-MCD\gracethd-mcd-v2.0.1_readme.txt
 - chg: .\db_spatialite\gracethd-spatialite.qgs : prise en compte MCD v2.0.1. 
 - chg: renommage de changelog.txt en changelog_gracethdmcd.txt pour harmoniser les arborescences et déplacement dans .\docs\GraceTHD-MCD\. 
 
-SQL : 
+# SQL : 
 - fix: .\sql_postgis\gracethd_50_index.sql : ajout de SET search_path TO gracethd, public;
 - fix: .\sql_spatialite\gracethd_40_spatialite.sql : application du NOT NULL pour les attributs geom sur les tables t_adresse, t_noeud, t_cheminement, t_cableline. 
 - chg: Modification des entêtes des fichiers SQL
@@ -36,7 +37,7 @@ SQL :
 - add: .\sql_postgis\gracethd_80_triggers.sql : fonctions et triggers permettant de rendre les vues élémentaires éditables. 
 - add: .\sql_postgis\gracethd_99_grant.sql : Inopérant. Permet aux utilisateur d'y intégrer l'application de privilèges par défaut pour les nouvelles bases GraceTHD. Destiné à être pris en compte par les scripts de création de base (cf. GraceTHD-Check). 
 
-Correctifs MCD :
+# Correctifs MCD :
 - fix: cs_bp_code : suppression NOT NULL ; (demandes #37 #270, GEFO)
 - fix: l_infra_nature : libellé HERTZIEN au lieu de HERZIEN ; (Seine et Marne Numérique/M.Locq). 
 - chg: l_bp_racco : suppression accent dans le libelle 'ECHEC PRODUCTION : POSITION BRASSAGE BAIE OPERATEUR DÉJÀ UTILISEE' ; (demande #352)
@@ -49,13 +50,13 @@ Correctifs MCD :
 - chg: cd_cd_code : relation récursive, suppression de "REFERENCES cd_code" (pour ne pas bloquer les chargements si le parent arrive après l'enfant) ; (GEDB). 
 - chg: nd_coderat : relation récursive, suppression de "REFERENCES nd_code" (pour ne pas bloquer les chargements si le parent arrive après l'enfant) ; (GEDB). 
 
-Evolutions MCD : 
+# Evolutions MCD : 
 - add: l_noeud_type : ajout des codes JX, SH, SC, PC, EC ; (GEGC, GEDB). 
 - add: l_ptech_nature : ajout des codes A10, A11, A12, A13, A14, A15, A16, A17, A18, D1C, D1T, D2C, D2T, D3C, D3T, D4C, D4T, D5, D5C, D6, D6C, D11, D12, D13, D14, K1T, K2T, K3T, P3C, P3T, P4C, P4T, P5C, P5T, P6C, P6T, S1, S2, S3, S4, S5, S6, S6bis, S7, TU1, TU2, TU4, TU6, TU8, TU10 ; (GEGC). 
 - add: l_ptech_type_log : ajout valeur I;INDETERMINE ; (demande #248)
 - add: l_bp_type_phy : ajout B036, B432, B720, DTI1, DTI2, DTI4 ; (GEFO)
 
-Patchs optionnels : 
+# Patchs optionnels : 
 - add: gracethd_91_patchs.sql : fichier sql permettant de déployer de manière optionnelle des tables proposant quelques attributs importants prévus dans la v2.1.0 ; (Aleno/SBY, Orange/D.Bonnard). 
 - add: table t_cable_patch201 : table optionnelle permettant d'utiliser les attributs cp_bp1, cb_bp2, cb_ba2 ; (GEDB). 
 - add: table t_zpbo_patch201 : table optionnelle permettant d'utiliser l'attribut zp_bp_code ; (GEDB). 
