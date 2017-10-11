@@ -9,7 +9,7 @@ http://gracethd.org
 
 #### Télécharger GraceTHD-MCD
 *Version actuelle :* 
-https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master
+https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master  
 Ou bouton "download zip" sur la page Github du projet.  
 http://gracethd-community.github.io/GraceTHD-MCD/  
 *Versions obsolètes :*  
@@ -30,27 +30,44 @@ http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenag
 * A partir de la version 2.1, GraceTHD-MCD deviendra un standard [CNIG](http://cnig.gouv.fr/)/Covadis. 
 
 ## Utilisation
-GraceTHD-MCD n'est pas conçu comme un modèle de production de données ou d'exploitation d'un réseau. Toutefois il se veut être un modèle de données relationnel permettant la gestion patrimoniale d'un réseau de télécommunications. GraceTHD-Check est une extension du modèle de données qui permet à une base de données, sous PostGIS, de s'autocontrôler. GraceTHD-Check est une compilation de l'ensemble des projets GraceTHD, dont GraceTHD-MCD. 
+GraceTHD-MCD est un modèle de données relationnel spatial permettant de modéliser des réseaux de télécommunication en vue d'une gestion patrimoniale. En tant que standard ouvert il homogénéise les échanges. Il n'est pas conçu comme un modèle de production de données (bien que certains l'ont adapté dans ce but pour leurs besoins internes) ou d'exploitation d'un réseau. GraceTHD-Check est une extension du modèle de données qui permet à une base de données, sous PostGIS, de s'autocontrôler. GraceTHD-Check présente également l'avantage de compiler l'ensemble des projets GraceTHD. 
 
 #### Pré-requis
+GraceTHD-MCD est mis à disposition pour les Systèmes de Gestion de Bases de Données open source Spatialite (GraceTHD-MCD) et PostGIS (GraceTHD-MCD + GraceTHD-Check). GraceTHD-MCD est aisément portable sur d'autres Systèmes de Gestion de Bases de Données Spatiales qui respectent les normes SQL et SFSQL, toutefois ceci entend de prendre en charge toute l'implémentation. Spatialite est une bonne solution pour découvrir le projet. PostGIS est la solution à mettre en oeuvre pour la plupart des utilisateurs. Concrètement il est fortement conseillé de disposer de compétences PostGIS. De même pour PostGIS ceci signifie de mettre en place une architecture serveur adaptée.  
 
-Mise à disposition pour une implémentation sous Spatialite (GraceTHD-MCD) et PostGIS (GraceTHD-MCD + GraceTHD-Check). GraceTHD-MCD est aisément portable sur d'autres Systèmes de Gestion de Bases de Données Spatiales qui respectent les normes SQL et SFSQL. Des projets QGIS pré-configurés sont également mis à disposition pour un usage générique (GraceTHD-Layers). 
+Des projets QGIS pré-configurés sont également mis à disposition pour un usage générique (GraceTHD-Layers). Il est possible d'utiliser GraceTHD avec toute application cliente exploitant Spatialite et/ou PostGIS, toutefois là aussi ceci signifie de réimplémenter sur d'autres plateformes ce qui est mis à disposition sur la référence des applications SIG open source qu'est QGIS. Des compétences SIG bureautique sont nécessaires pour exploiter GraceTHD. 
 
-L'écosystème autour de ce modèle de données se batira à partir des initiatives des différents acteurs (éditeurs de progiciels, opérateurs, constructeurs, collectivités, ... ). 
+Le Comité de Pilotage de GraceTHD ne souhaite pas développer d'applications autour de GraceTHD. C'est aux entreprises et collectivités d'implémenter GraceTHD dans leur SI. 
+
+Des entreprises proposent des formations permettant de s'initier plus rapidement et efficacement à GraceTHD. De même des entreprises proposent des accompagnement pour la mise en place, le support et l'administration. Enfin des entreprises développent des solutions complémentaires de GraceTHD. 
+
+#### Démarche générale
+Vous êtes décideur, il faut mettre en place au moins un futur administrateur GraceTHD qui a ou va rapidement acquérir des compétences en bases de données spatiales (idéalement PostGIS). 
+
+Vous participez aux études pour le déploiement de réseaux, vous avez besoin d'une équipe compétente qui vous mette en place l'infrastructure nécessaire pour profiter de GraceTHD, notamment un administrateur GraceTHD. 
+
+Vous êtes le futur administrateur GraceTHD. 
+1. Redmine, vous êtes le futur administrateur GraceTHD, inscrivez-vous pour profiter de la FAQ, des annonces, des demandes, etc. 
+2. Formation ou autoformation ? 
+3. GraceTHD-MCD pour étudier le modèle de données.  
+4. GraceTHD-MOD pour définir les livrables (documents et attributs renseignés attendus aux différentes phases).  
+5. GraceTHD-Check comporte l'ensemble des projets GraceTHD, notamment l'extension du modèle de données qui permet à une base de données GraceTHD de s'autocontrôler, les scripts pour créer des bases, charger des données, les exporter, etc. C'est votre cible. 
 
 #### Collectivités
-GraceTHD-MCD vous permettra d'étudier le modèle de données. GraceTHD-MOD comporte les éléments à préparer lors de l'élaboration  d'un marché. GraceTHD-Check comporte l'ensemble des projets GraceTHD, notamment la partie permettant à une base de donénes GraceTHD de s'autocontrôler. 
+Vous avez la responsabilité de produire la définition de vos livrables (documents attendus) et votre grille de remplissage des données (GraceTHD-MOD). Vous aurez probablement besoin d'intégrer GraceTHD-Check à votre SI.  
 
 #### Bureaux d'étude
-Des outils d'édition adaptés à vos plateformes doivent être mis en place. GraceTHD EST UN MODELE DE DONNEES DEDIE A L'ECHANGE, il n'est pas conçu en l'état pour la production. 
+Ceux qui disposent d'un SI mettront en place les solutions pour importer/exporter des données GraceTHD. Il est fondamental de pouvoir stocker toutes les données attendues par GraceTHD et de ne pas avoir de points de blocage dans les procédures d'import/export.  
+
+D'autres pourront étudier la possibilité de mettre en place un SI permettant de produire directement des données GraceTHD, mais ceci entend d'adapter et compléter ce qui est mis à disposition pour une production intensive et fiable. Depuis GraceTHD-MCD v2.0.1, les vues cartographiques sont éditables, mais ce n'est pas suffisant. De plus il n'y a pas d'outils graphiques open source disponibles pour la production des données non cartographiques (routes optiques, baies, verticalité, etc.). Des entreprises ont procédé à ces développements.  
 
 #### Opérateurs
-Le besoin consiste à mettre en place des outils d'import/export par rapport au SI en place. Il est à noter que GraceTHD peut aller plus loin que les besoins exclusifs des opérateurs, il peut donc être envisageable d'étendre le SI pour conserver certaines informations utiles à d'autres acteurs. 
+Le besoin consiste à mettre en place des outils d'import/export par rapport au SI en place. GraceTHD vise à répondre aux besoins de stockage de données pour tous les acteurs, il peut donc être nécessaire d'étendre votre SI pour conserver certaines informations utiles à d'autres acteurs. Mais surtout il faut absolument contribuer aux Groupes Experts qui permettent de faire évoluer GraceTHD. GraceTHD doit vous délivrer toutes les données nécessaires pour l'exploitation du réseau, et il est primordial que les procédures d'import et d'export n'aient pas de points de blocage avec votre SI. 
 
 #### Editeurs de progiciels
-Toute la documentation est disponible et les consultations ont été réalisées pour permettre de sensibiliser et remonter les points de blocage majeurs. De la même manière que plusieurs éditeurs ont produit des solutions pour convertir des données de leur solution vers Grace v1, les consultations ont remonté le besoin des éditeurs pour un format d'échange, et l'intention générale de produire des solutions d'import/export GraceTHD. 
+Toute la documentation est disponible et les consultations ont été réalisées pour permettre de sensibiliser et remonter les points de blocage majeurs. Les Groupes Experts vous permettent de participer au développement de GraceTHD et par conséquent d'alerter au plus sur les possibles incompatibilités avec vos solutions. Enfin Redmine permet également d'échanger avec l'équipe de développement et toute la communauté GraceTHD. 
 
-Toute contribution au modèle est la bienvenue et encouragée. 
+A ce jour (octobre 2017) les solutions d'import / export des principaux éditeurs commencent délivrer les premiers résultats opérationnels. 
 
 ## Contenu
 * \docs\GraceTHD-MCD\changelog_gracethdmcd.txt : historique des modifications
