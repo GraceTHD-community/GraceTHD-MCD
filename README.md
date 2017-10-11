@@ -8,14 +8,14 @@ GraceTHD-MCD est un des projets open source composant GraceTHD maintenus par [Gr
 http://gracethd.org
 
 #### Télécharger GraceTHD-MCD
-*Version actuelle :* 
+Version actuelle :  
 https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master  
-Ou bouton "download zip" sur la page Github du projet.  
+*Ou bouton "download zip" sur la page Github du projet.*  
 http://gracethd-community.github.io/GraceTHD-MCD/  
 *Versions obsolètes :*  
 https://github.com/GraceTHD-community/GraceTHD-MCD/releases  
 
-*Pour télécharger l'ensemble des projets constituant GraceTHD, inclus GraceTHD-MCD, télécharger GraceTHD-Check :*  
+Pour télécharger l'ensemble des projets constituant GraceTHD, dont GraceTHD-MCD, télécharger GraceTHD-Check :  
 http://gracethd-community.github.io/GraceTHD-Check/  
 
 #### Documentation :  
