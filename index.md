@@ -30,7 +30,7 @@ Voir le dossier docs dans le contenu téléchargé.
 * A partir de la version 2.1, GraceTHD-MCD deviendra un standard [CNIG](http://cnig.gouv.fr/)/Covadis. 
 
 ## Utilisation
-GraceTHD-MCD vise à répondre aux besoinx de **gestion patrimoniale de réseaux de télécommunications** (principalement fibre). C'est également un **standard ouvert qui homogénéise les échanges**. 
+GraceTHD-MCD vise à répondre aux besoins de **gestion patrimoniale de réseaux de télécommunications** (principalement fibre). C'est également un **standard ouvert qui homogénéise les échanges**. 
 *Il n'est pas conçu comme un modèle de production de données (bien que certains l'ont adapté dans ce but pour leurs besoins internes) ou d'exploitation d'un réseau.*  
 
 #### Pré-requis
