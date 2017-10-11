@@ -7,20 +7,22 @@ GraceTHD-MCD est un des projets open source composant GraceTHD maintenus par [Gr
 #### Présentation de GraceTHD par l'Avicca  
 http://gracethd.org
 
-#### [Téléchargement GraceTHD-MCD](https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master)** :  
-*Version actuelle :* Bouton "download zip" sur la page Github du projet.  
+#### Télécharger GraceTHD-MCD
+*Version actuelle :* 
+https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master
+Ou bouton "download zip" sur la page Github du projet.  
 http://gracethd-community.github.io/GraceTHD-MCD/  
 *Versions obsolètes :*  
 https://github.com/GraceTHD-community/GraceTHD-MCD/releases  
 
-*Pour télécharger l'ensemble des projets constituant GraceTHD, inclus GraceTHD-MCD, voir GraceTHD-Check :*  
+*Pour télécharger l'ensemble des projets constituant GraceTHD, inclus GraceTHD-MCD, télécharger GraceTHD-Check :*  
 http://gracethd-community.github.io/GraceTHD-Check/  
 
 #### Documentation :  
 Voir le dossier docs dans le contenu téléchargé.  
 *GraceTHD-MCD permet de découvrir le modèle de données. Pour la mise en oeuvre, voir GraceTHD-Check.*
 
-#### [Géostandard Aménagement Numérique des Territoires GraceTHD](http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html)  
+#### Géostandard Aménagement Numérique des Territoires GraceTHD  
 http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html
 * Le "Géostandard Aménagement Numérique des Territoires" de la [Covadis](http://www.geoinformations.developpement-durable.gouv.fr/covadis-r425.html) est un standard français.
 * Historique : GraceTHD-MCD v2 est une importante refonte du Geostandard ANT v1 complétée d'éléments du modèle de données du Syane notamment pour la partie optique, ainsi qu'un rapprochement d'autres modèles de données de référence (flux Interop, BAN, Mediapost, etc.) de sortes à simplifier les échanges avec ces modèles de données. 
@@ -30,19 +32,22 @@ http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenag
 ## Utilisation
 GraceTHD-MCD n'est pas conçu comme un modèle de production de données ou d'exploitation d'un réseau. Toutefois il se veut être un modèle de données relationnel permettant la gestion patrimoniale d'un réseau de télécommunications. GraceTHD-Check est une extension du modèle de données qui permet à une base de données, sous PostGIS, de s'autocontrôler. GraceTHD-Check est une compilation de l'ensemble des projets GraceTHD, dont GraceTHD-MCD. 
 
-### Pré-requis
+#### Pré-requis
 
 Mise à disposition pour une implémentation sous Spatialite (GraceTHD-MCD) et PostGIS (GraceTHD-MCD + GraceTHD-Check). GraceTHD-MCD est aisément portable sur d'autres Systèmes de Gestion de Bases de Données Spatiales qui respectent les normes SQL et SFSQL. Des projets QGIS pré-configurés sont également mis à disposition pour un usage générique (GraceTHD-Layers). 
 
 L'écosystème autour de ce modèle de données se batira à partir des initiatives des différents acteurs (éditeurs de progiciels, opérateurs, constructeurs, collectivités, ... ). 
 
-* **Collectivités** : 
+#### Collectivités
 GraceTHD-MCD vous permettra d'étudier le modèle de données. GraceTHD-MOD comporte les éléments à préparer lors de l'élaboration  d'un marché. GraceTHD-Check comporte l'ensemble des projets GraceTHD, notamment la partie permettant à une base de donénes GraceTHD de s'autocontrôler. 
 
-* **Bureaux d'étude** : 
+#### Bureaux d'étude
 Des outils d'édition adaptés à vos plateformes doivent être mis en place. GraceTHD EST UN MODELE DE DONNEES DEDIE A L'ECHANGE, il n'est pas conçu en l'état pour la production. 
 
-* **Editeurs de progiciels** : 
+#### Opérateurs
+Le besoin consiste à mettre en place des outils d'import/export par rapport au SI en place. Il est à noter que GraceTHD peut aller plus loin que les besoins exclusifs des opérateurs, il peut donc être envisageable d'étendre le SI pour conserver certaines informations utiles à d'autres acteurs. 
+
+#### Editeurs de progiciels
 Toute la documentation est disponible et les consultations ont été réalisées pour permettre de sensibiliser et remonter les points de blocage majeurs. De la même manière que plusieurs éditeurs ont produit des solutions pour convertir des données de leur solution vers Grace v1, les consultations ont remonté le besoin des éditeurs pour un format d'échange, et l'intention générale de produire des solutions d'import/export GraceTHD. 
 
 Toute contribution au modèle est la bienvenue et encouragée. 
