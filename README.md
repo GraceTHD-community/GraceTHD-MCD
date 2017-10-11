@@ -1,6 +1,6 @@
 # GraceTHD-MCD
 
-### Présentation
+## Présentation
 GraceTHD-MCD est un modèle de données relationnel standardisé destiné à échanger des modèles numériques de réseaux de télécommunications et à la gestion patrimoniale de ces réseaux. 
 GraceTHD-MCD est un des projets open source composant GraceTHD maintenus par [GraceTHD-community](https://github.com/GraceTHD-community)
 
@@ -27,7 +27,7 @@ http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenag
 * Note : la partie B du géostandard est une définition conceptuelle. Pour la très grande majorité des utilisateurs sont principalement concernés par la partie C qui décrit l'implémentation. La partie C est une reprise intégrale de GraceTHD-MCD.  
 * A partir de la version 2.1, GraceTHD-MCD deviendra un standard [CNIG](http://cnig.gouv.fr/)/Covadis. 
 
-### Support, contact et gestion de projet
+## Support, contact et gestion de projet
 **[Redmine](https://redmine.gracethd.org)** :  
 [https://redmine.gracethd.org](https://redmine.gracethd.org)  
 
@@ -48,10 +48,10 @@ https://redmine.gracethd.org/redmine/projects/modele_grace/news
 Roadmap :  
 https://redmine.gracethd.org/redmine/projects/modele_grace/roadmap
 
-### Utilisation
+## Utilisation
 GraceTHD-MCD n'est pas conçu comme un modèle de production de données ou d'exploitation d'un réseau. Toutefois il se veut être un modèle de données relationnel permettant la gestion patrimoniale d'un réseau de télécommunications. GraceTHD-Check est une extension du modèle de données qui permet à une base de données, sous PostGIS, de s'autocontrôler. GraceTHD-Check est une compilation de l'ensemble des projets GraceTHD, dont GraceTHD-MCD. 
 
-## Pré-requis
+### Pré-requis
 
 Mise à disposition pour une implémentation sous Spatialite (GraceTHD-MCD) et PostGIS (GraceTHD-MCD + GraceTHD-Check). GraceTHD-MCD est aisément portable sur d'autres Systèmes de Gestion de Bases de Données Spatiales qui respectent les normes SQL et SFSQL. Des projets QGIS pré-configurés sont également mis à disposition pour un usage générique (GraceTHD-Layers). 
 
@@ -68,7 +68,7 @@ Toute la documentation est disponible et les consultations ont été réalisées
 
 Toute contribution au modèle est la bienvenue et encouragée. 
 
-### Contenu
+## Contenu
 * \docs\GraceTHD-MCD\changelog_gracethdmcd.txt : historique des modifications
 * \db_shpcsv\ : base (shapefiles + CSV + csv des listes de valeurs) vierge et conforme au modèle de données + un projet QGIS 2.8. 
 * \db_spatialite\ : une base de données Spatialite vierge et conforme au modèle de données. 
@@ -78,5 +78,5 @@ Toute contribution au modèle est la bienvenue et encouragée.
 * \sql_postgis\ : les scripts pour créer les tables dans un schéma de base de données sous PostGIS 2.x
 * \sql_spatialite\ : les scripts pour créer les tables dans un schéma de base de données sous Spatialite. 
 
-### Contributeurs
+## Contributeurs
 http://gracethd.org
