@@ -5,36 +5,35 @@ GraceTHD-MCD est un modèle de données relationnel standardisé destiné à éc
 GraceTHD-MCD est un des projets open source composant GraceTHD maintenus par [GraceTHD-community](https://github.com/GraceTHD-community)
 
 #### Présentation de GraceTHD par l'Avicca  
-http://gracethd.org
+[http://gracethd.org](http://gracethd.org)  
 
 #### Télécharger GraceTHD-MCD
 Version actuelle :  
-https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master  
+[https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master](https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master)  
 *Ou bouton "download zip" sur la page Github du projet.*  
-http://gracethd-community.github.io/GraceTHD-MCD/  
+[http://gracethd-community.github.io/GraceTHD-MCD/](http://gracethd-community.github.io/GraceTHD-MCD/)  
 *Versions obsolètes :*  
-https://github.com/GraceTHD-community/GraceTHD-MCD/releases  
+[https://github.com/GraceTHD-community/GraceTHD-MCD/releases](https://github.com/GraceTHD-community/GraceTHD-MCD/releases)  
 
 Pour télécharger l'ensemble des projets constituant GraceTHD, dont GraceTHD-MCD, télécharger GraceTHD-Check :  
-http://gracethd-community.github.io/GraceTHD-Check/  
+[http://gracethd-community.github.io/GraceTHD-Check/](http://gracethd-community.github.io/GraceTHD-Check/)  
 
 #### Documentation :  
 Voir le dossier docs dans le contenu téléchargé.  
 *GraceTHD-MCD permet de découvrir le modèle de données. Pour la mise en oeuvre, voir GraceTHD-Check.*
 
 #### Géostandard Aménagement Numérique des Territoires GraceTHD  
-http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html
+[http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html](http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html)  
 * Le "Géostandard Aménagement Numérique des Territoires" de la [Covadis](http://www.geoinformations.developpement-durable.gouv.fr/covadis-r425.html) est un standard français.
 * Historique : GraceTHD-MCD v2 est une importante refonte du Geostandard ANT v1 complétée d'éléments du modèle de données du Syane notamment pour la partie optique, ainsi qu'un rapprochement d'autres modèles de données de référence (flux Interop, BAN, Mediapost, etc.) de sortes à simplifier les échanges avec ces modèles de données. 
 * Note : la partie B du géostandard est une définition conceptuelle. La très grande majorité des utilisateurs sont principalement concernés par la partie C qui décrit l'implémentation et qui une reprise intégrale de GraceTHD-MCD.  
 * A partir de la version 2.1, GraceTHD-MCD deviendra un standard [CNIG](http://cnig.gouv.fr/)/Covadis. 
 
 ## Utilisation
-GraceTHD-MCD vise à répondre aux besoinx de **gestion patrimoniale de réseaux de télécommunications** (principalement fibre). C'est également un **standard ouvert qui homogénéise les échanges**. 
+GraceTHD-MCD vise à répondre aux besoins de **gestion patrimoniale de réseaux de télécommunications** (principalement fibre). C'est également un **standard ouvert qui homogénéise les échanges**. 
 *Il n'est pas conçu comme un modèle de production de données (bien que certains l'ont adapté dans ce but pour leurs besoins internes) ou d'exploitation d'un réseau.*  
 
 #### Pré-requis
-
 Le Comité de Pilotage de GraceTHD ne souhaite pas développer d'applications autour de GraceTHD. **C'est aux entreprises et collectivités d'implémenter GraceTHD dans leur SI.** On peut le considérer comme un moteur. 
 
 GraceTHD-MCD est mis à disposition pour les Systèmes de Gestion de Bases de Données (SGBD) open source **Spatialite** (GraceTHD-MCD) et **PostGIS** (GraceTHD-MCD + GraceTHD-Check). Spatialite est une bonne solution pour découvrir le projet. PostGIS est la solution à mettre en oeuvre pour la plupart des utilisateurs, par conséquent il est vivement conseillé de disposer de compétences PostGIS. 
@@ -93,25 +92,25 @@ Il est nécessaire de participer aux Groupes Experts pour que le développement 
 * \sql_spatialite\ : les scripts pour créer les tables dans un schéma de base de données sous Spatialite. 
 
 ## Support, contact et gestion de projet
-**[Redmine](https://redmine.gracethd.org)** :  
+**Redmine** :  
 [https://redmine.gracethd.org](https://redmine.gracethd.org)  
 
 *Introduction à la plateforme Redmine GraceTHD :*  
-http://www.avicca.org/document/16829/dl  
+[http://www.avicca.org/document/16829/dl](http://www.avicca.org/document/16829/dl)  
 *A la création de votre compte, merci de renseigner la structure que vous représentez et idéalement d'utiliser une adresse mail professionnelle (non communiquées à des tiers).*  
 
 Remontées d'anomalies, demandes d'évolutions, demandes d'assistance GraceTHD-MCD, poster une demande :  
-https://redmine.gracethd.org/redmine/projects/gracethd_comitetechnique/issues/new  
+[https://redmine.gracethd.org/redmine/projects/modele_grace/issues/new](https://redmine.gracethd.org/redmine/projects/modele_grace/issues/new)  
 *Pas plus compliqué qu'un webmail. Ce sont vos contributions qui permettent d'améliorer GraceTHD !*
 
 FAQ :  
-https://redmine.gracethd.org/redmine/projects/modele_grace/wiki/FAQ  
+[https://redmine.gracethd.org/redmine/projects/modele_grace/wiki/FAQ](https://redmine.gracethd.org/redmine/projects/modele_grace/wiki/FAQ)  
 
-Les annonces : 
-https://redmine.gracethd.org/redmine/projects/modele_grace/news
+Les annonces :  
+[https://redmine.gracethd.org/redmine/projects/modele_grace/news](https://redmine.gracethd.org/redmine/projects/modele_grace/news)  
 
 Roadmap :  
-https://redmine.gracethd.org/redmine/projects/modele_grace/roadmap
+[https://redmine.gracethd.org/redmine/projects/modele_grace/roadmap](https://redmine.gracethd.org/redmine/projects/modele_grace/roadmap)  
 
 ## Contributeurs
-http://gracethd.org
+[http://gracethd.org](http://gracethd.org)
