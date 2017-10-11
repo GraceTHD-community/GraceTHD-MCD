@@ -47,7 +47,7 @@ Vous êtes décideur, il faut mettre en place au moins un futur administrateur G
 Vous participez aux études pour le déploiement de réseaux, vous avez besoin d'une équipe compétente qui vous mette en place l'infrastructure nécessaire pour profiter de GraceTHD, notamment un administrateur GraceTHD. 
 
 Vous êtes le futur administrateur GraceTHD. 
-1. Redmine, inscrivez-vous pour profiter de la FAQ, des annonces, des demandes, etc. 
+1. [Redmine GraceTHD](https://redmine.gracethd.org), inscrivez-vous pour profiter de la FAQ, des annonces, des demandes, etc. 
 2. Elaboration de votre programme de formation ou d'autoformation. 
 3. GraceTHD-MCD pour étudier le modèle de données.  
 4. GraceTHD-MOD pour définir les livrables (documents et attributs renseignés attendus aux différentes phases).  
