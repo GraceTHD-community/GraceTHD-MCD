@@ -30,8 +30,8 @@ http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenag
 * A partir de la version 2.1, GraceTHD-MCD deviendra un standard [CNIG](http://cnig.gouv.fr/)/Covadis. 
 
 ## Utilisation
-GraceTHD-MCD vise à répondre aux besoin de gestion patrimoniale de réseaux de télécommunications (principalement fibre). En tant que standard ouvert il homogénéise également les échanges. Il n'est pas conçu comme un modèle de production de données (bien que certains l'ont adapté dans ce but pour leurs besoins internes) ou d'exploitation d'un réseau.  
-GraceTHD-Check est une extension du modèle de données qui permet à une base de données, sous PostGIS, de s'autocontrôler. GraceTHD-Check présente également l'avantage de compiler l'ensemble des projets GraceTHD. 
+GraceTHD-MCD vise à répondre aux besoinx de **gestion patrimoniale de réseaux de télécommunications** (principalement fibre). C'est également un **standard ouvert qui homogénéise les échanges**. 
+*Il n'est pas conçu comme un modèle de production de données (bien que certains l'ont adapté dans ce but pour leurs besoins internes) ou d'exploitation d'un réseau.*  
 
 #### Pré-requis
 GraceTHD-MCD est mis à disposition pour les Systèmes de Gestion de Bases de Données (SGBD) open source **Spatialite** (GraceTHD-MCD) et **PostGIS** (GraceTHD-MCD + GraceTHD-Check). Spatialite est une bonne solution pour découvrir le projet. PostGIS est la solution à mettre en oeuvre pour la plupart des utilisateurs, par conséquent il est vivement conseillé de disposer de compétences PostGIS. 
@@ -52,12 +52,12 @@ Vous êtes décideur, il faut mettre en place au moins un futur administrateur G
 
 Vous dirigez ou participez aux études pour le déploiement de réseaux, vous avez besoin d'une équipe compétente qui vous mette en place l'infrastructure nécessaire pour profiter de GraceTHD, notamment un administrateur GraceTHD. 
 
-Vous êtes le futur administrateur GraceTHD. 
+Vous êtes le futur **administrateur GraceTHD**. 
 1. [Redmine GraceTHD](https://redmine.gracethd.org), inscrivez-vous pour profiter de la FAQ, des annonces, des demandes, etc. 
 2. Elaboration de votre programme de formation ou d'autoformation. 
 3. GraceTHD-MCD pour étudier le modèle de données.  
 4. GraceTHD-MOD pour définir les livrables (documents et attributs renseignés attendus aux différentes phases).  
-5. GraceTHD-Check comporte l'ensemble des projets GraceTHD, notamment l'extension du modèle de données qui permet à une base de données GraceTHD de s'autocontrôler, les scripts pour créer des bases, charger des données, les exporter, etc. C'est votre cible. 
+5. GraceTHD-Check est un catalogue de points de contrôle implémenté (sous PostGIS) comme une extension du modèle de données qui permet à une base de données de s'autocontrôler. Il comporte des scripts pour créer des bases, charger des données, les exporter, etc. GraceTHD-Check présente également l'avantage de compiler l'ensemble des projets GraceTHD. C'est votre cible.  
 
 #### Collectivités
 Vous avez la responsabilité de produire la définition de vos livrables : documents attendus et votre grille de remplissage des données (GraceTHD-MOD). Vous aurez probablement besoin d'intégrer GraceTHD-Check à votre SI.  
