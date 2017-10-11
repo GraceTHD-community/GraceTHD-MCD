@@ -12,17 +12,20 @@ Bouton "download zip" sur la page Github du projet.
 http://gracethd-community.github.io/GraceTHD-MCD/  
 *Pour télécharger l'ensemble des projets constituant GraceTHD, inclus GraceTHD-MCD, voir GraceTHD-Check :*  
 http://gracethd-community.github.io/GraceTHD-Check/  
-*Journal des révisions et téléchargement des versions obsolètes de GraceTHD-MCD :*  
+
+*Versions obsolètes de GraceTHD-MCD :*  
 https://github.com/GraceTHD-community/GraceTHD-MCD/releases  
 
-**Documentation** : disponible dans le dossier docs du contenu à télécharger.  
+**Documentation** :  
+Voir le dossier docs dans le contenu téléchargé.  
 *GraceTHD-MCD permet de découvrir le modèle de données. Pour la mise en oeuvre, voir GraceTHD-Check.*
 
-**[Géostandard Aménagement Numérique des Territoires GraceTHD](http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html)** : GraceTHD-MCD est le modèle de données validé par la Covadis comme Geostandard Aménagement Numérique des Territoires. 
+**[Géostandard Aménagement Numérique des Territoires GraceTHD](http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html)** :  
 http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html
+* Le "Géostandard Aménagement Numérique des Territoires" de la [Covadis](http://www.geoinformations.developpement-durable.gouv.fr/covadis-r425.html) est un standard français.
 * Historique : GraceTHD-MCD v2 est une importante refonte du Geostandard ANT v1 complétée d'éléments du modèle de données du Syane notamment pour la partie optique, ainsi qu'un rapprochement d'autres modèles de données de référence (flux Interop, BAN, Mediapost, etc.) de sortes à simplifier les échanges avec ces modèles de données. 
-* Note : la partie B du géostandard est une définition conceptuelle, c'est la partie C qui décrit l'implémentation, c'est une reprise à 100% de GraceTHD-MCD.  
-* A partir de la version 2.1, GraceTHD-MCD deviendra un standard CNIG. 
+* Note : la partie B du géostandard est une définition conceptuelle. La partie C décrit l'implémentation, c'est une reprise intégrale de GraceTHD-MCD.  
+* A partir de la version 2.1, GraceTHD-MCD deviendra un standard [CNIG](http://cnig.gouv.fr/). 
 
 ### Support, contact et gestion de projet
 **[Redmine](https://redmine.gracethd.org)** :  
