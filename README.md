@@ -1,23 +1,22 @@
 # GraceTHD-MCD
 
 GraceTHD-MCD est un modèle de données relationnel destiné à échanger des modèles numériques de réseaux de télécommunications. 
-Voir la présentation de l'Avicca sur :
-http://gracethd.org
+GraceTHD-MCD est un des projets composant GraceTHD maintenus par [GraceTHD-community](https://github.com/GraceTHD-community)
 
-*[Téléchargement](https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master)* : utiliser le bouton download zip sur la page du projet pour la version en cours. 
-Pour télécharger l'ensemble des projets constituant GraceTHD, inclus GraceTHD-MCD, voir GraceTHD-Check. 
+**Présentation de GraceTHD par l'Avicca** : http://gracethd.org
+
+**[Téléchargement GraceTHD-MCD](https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master)** : utiliser le bouton download zip sur la page du projet pour la version en cours. 
+* Pour télécharger l'ensemble des projets constituant GraceTHD, inclus GraceTHD-MCD, voir GraceTHD-Check. 
 http://gracethd-community.github.io/GraceTHD-Check/
-Journal des révisions et téléchargement des versions obsolètes de GraceTHD-MCD : https://github.com/GraceTHD-community/GraceTHD-MCD/releases
+* Journal des révisions et téléchargement des versions obsolètes de GraceTHD-MCD : https://github.com/GraceTHD-community/GraceTHD-MCD/releases
 
-*Documentation* : disponible dans le dossier docs du contenu téléchargé. 
+**Documentation** : disponible dans le dossier docs du contenu à télécharger. 
 
-*Redmine* : gestion de projet, remontée d'anomalies, demandes d'éovlutions et demandes d'assistance : [https://redmine.gracethd.org](https://redmine.gracethd.org)
+**[[Redmine]](https://redmine.gracethd.org)** : gestion de projet, remontées d'anomalies, demandes d'évolutions et demandes d'assistance : [https://redmine.gracethd.org](https://redmine.gracethd.org)
 
-GraceTHD-MCD est un des projets maintenus par [GraceTHD-community](https://github.com/GraceTHD-community)
-
-*[Géostandard Aménagement Numérique des Territoires GraceTHD](http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html)* : GraceTHD-MCD est le modèle de données validé par la Covadis comme Geostandard Aménagement Numérique des Territoires. 
-
-GraceTHD-MCD v2 est une importante refonte du Geostandard ANT v1 complétée d'éléments du modèle de données du Syane notamment pour la partie optique, ainsi qu'un rapprochement d'autres modèles de données de référence comme par exemple le Groupe Interop Fibre ou la BAN de sortes à simplifier les échanges avec ces modèles de données. 
+**[Géostandard Aménagement Numérique des Territoires GraceTHD](http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html)** : GraceTHD-MCD est le modèle de données validé par la Covadis comme Geostandard Aménagement Numérique des Territoires. Dans sa future version 2.1, GraceTHD-MCD deviendra un standard CNIG. 
+* Historique : GraceTHD-MCD v2 est une importante refonte du Geostandard ANT v1 complétée d'éléments du modèle de données du Syane notamment pour la partie optique, ainsi qu'un rapprochement d'autres modèles de données de référence (flux Interop, BAN, Mediapost, etc.) de sortes à simplifier les échanges avec ces modèles de données. 
+* Note : la partie B du géostandard est une définition conceptuelle, c'est la partie C qui décrit l'implémentation, c'est une reprise à 100% de GraceTHD-MCD.  
 
 ### Contenu
 * \docs\GraceTHD-MCD\changelog_gracethdmcd.txt : historique des modifications
@@ -37,7 +36,7 @@ Le format d'échange préconisé par le Geostandard ANT v2.0 est shapefile et cs
 * **Collectivités** : 
 GraceTHD-MCD vous permettra d'étudier le modèle de données. GraceTHD-MOD comporte les éléments à préparer lors de l'élaboration  d'un marché. GraceTHD-Check comporte l'ensemble des projets GraceTHD, notamment la partie permettant à une base de donénes GraceTHD de s'autocontrôler. 
 
-* **Producteurs de données** : 
+* **Bureaux d'étude** : 
 Des outils d'édition adaptés à vos plateformes doivent être mis en place. GraceTHD EST UN MODELE DE DONNEES DEDIE A L'ECHANGE, il n'est pas conçu en l'état pour la production. 
 
 * **Editeurs de progiciels** : 
