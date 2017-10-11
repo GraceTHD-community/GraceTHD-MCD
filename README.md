@@ -24,8 +24,8 @@ Voir le dossier docs dans le contenu téléchargé.
 http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html
 * Le "Géostandard Aménagement Numérique des Territoires" de la [Covadis](http://www.geoinformations.developpement-durable.gouv.fr/covadis-r425.html) est un standard français.
 * Historique : GraceTHD-MCD v2 est une importante refonte du Geostandard ANT v1 complétée d'éléments du modèle de données du Syane notamment pour la partie optique, ainsi qu'un rapprochement d'autres modèles de données de référence (flux Interop, BAN, Mediapost, etc.) de sortes à simplifier les échanges avec ces modèles de données. 
-* Note : la partie B du géostandard est une définition conceptuelle. La partie C décrit l'implémentation, c'est une reprise intégrale de GraceTHD-MCD.  
-* A partir de la version 2.1, GraceTHD-MCD deviendra un standard [CNIG](http://cnig.gouv.fr/). 
+* Note : la partie B du géostandard est une définition conceptuelle. Pour la très grande majorité des utilisateurs sont principalement concernés par la partie C qui décrit l'implémentation. La partie C est une reprise intégrale de GraceTHD-MCD.  
+* A partir de la version 2.1, GraceTHD-MCD deviendra un standard [CNIG](http://cnig.gouv.fr/)/Covadis. 
 
 ### Support, contact et gestion de projet
 **[Redmine](https://redmine.gracethd.org)** :  
@@ -42,13 +42,20 @@ https://redmine.gracethd.org/redmine/projects/gracethd_comitetechnique/issues/ne
 FAQ :  
 https://redmine.gracethd.org/redmine/projects/modele_grace/wiki/FAQ  
 
-Roadmap
+Les annonces : 
+https://redmine.gracethd.org/redmine/projects/modele_grace/news
+
+Roadmap :  
 https://redmine.gracethd.org/redmine/projects/modele_grace/roadmap
 
 ### Utilisation
-Ce modèle de données n'est pas conçu comme un modèle de production de données ou d'exploitation d'un réseau. Toutefois il se veut être un modèle de données relationnel permettant la gestion patrimoniale d'un réseau de télécommunications. L'écosystème autour de ce modèle de données se batira à partir des initiatives des différents acteurs (éditeurs de progiciels, opérateurs, constructeurs, collectivités, ... ). 
+GraceTHD-MCD n'est pas conçu comme un modèle de production de données ou d'exploitation d'un réseau. Toutefois il se veut être un modèle de données relationnel permettant la gestion patrimoniale d'un réseau de télécommunications. GraceTHD-Check est une extension du modèle de données qui permet à une base de données, sous PostGIS, de s'autocontrôler. GraceTHD-Check est une compilation de l'ensemble des projets GraceTHD, dont GraceTHD-MCD. 
 
-Le format d'échange préconisé par le Geostandard ANT v2.0 est shapefile et csv pour leur grande intéropérabilité. C'est une préconisation. Deux parties peuvent s'entendre pour échanger sous divers formats (comme des dumps SQL de base à base) tout en respectant le modèle de données. 
+## Pré-requis
+
+Mise à disposition pour une implémentation sous Spatialite (GraceTHD-MCD) et PostGIS (GraceTHD-MCD + GraceTHD-Check). GraceTHD-MCD est aisément portable sur d'autres Systèmes de Gestion de Bases de Données Spatiales qui respectent les normes SQL et SFSQL. Des projets QGIS pré-configurés sont également mis à disposition pour un usage générique (GraceTHD-Layers). 
+
+L'écosystème autour de ce modèle de données se batira à partir des initiatives des différents acteurs (éditeurs de progiciels, opérateurs, constructeurs, collectivités, ... ). 
 
 * **Collectivités** : 
 GraceTHD-MCD vous permettra d'étudier le modèle de données. GraceTHD-MOD comporte les éléments à préparer lors de l'élaboration  d'un marché. GraceTHD-Check comporte l'ensemble des projets GraceTHD, notamment la partie permettant à une base de donénes GraceTHD de s'autocontrôler. 
