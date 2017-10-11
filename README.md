@@ -23,19 +23,19 @@ GraceTHD-MCD v2 est une importante refonte du Geostandard ANT v1 complétée d'�
 * \docs\GraceTHD-MCD\changelog_gracethdmcd.txt : historique des modifications
 * \db_shpcsv\ : base (shapefiles + CSV + csv des listes de valeurs) vierge et conforme au modèle de données + un projet QGIS 2.8. 
 * \db_spatialite\ : une base de données Spatialite vierge et conforme au modèle de données. 
-* \docs\ : documentation du modèle de données. Un schéma très simplifié du MCD (gracethd-mcd-vxxxx_schema_vxx.png), le MCD "lisible" (gracethd-mcd-vxxxxxx_doc_vxx.ods), le Modèle Logique de Données (gracethd-mld-vxxxxx.png), sans organisation des tables à ce stade. 
-* \qgis\ : GraceTHD-Layers - Projets QGIS pour configurés pour l'exploitation de données GraceTHD. 
+* \docs\ : documentation du modèle de données. Un schéma très simplifié du MCD (gracethd-mcd-vxxxx_schema_vxx.png), le MCD "lisible" (gracethd-mcd-vxxxxxx_doc_vxx.ods), le Modèle Logique de Données (gracethd-mld-vxxxxx.png). 
+* \qgis\ : GraceTHD-Layers - Projets QGIS configurés pour l'exploitation de données GraceTHD. 
 * \sources\gracethd-mcd-xxxxx.ods : fichier de développement
 * \sql_postgis\ : les scripts pour créer les tables dans un schéma de base de données sous PostGIS 2.x
 * \sql_spatialite\ : les scripts pour créer les tables dans un schéma de base de données sous Spatialite. 
 
 ### Utilisation
-**GraceTHD est un modèle de données DEDIE EN PRIORITE A L'ECHANGE** ! Ce modèle n'est pas conçu comme un modèle de production de données ou d'exploitation d'un réseau. Toutefois il se veut être un modèle de données relationnel permettant la gestion patrimoniale d'un réseau de télécommunications. L'écosystème autour de ce modèle de données se batira à partir des initiatives des différents acteurs (éditeurs de progiciels, opérateurs, constructeurs, collectivités, ... ). 
+Ce modèle de données n'est pas conçu comme un modèle de production de données ou d'exploitation d'un réseau. Toutefois il se veut être un modèle de données relationnel permettant la gestion patrimoniale d'un réseau de télécommunications. L'écosystème autour de ce modèle de données se batira à partir des initiatives des différents acteurs (éditeurs de progiciels, opérateurs, constructeurs, collectivités, ... ). 
 
 Le format d'échange préconisé par le Geostandard ANT v2.0 est shapefile et csv pour leur grande intéropérabilité. C'est une préconisation. Deux parties peuvent s'entendre pour échanger sous divers formats (comme des dumps SQL de base à base) tout en respectant le modèle de données. 
 
 * **Collectivités** : 
-Le modèle seul n'est pas suffisant. Des outils d'intégration, de contrôle, d'analyse, de traitement et de publication des données doivent être développés. Vous pouvez vous tenir au courant des projets planifiés auprès de l'AVICCA et du groupe de discussion. Voir le projet GraceTHD-MOD qui vous fournit des préconisations complémentaires. 
+GraceTHD-MCD vous permettra d'étudier le modèle de données. GraceTHD-MOD comporte les éléments à préparer lors de l'élaboration  d'un marché. GraceTHD-Check comporte l'ensemble des projets GraceTHD, notamment la partie permettant à une base de donénes GraceTHD de s'autocontrôler. 
 
 * **Producteurs de données** : 
 Des outils d'édition adaptés à vos plateformes doivent être mis en place. GraceTHD EST UN MODELE DE DONNEES DEDIE A L'ECHANGE, il n'est pas conçu en l'état pour la production. 
@@ -48,8 +48,16 @@ Toute contribution au modèle est la bienvenue et encouragée.
 ### Projets relatifs à GraceTHD
 Voir http://gracethd.org
 
-### Support or Contact
-Une plateforme de gestion de projet [Redmine](https://redmine.gracethd.org) destinée à remonter les demandes d'évolutions, les anomalies et les demandes d'assistance est disponible. 
+### Support et contact
+Via Redmine : 
+https://redmine.gracethd.org/redmine/projects/gracethd_comitetechnique/issues/new
+
+Pour comprendre Redmine : 
+http://www.avicca.org/document/16829/dl
+
+### Roadmap
+
+https://redmine.gracethd.org/redmine/projects/modele_grace/roadmap
 
 ### Contributeurs
 Voir http://gracethd.org
