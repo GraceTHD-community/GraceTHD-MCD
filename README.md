@@ -4,23 +4,23 @@
 GraceTHD-MCD est un modèle de données relationnel standardisé destiné à échanger des modèles numériques de réseaux de télécommunications et à la gestion patrimoniale de ces réseaux. 
 GraceTHD-MCD est un des projets open source composant GraceTHD maintenus par [GraceTHD-community](https://github.com/GraceTHD-community)
 
-**Présentation de GraceTHD par l'Avicca** :  
+#### Présentation de GraceTHD par l'Avicca  
 http://gracethd.org
 
-**[Téléchargement GraceTHD-MCD (version actuelle)](https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master)** :  
-Bouton "download zip" sur la page Github du projet.  
+#### [Téléchargement GraceTHD-MCD](https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master)** :  
+*Version actuelle :* Bouton "download zip" sur la page Github du projet.  
 http://gracethd-community.github.io/GraceTHD-MCD/  
+*Versions obsolètes :*  
+https://github.com/GraceTHD-community/GraceTHD-MCD/releases  
+
 *Pour télécharger l'ensemble des projets constituant GraceTHD, inclus GraceTHD-MCD, voir GraceTHD-Check :*  
 http://gracethd-community.github.io/GraceTHD-Check/  
 
-*Versions obsolètes de GraceTHD-MCD :*  
-https://github.com/GraceTHD-community/GraceTHD-MCD/releases  
-
-**Documentation** :  
+#### Documentation :  
 Voir le dossier docs dans le contenu téléchargé.  
 *GraceTHD-MCD permet de découvrir le modèle de données. Pour la mise en oeuvre, voir GraceTHD-Check.*
 
-**[Géostandard Aménagement Numérique des Territoires GraceTHD](http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html)** :  
+#### [Géostandard Aménagement Numérique des Territoires GraceTHD](http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html)  
 http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html
 * Le "Géostandard Aménagement Numérique des Territoires" de la [Covadis](http://www.geoinformations.developpement-durable.gouv.fr/covadis-r425.html) est un standard français.
 * Historique : GraceTHD-MCD v2 est une importante refonte du Geostandard ANT v1 complétée d'éléments du modèle de données du Syane notamment pour la partie optique, ainsi qu'un rapprochement d'autres modèles de données de référence (flux Interop, BAN, Mediapost, etc.) de sortes à simplifier les échanges avec ces modèles de données. 
