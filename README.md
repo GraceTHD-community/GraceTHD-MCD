@@ -63,7 +63,7 @@ Vous êtes le futur **administrateur GraceTHD**.
 #### Collectivités
 Vous avez la responsabilité de produire la définition de vos livrables : documents attendus et votre grille de remplissage des données (GraceTHD-MOD). Vous aurez probablement besoin d'intégrer GraceTHD-Check à votre SI.  
 
-Inversement GraceTHD a besoin de vous en tant que contributeurs pour son développement, sa maintenance et l'accompagnement de la communauté des utilisateurs. L'Avicca porte cela exclusivement grâce aux collectivités qui subventionnent le projet, en retour ces collectivités président à la destinée de GraceTHD en intégrant le Comité de Pilotage et disposent d'un certain nombre d'avantages.  
+Inversement GraceTHD a besoin de vous en tant que contributeurs pour son développement, sa maintenance et l'accompagnement de la communauté des utilisateurs. L'Avicca porte cela exclusivement grâce aux collectivités qui subventionnent le projet. Outre l'importance de disposer d'évolutions de ce standard et d'une équipe qui apporte un support à la communauté, ces collectivités président à la destinée de GraceTHD en intégrant le Comité de Pilotage et disposent d'un certain nombre d'avantages.  
 
 #### Bureaux d'étude
 Ceux qui disposent d'un SI mettront en place les solutions pour importer/exporter des données GraceTHD. Il est fondamental de pouvoir stocker toutes les données attendues par GraceTHD et de ne pas avoir de points de blocage dans les procédures d'import/export.  
