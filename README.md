@@ -49,7 +49,7 @@ Connaitre les **prestations** proposées par les entreprises :
 * **Développement** de logiciels autour de GraceTHD.  
 
 #### Démarche générale
-Vous êtes décideur, il faut mettre en place au moins un futur administrateur GraceTHD qui a ou va rapidement acquérir des compétences en bases de données spatiales (idéalement PostGIS). 
+Vous êtes décideur, il faut mettre en place au moins un futur administrateur GraceTHD qui a ou va rapidement acquérir des compétences en bases de données spatiales (idéalement PostGIS), va se former à GraceTHD puis mettre en place une plateforme GraceTHD. 
 
 Vous dirigez ou participez aux études pour le déploiement de réseaux, vous avez besoin d'une équipe compétente qui vous mette en place l'infrastructure nécessaire pour profiter de GraceTHD, notamment un administrateur GraceTHD. 
 
