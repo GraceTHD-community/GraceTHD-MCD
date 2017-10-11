@@ -39,7 +39,7 @@ Des projets QGIS pré-configurés sont également mis à disposition pour un usa
 
 Le Comité de Pilotage de GraceTHD ne souhaite pas développer d'applications autour de GraceTHD. C'est aux entreprises et collectivités d'implémenter GraceTHD dans leur SI. 
 
-Des entreprises proposent des formations permettant de s'initier plus rapidement et efficacement à GraceTHD. De même des entreprises proposent des accompagnement pour la mise en place, le support et l'administration. Enfin des entreprises développent un écosystème logiciel autour de GraceTHD. 
+Des entreprises proposent des formations permettant de s'initier plus rapidement et efficacement à GraceTHD. De même des entreprises proposent une assistance pour la mise en place, le support et l'administration d'une plateforme GraceTHD. Enfin des entreprises développent un écosystème logiciel autour de GraceTHD. 
 
 #### Démarche générale
 Vous êtes décideur, il faut mettre en place au moins un futur administrateur GraceTHD qui a ou va rapidement acquérir des compétences en bases de données spatiales (idéalement PostGIS). 
@@ -54,7 +54,7 @@ Vous êtes le futur administrateur GraceTHD.
 5. GraceTHD-Check comporte l'ensemble des projets GraceTHD, notamment l'extension du modèle de données qui permet à une base de données GraceTHD de s'autocontrôler, les scripts pour créer des bases, charger des données, les exporter, etc. C'est votre cible. 
 
 #### Collectivités
-Vous avez la responsabilité de produire la définition de vos livrables (documents attendus) et votre grille de remplissage des données (GraceTHD-MOD). Vous aurez probablement besoin d'intégrer GraceTHD-Check à votre SI.  
+Vous avez la responsabilité de produire la définition de vos livrables (documents attendus) et votre grille de remplissage des données (GraceTHD-MOD). Vous aurez probablement besoin d'intégrer GraceTHD-Check à votre SI. GraceTHD a également besoin de vous en tant que contributeurs à son développement et sa maintenance. L'Avicca porte cela grâce aux collectivités qui subventionnent le projet.  
 
 #### Bureaux d'étude
 Ceux qui disposent d'un SI mettront en place les solutions pour importer/exporter des données GraceTHD. Il est fondamental de pouvoir stocker toutes les données attendues par GraceTHD et de ne pas avoir de points de blocage dans les procédures d'import/export.  
