@@ -34,13 +34,14 @@ GraceTHD-MCD vise à répondre aux besoinx de **gestion patrimoniale de réseaux
 *Il n'est pas conçu comme un modèle de production de données (bien que certains l'ont adapté dans ce but pour leurs besoins internes) ou d'exploitation d'un réseau.*  
 
 #### Pré-requis
+
+Le Comité de Pilotage de GraceTHD ne souhaite pas développer d'applications autour de GraceTHD. **C'est aux entreprises et collectivités d'implémenter GraceTHD dans leur SI.** On peut le considérer comme un moteur. 
+
 GraceTHD-MCD est mis à disposition pour les Systèmes de Gestion de Bases de Données (SGBD) open source **Spatialite** (GraceTHD-MCD) et **PostGIS** (GraceTHD-MCD + GraceTHD-Check). Spatialite est une bonne solution pour découvrir le projet. PostGIS est la solution à mettre en oeuvre pour la plupart des utilisateurs, par conséquent il est vivement conseillé de disposer de compétences PostGIS. 
 *GraceTHD-MCD est aisément portable sur d'autres Systèmes de Gestion de Bases de Données Spatiales qui respectent les normes SQL et SFSQL, toutefois ceci entend de prendre en charge toute l'implémentation.* 
 
 Des projets **QGIS** pré-configurés sont également mis à disposition pour un usage générique (GraceTHD-Layers). Des compétences SIG bureautique sont nécessaires pour exploiter GraceTHD. 
 *Il est possible d'utiliser GraceTHD avec toute application cliente exploitant Spatialite et/ou PostGIS, toutefois là aussi ceci signifie de réimplémenter sur d'autres plateformes ce qui est mis à disposition sur la référence des applications SIG open source qu'est QGIS.* 
-
-Le Comité de Pilotage de GraceTHD ne souhaite pas développer d'applications autour de GraceTHD. **C'est aux entreprises et collectivités d'implémenter GraceTHD dans leur SI.** 
 
 Connaitre les **prestations** proposées par les entreprises :  
 * **Formations** permettant de s'initier plus rapidement et efficacement à GraceTHD. 
