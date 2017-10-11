@@ -27,27 +27,6 @@ http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenag
 * Note : la partie B du géostandard est une définition conceptuelle. Pour la très grande majorité des utilisateurs sont principalement concernés par la partie C qui décrit l'implémentation. La partie C est une reprise intégrale de GraceTHD-MCD.  
 * A partir de la version 2.1, GraceTHD-MCD deviendra un standard [CNIG](http://cnig.gouv.fr/)/Covadis. 
 
-## Support, contact et gestion de projet
-**[Redmine](https://redmine.gracethd.org)** :  
-[https://redmine.gracethd.org](https://redmine.gracethd.org)  
-
-*Introduction à la plateforme Redmine GraceTHD :*  
-http://www.avicca.org/document/16829/dl  
-*A la création de votre compte, merci de renseigner la structure que vous représentez et idéalement d'utiliser une adresse mail professionnelle (non communiquées à des tiers).*  
-
-Remontées d'anomalies, demandes d'évolutions, demandes d'assistance GraceTHD-MCD, poster une demande :  
-https://redmine.gracethd.org/redmine/projects/gracethd_comitetechnique/issues/new  
-*Pas plus compliqué qu'un webmail. Ce sont vos contributions qui permettent d'améliorer GraceTHD !*
-
-FAQ :  
-https://redmine.gracethd.org/redmine/projects/modele_grace/wiki/FAQ  
-
-Les annonces : 
-https://redmine.gracethd.org/redmine/projects/modele_grace/news
-
-Roadmap :  
-https://redmine.gracethd.org/redmine/projects/modele_grace/roadmap
-
 ## Utilisation
 GraceTHD-MCD n'est pas conçu comme un modèle de production de données ou d'exploitation d'un réseau. Toutefois il se veut être un modèle de données relationnel permettant la gestion patrimoniale d'un réseau de télécommunications. GraceTHD-Check est une extension du modèle de données qui permet à une base de données, sous PostGIS, de s'autocontrôler. GraceTHD-Check est une compilation de l'ensemble des projets GraceTHD, dont GraceTHD-MCD. 
 
@@ -77,6 +56,27 @@ Toute contribution au modèle est la bienvenue et encouragée.
 * \sources\gracethd-mcd-xxxxx.ods : fichier de développement
 * \sql_postgis\ : les scripts pour créer les tables dans un schéma de base de données sous PostGIS 2.x
 * \sql_spatialite\ : les scripts pour créer les tables dans un schéma de base de données sous Spatialite. 
+
+## Support, contact et gestion de projet
+**[Redmine](https://redmine.gracethd.org)** :  
+[https://redmine.gracethd.org](https://redmine.gracethd.org)  
+
+*Introduction à la plateforme Redmine GraceTHD :*  
+http://www.avicca.org/document/16829/dl  
+*A la création de votre compte, merci de renseigner la structure que vous représentez et idéalement d'utiliser une adresse mail professionnelle (non communiquées à des tiers).*  
+
+Remontées d'anomalies, demandes d'évolutions, demandes d'assistance GraceTHD-MCD, poster une demande :  
+https://redmine.gracethd.org/redmine/projects/gracethd_comitetechnique/issues/new  
+*Pas plus compliqué qu'un webmail. Ce sont vos contributions qui permettent d'améliorer GraceTHD !*
+
+FAQ :  
+https://redmine.gracethd.org/redmine/projects/modele_grace/wiki/FAQ  
+
+Les annonces : 
+https://redmine.gracethd.org/redmine/projects/modele_grace/news
+
+Roadmap :  
+https://redmine.gracethd.org/redmine/projects/modele_grace/roadmap
 
 ## Contributeurs
 http://gracethd.org
