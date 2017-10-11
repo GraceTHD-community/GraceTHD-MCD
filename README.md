@@ -1,34 +1,23 @@
 # GraceTHD-MCD
 
 GraceTHD-MCD est un modèle de données relationnel destiné à échanger des modèles numériques de réseaux de télécommunications. 
+Voir la présentation de l'Avicca sur :
 http://gracethd.org
 
-La plateforme de gestion du projet GraceTHD : [https://redmine.gracethd.org](https://redmine.gracethd.org)
+*[Téléchargement](https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master)* : utiliser le bouton download zip sur la page du projet pour la version en cours. 
+Pour télécharger l'ensemble des projets constituant GraceTHD, inclus GraceTHD-MCD, voir GraceTHD-Check. 
+http://gracethd-community.github.io/GraceTHD-Check/
+Journal des révisions et téléchargement des versions obsolètes de GraceTHD-MCD : https://github.com/GraceTHD-community/GraceTHD-MCD/releases
+
+*Documentation* : disponible dans le dossier docs du contenu téléchargé. 
+
+*Redmine* : gestion de projet, remontée d'anomalies, demandes d'éovlutions et demandes d'assistance : [https://redmine.gracethd.org](https://redmine.gracethd.org)
 
 GraceTHD-MCD est un des projets maintenus par [GraceTHD-community](https://github.com/GraceTHD-community)
 
-Le projet le plus complet, intégrant l'ensemble des autres projets GraceTHD est GraceTHD-Check. 
+*[Géostandard Aménagement Numérique des Territoires GraceTHD](http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html)* : GraceTHD-MCD est le modèle de données validé par la Covadis comme Geostandard Aménagement Numérique des Territoires. 
 
-GraceTHD-MCD est le modèle de données validé par la Covadis comme [Geostandard Aménagement Numérique des Territoires v2](http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html). 
-
-### Contexte
-De nombreux réseaux télécoms de très hauts débit sont déployés actuellement en France, en mobilisant des acteurs publics et privés, avec pour objectif de garantir la couverture intégrale du territoire. Afin d'assurer la meilleure utilisation des réseaux, l'homogénéisation et l'industrialisation des déploiements est un enjeu majeur.
-
-Dans ce cadre, les travaux initiés par le projet GraceTHD visent à l'interopérabilité des Systèmes d'Informations Géographiques (SIG) mis en place pour chaque réseau d'initiative publique.
-
-### Caractéristiques de la v2
 GraceTHD-MCD v2 est une importante refonte du Geostandard ANT v1 complétée d'éléments du modèle de données du Syane notamment pour la partie optique, ainsi qu'un rapprochement d'autres modèles de données de référence comme par exemple le Groupe Interop Fibre ou la BAN de sortes à simplifier les échanges avec ces modèles de données. 
-
-Quelques exemples de différences avec la version 1 : 
-* Nombreuses évolutions pour répondre aux nouveaux usages. 
-* Synthèse des 2 grands projets open source issus des collectivités : Grace et Syane. 
-* Uniformation du nommage des tables et attributs (moins de 10 caractères pour compatibilité shapefiles, chaque nom unique). 
-* Uniformation de l'ordre des attributs pour proposer une logique cohérente entre les tables. 
-* Recentrage sur le besoin d'échange. 
-* Métadonnées et cycle de vie des objets uniformisés, améliorés, simplifiés : 
-	* Suivi des créations, modifications, abandons. 
-	* Qualité de géolocalisation simple et cohérente. Gestion des référencements. 
-* Un seul modèle compréhensible et exploitable sans application dédiée, portable sur n’importe quel SGBD spatial ISO SQL et conforme SFSQL. Mode fichier et client/serveur. 
 
 ### Contenu
 * \docs\GraceTHD-MCD\changelog_gracethdmcd.txt : historique des modifications
