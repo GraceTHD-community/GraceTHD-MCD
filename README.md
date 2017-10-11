@@ -4,22 +4,22 @@
 GraceTHD-MCD est un modèle de données relationnel standardisé destiné à échanger des modèles numériques de réseaux de télécommunications et à la gestion patrimoniale de ces réseaux. 
 GraceTHD-MCD est un des projets open source composant GraceTHD maintenus par [GraceTHD-community](https://github.com/GraceTHD-community)
 
-**Présentation de GraceTHD par l'Avicca** : 
+**Présentation de GraceTHD par l'Avicca** :  
 http://gracethd.org
 
-**[Téléchargement GraceTHD-MCD (version actuelle)](https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master)** : bouton "download zip" sur la page Github du projet. 
+**[Téléchargement GraceTHD-MCD (version actuelle)](https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master)** : bouton "download zip" sur la page Github du projet.  
 http://gracethd-community.github.io/GraceTHD-MCD/
-* Pour télécharger l'ensemble des projets constituant GraceTHD, inclus GraceTHD-MCD, voir GraceTHD-Check. 
+* Pour télécharger l'ensemble des projets constituant GraceTHD, inclus GraceTHD-MCD, voir GraceTHD-Check.  
 http://gracethd-community.github.io/GraceTHD-Check/
-* Journal des révisions et téléchargement des versions obsolètes de GraceTHD-MCD : 
+* Journal des révisions et téléchargement des versions obsolètes de GraceTHD-MCD :  
 https://github.com/GraceTHD-community/GraceTHD-MCD/releases
 
-**Documentation** : disponible dans le dossier docs du contenu à télécharger. 
-* GraceTHD-MCD permet de découvrir le modèle de données. Pour la mise en oeuvre, voir GraceTHD-Check. 
+**Documentation** : disponible dans le dossier docs du contenu à télécharger.  
+*GraceTHD-MCD permet de découvrir le modèle de données. Pour la mise en oeuvre, voir GraceTHD-Check.*
 
-**[Redmine](https://redmine.gracethd.org)** : gestion de projet, remontées d'anomalies, demandes d'évolutions et demandes d'assistance : [https://redmine.gracethd.org](https://redmine.gracethd.org)
-* Voir également la FAQ. 
-https://redmine.gracethd.org/redmine/projects/modele_grace/wiki/FAQ
+**[Redmine](https://redmine.gracethd.org)** : gestion de projet, remontées d'anomalies, demandes d'évolutions et demandes d'assistance :   [https://redmine.gracethd.org](https://redmine.gracethd.org)  
+Voir également la FAQ.  
+https://redmine.gracethd.org/redmine/projects/modele_grace/wiki/FAQ  
 
 **[Géostandard Aménagement Numérique des Territoires GraceTHD](http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html)** : GraceTHD-MCD est le modèle de données validé par la Covadis comme Geostandard Aménagement Numérique des Territoires. 
 http://www.geoinformations.developpement-durable.gouv.fr/standard-covadis-amenagement-numerique-des-a3300.html
