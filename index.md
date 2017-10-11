@@ -92,7 +92,7 @@ Il est nécessaire de participer aux Groupes Experts pour que le développement 
 * \sql_spatialite\ : les scripts pour créer les tables dans un schéma de base de données sous Spatialite. 
 
 ## Support, contact et gestion de projet
-**[Redmine](https://redmine.gracethd.org)** :  
+**Redmine** :  
 [https://redmine.gracethd.org](https://redmine.gracethd.org)  
 
 *Introduction à la plateforme Redmine GraceTHD :*  
@@ -100,7 +100,7 @@ Il est nécessaire de participer aux Groupes Experts pour que le développement 
 *A la création de votre compte, merci de renseigner la structure que vous représentez et idéalement d'utiliser une adresse mail professionnelle (non communiquées à des tiers).*  
 
 Remontées d'anomalies, demandes d'évolutions, demandes d'assistance GraceTHD-MCD, poster une demande :  
-[https://redmine.gracethd.org/redmine/projects/gracethd_comitetechnique/issues/new](https://redmine.gracethd.org/redmine/projects/gracethd_comitetechnique/issues/new)  
+[https://redmine.gracethd.org/redmine/projects/modele_grace/issues/new](https://redmine.gracethd.org/redmine/projects/modele_grace/issues/new)  
 *Pas plus compliqué qu'un webmail. Ce sont vos contributions qui permettent d'améliorer GraceTHD !*
 
 FAQ :  
