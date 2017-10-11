@@ -5,7 +5,7 @@ GraceTHD-MCD est un modèle de données relationnel standardisé destiné à éc
 GraceTHD-MCD est un des projets open source composant GraceTHD maintenus par [GraceTHD-community](https://github.com/GraceTHD-community)
 
 #### Présentation de GraceTHD par l'Avicca  
-http://gracethd.org
+[[http://gracethd.org]](http://gracethd.org)
 
 #### Télécharger GraceTHD-MCD
 Version actuelle :  
