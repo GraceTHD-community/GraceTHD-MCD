@@ -39,7 +39,7 @@ Des projets QGIS pré-configurés sont également mis à disposition pour un usa
 
 Le Comité de Pilotage de GraceTHD ne souhaite pas développer d'applications autour de GraceTHD. C'est aux entreprises et collectivités d'implémenter GraceTHD dans leur SI. 
 
-Des entreprises proposent des formations permettant de s'initier plus rapidement et efficacement à GraceTHD. De même des entreprises proposent des accompagnement pour la mise en place, le support et l'administration. Enfin des entreprises développent des solutions complémentaires de GraceTHD. 
+Des entreprises proposent des formations permettant de s'initier plus rapidement et efficacement à GraceTHD. De même des entreprises proposent des accompagnement pour la mise en place, le support et l'administration. Enfin des entreprises développent un écosystème logiciel autour de GraceTHD. 
 
 #### Démarche générale
 Vous êtes décideur, il faut mettre en place au moins un futur administrateur GraceTHD qui a ou va rapidement acquérir des compétences en bases de données spatiales (idéalement PostGIS). 
@@ -47,8 +47,8 @@ Vous êtes décideur, il faut mettre en place au moins un futur administrateur G
 Vous participez aux études pour le déploiement de réseaux, vous avez besoin d'une équipe compétente qui vous mette en place l'infrastructure nécessaire pour profiter de GraceTHD, notamment un administrateur GraceTHD. 
 
 Vous êtes le futur administrateur GraceTHD. 
-1. Redmine, vous êtes le futur administrateur GraceTHD, inscrivez-vous pour profiter de la FAQ, des annonces, des demandes, etc. 
-2. Formation ou autoformation ? 
+1. Redmine, inscrivez-vous pour profiter de la FAQ, des annonces, des demandes, etc. 
+2. Elaboration de votre programme de formation ou d'autoformation. 
 3. GraceTHD-MCD pour étudier le modèle de données.  
 4. GraceTHD-MOD pour définir les livrables (documents et attributs renseignés attendus aux différentes phases).  
 5. GraceTHD-Check comporte l'ensemble des projets GraceTHD, notamment l'extension du modèle de données qui permet à une base de données GraceTHD de s'autocontrôler, les scripts pour créer des bases, charger des données, les exporter, etc. C'est votre cible. 
@@ -65,9 +65,8 @@ D'autres pourront étudier la possibilité de mettre en place un SI permettant d
 Le besoin consiste à mettre en place des outils d'import/export par rapport au SI en place. GraceTHD vise à répondre aux besoins de stockage de données pour tous les acteurs, il peut donc être nécessaire d'étendre votre SI pour conserver certaines informations utiles à d'autres acteurs. Mais surtout il faut absolument contribuer aux Groupes Experts qui permettent de faire évoluer GraceTHD. GraceTHD doit vous délivrer toutes les données nécessaires pour l'exploitation du réseau, et il est primordial que les procédures d'import et d'export n'aient pas de points de blocage avec votre SI. 
 
 #### Editeurs de progiciels
-Toute la documentation est disponible et les consultations ont été réalisées pour permettre de sensibiliser et remonter les points de blocage majeurs. Les Groupes Experts vous permettent de participer au développement de GraceTHD et par conséquent d'alerter au plus sur les possibles incompatibilités avec vos solutions. Enfin Redmine permet également d'échanger avec l'équipe de développement et toute la communauté GraceTHD. 
-
-A ce jour (octobre 2017) les solutions d'import / export des principaux éditeurs commencent délivrer les premiers résultats opérationnels. 
+Toute la documentation est disponible et les consultations ont été réalisées pour permettre de sensibiliser et remonter les points de blocage majeurs. Les Groupes Experts vous permettent de participer au développement de GraceTHD et par conséquent d'alerter au plus sur les possibles incompatibilités avec vos solutions. Enfin Redmine permet également d'échanger avec l'équipe de développement et toute la communauté GraceTHD.  
+A ce jour (octobre 2017) les solutions d'import / export des principaux éditeurs commencent délivrer les premiers résultats opérationnels.  
 
 ## Contenu
 * \docs\GraceTHD-MCD\changelog_gracethdmcd.txt : historique des modifications
