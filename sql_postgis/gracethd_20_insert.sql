@@ -5,7 +5,7 @@
 
 /* Owner : GraceTHD-Community - http://gracethd-community.github.io/ */
 /* Author : stephane dot byache at aleno dot eu */
-/* Rev. date : 17/07/2017 */
+/* Rev. date : 18/10/2017 */
 
 /* ********************************************************************
     This file is part of GraceTHD.
@@ -398,10 +398,10 @@ INSERT INTO l_ptech_nature VALUES ('A11', 'CHAMBRE A11', '');
 INSERT INTO l_ptech_nature VALUES ('A12', 'CHAMBRE A12', '');
 INSERT INTO l_ptech_nature VALUES ('A13', 'CHAMBRE A13', '');
 INSERT INTO l_ptech_nature VALUES ('A14', 'CHAMBRE A14', '');
-INSERT INTO l_ptech_nature VALUES ('A15', 'CHAMBRE A4', '');
-INSERT INTO l_ptech_nature VALUES ('A16', 'CHAMBRE A4', '');
-INSERT INTO l_ptech_nature VALUES ('A17', 'CHAMBRE A4', '');
-INSERT INTO l_ptech_nature VALUES ('A18', 'CHAMBRE A4', '');
+INSERT INTO l_ptech_nature VALUES ('A15', 'CHAMBRE A15', '');
+INSERT INTO l_ptech_nature VALUES ('A16', 'CHAMBRE A16', '');
+INSERT INTO l_ptech_nature VALUES ('A17', 'CHAMBRE A17', '');
+INSERT INTO l_ptech_nature VALUES ('A18', 'CHAMBRE A18', '');
 INSERT INTO l_ptech_nature VALUES ('B1', 'CHAMBRE B1', '');
 INSERT INTO l_ptech_nature VALUES ('B2', 'CHAMBRE B2', '');
 INSERT INTO l_ptech_nature VALUES ('B3', 'CHAMBRE B3', '');
