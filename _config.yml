@@ -3,6 +3,8 @@ description: Modèle de données GraceTHD-MCD
 google_analytics: 
 show_downloads: true
 theme: jekyll-theme-architect
-
+github:
+  zip_url: 'https://github.com/GraceTHD-community/GraceTHD-MCD/zipball/master'
+tar_url: 'https://github.com/GraceTHD-community/GraceTHD-MCD/tarball/master'
 gems:
   - jekyll-mentions
